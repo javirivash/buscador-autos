@@ -233,6 +233,18 @@
     </div>
 
     <div class="fgroup">
+      <label class="fg-label" for="sortOrder">Ordenar</label>
+      <select class="select-native" id="sortOrder" onchange="applyFilters()">
+        <option value="price_asc">Precio: menor a mayor</option>
+        <option value="price_desc">Precio: mayor a menor</option>
+        <option value="year_desc">Año: más reciente</option>
+        <option value="year_asc">Año: más antiguo</option>
+        <option value="km_asc">Kilometraje: menor</option>
+        <option value="km_desc">Kilometraje: mayor</option>
+      </select>
+    </div>
+
+    <div class="fgroup">
       <label class="fg-label">Marca</label>
       <div class="seg" id="segBrand"><button class="pill" data-active="true" data-val="" onclick="selectPill('segBrand',this)">Todas</button></div>
     </div>
@@ -551,7 +563,19 @@ function renderGrid(cars) {
       '<div class="empty-sub">Prueba ampliar el rango de precio o año, o quitar algún filtro.</div></div>';
     return;
   }
-  cars.sort((a, b) => (a.price_int || 999999) - (b.price_int || 999999));
+  const sort = document.getElementById('sortOrder').value;
+  const cmpObj = c => ({
+    price: c.price_int || 999999,
+    year: parseInt(c.year) || 0,
+    km: getKm(c) || 9999999
+  })[sort.split('_')[0]];
+  const rev = sort.endsWith('_desc') ? -1 : 1;
+  cars.sort((a, b) => {
+    const va = cmpObj(a), vb = cmpObj(b);
+    if (va < vb) return -1 * rev;
+    if (va > vb) return 1 * rev;
+    return 0;
+  });
 
   const brandColors = { toyota: 'badge-toyota', honda: 'badge-honda', kia: 'badge-kia', hyundai: 'badge-hyundai' };
 
