@@ -6,127 +6,206 @@
 <title>Buscador de Autos · GDL / Tepic</title>
 <style>
   :root {
-    --bg: #f4f5f7;
+    --bg: #f5f6f8;
     --surface: #ffffff;
-    --text: #1a1a2e;
-    --text-secondary: #6b7280;
-    --text-muted: #9ca3af;
+    --text: #16181f;
+    --text-secondary: #5f6672;
+    --text-muted: #9aa1ab;
     --accent: #2563eb;
-    --accent-soft: #eff3ff;
-    --green: #059669;
-    --green-soft: #ecfdf5;
-    --border: #e5e7eb;
-    --shadow: 0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
-    --shadow-hover: 0 4px 12px rgba(0,0,0,.08);
-    --radius: 12px;
-    --radius-sm: 8px;
+    --accent-strong: #1d4ed8;
+    --accent-soft: #eaf1ff;
+    --green: #0f8a5f;
+    --green-soft: #e9f8f1;
+    --border: #e4e7ec;
+    --border-strong: #cbd2da;
+    --shadow: 0 1px 3px rgba(16,24,40,.06), 0 1px 2px rgba(16,24,40,.04);
+    --shadow-hover: 0 4px 14px rgba(16,24,40,.10);
+    --radius: 14px;
+    --radius-sm: 9px;
+    --focus-ring: 0 0 0 3px var(--accent-soft);
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    min-height: 100vh;
-    padding: 16px;
+    background: var(--bg); color: var(--text); min-height: 100vh; padding: 16px 0;
     -webkit-font-smoothing: antialiased;
   }
-  .container { max-width: 640px; margin: 0 auto; }
-  .header {
-    display: flex; justify-content: space-between; align-items: flex-start;
-    flex-wrap: wrap; gap: 8px; margin-bottom: 16px;
+  .container { max-width: 700px; margin: 0 auto; padding: 0 16px; }
+
+  /* ============ HEADER ============ */
+  .header { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+  .header .logo {
+    width: 44px; height: 44px; border-radius: 12px; flex-shrink: 0;
+    background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+    color: #fff; font-size: 21px; font-weight: 800; display: flex; align-items: center;
+    justify-content: center; box-shadow: var(--shadow);
   }
-  .header h1 {
-    font-size: 22px; font-weight: 700; letter-spacing: -.02em;
-    line-height: 1.2;
-  }
-  .header .sub {
-    font-size: 12px; color: var(--text-muted);
-    margin-top: 2px;
-  }
-  .stats {
-    display: flex; gap: 0; flex-wrap: wrap;
-    background: var(--surface); border-radius: var(--radius);
-    box-shadow: var(--shadow); margin-bottom: 16px;
-    overflow: hidden; border: 1px solid var(--border);
-  }
+  .header h1 { font-size: 21px; font-weight: 700; letter-spacing: -.02em; line-height: 1.15; }
+  .header .sub { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
+
+  /* ============ STATS ============ */
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 16px; }
   .stat {
-    flex: 1; min-width: 80px; padding: 14px 12px; text-align: center;
-    border-right: 1px solid var(--border);
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    box-shadow: var(--shadow); padding: 12px 10px; text-align: center;
   }
-  .stat:last-child { border-right: none; }
-  .stat-value { font-size: 20px; font-weight: 700; color: var(--accent); line-height: 1.2; }
-  .stat-label { font-size: 10px; color: var(--text-secondary); margin-top: 2px; text-transform: uppercase; letter-spacing: .04em; }
+  .stat-value { font-size: 19px; font-weight: 700; color: var(--text); line-height: 1.2; }
+  .stat-label { font-size: 10.5px; color: var(--text-secondary); margin-top: 3px; text-transform: uppercase; letter-spacing: .05em; }
+
+  /* ============ FILTER PANEL ============ */
   .filters {
-    display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px;
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    box-shadow: var(--shadow); overflow: hidden; margin-bottom: 14px;
   }
-  .filters select, .filters input {
-    background: var(--surface); color: var(--text);
-    border: 1px solid var(--border); border-radius: var(--radius-sm);
-    padding: 9px 12px; font-size: 13px; font-family: inherit;
-    flex: 1; min-width: 100px; outline: none;
-    box-shadow: var(--shadow); transition: border-color .15s;
+  .filters-head {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 11px 14px; background: var(--accent-soft);
   }
-  .filters select:focus, .filters input:focus {
-    border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft);
+  .filters-head .ft {
+    font-size: 12px; font-weight: 700; color: var(--accent-strong);
+    display: flex; align-items: center; gap: 6px; letter-spacing: .01em;
   }
-  .filters input { flex: 2; }
-  .reset-btn {
-    background: var(--surface); color: var(--text-secondary);
-    border: 1px solid var(--border); border-radius: var(--radius-sm);
-    padding: 9px 14px; font-size: 12px; font-family: inherit;
-    cursor: pointer; white-space: nowrap; box-shadow: var(--shadow);
-    transition: background .15s;
+  .filter-count {
+    font-size: 10.5px; font-weight: 700; color: #fff; background: var(--accent);
+    border-radius: 999px; min-width: 18px; height: 18px; display: inline-flex;
+    align-items: center; justify-content: center; padding: 0 5px;
   }
-  .reset-btn:hover { background: #f9fafb; }
-  .grid { display: flex; flex-direction: column; gap: 10px; }
+  .clear-all {
+    background: none; border: none; color: var(--accent-strong); cursor: pointer;
+    font-size: 12px; font-weight: 600; padding: 2px;
+  }
+  .clear-all:disabled { color: var(--text-muted); cursor: default; }
+
+  .fgroup { padding: 12px 14px; display: flex; flex-direction: column; gap: 8px; }
+  .fgroup + .fgroup { border-top: 1px solid var(--border); }
+  .fg-label { font-size: 12px; font-weight: 600; color: var(--text-secondary); }
+
+  /* Search row */
+  .search-row { position: relative; }
+  .search-row input {
+    width: 100%; background: var(--surface); color: var(--text);
+    border: 1px solid var(--border-strong); border-radius: var(--radius-sm);
+    padding: 11px 34px; font-size: 14px; font-family: inherit; outline: none;
+    box-shadow: var(--shadow); transition: border-color .15s, box-shadow .15s;
+  }
+  .search-row input:focus { border-color: var(--accent); box-shadow: var(--focus-ring); }
+  .search-icon {
+    position: absolute; left: 11px; top: 0; bottom: 0; display: flex; align-items: center;
+    color: var(--text-muted); font-size: 14px; pointer-events: none; width: 22px;
+  }
+
+  /* Segmented pills (brand, motor) */
+  .seg { display: flex; flex-wrap: wrap; gap: 7px; }
+  .pill {
+    appearance: none; background: var(--surface); color: var(--text);
+    border: 1px solid var(--border-strong); border-radius: 999px;
+    padding: 7px 14px; font-size: 13px; font-weight: 500; font-family: inherit;
+    cursor: pointer; transition: all .15s; white-space: nowrap;
+  }
+  .pill:hover { border-color: var(--accent); color: var(--accent-strong); }
+  .pill[data-active="true"] {
+    background: var(--accent-soft); color: var(--accent-strong);
+    border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent);
+    font-weight: 600;
+  }
+
+  /* Cascading model select */
+  .select-native {
+    width: 100%; background: var(--surface); color: var(--text);
+    border: 1px solid var(--border-strong); border-radius: var(--radius-sm);
+    padding: 11px 12px; font-size: 14px; font-family: inherit; outline: none;
+    box-shadow: var(--shadow); transition: border-color .15s; appearance: none;
+  }
+  .select-native:focus { border-color: var(--accent); box-shadow: var(--focus-ring); }
+  .select-native:disabled { opacity: .6; }
+
+  /* Dual-range slider */
+  .dual-range { position: relative; height: 34px; margin: 4px 0 2px; }
+  .dual-range input[type=range] {
+    -webkit-appearance: none; position: absolute; pointer-events: none;
+    width: 100%; height: 0; top: 12px; margin: 0; background: transparent;
+  }
+  .dual-range input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none; width: 18px; height: 18px; pointer-events: all;
+    border-radius: 50%; background: var(--accent); border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.18); cursor: pointer; margin-top: -1px;
+  }
+  .dual-range input[type=range]::-moz-range-thumb {
+    width: 18px; height: 18px; border-radius: 50%; background: var(--accent);
+    border: 2px solid #fff; cursor: pointer;
+  }
+  .range-track {
+    position: absolute; left: 0; right: 0; top: 12px; height: 4px; border-radius: 4px;
+    background: linear-gradient(90deg, var(--border-strong) var(--low-pct), var(--accent) var(--low-pct) var(--high-pct), var(--border-strong) var(--high-pct));
+  }
+  .range-labels {
+    display: flex; justify-content: space-between; font-size: 12px; color: var(--text-secondary);
+    padding: 0 2px;
+  }
+  .range-labels .range-min, .range-labels .range-max { font-variant-numeric: tabular-nums; }
+
+  .filters-foot {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 11px 14px; background: var(--accent-soft);
+  }
+  .footer-results { font-size: 12.5px; font-weight: 600; color: var(--accent-strong); }
+
+  /* ============ GRID ============ */
+  .grid { display: flex; flex-direction: column; gap: 11px; }
   .card {
     display: flex; gap: 14px; background: var(--surface);
     border-radius: var(--radius); padding: 14px;
     border: 1px solid var(--border); box-shadow: var(--shadow);
-    text-decoration: none; color: inherit;
-    transition: box-shadow .15s, transform .15s;
+    text-decoration: none; color: inherit; transition: box-shadow .15s, transform .15s;
   }
+  .card:hover { box-shadow: var(--shadow-hover); transform: translateY(-1px); }
   .card:active { box-shadow: var(--shadow-hover); }
   .card-img {
-    width: 100px; height: 76px; border-radius: var(--radius-sm);
+    width: 96px; height: 74px; border-radius: var(--radius-sm);
     object-fit: cover; flex-shrink: 0; background: var(--bg);
   }
-  .card-img-placeholder {
-    width: 100px; height: 76px; border-radius: var(--radius-sm);
-    background: var(--bg); display: flex; align-items: center;
-    justify-content: center; font-size: 28px; flex-shrink: 0;
-  }
+  .card-img-placeholder { width: 96px; height: 74px; border-radius: var(--radius-sm); }
   .card-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
-  .card-title { font-size: 14px; font-weight: 600; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: var(--text); }
-  .card-price { font-size: 20px; font-weight: 700; color: var(--text); line-height: 1.2; }
+  .card-title { font-size: 14px; font-weight: 600; line-height: 1.35; color: var(--text); }
+  .card-price { font-size: 19px; font-weight: 700; color: var(--text); line-height: 1.2; }
   .card-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: 12px; color: var(--text-secondary); }
-  .badge { font-size: 10px; padding: 2px 7px; border-radius: 4px; font-weight: 600; line-height: 1.4; }
+  .badge { font-size: 10px; padding: 2px 7px; border-radius: 5px; font-weight: 600; line-height: 1.4; }
   .badge-kia { background: #f3e8ff; color: #7c3aed; }
-  .badge-hyundai { background: #d1fae5; color: #059669; }
+  .badge-hyundai { background: #d1fae5; color: #0f8a5f; }
   .badge-honda { background: #dbeafe; color: #2563eb; }
   .badge-toyota { background: #fee2e2; color: #dc2626; }
-  .trans-badge { font-size: 10px; padding: 2px 7px; border-radius: 4px; font-weight: 600; line-height: 1.4; }
+  .badge-fuel { background: #fff4e6; color: #b45309; }
+  .trans-badge { font-size: 10px; padding: 2px 7px; border-radius: 5px; font-weight: 600; line-height: 1.4; }
   .trans-auto { background: var(--green-soft); color: var(--green); }
   .trans-manual { background: #fef2f2; color: #dc2626; }
-  .source-badge { font-size: 10px; padding: 2px 6px; border-radius: 3px; background: var(--bg); color: var(--text-muted); font-weight: 500; }
+  .source-badge { font-size: 10px; padding: 2px 7px; border-radius: 5px; background: var(--bg); color: var(--text-muted); font-weight: 500; }
   .card-location { font-size: 11px; color: var(--text-muted); display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
-  .empty { text-align: center; padding: 48px 20px 32px; color: var(--text-secondary); }
-  .empty-text { font-size: 14px; }
+  .empty {
+    text-align: center; padding: 46px 20px; color: var(--text-secondary);
+    background: var(--surface); border: 1px dashed var(--border-strong); border-radius: var(--radius);
+  }
+  .empty-text { font-size: 14px; font-weight: 600; }
+  .empty-sub { font-size: 12px; color: var(--text-muted); margin-top: 6px; }
+
   .footer { margin-top: 24px; text-align: center; font-size: 11px; color: var(--text-muted); padding-bottom: 24px; }
+
   @media (max-width: 480px) {
-    body { padding: 12px; }
-    .stat { padding: 12px 8px; }
-    .stat-value { font-size: 18px; }
+    body { padding: 10px 0; }
+    .container { padding: 0 12px; }
+    .stat { padding: 11px 8px; }
+    .stat-value { font-size: 17px; }
     .card { padding: 12px; gap: 10px; }
-    .card-img { width: 80px; height: 60px; }
-    .card-img-placeholder { width: 80px; height: 60px; font-size: 22px; }
-    .card-price { font-size: 18px; }
+    .card-img { width: 78px; height: 62px; }
+    .card-price { font-size: 17px; }
+    .card-img-placeholder { width: 78px; height: 62px; }
+    .pill { padding: 6px 12px; font-size: 12.5px; }
   }
 </style>
 </head>
 <body>
 <div class="container">
   <div class="header">
+    <div class="logo">A</div>
     <div>
       <h1>Autos en GDL / Tepic</h1>
       <div class="sub" id="lastUpdate">Cargando...</div>
@@ -135,16 +214,79 @@
 
   <div class="stats">
     <div class="stat"><div class="stat-value" id="statTotal">—</div><div class="stat-label">Total</div></div>
-    <div class="stat"><div class="stat-value" id="statNuevos">—</div><div class="stat-label">Nuevos hoy</div></div>
+    <div class="stat"><div class="stat-value" id="statVisible">—</div><div class="stat-label">Mostrando</div></div>
     <div class="stat"><div class="stat-value" id="statPrecio">—</div><div class="stat-label">Precio prom.</div></div>
   </div>
 
   <div class="filters">
-    <select id="filterBrand" onchange="applyFilters()"><option value="">Todas las marcas</option></select>
-    <select id="filterMinYear" onchange="applyFilters()"><option value="">Año mínimo</option></select>
-    <select id="filterMaxPrice" onchange="applyFilters()"><option value="">Precio máximo</option></select>
-    <input type="text" id="filterSearch" placeholder="Buscar modelo..." oninput="applyFilters()">
-    <button class="reset-btn" onclick="resetFilters()">Limpiar</button>
+    <div class="filters-head">
+      <span class="ft">Filtros <span class="filter-count" id="filterCount">0</span></span>
+      <button class="clear-all" id="clearAll" onclick="resetFilters()" disabled>Limpiar todo</button>
+    </div>
+
+    <div class="fgroup">
+      <label class="fg-label">Buscar</label>
+      <div class="search-row">
+        <span class="search-icon">⌕</span>
+        <input type="text" id="filterSearch" placeholder="Modelo, palabra clave..." oninput="applyFilters()">
+      </div>
+    </div>
+
+    <div class="fgroup">
+      <label class="fg-label">Marca</label>
+      <div class="seg" id="segBrand"><button class="pill" data-active="true" data-val="" onclick="selectPill('segBrand',this)">Todas</button></div>
+    </div>
+
+    <div class="fgroup">
+      <label class="fg-label" for="filterModel">Modelo</label>
+      <select class="select-native" id="filterModel" onchange="applyFilters()"></select>
+    </div>
+
+    <div class="fgroup">
+      <label class="fg-label">Motor</label>
+      <div class="seg" id="segFuel">
+        <button class="pill" data-active="true" data-val="" onclick="selectPill('segFuel',this)">Todos</button>
+        <button class="pill" data-active="false" data-val="gasolina" onclick="selectPill('segFuel',this)">Gasolina</button>
+        <button class="pill" data-active="false" data-val="hibrido" onclick="selectPill('segFuel',this)">Híbrido</button>
+      </div>
+    </div>
+
+    <div class="fgroup">
+      <label class="fg-label">Fuente</label>
+      <div class="seg" id="segSource">
+        <button class="pill" data-active="true" data-val="" onclick="selectPill('segSource',this)">Todas</button>
+        <button class="pill" data-active="false" data-val="mercadolibre" onclick="selectPill('segSource',this)">Mercado Libre</button>
+        <button class="pill" data-active="false" data-val="seminuevos" onclick="selectPill('segSource',this)">SemiNuevos</button>
+      </div>
+    </div>
+
+    <div class="fgroup">
+      <label class="fg-label" for="filterKm">Kilometraje máx.</label>
+      <select class="select-native" id="filterKm" onchange="applyFilters()"></select>
+    </div>
+
+    <div class="fgroup">
+      <label class="fg-label" id="priceLabel">Precio: $180,000 – $270,000</label>
+      <div class="dual-range" id="priceRange">
+        <input type="range" id="priceMin" value="180000" oninput="dualRangeChanged('price', this.value)">
+        <input type="range" id="priceMax" value="270000" oninput="dualRangeChanged('price', this.value)">
+      </div>
+      <div class="range-labels"><span class="range-min" id="priceMinLabel">$180,000</span><span class="range-max" id="priceMaxLabel">$270,000</span></div>
+    </div>
+
+    <div class="fgroup">
+      <label class="fg-label" id="yearLabel">Año: 2018 – 2026</label>
+      <div class="dual-range" id="yearRange">
+        <input type="range" id="yearMin" value="2018" oninput="dualRangeChanged('year', this.value)">
+        <input type="range" id="yearMax" value="2026" oninput="dualRangeChanged('year', this.value)">
+      </div>
+      <div class="range-labels"><span class="range-min" id="yearMinLabel">2018</span><span class="range-max" id="yearMaxLabel">2026</span></div>
+    </div>
+
+    <div class="filters-foot">
+      <span class="footer-results" id="resultsCount">0 resultados</span>
+      <button class="clear-all" onclick="resetFilters()">Restablecer</button>
+    </div>
   </div>
 
   <div class="grid" id="grid"></div>
@@ -154,6 +296,35 @@
 
 <script>
 let allCars = [];
+let rangeCache = {}; // avoid redundant re-render when sliders update
+
+const MODEL_KEYWORDS = {
+  toyota: ['Camry', 'Corolla', 'Yaris', 'Prius', 'Avalon', 'Rav4', 'C-HR', 'Sienna', 'Tacoma'],
+  honda: ['City', 'Civic', 'Accord', 'Fit', 'CR-V', 'HR-V', 'Pilot', 'Odyssey'],
+  kia: ['Rio', 'Forte', 'Soul', 'K3', 'Picanto', 'Sportage', 'Sorento', 'Sedona', 'Carnival'],
+  hyundai: ['Accent', 'Elantra', 'Grand', 'Ioniq', 'Sonata', 'Veloster', 'Tucson', 'Santa Fe', 'Creta']
+};
+const HYBRID_KW = ['prius', 'ioniq', 'hev', 'hibrido', 'híbrido', 'phev'];
+
+function getModel(c) {
+  const brand = (c.brand || '').toLowerCase();
+  const t = c.title || '';
+  for (const kw of (MODEL_KEYWORDS[brand] || [])) {
+    if (t.toLowerCase().includes(kw.toLowerCase())) return kw;
+  }
+  return null;
+}
+function getFuel(c) {
+  const t = (c.title || '').toLowerCase();
+  for (const kw of HYBRID_KW) {
+    if (t.includes(kw)) return 'hibrido';
+  }
+  return 'gasolina';
+}
+function getKm(c) {
+  const raw = (c.mileage || '').replace(/[^\d]/g, '');
+  return raw ? parseInt(raw) : null;
+}
 
 async function loadData() {
   try {
@@ -167,7 +338,8 @@ async function loadData() {
   } catch (e) {
     document.getElementById('lastUpdate').textContent = 'Error cargando datos';
     document.getElementById('grid').innerHTML =
-      '<div class="empty"><div class="empty-text">No se pudo cargar la base de datos.<br>Ejecuta el scraper primero.</div></div>';
+      '<div class="empty"><div class="empty-text">No se pudo cargar la base de datos.</div>' +
+      '<div class="empty-sub">Ejecuta el scraper primero (data/cars.json).</div></div>';
   }
 }
 
@@ -175,62 +347,208 @@ function updateHeader(data) {
   const gen = data.generated_at ? new Date(data.generated_at) : null;
   if (gen) {
     const opts = { timeZone: 'America/Mazatlan', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' };
-    document.getElementById('lastUpdate').textContent = 'Actualizado: ' + gen.toLocaleDateString('es-MX', opts) + ' (Tepic)';
+    document.getElementById('lastUpdate').textContent = 'Actualizado: ' + gen.toLocaleDateString('es-MX', opts);
   }
-  document.getElementById('statTotal').textContent = data.total_count || 0;
-  document.getElementById('statNuevos').textContent = data.new_count || 0;
-  const prices = allCars.map(c => c.price_int).filter(p => p > 0);
-  const avg = prices.length ? ('$' + Math.round(prices.reduce((a,b)=>a+b,0)/prices.length).toLocaleString('es-MX')) : '—';
-  document.getElementById('statPrecio').textContent = avg;
+  document.getElementById('statTotal').textContent = allCars.length;
 }
+
+function money(n) { return '$' + n.toLocaleString('es-MX'); }
 
 function populateFilters() {
   const brands = [...new Set(allCars.map(c => c.brand).filter(Boolean))].sort();
-  const bs = document.getElementById('filterBrand');
-  brands.forEach(b => { const o = document.createElement('option'); o.value = b; o.textContent = b; bs.appendChild(o); });
+  const seg = document.getElementById('segBrand');
+  brands.forEach(b => {
+    const btn = document.createElement('button');
+    btn.className = 'pill'; btn.dataset.active = 'false';
+    btn.dataset.val = b; btn.textContent = b;
+    btn.onclick = () => selectPill('segBrand', btn);
+    btn.addEventListener('click', () => selectPill('segBrand', btn));
+    seg.appendChild(btn);
+  });
+  populateModelSelect();
+  populateKmSelect();
 
-  const years = [...new Set(allCars.map(c => c.year).filter(y => y !== 'N/A'))].sort();
-  const ys = document.getElementById('filterMinYear');
-  years.forEach(y => { const o = document.createElement('option'); o.value = y; o.textContent = y; ys.appendChild(o); });
+  // Price range bounds
+  const prices = allCars.map(c => c.price_int).filter(p => p > 0);
+  if (prices.length) {
+    let lo = Math.floor((Math.min(...prices) / 1000)) * 1000;
+    let hi = Math.ceil((Math.max(...prices) / 1000)) * 1000;
+    if (lo < 50000) lo = 50000;
+    if (hi > 300000) hi = 300000;
+    setupRange('price', lo, hi, 'price');
+  }
+  // Year range bounds
+  const years = allCars.map(c => parseInt(c.year)).filter(y => !isNaN(y));
+  if (years.length) {
+    setupRange('year', Math.min(...years), Math.max(...years), 'year');
+  }
+}
 
-  const ps = document.getElementById('filterMaxPrice');
-  [180000, 200000, 220000, 240000, 270000].forEach(p => {
-    const o = document.createElement('option'); o.value = p; o.textContent = '$' + p.toLocaleString('es-MX'); ps.appendChild(o);
+function setupRange(group, lo, hi, type) {
+  const minEl = document.getElementById(group + 'Min');
+  const maxEl = document.getElementById(group + 'Max');
+  minEl.min = lo; minEl.max = hi; maxEl.min = lo; maxEl.max = hi;
+  minEl.value = lo; maxEl.value = hi;
+  rangeCache[group] = { lo, hi };
+  updateRangeUI(group, type);
+}
+
+function populateModelSelect() {
+  const sel = document.getElementById('filterModel');
+  const activeBrand = getActivePill('segBrand');
+  const models = new Set();
+  allCars.forEach(c => {
+    const b = (c.brand || '').toLowerCase();
+    if (activeBrand && b !== activeBrand.toLowerCase()) return;
+    const m = getModel(c);
+    if (m) models.add(m);
+  });
+  const sorted = [...models].sort((a, b) => a.localeCompare(b, 'es'));
+  sel.innerHTML = '';
+  const optAll = document.createElement('option');
+  optAll.value = ''; optAll.textContent = 'Todos los modelos';
+  sel.appendChild(optAll);
+  sorted.forEach(m => {
+    const o = document.createElement('option'); o.value = m; o.textContent = m; sel.appendChild(o);
   });
 }
 
-function applyFilters() {
-  const brand = document.getElementById('filterBrand').value;
-  const minYear = document.getElementById('filterMinYear').value;
-  const maxPrice = document.getElementById('filterMaxPrice').value;
-  const search = document.getElementById('filterSearch').value.toLowerCase().trim();
+function populateKmSelect() {
+  const sel = document.getElementById('filterKm');
+  sel.innerHTML = '';
+  const optAll = document.createElement('option');
+  optAll.value = ''; optAll.textContent = 'Cualquiera';
+  sel.appendChild(optAll);
+  [50000, 80000, 100000, 120000, 150000].forEach(km => {
+    const o = document.createElement('option');
+    o.value = km; o.textContent = 'Hasta ' + km.toLocaleString('es-MX') + ' km'; sel.appendChild(o);
+  });
+}
 
+function getActivePill(segId) {
+  const seg = document.getElementById(segId);
+  for (const btn of seg.querySelectorAll('.pill')) {
+    if (btn.dataset.active === 'true') return btn.dataset.val;
+  }
+  return '';
+}
+function selectPill(segId, clicked) {
+  const seg = document.getElementById(segId);
+  for (const btn of seg.querySelectorAll('.pill')) btn.dataset.active = (btn === clicked) ? 'true' : 'false';
+  if (segId === 'segBrand') populateModelSelect();
+  applyFilters();
+}
+
+function dualRangeChanged(group, val) {
+  const minEl = document.getElementById(group + 'Min');
+  const maxEl = document.getElementById(group + 'Max');
+  val = parseInt(val);
+  if (group === 'price') {
+    if (val < parseInt(minEl.min)) val = parseInt(minEl.min);
+    if (val > parseInt(maxEl.max)) val = parseInt(maxEl.max);
+    if (minEl.value > maxEl.value) { maxEl.value = val; }
+    if (maxEl.value < minEl.value) { minEl.value = val; }
+  } else {
+    if (minEl.value > maxEl.value) { maxEl.value = val; }
+    if (maxEl.value < minEl.value) { minEl.value = val; }
+  }
+  updateRangeUI(group, group);
+}
+
+function updateRangeUI(group, type) {
+  const minEl = document.getElementById(group + 'Min');
+  const maxEl = document.getElementById(group + 'Max');
+  const lo = parseInt(minEl.value), hi = parseInt(maxEl.value);
+  const absLo = parseInt(minEl.min), absHi = parseInt(maxEl.max);
+  const span = absHi - absLo || 1;
+  const lowPct = ((lo - absLo) / span) * 100;
+  const highPct = ((hi - absLo) / span) * 100;
+  document.getElementById(group + 'Range').style.setProperty('--low-pct', lowPct + '%');
+  document.getElementById(group + 'Range').style.setProperty('--high-pct', highPct + '%');
+  const fmt = type === 'year' ? n => String(n) : money;
+  document.getElementById(group + 'MinLabel').textContent = fmt(lo);
+  document.getElementById(group + 'MaxLabel').textContent = fmt(hi);
+  document.getElementById(group + 'Label').textContent =
+    (group === 'price' ? 'Precio: ' : 'Año: ') + fmt(lo) + ' – ' + fmt(hi);
+  applyFilters();
+}
+
+function currentFilterState() {
+  return {
+    brand: getActivePill('segBrand'),
+    model: document.getElementById('filterModel').value,
+    fuel: getActivePill('segFuel'),
+    source: getActivePill('segSource'),
+    maxKm: parseInt(document.getElementById('filterKm').value || '0'),
+    minPrice: parseInt(document.getElementById('priceMin').value),
+    maxPrice: parseInt(document.getElementById('priceMax').value),
+    minYear: parseInt(document.getElementById('yearMin').value),
+    maxYear: parseInt(document.getElementById('yearMax').value),
+    search: document.getElementById('filterSearch').value.toLowerCase().trim()
+  };
+}
+
+function applyFilters() {
+  const f = currentFilterState();
   let filtered = allCars.filter(c => {
-    if (brand && c.brand !== brand) return false;
-    if (minYear) { const y = parseInt(c.year); if (isNaN(y) || y < parseInt(minYear)) return false; }
-    if (maxPrice) { if (!c.price_int || c.price_int > parseInt(maxPrice)) return false; }
-    if (search) {
+    if (f.brand && (c.brand || '') !== f.brand) return false;
+    if (f.model) { const m = getModel(c); if (!m || m !== f.model) return false; }
+    if (f.fuel && getFuel(c) !== f.fuel) return false;
+    if (f.source && c.source !== f.source) return false;
+    if (f.maxKm) { const km = getKm(c); if (!km || km > f.maxKm) return false; }
+    if (f.minPrice && (!c.price_int || c.price_int < f.minPrice)) return false;
+    if (f.maxPrice && (!c.price_int || c.price_int > f.maxPrice)) return false;
+    if (f.minYear) { const y = parseInt(c.year); if (isNaN(y) || y < f.minYear) return false; }
+    if (f.maxYear) { const y = parseInt(c.year); if (isNaN(y) || y > f.maxYear) return false; }
+    if (f.search) {
       const t = (c.title || '').toLowerCase();
+      const m = getModel(c) ? getModel(c).toLowerCase() : '';
       const b = (c.brand || '').toLowerCase();
-      if (!t.includes(search) && !b.includes(search)) return false;
+      if (!t.includes(f.search) && !m.includes(f.search) && !b.includes(f.search)) return false;
     }
     return true;
   });
+
+  // Active filter count
+  let count = 0;
+  if (f.brand) count++;
+  if (f.model) count++;
+  if (f.fuel) count++;
+  if (f.source) count++;
+  if (f.maxKm) count++;
+  if (f.minYear !== parseInt(document.getElementById('yearMin').min) || f.maxYear !== parseInt(document.getElementById('yearMax').max)) count++;
+  if (f.minPrice !== parseInt(document.getElementById('priceMin').min) || f.maxPrice !== parseInt(document.getElementById('priceMax').max)) count++;
+  if (f.search) count++;
+  document.getElementById('filterCount').textContent = count;
+  document.getElementById('clearAll').disabled = (count === 0);
+
+  document.getElementById('statVisible').textContent = filtered.length;
+  document.getElementById('resultsCount').textContent =
+    filtered.length + (filtered.length === 1 ? ' resultado' : ' resultados');
   renderGrid(filtered);
 }
 
 function resetFilters() {
-  document.getElementById('filterBrand').value = '';
-  document.getElementById('filterMinYear').value = '';
-  document.getElementById('filterMaxPrice').value = '';
+  document.getElementById('segBrand').querySelectorAll('.pill').forEach(b => b.dataset.active = (b.dataset.val === ''));
+  document.getElementById('segFuel').querySelectorAll('.pill').forEach(b => b.dataset.active = (b.dataset.val === ''));
+  document.getElementById('segSource').querySelectorAll('.pill').forEach(b => b.dataset.active = (b.dataset.val === ''));
+  document.getElementById('filterModel').value = '';
+  document.getElementById('filterKm').value = '';
   document.getElementById('filterSearch').value = '';
+  const pmin = document.getElementById('priceMin'), pmax = document.getElementById('priceMax');
+  pmin.value = pmin.min; pmax.value = pmax.max; updateRangeUI('price', 'price');
+  const ymin = document.getElementById('yearMin'), ymax = document.getElementById('yearMax');
+  ymin.value = ymin.min; ymax.value = ymax.max; updateRangeUI('year', 'year');
+  populateModelSelect();
   applyFilters();
 }
 
 function renderGrid(cars) {
   const grid = document.getElementById('grid');
   if (!cars.length) {
-    grid.innerHTML = '<div class="empty"><div class="empty-text">No hay autos con estos filtros</div></div>';
+    grid.innerHTML =
+      '<div class="empty"><div class="empty-text">No hay autos con estos filtros</div>' +
+      '<div class="empty-sub">Prueba ampliar el rango de precio o año, o quitar algún filtro.</div></div>';
     return;
   }
   cars.sort((a, b) => (a.price_int || 999999) - (b.price_int || 999999));
@@ -243,6 +561,8 @@ function renderGrid(cars) {
       ? '<span class="trans-badge trans-auto">Automático</span>'
       : c.transmission === 'manual' ? '<span class="trans-badge trans-manual">MT</span>' : '';
     const srcLabel = c.source === 'mercadolibre' ? 'Mercado Libre' : 'SemiNuevos';
+    const fuelBadge = getFuel(c) === 'hibrido' ? '<span class="badge badge-fuel">Híbrido</span>' : '';
+    const model = getModel(c);
 
     return `<a href="${c.link || '#'}" target="_blank" rel="noopener" class="card">
       ${c.image
@@ -254,10 +574,10 @@ function renderGrid(cars) {
         <div class="card-meta">
           ${c.year !== 'N/A' ? `<span>${c.year}</span>` : ''}
           ${c.mileage !== 'N/A' ? `<span>${c.mileage}</span>` : ''}
-          ${transHtml}
+          ${transHtml}${fuelBadge}
         </div>
         <div class="card-meta">
-          ${c.brand ? `<span class="badge ${bc}">${c.brand}</span>` : ''}
+          ${c.brand ? `<span class="badge ${bc}">${c.brand}${model ? ' · ' + model : ''}</span>` : ''}
           <span class="source-badge">${srcLabel}</span>
         </div>
         <div class="card-location">${c.location}</div>
