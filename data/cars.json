@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T21:11:54.607443Z",
+  "generated_at": "2026-09-14T21:32:42.536613Z",
   "criterios": {
     "marcas": [
       "Toyota",
@@ -783,7 +783,7 @@
   ],
   "new_cars": [
     {
-      "id": "sn-554861",
+      "id": "sn-733207",
       "title": "Toyota Prius C 79,000 km",
       "price": "$259,000",
       "price_int": 259000,
@@ -797,7 +797,7 @@
       "image": ""
     },
     {
-      "id": "sn-371718",
+      "id": "sn-545396",
       "title": "Toyota Yaris 1.5 S Hb At",
       "price": "$259,000",
       "price_int": 259000,
@@ -811,7 +811,7 @@
       "image": ""
     },
     {
-      "id": "sn-162791",
+      "id": "sn-488236",
       "title": "Honda BR-V 1.5 Prime Cvt",
       "price": "$265,000",
       "price_int": 265000,
@@ -825,7 +825,7 @@
       "image": ""
     },
     {
-      "id": "sn-483411",
+      "id": "sn-121607",
       "title": "Honda BR-V 97,000 km",
       "price": "$269,000",
       "price_int": 269000,
@@ -839,7 +839,7 @@
       "image": ""
     },
     {
-      "id": "sn-843019",
+      "id": "sn-943202",
       "title": "Honda HRV 85,000 km",
       "price": "$259,000",
       "price_int": 259000,
@@ -853,7 +853,7 @@
       "image": ""
     },
     {
-      "id": "sn-32449",
+      "id": "sn-317489",
       "title": "Honda City 92,292 km",
       "price": "$249,000",
       "price_int": 249000,
@@ -867,7 +867,7 @@
       "image": ""
     },
     {
-      "id": "sn-288812",
+      "id": "sn-919814",
       "title": "Kia Forte 2.0 EX 4 p At",
       "price": "$240,000",
       "price_int": 240000,
@@ -881,7 +881,7 @@
       "image": ""
     },
     {
-      "id": "sn-414493",
+      "id": "sn-173051",
       "title": "Kia Rio 35,000 km",
       "price": "$269,000",
       "price_int": 269000,
@@ -895,7 +895,7 @@
       "image": ""
     },
     {
-      "id": "sn-77939",
+      "id": "sn-112529",
       "title": "Kia Forte 1.6 GT Turbo 5p At",
       "price": "$269,000",
       "price_int": 269000,
@@ -909,7 +909,7 @@
       "image": ""
     },
     {
-      "id": "sn-469786",
+      "id": "sn-510411",
       "title": "Kia K3 59,067 km",
       "price": "$250,000",
       "price_int": 250000,
@@ -923,7 +923,7 @@
       "image": ""
     },
     {
-      "id": "sn-315643",
+      "id": "sn-668962",
       "title": "Kia Rio 1.6 Hb LX At",
       "price": "$239,900",
       "price_int": 239900,
@@ -937,7 +937,7 @@
       "image": ""
     },
     {
-      "id": "sn-656373",
+      "id": "sn-177793",
       "title": "Kia Forte 2.0 LX 4 p At",
       "price": "$190,000",
       "price_int": 190000,
@@ -951,7 +951,7 @@
       "image": ""
     },
     {
-      "id": "sn-809303",
+      "id": "sn-886622",
       "title": "Kia Rio 78,000 km",
       "price": "$219,000",
       "price_int": 219000,
@@ -965,7 +965,7 @@
       "image": ""
     },
     {
-      "id": "sn-578722",
+      "id": "sn-277865",
       "title": "Kia Forte 95,000 km",
       "price": "$250,000",
       "price_int": 250000,
@@ -979,7 +979,7 @@
       "image": ""
     },
     {
-      "id": "sn-81690",
+      "id": "sn-704401",
       "title": "Kia Rio 1.6 Hb EX Pack At",
       "price": "$229,000",
       "price_int": 229000,
@@ -993,7 +993,7 @@
       "image": ""
     },
     {
-      "id": "sn-647950",
+      "id": "sn-195422",
       "title": "Kia Rio 73,251 km",
       "price": "$228,000",
       "price_int": 228000,
@@ -1007,7 +1007,7 @@
       "image": ""
     },
     {
-      "id": "sn-561125",
+      "id": "sn-151406",
       "title": "Kia Rio 1.6 Sedan LX At",
       "price": "$210,000",
       "price_int": 210000,
@@ -1021,7 +1021,7 @@
       "image": ""
     },
     {
-      "id": "sn-691485",
+      "id": "sn-472103",
       "title": "Hyundai Creta 1.6 Gls At",
       "price": "$249,800",
       "price_int": 249800,
@@ -1035,7 +1035,7 @@
       "image": ""
     },
     {
-      "id": "sn-359352",
+      "id": "sn-486732",
       "title": "Hyundai Ioniq 1.6 Limited Híbrido ...",
       "price": "$240,000",
       "price_int": 240000,
@@ -1049,7 +1049,7 @@
       "image": ""
     },
     {
-      "id": "sn-259694",
+      "id": "sn-780162",
       "title": "Hyundai Accent 92,000 km",
       "price": "$183,500",
       "price_int": 183500,
@@ -1063,7 +1063,7 @@
       "image": ""
     },
     {
-      "id": "sn-189529",
+      "id": "sn-903910",
       "title": "Hyundai Accent 31,000 km",
       "price": "$224,000",
       "price_int": 224000,
@@ -1077,7 +1077,7 @@
       "image": ""
     },
     {
-      "id": "sn-208864",
+      "id": "sn-346278",
       "title": "Hyundai HB20 GL MID 53,661 km",
       "price": "$259,000",
       "price_int": 259000,
@@ -1091,7 +1091,7 @@
       "image": ""
     },
     {
-      "id": "sn-522298",
+      "id": "sn-322600",
       "title": "Hyundai Elantra 74,200 km",
       "price": "$220,000",
       "price_int": 220000,
