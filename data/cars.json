@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T11:23:53.374497Z",
+  "generated_at": "2026-09-14T12:32:38.879064Z",
   "criterios": {
     "marcas": [
       "Toyota",
@@ -22,7 +22,7 @@
     ]
   },
   "total_count": 53,
-  "new_count": 34,
+  "new_count": 23,
   "cars": [
     {
       "id": "ml-6129270518",
@@ -769,91 +769,7 @@
   ],
   "new_cars": [
     {
-      "id": "ml-3439862003",
-      "title": "Toyota Prius 2020 1.5 C Hibrido",
-      "price": "$269,900",
-      "price_int": 269900,
-      "year": "2020",
-      "mileage": "57,000 Km",
-      "location": "Guadalajara - Jalisco",
-      "source": "mercadolibre",
-      "brand": "Toyota",
-      "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3439862003-toyota-prius-c-hibrido-2020-plata-9477-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=28&type=item&tracking_id=aab820d5-8112-421f-810f-b1126388cd14&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_931669-MLM117058418579_092026-E.webp"
-    },
-    {
-      "id": "ml-3446976033",
-      "title": "Honda City 2022 1.5 Sport Cvt",
-      "price": "$265,000",
-      "price_int": 265000,
-      "year": "2022",
-      "mileage": "50,000 Km",
-      "location": "Guadalajara - Jalisco",
-      "source": "mercadolibre",
-      "brand": "Honda",
-      "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3446976033-honda-city-15-sport-cvt-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=26&type=item&tracking_id=47e06019-197a-457a-866b-e19f5473f213&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_977203-MLM115699913878_092026-E.webp"
-    },
-    {
-      "id": "ml-3375982021",
-      "title": "Honda Br-v 2020 1.5 Prime Cvt",
-      "price": "$245,000",
-      "price_int": 245000,
-      "year": "2020",
-      "mileage": "95,000 Km",
-      "location": "Tonala - Jalisco",
-      "source": "mercadolibre",
-      "brand": "Honda",
-      "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3375982021-honda-br-v-15-prime-cvt-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=48&type=item&tracking_id=0b892c1d-d70c-44de-bbde-8bf06ec56bdf&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_967982-MLM115486095784_082026-E.webp"
-    },
-    {
-      "id": "ml-3102504223",
-      "title": "Hyundai Hb20 Hb 2023 5p Gl L4/1.6 Aut",
-      "price": "$269,000",
-      "price_int": 269000,
-      "year": "2023",
-      "mileage": "42,082 Km",
-      "location": "Puerto Vallarta - Jalisco",
-      "source": "mercadolibre",
-      "brand": "Hyundai",
-      "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3102504223-hyundai-hb20-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=46&type=item&tracking_id=50425b76-d9fd-4084-a1f3-7e6a4da24d2b&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_836687-MLM113078522822_072026-E.webp"
-    },
-    {
-      "id": "ml-6183557380",
-      "title": "Hyundai Hb20 Hb 2023 1.6 Gl Mid At Hb",
-      "price": "$269,500",
-      "price_int": 269500,
-      "year": "2023",
-      "mileage": "59,000 Km",
-      "location": "Guadalajara - Jalisco",
-      "source": "mercadolibre",
-      "brand": "Hyundai",
-      "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6183557380-hyundai-hb20-hb-16-gl-mid-at-hb-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=47&type=item&tracking_id=50425b76-d9fd-4084-a1f3-7e6a4da24d2b&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_783639-MLM115866297324_092026-E.webp"
-    },
-    {
-      "id": "ml-3305608339",
-      "title": "Hyundai Ioniq 2019 1.6 Limited Dsg6",
-      "price": "$240,000",
-      "price_int": 240000,
-      "year": "2019",
-      "mileage": "110,000 Km",
-      "location": "Guadalajara - Jalisco",
-      "source": "mercadolibre",
-      "brand": "Hyundai",
-      "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3305608339-hyundai-ioniq-16-limited-dsg6-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=39&type=item&tracking_id=48459a76-0820-4c5c-adb2-598d458dc9de&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_686390-MLM116043121307_082026-E.webp"
-    },
-    {
-      "id": "sn-394428",
+      "id": "sn-173963",
       "title": "Toyota Prius C 79,000 km",
       "price": "$259,000",
       "price_int": 259000,
@@ -867,7 +783,7 @@
       "image": ""
     },
     {
-      "id": "sn-628345",
+      "id": "sn-752645",
       "title": "Toyota Yaris 1.5 S Hb At",
       "price": "$259,000",
       "price_int": 259000,
@@ -881,35 +797,7 @@
       "image": ""
     },
     {
-      "id": "sn-832345",
-      "title": "Toyota Yaris 55,000 km",
-      "price": "$239,000",
-      "price_int": 239000,
-      "year": "2019",
-      "mileage": "$239,000",
-      "location": "Guadalajara",
-      "source": "seminuevos",
-      "brand": "Toyota",
-      "transmission": "automatic",
-      "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-guadalajara-2019/4829352",
-      "image": ""
-    },
-    {
-      "id": "sn-828188",
-      "title": "Toyota Yaris 75,000 km",
-      "price": "$259,000",
-      "price_int": 259000,
-      "year": "2022",
-      "mileage": "$259,000",
-      "location": "Zapopan",
-      "source": "seminuevos",
-      "brand": "Toyota",
-      "transmission": "automatic",
-      "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-zapopan-2022/4815123",
-      "image": ""
-    },
-    {
-      "id": "sn-434690",
+      "id": "sn-442449",
       "title": "Honda BR-V 1.5 Prime Cvt",
       "price": "$265,000",
       "price_int": 265000,
@@ -923,7 +811,7 @@
       "image": ""
     },
     {
-      "id": "sn-504620",
+      "id": "sn-551451",
       "title": "Honda BR-V 97,000 km",
       "price": "$269,000",
       "price_int": 269000,
@@ -937,7 +825,7 @@
       "image": ""
     },
     {
-      "id": "sn-672359",
+      "id": "sn-907142",
       "title": "Honda HRV 85,000 km",
       "price": "$259,000",
       "price_int": 259000,
@@ -951,7 +839,7 @@
       "image": ""
     },
     {
-      "id": "sn-894051",
+      "id": "sn-980859",
       "title": "Honda City 92,292 km",
       "price": "$249,000",
       "price_int": 249000,
@@ -965,21 +853,7 @@
       "image": ""
     },
     {
-      "id": "sn-505659",
-      "title": "Honda Civic 2.0 I-Style Cvt",
-      "price": "$259,000",
-      "price_int": 259000,
-      "year": "2018",
-      "mileage": "118,000 km",
-      "location": "Zapopan",
-      "source": "seminuevos",
-      "brand": "Honda",
-      "transmission": "automatic",
-      "link": "https://www.seminuevos.com/vehicle/autos-honda-civic-zapopan-2018/4764133",
-      "image": ""
-    },
-    {
-      "id": "sn-927358",
+      "id": "sn-973095",
       "title": "Kia Forte 2.0 EX 4 p At",
       "price": "$240,000",
       "price_int": 240000,
@@ -993,7 +867,7 @@
       "image": ""
     },
     {
-      "id": "sn-534445",
+      "id": "sn-917587",
       "title": "Kia Rio 35,000 km",
       "price": "$269,000",
       "price_int": 269000,
@@ -1007,7 +881,7 @@
       "image": ""
     },
     {
-      "id": "sn-109039",
+      "id": "sn-188177",
       "title": "Kia Forte 1.6 GT Turbo 5p At",
       "price": "$269,000",
       "price_int": 269000,
@@ -1021,7 +895,7 @@
       "image": ""
     },
     {
-      "id": "sn-814770",
+      "id": "sn-102903",
       "title": "Kia K3 59,067 km",
       "price": "$250,000",
       "price_int": 250000,
@@ -1035,7 +909,7 @@
       "image": ""
     },
     {
-      "id": "sn-408890",
+      "id": "sn-802236",
       "title": "Kia Rio 1.6 Hb LX At",
       "price": "$239,900",
       "price_int": 239900,
@@ -1049,7 +923,7 @@
       "image": ""
     },
     {
-      "id": "sn-784732",
+      "id": "sn-782091",
       "title": "Kia Forte 2.0 LX 4 p At",
       "price": "$190,000",
       "price_int": 190000,
@@ -1063,7 +937,7 @@
       "image": ""
     },
     {
-      "id": "sn-237836",
+      "id": "sn-8251",
       "title": "Kia Rio 78,000 km",
       "price": "$219,000",
       "price_int": 219000,
@@ -1077,7 +951,7 @@
       "image": ""
     },
     {
-      "id": "sn-626449",
+      "id": "sn-806543",
       "title": "Kia Forte 95,000 km",
       "price": "$250,000",
       "price_int": 250000,
@@ -1091,7 +965,7 @@
       "image": ""
     },
     {
-      "id": "sn-758818",
+      "id": "sn-299216",
       "title": "Kia Rio 1.6 Hb EX Pack At",
       "price": "$229,000",
       "price_int": 229000,
@@ -1105,7 +979,7 @@
       "image": ""
     },
     {
-      "id": "sn-564812",
+      "id": "sn-768506",
       "title": "Kia Rio 73,251 km",
       "price": "$228,000",
       "price_int": 228000,
@@ -1119,7 +993,7 @@
       "image": ""
     },
     {
-      "id": "sn-134740",
+      "id": "sn-220804",
       "title": "Kia Rio 1.6 Sedan LX At",
       "price": "$210,000",
       "price_int": 210000,
@@ -1133,35 +1007,7 @@
       "image": ""
     },
     {
-      "id": "sn-779226",
-      "title": "Kia Rio 1.6 Sedan EX At",
-      "price": "$219,900",
-      "price_int": 219900,
-      "year": "2019",
-      "mileage": "54,000 km",
-      "location": "Guadalajara",
-      "source": "seminuevos",
-      "brand": "Kia",
-      "transmission": "automatic",
-      "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-guadalajara-2019/4818696",
-      "image": ""
-    },
-    {
-      "id": "sn-765325",
-      "title": "Kia Rio 1.6 Sedan LX At",
-      "price": "$265,000",
-      "price_int": 265000,
-      "year": "2023",
-      "mileage": "34,000 km",
-      "location": "Guadalajara",
-      "source": "seminuevos",
-      "brand": "Kia",
-      "transmission": "automatic",
-      "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-guadalajara-2023/4825354",
-      "image": ""
-    },
-    {
-      "id": "sn-522875",
+      "id": "sn-544565",
       "title": "Hyundai Creta 1.6 Gls At",
       "price": "$249,800",
       "price_int": 249800,
@@ -1175,7 +1021,7 @@
       "image": ""
     },
     {
-      "id": "sn-709321",
+      "id": "sn-167501",
       "title": "Hyundai Ioniq 1.6 Limited Híbrido ...",
       "price": "$240,000",
       "price_int": 240000,
@@ -1189,7 +1035,7 @@
       "image": ""
     },
     {
-      "id": "sn-640837",
+      "id": "sn-850514",
       "title": "Hyundai Accent 92,000 km",
       "price": "$183,500",
       "price_int": 183500,
@@ -1203,7 +1049,7 @@
       "image": ""
     },
     {
-      "id": "sn-73873",
+      "id": "sn-374375",
       "title": "Hyundai Accent 31,000 km",
       "price": "$224,000",
       "price_int": 224000,
@@ -1217,7 +1063,7 @@
       "image": ""
     },
     {
-      "id": "sn-788931",
+      "id": "sn-751409",
       "title": "Hyundai HB20 GL MID 53,661 km",
       "price": "$259,000",
       "price_int": 259000,
@@ -1231,7 +1077,7 @@
       "image": ""
     },
     {
-      "id": "sn-116567",
+      "id": "sn-939237",
       "title": "Hyundai Elantra 74,200 km",
       "price": "$220,000",
       "price_int": 220000,
