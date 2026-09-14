@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Buscador de Autos · GDL / Tepic</title>
+<style>
+  :root {
+    --bg: #f4f5f7;
+    --surface: #ffffff;
+    --text: #1a1a2e;
+    --text-secondary: #6b7280;
+    --text-muted: #9ca3af;
+    --accent: #2563eb;
+    --accent-soft: #eff3ff;
+    --green: #059669;
+    --green-soft: #ecfdf5;
+    --border: #e5e7eb;
+    --shadow: 0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
+    --shadow-hover: 0 4px 12px rgba(0,0,0,.08);
+    --radius: 12px;
+    --radius-sm: 8px;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 16px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 640px; margin: 0 auto; }
+  .header {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    flex-wrap: wrap; gap: 8px; margin-bottom: 16px;
+  }
+  .header h1 {
+    font-size: 22px; font-weight: 700; letter-spacing: -.02em;
+    line-height: 1.2;
+  }
+  .header .sub {
+    font-size: 12px; color: var(--text-muted);
+    margin-top: 2px;
+  }
+  .stats {
+    display: flex; gap: 0; flex-wrap: wrap;
+    background: var(--surface); border-radius: var(--radius);
+    box-shadow: var(--shadow); margin-bottom: 16px;
+    overflow: hidden; border: 1px solid var(--border);
+  }
+  .stat {
+    flex: 1; min-width: 80px; padding: 14px 12px; text-align: center;
+    border-right: 1px solid var(--border);
+  }
+  .stat:last-child { border-right: none; }
+  .stat-value { font-size: 20px; font-weight: 700; color: var(--accent); line-height: 1.2; }
+  .stat-label { font-size: 10px; color: var(--text-secondary); margin-top: 2px; text-transform: uppercase; letter-spacing: .04em; }
+  .filters {
+    display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px;
+  }
+  .filters select, .filters input {
+    background: var(--surface); color: var(--text);
+    border: 1px solid var(--border); border-radius: var(--radius-sm);
+    padding: 9px 12px; font-size: 13px; font-family: inherit;
+    flex: 1; min-width: 100px; outline: none;
+    box-shadow: var(--shadow); transition: border-color .15s;
+  }
+  .filters select:focus, .filters input:focus {
+    border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+  .filters input { flex: 2; }
+  .reset-btn {
+    background: var(--surface); color: var(--text-secondary);
+    border: 1px solid var(--border); border-radius: var(--radius-sm);
+    padding: 9px 14px; font-size: 12px; font-family: inherit;
+    cursor: pointer; white-space: nowrap; box-shadow: var(--shadow);
+    transition: background .15s;
+  }
+  .reset-btn:hover { background: #f9fafb; }
+  .grid { display: flex; flex-direction: column; gap: 10px; }
+  .card {
+    display: flex; gap: 14px; background: var(--surface);
+    border-radius: var(--radius); padding: 14px;
+    border: 1px solid var(--border); box-shadow: var(--shadow);
+    text-decoration: none; color: inherit;
+    transition: box-shadow .15s, transform .15s;
+  }
+  .card:active { box-shadow: var(--shadow-hover); }
+  .card-img {
+    width: 100px; height: 76px; border-radius: var(--radius-sm);
+    object-fit: cover; flex-shrink: 0; background: var(--bg);
+  }
+  .card-img-placeholder {
+    width: 100px; height: 76px; border-radius: var(--radius-sm);
+    background: var(--bg); display: flex; align-items: center;
+    justify-content: center; font-size: 28px; flex-shrink: 0;
+  }
+  .card-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+  .card-title { font-size: 14px; font-weight: 600; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: var(--text); }
+  .card-price { font-size: 20px; font-weight: 700; color: var(--text); line-height: 1.2; }
+  .card-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: 12px; color: var(--text-secondary); }
+  .badge { font-size: 10px; padding: 2px 7px; border-radius: 4px; font-weight: 600; line-height: 1.4; }
+  .badge-kia { background: #f3e8ff; color: #7c3aed; }
+  .badge-hyundai { background: #d1fae5; color: #059669; }
+  .badge-honda { background: #dbeafe; color: #2563eb; }
+  .badge-toyota { background: #fee2e2; color: #dc2626; }
+  .trans-badge { font-size: 10px; padding: 2px 7px; border-radius: 4px; font-weight: 600; line-height: 1.4; }
+  .trans-auto { background: var(--green-soft); color: var(--green); }
+  .trans-manual { background: #fef2f2; color: #dc2626; }
+  .source-badge { font-size: 10px; padding: 2px 6px; border-radius: 3px; background: var(--bg); color: var(--text-muted); font-weight: 500; }
+  .card-location { font-size: 11px; color: var(--text-muted); display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
+  .empty { text-align: center; padding: 48px 20px 32px; color: var(--text-secondary); }
+  .empty-text { font-size: 14px; }
+  .footer { margin-top: 24px; text-align: center; font-size: 11px; color: var(--text-muted); padding-bottom: 24px; }
+  @media (max-width: 480px) {
+    body { padding: 12px; }
+    .stat { padding: 12px 8px; }
+    .stat-value { font-size: 18px; }
+    .card { padding: 12px; gap: 10px; }
+    .card-img { width: 80px; height: 60px; }
+    .card-img-placeholder { width: 80px; height: 60px; font-size: 22px; }
+    .card-price { font-size: 18px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div>
+      <h1>Autos en GDL / Tepic</h1>
+      <div class="sub" id="lastUpdate">Cargando...</div>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><div class="stat-value" id="statTotal">—</div><div class="stat-label">Total</div></div>
+    <div class="stat"><div class="stat-value" id="statNuevos">—</div><div class="stat-label">Nuevos hoy</div></div>
+    <div class="stat"><div class="stat-value" id="statPrecio">—</div><div class="stat-label">Precio prom.</div></div>
+  </div>
+
+  <div class="filters">
+    <select id="filterBrand" onchange="applyFilters()"><option value="">Todas las marcas</option></select>
+    <select id="filterMinYear" onchange="applyFilters()"><option value="">Año mínimo</option></select>
+    <select id="filterMaxPrice" onchange="applyFilters()"><option value="">Precio máximo</option></select>
+    <input type="text" id="filterSearch" placeholder="Buscar modelo..." oninput="applyFilters()">
+    <button class="reset-btn" onclick="resetFilters()">Limpiar</button>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <div class="footer">Actualización diaria 7:00 AM (Tepic)</div>
+</div>
+
+<script>
+let allCars = [];
+
+async function loadData() {
+  try {
+    const res = await fetch('data/cars.json');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    allCars = data.cars || [];
+    updateHeader(data);
+    populateFilters();
+    applyFilters();
+  } catch (e) {
+    document.getElementById('lastUpdate').textContent = 'Error cargando datos';
+    document.getElementById('grid').innerHTML =
+      '<div class="empty"><div class="empty-text">No se pudo cargar la base de datos.<br>Ejecuta el scraper primero.</div></div>';
+  }
+}
+
+function updateHeader(data) {
+  const now = new Date();
+  const gen = data.generated_at ? new Date(data.generated_at) : null;
+  if (gen) {
+    const opts = { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' };
+    document.getElementById('lastUpdate').textContent = 'Actualizado: ' + gen.toLocaleDateString('es-MX', opts);
+  }
+  document.getElementById('statTotal').textContent = data.total_count || 0;
+  document.getElementById('statNuevos').textContent = data.new_count || 0;
+  const prices = allCars.map(c => c.price_int).filter(p => p > 0);
+  const avg = prices.length ? ('$' + Math.round(prices.reduce((a,b)=>a+b,0)/prices.length).toLocaleString('es-MX')) : '—';
+  document.getElementById('statPrecio').textContent = avg;
+}
+
+function populateFilters() {
+  const brands = [...new Set(allCars.map(c => c.brand).filter(Boolean))].sort();
+  const bs = document.getElementById('filterBrand');
+  brands.forEach(b => { const o = document.createElement('option'); o.value = b; o.textContent = b; bs.appendChild(o); });
+
+  const years = [...new Set(allCars.map(c => c.year).filter(y => y !== 'N/A'))].sort();
+  const ys = document.getElementById('filterMinYear');
+  years.forEach(y => { const o = document.createElement('option'); o.value = y; o.textContent = y; ys.appendChild(o); });
+
+  const ps = document.getElementById('filterMaxPrice');
+  [180000, 200000, 220000, 240000, 270000].forEach(p => {
+    const o = document.createElement('option'); o.value = p; o.textContent = '$' + p.toLocaleString('es-MX'); ps.appendChild(o);
+  });
+}
+
+function applyFilters() {
+  const brand = document.getElementById('filterBrand').value;
+  const minYear = document.getElementById('filterMinYear').value;
+  const maxPrice = document.getElementById('filterMaxPrice').value;
+  const search = document.getElementById('filterSearch').value.toLowerCase().trim();
+
+  let filtered = allCars.filter(c => {
+    if (brand && c.brand !== brand) return false;
+    if (minYear) { const y = parseInt(c.year); if (isNaN(y) || y < parseInt(minYear)) return false; }
+    if (maxPrice) { if (!c.price_int || c.price_int > parseInt(maxPrice)) return false; }
+    if (search) {
+      const t = (c.title || '').toLowerCase();
+      const b = (c.brand || '').toLowerCase();
+      if (!t.includes(search) && !b.includes(search)) return false;
+    }
+    return true;
+  });
+  renderGrid(filtered);
+}
+
+function resetFilters() {
+  document.getElementById('filterBrand').value = '';
+  document.getElementById('filterMinYear').value = '';
+  document.getElementById('filterMaxPrice').value = '';
+  document.getElementById('filterSearch').value = '';
+  applyFilters();
+}
+
+function renderGrid(cars) {
+  const grid = document.getElementById('grid');
+  if (!cars.length) {
+    grid.innerHTML = '<div class="empty"><div class="empty-text">No hay autos con estos filtros</div></div>';
+    return;
+  }
+  cars.sort((a, b) => (a.price_int || 999999) - (b.price_int || 999999));
+
+  const brandColors = { toyota: 'badge-toyota', honda: 'badge-honda', kia: 'badge-kia', hyundai: 'badge-hyundai' };
+
+  grid.innerHTML = cars.map(c => {
+    const bc = brandColors[(c.brand || '').toLowerCase()] || '';
+    const transHtml = c.transmission === 'automatic'
+      ? '<span class="trans-badge trans-auto">Automático</span>'
+      : c.transmission === 'manual' ? '<span class="trans-badge trans-manual">MT</span>' : '';
+    const srcLabel = c.source === 'mercadolibre' ? 'Mercado Libre' : 'SN';
+
+    return `<a href="${c.link || '#'}" target="_blank" rel="noopener" class="card">
+      ${c.image
+        ? `<img class="card-img" src="${c.image}" alt="${c.title}" loading="lazy" onerror="this.style.display='none'">`
+        : `<div class="card-img-placeholder"></div>`}
+      <div class="card-body">
+        <div class="card-title">${c.title}</div>
+        <div class="card-price">${c.price || 'N/A'}</div>
+        <div class="card-meta">
+          ${c.year !== 'N/A' ? `<span>${c.year}</span>` : ''}
+          ${c.mileage !== 'N/A' ? `<span>${c.mileage}</span>` : ''}
+          ${transHtml}
+        </div>
+        <div class="card-meta">
+          ${c.brand ? `<span class="badge ${bc}">${c.brand}</span>` : ''}
+          <span class="source-badge">${srcLabel}</span>
+        </div>
+        <div class="card-location">${c.location}</div>
+      </div>
+    </a>`;
+  }).join('');
+}
+
+loadData();
+</script>
+</body>
+</html>

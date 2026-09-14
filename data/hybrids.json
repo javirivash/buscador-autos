@@ -1,0 +1,102 @@
+{
+  "generated_at": 8627962.69625808,
+  "total": 8,
+  "cars": [
+    {
+      "title": "Toyota Corolla 2026 1.8 Hev Xle Cvt",
+      "price": "$150,000",
+      "price_int": 150000,
+      "year": "2026",
+      "mileage": "0 Km",
+      "location": "Monterrey - Nuevo León",
+      "link": "https://auto.mercadolibre.com.mx/MLM-2954524077-toyota-corolla-18-hev-xle-cvt-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=38&type=item&tracking_id=b20ee063-b766-4230-8232-463d8762a6ce&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_799307-MLM107576622726_032026-E.webp",
+      "source": "mercadolibre",
+      "hybrid_query": "toyota-corolla-hibrido"
+    },
+    {
+      "title": "Hyundai Ioniq 2020 1.6 Gls Premium Dsg6",
+      "price": "$224,000",
+      "price_int": 224000,
+      "year": "2020",
+      "mileage": "68,000 Km",
+      "location": "Benito Juárez - Distrito Federal",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3098905877-hyundai-ioniq-16-gls-premium-dsg6-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=26&type=item&tracking_id=e22ca6c2-2432-49fb-b243-99f1c642c9ba&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_715119-MLM116082877297_082026-E.webp",
+      "source": "mercadolibre",
+      "hybrid_query": "hyundai-ioniq"
+    },
+    {
+      "title": "Toyota Prius C 2020 1.5 Hybrid",
+      "price": "$225,000",
+      "price_int": 225000,
+      "year": "2020",
+      "mileage": "61,000 Km",
+      "location": "Metepec - Estado De México",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6112489526-toyota-prius-c-15-hybrid-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=36&type=item&tracking_id=f1562689-d946-434a-8011-2ac5adbd8f1f&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_609422-MLM116906541877_082026-E.webp",
+      "source": "mercadolibre",
+      "hybrid_query": "toyota-prius"
+    },
+    {
+      "title": "Hyundai Ioniq 2020 1.6 Gls Premium Dsg6",
+      "price": "$225,000",
+      "price_int": 225000,
+      "year": "2020",
+      "mileage": "102,000 Km",
+      "location": "Alvaro Obregón - Distrito Federal",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6189844244-hyundai-ioniq-16-gls-premium-dsg6-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=33&type=item&tracking_id=e22ca6c2-2432-49fb-b243-99f1c642c9ba&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_702152-MLM117376685283_092026-E.webp",
+      "source": "mercadolibre",
+      "hybrid_query": "hyundai-ioniq"
+    },
+    {
+      "title": "Hyundai Ioniq 2020 1.6 Gls Premium Dsg6",
+      "price": "$229,900",
+      "price_int": 229900,
+      "year": "2020",
+      "mileage": "100,000 Km",
+      "location": "Metepec - Estado De México",
+      "link": "https://auto.mercadolibre.com.mx/MLM-5450890596-hyundai-ioniq-16-gls-premium-dsg6-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=23&type=item&tracking_id=e22ca6c2-2432-49fb-b243-99f1c642c9ba&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_877206-MLM113472541318_072026-E.webp",
+      "source": "mercadolibre",
+      "hybrid_query": "hyundai-ioniq"
+    },
+    {
+      "title": "Hyundai Ioniq 2020 1.6 Gls Premium Dsg6",
+      "price": "$239,500",
+      "price_int": 239500,
+      "year": "2020",
+      "mileage": "68,000 Km",
+      "location": "Benito Juárez - Distrito Federal",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6086302008-hyundai-ioniq-16-gls-premium-dsg6-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=9&type=item&tracking_id=e22ca6c2-2432-49fb-b243-99f1c642c9ba&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_794827-MLM115312161122_082026-E.webp",
+      "source": "mercadolibre",
+      "hybrid_query": "hyundai-ioniq"
+    },
+    {
+      "title": "Toyota Prius C 2020 1.5 Hybrid",
+      "price": "$249,900",
+      "price_int": 249900,
+      "year": "2020",
+      "mileage": "101,000 Km",
+      "location": "Tlalpan - Distrito Federal",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6056063596-toyota-prius-c-15-hybrid-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=21&type=item&tracking_id=f1562689-d946-434a-8011-2ac5adbd8f1f&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_937187-MLM115162356028_082026-E.webp",
+      "source": "mercadolibre",
+      "hybrid_query": "toyota-prius"
+    },
+    {
+      "title": "Hyundai Elantra Hibrido 2020 2.0 Limited Tech Navi At",
+      "price": "$250,000",
+      "price_int": 250000,
+      "year": "2020",
+      "mileage": "118,000 Km",
+      "location": "Yauhquemehcan - Tlaxcala",
+      "link": "https://auto.mercadolibre.com.mx/MLM-5623035964-hyundai-elantra-2020-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=13&type=item&tracking_id=d2f364c4-bc49-489a-8b0f-c9bd3748355e&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_670319-MLM114056496343_072026-E.webp",
+      "source": "mercadolibre",
+      "hybrid_query": "hyundai-elantra-hibrido"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+# Server-side scripts
+scraper.py
+scraper_config.json
+autosearch-scraper.sh
+autosearch-scraper.py
+
+# HTML with embedded data (redundant, stale)
+autos.html
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
