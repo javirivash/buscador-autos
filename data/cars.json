@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T03:17:24.061265",
+  "generated_at": "2026-09-14T10:22:46.694429",
   "criterios": {
     "marcas": [
       "Toyota",
@@ -22,7 +22,7 @@
     ]
   },
   "total_count": 19,
-  "new_count": 1,
+  "new_count": 0,
   "cars": [
     {
       "id": "ml-6129270518",
@@ -291,20 +291,5 @@
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_868558-MLM117540123187_092026-E.webp"
     }
   ],
-  "new_cars": [
-    {
-      "id": "ml-6210306656",
-      "title": "Toyota Camry 2018 2.5 Le At",
-      "price": "$269,000",
-      "price_int": 269000,
-      "year": "2018",
-      "mileage": "87,500 Km",
-      "location": "Zapopan - Jalisco",
-      "source": "mercadolibre",
-      "brand": "Toyota",
-      "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6210306656-toyota-camry-25-le-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=48&type=item&tracking_id=8261a947-9136-45f4-8b8b-f3bee1ef2242&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_868558-MLM117540123187_092026-E.webp"
-    }
-  ]
+  "new_cars": []
 }
