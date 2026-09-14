@@ -172,11 +172,10 @@ async function loadData() {
 }
 
 function updateHeader(data) {
-  const now = new Date();
   const gen = data.generated_at ? new Date(data.generated_at) : null;
   if (gen) {
-    const opts = { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' };
-    document.getElementById('lastUpdate').textContent = 'Actualizado: ' + gen.toLocaleDateString('es-MX', opts);
+    const opts = { timeZone: 'America/Mazatlan', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' };
+    document.getElementById('lastUpdate').textContent = 'Actualizado: ' + gen.toLocaleDateString('es-MX', opts) + ' (Tepic)';
   }
   document.getElementById('statTotal').textContent = data.total_count || 0;
   document.getElementById('statNuevos').textContent = data.new_count || 0;
