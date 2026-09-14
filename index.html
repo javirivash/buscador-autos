@@ -242,7 +242,7 @@ function renderGrid(cars) {
     const transHtml = c.transmission === 'automatic'
       ? '<span class="trans-badge trans-auto">Automático</span>'
       : c.transmission === 'manual' ? '<span class="trans-badge trans-manual">MT</span>' : '';
-    const srcLabel = c.source === 'mercadolibre' ? 'Mercado Libre' : 'SN';
+    const srcLabel = c.source === 'mercadolibre' ? 'Mercado Libre' : 'SemiNuevos';
 
     return `<a href="${c.link || '#'}" target="_blank" rel="noopener" class="card">
       ${c.image
