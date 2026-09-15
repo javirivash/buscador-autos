@@ -177,6 +177,32 @@
   .trans-manual { background: #fef2f2; color: #dc2626; }
   .source-badge { font-size: 10px; padding: 2px 7px; border-radius: 5px; background: var(--bg); color: var(--text-muted); font-weight: 500; }
   .card-location { font-size: 11px; color: var(--text-muted); display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
+
+  /* ============ GRUPO "mismo auto" ============ */
+  .group-card { display: block; }
+  .group-card a.card { border-radius: var(--radius); }
+  .card-accord { margin-top: 6px; }
+  .accord-toggle {
+    display: block; width: 100%; text-align: left;
+    background: var(--surface); color: var(--accent-strong);
+    border: 1px solid var(--border); border-radius: var(--radius-sm);
+    padding: 8px 12px; font-size: 12.5px; font-weight: 600;
+    font-family: inherit; cursor: pointer;
+  }
+  .accord-toggle:hover { background: var(--accent-soft); }
+  .accord-list { border: 1px solid var(--border); border-radius: var(--radius-sm); margin-top: 6px; overflow: hidden; }
+  .ad-link {
+    display: flex; align-items: center; justify-content: space-between; gap: 8px;
+    padding: 9px 12px; background: var(--surface); text-decoration: none;
+    font-size: 13px; color: var(--text); border-top: 1px solid var(--border);
+  }
+  .ad-link:first-child { border-top: none; }
+  .ad-src {
+    font-size: 11px; padding: 2px 7px; border-radius: 5px;
+    background: var(--bg); color: var(--text-secondary); font-weight: 500;
+  }
+  .ad-price { font-weight: 700; color: var(--accent-strong); }
+  .ad-go { font-size: 12px; color: var(--text-secondary); }
   .empty {
     text-align: center; padding: 46px 20px; color: var(--text-secondary);
     background: var(--surface); border: 1px dashed var(--border-strong); border-radius: var(--radius);
@@ -387,6 +413,33 @@ function getKm(c) {
   return raw ? parseInt(raw) : null;
 }
 
+/* ===== Agrupación "mismo auto físico" ===== */
+function groupKey(c) {
+  return c.group_id || c.id || [c.brand, c.year, c.mileage, c.price_int].join('|');
+}
+function uniqueCars(list) {
+  const s = new Set();
+  for (const c of list) s.add(groupKey(c));
+  return s.size;
+}
+function groupAds(adList) {
+  const order = [], idx = new Map();
+  for (const a of adList) {
+    const k = groupKey(a);
+    let g = idx.get(k);
+    if (!g) { g = { rep: null, ads: [] }; idx.set(k, g); order.push(g); }
+    g.ads.push(a);
+  }
+  for (const g of order) {
+    g.rep = g.ads.reduce((best, a) => {
+      const bp = best.price_int || 999999, ap = a.price_int || 999999;
+      if (ap !== bp) return ap < bp ? a : best;
+      return (parseInt(a.year) || 0) > (parseInt(best.year) || 0) ? a : best;
+    });
+  }
+  return order;
+}
+
 async function loadData() {
   try {
     const res = await fetch('data/cars.json');
@@ -411,8 +464,8 @@ function updateHeader(data) {
     const opts = { timeZone: 'America/Mazatlan', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' };
     document.getElementById('lastUpdate').textContent = 'Actualizado: ' + gen.toLocaleDateString('es-MX', opts);
   }
-  document.getElementById('statTotal').textContent = allCars.length;
-  document.getElementById('statNuevos').textContent = data.new_count || 0;
+  document.getElementById('statTotal').textContent = uniqueCars(allCars);
+  document.getElementById('statNuevos').textContent = uniqueCars(data.new_cars || []);
 }
 
 function money(n) { return '$' + n.toLocaleString('es-MX'); }
@@ -585,9 +638,10 @@ function applyFilters() {
   document.getElementById('filterCount').textContent = count;
   document.getElementById('clearAll').disabled = (count === 0);
 
+  const groups = groupAds(filtered);
   document.getElementById('resultsCount').textContent =
-    filtered.length + (filtered.length === 1 ? ' resultado' : ' resultados');
-  renderGrid(filtered);
+    groups.length + (groups.length === 1 ? ' auto' : ' autos');
+  renderGrid(groups);
 }
 
 function resetFilters() {
@@ -674,6 +728,7 @@ function renderTop10(data) {
       </div>
       ${cardMarkup(c)}
       <div class="score-bars">${bars}</div>
+      ${accordionMarkup(c.ads, c)}
     </div>`;
   }).join('');
 }
@@ -688,29 +743,59 @@ async function loadTop10() {
   }
 }
 
-function renderGrid(cars) {
+function accordionMarkup(ads, rep) {
+  if (!ads || ads.length < 2) return '';
+  const repKey = rep.link || rep.id;
+  const others = ads.filter(a => (a.link || a.id) !== repKey);
+  if (!others.length) return '';
+  const links = others.map(a => `<a href="${a.link || '#'}" target="_blank" rel="noopener" class="ad-link">
+      <span class="ad-src">${a.source === 'mercadolibre' ? 'Mercado Libre' : 'SemiNuevos'}</span>
+      <span class="ad-price">${a.price || 'N/A'}</span>
+      <span class="ad-go">Abrir</span>
+    </a>`).join('');
+  return `<div class="card-accord">
+      <button type="button" class="accord-toggle" data-count="${others.length}" onclick="toggleAccord(this)">+${others.length} anuncios</button>
+      <div class="accord-list" hidden>${links}</div>
+    </div>`;
+}
+
+function toggleAccord(btn) {
+  const list = btn.nextElementSibling;
+  const show = list.hidden;
+  list.hidden = !show;
+  btn.textContent = show ? 'Ocultar anuncios' : ('+' + btn.dataset.count + ' anuncios');
+}
+
+function renderGroupCard(g) {
+  return `<div class="group-card">
+    ${cardMarkup(g.rep)}
+    ${accordionMarkup(g.ads, g.rep)}
+  </div>`;
+}
+
+function renderGrid(groups) {
   const grid = document.getElementById('grid');
-  if (!cars.length) {
+  if (!groups.length) {
     grid.innerHTML =
       '<div class="empty"><div class="empty-text">No hay autos con estos filtros</div>' +
       '<div class="empty-sub">Prueba ampliar el rango de precio o año, o quitar algún filtro.</div></div>';
     return;
   }
   const sort = document.getElementById('sortOrder').value;
-  const cmpObj = c => ({
-    price: c.price_int || 999999,
-    year: parseInt(c.year) || 0,
-    km: getKm(c) || 9999999
+  const cmpObj = g => ({
+    price: g.rep.price_int || 999999,
+    year: parseInt(g.rep.year) || 0,
+    km: getKm(g.rep) || 9999999
   })[sort.split('_')[0]];
   const rev = sort.endsWith('_desc') ? -1 : 1;
-  cars.sort((a, b) => {
+  groups.sort((a, b) => {
     const va = cmpObj(a), vb = cmpObj(b);
     if (va < vb) return -1 * rev;
     if (va > vb) return 1 * rev;
     return 0;
   });
 
-  grid.innerHTML = cars.map(cardMarkup).join('');
+  grid.innerHTML = groups.map(renderGroupCard).join('');
 }
 
 loadData();
