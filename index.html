@@ -271,6 +271,23 @@
   .tab-pane { display: none; }
   .tab-pane.active { display: block; }
 
+  /* Update legend (sustituye a la top bar) */
+  .tab-legend {
+    display: flex; align-items: center; justify-content: center; gap: 6px;
+    font-size: 12px; color: var(--text-muted); padding: 2px 0 10px; text-align: center;
+  }
+  .tab-legend b { font-weight: 600; color: var(--text-secondary); }
+
+  /* Badge de conteo en las tabs */
+  .tab-badge {
+    font-size: 10.5px; font-weight: 700; color: #fff; background: var(--accent);
+    border-radius: 999px; min-width: 18px; height: 18px; display: inline-flex;
+    align-items: center; justify-content: center; padding: 0 5px; margin-left: 5px;
+    vertical-align: middle;
+  }
+  .tab-btn.active .tab-badge { background: rgba(255,255,255,.25); }
+  .tab-badge[data-zero="1"] { display: none; }
+
   .top10-note { font-size: 12px; color: var(--text-muted); margin-bottom: 12px; line-height: 1.4; }
 
   /* ============ RANK CARD ============ */
@@ -311,23 +328,20 @@
 </head>
 <body>
 <div class="container">
-  <div class="topbar">
-    <div class="tb-brand">
-      <div class="tb-name">Autos en GDL / Tepic</div>
-      <div class="tb-sub" id="lastUpdate">Cargando...</div>
-    </div>
-    <div class="tb-stats">
-      <span class="tb-stat"><span class="tb-stat-label">Total</span><span id="statTotal">—</span></span>
-      <span class="tb-stat"><span class="tb-stat-label">Nuevos</span><span id="statNuevos">—</span></span>
-    </div>
-  </div>
+  <div class="tab-legend">Actualizado: <b id="lastUpdate">Cargando...</b></div>
 
   <div class="tabs">
-    <button class="tab-btn active" id="tabBtnTop10" onclick="switchTab('top10')">Top 10</button>
-    <button class="tab-btn" id="tabBtnTodos" onclick="switchTab('todos')">Todos</button>
+    <button class="tab-btn active" id="tabBtnHoy" onclick="switchTab('hoy')">Hoy<span class="tab-badge" id="badgeHoy" data-zero="1">0</span></button>
+    <button class="tab-btn" id="tabBtnTodos" onclick="switchTab('todos')">Todos<span class="tab-badge" id="badgeTodos" data-zero="1">0</span></button>
+    <button class="tab-btn" id="tabBtnTop10" onclick="switchTab('top10')">Top 10</button>
   </div>
 
-  <div class="tab-pane active" id="pane-top10">
+  <div class="tab-pane active" id="pane-hoy">
+    <div class="top10-note" id="hoyNote">Cargando...</div>
+    <div class="grid" id="gridHoy"></div>
+  </div>
+
+  <div class="tab-pane" id="pane-top10">
     <div class="top10-note" id="top10Note">Cargando...</div>
     <div class="grid" id="gridTop"></div>
   </div>
@@ -429,6 +443,7 @@
 
 <script>
 let allCars = [];
+let newCars = [];
 let rangeCache = {}; // avoid redundant re-render when sliders update
 
 const MODEL_KEYWORDS = {
@@ -493,13 +508,18 @@ async function loadData() {
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
     allCars = data.cars || [];
+    newCars = data.new_cars || [];
     updateHeader(data);
     populateFilters();
     applyFilters();
+    renderHoy();
     loadTop10();
   } catch (e) {
     document.getElementById('lastUpdate').textContent = 'Error cargando datos';
     document.getElementById('grid').innerHTML =
+      '<div class="empty"><div class="empty-text">No se pudo cargar la base de datos.</div>' +
+      '<div class="empty-sub">Ejecuta el scraper primero (data/cars.json).</div></div>';
+    document.getElementById('gridHoy').innerHTML =
       '<div class="empty"><div class="empty-text">No se pudo cargar la base de datos.</div>' +
       '<div class="empty-sub">Ejecuta el scraper primero (data/cars.json).</div></div>';
   }
@@ -509,10 +529,31 @@ function updateHeader(data) {
   const gen = data.generated_at ? new Date(data.generated_at) : null;
   if (gen) {
     const opts = { timeZone: 'America/Mazatlan', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' };
-    document.getElementById('lastUpdate').textContent = 'Actualizado: ' + gen.toLocaleDateString('es-MX', opts);
+    document.getElementById('lastUpdate').textContent = gen.toLocaleDateString('es-MX', opts);
   }
-  document.getElementById('statTotal').textContent = uniqueCars(allCars);
-  document.getElementById('statNuevos').textContent = uniqueCars(data.new_cars || []);
+  setBadge('badgeHoy', uniqueCars(newCars));
+  setBadge('badgeTodos', uniqueCars(allCars));
+}
+
+function setBadge(id, n) {
+  const el = document.getElementById(id);
+  el.textContent = n;
+  el.dataset.zero = (n === 0) ? '1' : '0';
+}
+
+function renderHoy() {
+  const grid = document.getElementById('gridHoy');
+  const note = document.getElementById('hoyNote');
+  const groups = groupAds(newCars);
+  if (!groups.length) {
+    note.textContent = 'Sin anuncios nuevos en la última corrida.';
+    grid.innerHTML = '';
+    return;
+  }
+  note.textContent = groups.length === 1
+    ? '1 auto nuevo detectado.'
+    : groups.length + ' autos nuevos detectados.';
+  grid.innerHTML = groups.map(renderGroupCard).join('');
 }
 
 function money(n) { return '$' + n.toLocaleString('es-MX'); }
@@ -710,11 +751,12 @@ function resetFilters() {
 }
 
 function switchTab(tab) {
-  const isTop = tab === 'top10';
-  document.getElementById('tabBtnTop10').classList.toggle('active', isTop);
-  document.getElementById('tabBtnTodos').classList.toggle('active', !isTop);
-  document.getElementById('pane-top10').classList.toggle('active', isTop);
-  document.getElementById('pane-todos').classList.toggle('active', !isTop);
+  ['hoy', 'todos', 'top10'].forEach(t => {
+    document.getElementById('tabBtn' + (t === 'hoy' ? 'Hoy' : t === 'todos' ? 'Todos' : 'Top10')).classList.toggle('active', t === tab);
+  });
+  ['pane-hoy', 'pane-todos', 'pane-top10'].forEach(id => {
+    document.getElementById(id).classList.toggle('active', id === 'pane-' + tab);
+  });
 }
 
 function toggleFilters() {
