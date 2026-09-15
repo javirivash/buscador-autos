@@ -214,7 +214,7 @@
 
   <div class="stats">
     <div class="stat"><div class="stat-value" id="statTotal">—</div><div class="stat-label">Total</div></div>
-    <div class="stat"><div class="stat-value" id="statVisible">—</div><div class="stat-label">Mostrando</div></div>
+    <div class="stat"><div class="stat-value" id="statNuevos">—</div><div class="stat-label">Nuevos hoy</div></div>
     <div class="stat"><div class="stat-value" id="statPrecio">—</div><div class="stat-label">Precio prom.</div></div>
   </div>
 
@@ -362,6 +362,13 @@ function updateHeader(data) {
     document.getElementById('lastUpdate').textContent = 'Actualizado: ' + gen.toLocaleDateString('es-MX', opts);
   }
   document.getElementById('statTotal').textContent = allCars.length;
+  document.getElementById('statNuevos').textContent = data.new_count || 0;
+}
+
+function updateAvgPrice(cars) {
+  const prices = cars.map(c => c.price_int).filter(p => p > 0);
+  const avg = prices.length ? money(Math.round(prices.reduce((a, b) => a + b, 0) / prices.length)) : '—';
+  document.getElementById('statPrecio').textContent = avg;
 }
 
 function money(n) { return '$' + n.toLocaleString('es-MX'); }
@@ -534,9 +541,9 @@ function applyFilters() {
   document.getElementById('filterCount').textContent = count;
   document.getElementById('clearAll').disabled = (count === 0);
 
-  document.getElementById('statVisible').textContent = filtered.length;
   document.getElementById('resultsCount').textContent =
     filtered.length + (filtered.length === 1 ? ' resultado' : ' resultados');
+  updateAvgPrice(filtered);
   renderGrid(filtered);
 }
 
