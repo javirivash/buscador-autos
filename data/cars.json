@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T05:49:26.444230Z",
+  "generated_at": "2026-09-15T07:36:06.971518Z",
   "criterios": {
     "marcas": [
       "Toyota",
@@ -21,7 +21,7 @@
       "Jalisco"
     ]
   },
-  "total_count": 66,
+  "total_count": 61,
   "new_count": 0,
   "cars": [
     {
@@ -487,20 +487,6 @@
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_686390-MLM116043121307_082026-E.webp"
     },
     {
-      "id": "ml-3375982021",
-      "title": "Honda Br-v 2020 1.5 Prime Cvt",
-      "price": "$245,000",
-      "price_int": 245000,
-      "year": "2020",
-      "mileage": "95,000 Km",
-      "location": "Tonala - Jalisco",
-      "source": "mercadolibre",
-      "brand": "Honda",
-      "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3375982021-honda-br-v-15-prime-cvt-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=48&type=item&tracking_id=0b892c1d-d70c-44de-bbde-8bf06ec56bdf&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_967982-MLM115486095784_082026-E.webp"
-    },
-    {
       "id": "sn-942486",
       "title": "Honda City",
       "price": "$249,000",
@@ -527,20 +513,6 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-6195855258-hyundai-accent-2022-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=30&type=item&tracking_id=3cc9b37b-44d7-4548-a954-c9a3fe97602f&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_922201-MLM116185944648_092026-E.webp"
-    },
-    {
-      "id": "sn-514092",
-      "title": "Hyundai Creta 1.6 Gls At",
-      "price": "$249,800",
-      "price_int": 249800,
-      "year": "2019",
-      "mileage": "96,000 km",
-      "location": "Guadalajara",
-      "source": "seminuevos",
-      "brand": "Hyundai",
-      "transmission": "automatic",
-      "link": "https://www.seminuevos.com/vehicle/autos-hyundai-creta-guadalajara-2019/4821425",
-      "image": ""
     },
     {
       "id": "ml-3400224351",
@@ -641,20 +613,6 @@
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1572026/4815123/o_o/4815123_1784136789914_276.jpg"
     },
     {
-      "id": "sn-486932",
-      "title": "Honda HRV 85,000 km",
-      "price": "$259,000",
-      "price_int": 259000,
-      "year": "2018",
-      "mileage": "$259,000",
-      "location": "Zapopan",
-      "source": "seminuevos",
-      "brand": "Honda",
-      "transmission": "automatic",
-      "link": "https://www.seminuevos.com/vehicle/autos-honda-hrv-zapopan-2018/4798043",
-      "image": ""
-    },
-    {
       "id": "sn-654929",
       "title": "Honda Civic",
       "price": "$259,000",
@@ -709,20 +667,6 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-3395054851-hyundai-accent-16-hb-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=15&type=item&tracking_id=a62cd99b-6205-4982-b389-550b7fb76301&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_870601-MLM115315817114_082026-E.webp"
-    },
-    {
-      "id": "sn-938892",
-      "title": "Honda BR-V 1.5 Prime Cvt",
-      "price": "$265,000",
-      "price_int": 265000,
-      "year": "2019",
-      "mileage": "148,000 km",
-      "location": "Tlaquepaque",
-      "source": "seminuevos",
-      "brand": "Honda",
-      "transmission": "automatic",
-      "link": "https://www.seminuevos.com/vehicle/autos-honda-br_v-tlaquepaque-2019/4738982",
-      "image": ""
     },
     {
       "id": "sn-488334",
@@ -821,20 +765,6 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-6210306656-toyota-camry-25-le-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=45&type=item&tracking_id=cd1020a6-414e-4702-901e-3f3999622ac5&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_868558-MLM117540123187_092026-E.webp"
-    },
-    {
-      "id": "sn-751833",
-      "title": "Honda BR-V 97,000 km",
-      "price": "$269,000",
-      "price_int": 269000,
-      "year": "2019",
-      "mileage": "$269,000",
-      "location": "Guadalajara",
-      "source": "seminuevos",
-      "brand": "Honda",
-      "transmission": "automatic",
-      "link": "https://www.seminuevos.com/vehicle/autos-honda-br_v-guadalajara-2019/4831227",
-      "image": ""
     },
     {
       "id": "sn-914668",

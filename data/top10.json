@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T06:11:39.097105Z",
+  "generated_at": "2026-09-15T07:36:06.973687Z",
   "weights": {
     "precio": 0.4,
     "anio": 0.25,
@@ -7,7 +7,7 @@
     "frescura": 0.05,
     "completitud": 0.05
   },
-  "total_count": 66,
+  "total_count": 61,
   "cars": [
     {
       "id": "ml-6170659996",
