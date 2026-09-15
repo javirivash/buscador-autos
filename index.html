@@ -225,8 +225,8 @@
   }
   .score-item { flex: 1 1 0; min-width: 0; }
   .score-item .sl {
-    font-size: 9.5px; text-transform: uppercase; letter-spacing: .03em;
-    color: var(--text-muted); margin-bottom: 3px; white-space: nowrap;
+    font-size: 8.6px; text-transform: uppercase; letter-spacing: .01em;
+    color: var(--text-muted); margin-bottom: 3px; line-height: 1.25;
   }
   .score-item .sb { height: 5px; border-radius: 3px; background: var(--border); overflow: hidden; }
   .score-item .sf { height: 100%; background: var(--accent); display: block; }
@@ -655,6 +655,7 @@ function renderTop10(data) {
   const grid = document.getElementById('gridTop');
   const note = document.getElementById('top10Note');
   const cars = (data && data.cars) || [];
+  const weights = (data && data.weights) || {};
   if (!cars.length) {
     note.textContent = 'Aún no hay top 10. El siguiente scrape lo generará.';
     grid.innerHTML = '';
@@ -665,8 +666,9 @@ function renderTop10(data) {
     const comp = c._components || {};
     const bars = Object.keys(RANK_LABELS).map(k => {
       const v = comp[k] != null ? Math.round(comp[k]) : 0;
+      const w = weights[k] != null ? Math.round(weights[k] * 100) : null;
       return `<div class="score-item">
-        <div class="sl">${RANK_LABELS[k]}</div>
+        <div class="sl">${RANK_LABELS[k]}${w != null ? ' ' + w + '%' : ''}</div>
         <div class="sb"><span class="sf" style="width:${v}%"></span></div>
         <div class="sv">${v}</div>
       </div>`;
