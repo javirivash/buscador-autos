@@ -189,6 +189,49 @@
 
   .footer { margin-top: 24px; text-align: center; font-size: 11px; color: var(--text-muted); padding-bottom: 24px; }
 
+  /* ============ TABS ============ */
+  .tabs {
+    display: flex; gap: 6px; background: var(--surface);
+    border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 6px; box-shadow: var(--shadow); margin-bottom: 14px;
+  }
+  .tab-btn {
+    flex: 1; border: none; background: transparent; padding: 11px 0;
+    font-size: 14px; font-weight: 600; color: var(--text-secondary);
+    border-radius: var(--radius-sm); cursor: pointer; font-family: inherit;
+    transition: background .15s, color .15s; text-align: center;
+  }
+  .tab-btn.active { background: var(--accent); color: #fff; box-shadow: var(--shadow); }
+  .tab-pane { display: none; }
+  .tab-pane.active { display: block; }
+
+  .top10-note { font-size: 12px; color: var(--text-muted); margin-bottom: 12px; line-height: 1.4; }
+
+  /* ============ RANK CARD ============ */
+  .rank-card {
+    border: 1px solid var(--border); border-radius: var(--radius);
+    background: var(--surface); box-shadow: var(--shadow); margin-bottom: 11px; overflow: hidden;
+  }
+  .rank-card a.card { border: none; box-shadow: none; border-radius: 0; padding-bottom: 10px; }
+  .rank-head {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 8px 14px; background: var(--accent-soft);
+  }
+  .rank-pos { font-size: 13px; font-weight: 800; color: var(--accent-strong); }
+  .rank-score { font-size: 12px; font-weight: 700; color: var(--accent-strong); }
+  .score-bars {
+    display: flex; gap: 6px; padding: 9px 14px 11px;
+    background: var(--surface); border-top: 1px solid var(--border); flex-wrap: wrap;
+  }
+  .score-item { flex: 1 1 0; min-width: 68px; }
+  .score-item .sl {
+    font-size: 9.5px; text-transform: uppercase; letter-spacing: .03em;
+    color: var(--text-muted); margin-bottom: 3px; white-space: nowrap;
+  }
+  .score-item .sb { height: 5px; border-radius: 3px; background: var(--border); overflow: hidden; }
+  .score-item .sf { height: 100%; background: var(--accent); display: block; }
+  .score-item .sv { font-size: 10px; color: var(--text-secondary); margin-top: 2px; font-variant-numeric: tabular-nums; }
+
   @media (max-width: 480px) {
     body { padding: 10px 0; }
     .container { padding: 0 12px; }
@@ -217,7 +260,18 @@
     <div class="stat"><div class="stat-value" id="statNuevos">—</div><div class="stat-label">Nuevos hoy</div></div>
   </div>
 
-  <div class="filters">
+  <div class="tabs">
+    <button class="tab-btn active" id="tabBtnTop10" onclick="switchTab('top10')">Top 10</button>
+    <button class="tab-btn" id="tabBtnTodos" onclick="switchTab('todos')">Todos</button>
+  </div>
+
+  <div class="tab-pane active" id="pane-top10">
+    <div class="top10-note" id="top10Note">Cargando...</div>
+    <div class="grid" id="gridTop"></div>
+  </div>
+
+  <div class="tab-pane" id="pane-todos">
+    <div class="filters">
     <div class="filters-head">
       <span class="ft">Filtros <span class="filter-count" id="filterCount">0</span></span>
       <button class="clear-all" id="clearAll" onclick="resetFilters()" disabled>Limpiar todo</button>
@@ -301,6 +355,7 @@
   </div>
 
   <div class="grid" id="grid"></div>
+  </div>
 
   <div class="footer">Actualización diaria 7:00 AM (Tepic)</div>
 </div>
@@ -316,6 +371,7 @@ const MODEL_KEYWORDS = {
   hyundai: ['Accent', 'Elantra', 'Grand', 'Ioniq', 'Sonata', 'Veloster', 'Tucson', 'Santa Fe', 'Creta']
 };
 const HYBRID_KW = ['prius', 'ioniq', 'hev', 'hibrido', 'híbrido', 'phev'];
+const BRAND_COLORS = { toyota: 'badge-toyota', honda: 'badge-honda', kia: 'badge-kia', hyundai: 'badge-hyundai' };
 
 function getModel(c) {
   const brand = (c.brand || '').toLowerCase();
@@ -346,6 +402,7 @@ async function loadData() {
     updateHeader(data);
     populateFilters();
     applyFilters();
+    loadTop10();
   } catch (e) {
     document.getElementById('lastUpdate').textContent = 'Error cargando datos';
     document.getElementById('grid').innerHTML =
@@ -554,6 +611,87 @@ function resetFilters() {
   applyFilters();
 }
 
+function switchTab(tab) {
+  const isTop = tab === 'top10';
+  document.getElementById('tabBtnTop10').classList.toggle('active', isTop);
+  document.getElementById('tabBtnTodos').classList.toggle('active', !isTop);
+  document.getElementById('pane-top10').classList.toggle('active', isTop);
+  document.getElementById('pane-todos').classList.toggle('active', !isTop);
+}
+
+const RANK_LABELS = { precio: 'Precio', anio: 'Año', km: 'Km', frescura: 'Frescura', completitud: 'Datos' };
+
+function cardMarkup(c) {
+  const bc = BRAND_COLORS[(c.brand || '').toLowerCase()] || '';
+  const transHtml = c.transmission === 'automatic'
+    ? '<span class="trans-badge trans-auto">Automático</span>'
+    : c.transmission === 'manual' ? '<span class="trans-badge trans-manual">MT</span>' : '';
+  const srcLabel = c.source === 'mercadolibre' ? 'Mercado Libre' : 'SemiNuevos';
+  const fuelBadge = getFuel(c) === 'hibrido' ? '<span class="badge badge-fuel">Híbrido</span>' : '';
+  const model = getModel(c);
+
+  return `<a href="${c.link || '#'}" target="_blank" rel="noopener" class="card">
+    ${c.image
+      ? `<img class="card-img" src="${c.image}" alt="${c.title}" loading="lazy" onerror="this.style.display='none'">`
+      : `<div class="card-img-placeholder"></div>`}
+    <div class="card-body">
+      <div class="card-title">${c.title}</div>
+      <div class="card-price">${c.price || 'N/A'}</div>
+      <div class="card-meta">
+        ${c.year !== 'N/A' ? `<span>${c.year}</span>` : ''}
+        ${c.mileage !== 'N/A' ? `<span>${c.mileage}</span>` : ''}
+        ${transHtml}${fuelBadge}
+      </div>
+      <div class="card-meta">
+        ${c.brand ? `<span class="badge ${bc}">${c.brand}${model ? ' · ' + model : ''}</span>` : ''}
+        <span class="source-badge">${srcLabel}</span>
+      </div>
+      <div class="card-location">${c.location}</div>
+    </div>
+  </a>`;
+}
+
+function renderTop10(data) {
+  const grid = document.getElementById('gridTop');
+  const note = document.getElementById('top10Note');
+  const cars = (data && data.cars) || [];
+  if (!cars.length) {
+    note.textContent = 'Aún no hay top 10. El siguiente scrape lo generará.';
+    grid.innerHTML = '';
+    return;
+  }
+  note.textContent = 'Ranking por puntaje de valor (precio, año, km, frescura y completitud). Actualizado con el último scrape.';
+  grid.innerHTML = cars.map(c => {
+    const comp = c._components || {};
+    const bars = Object.keys(RANK_LABELS).map(k => {
+      const v = comp[k] != null ? Math.round(comp[k]) : 0;
+      return `<div class="score-item">
+        <div class="sl">${RANK_LABELS[k]}</div>
+        <div class="sb"><span class="sf" style="width:${v}%"></span></div>
+        <div class="sv">${v}</div>
+      </div>`;
+    }).join('');
+    return `<div class="rank-card">
+      <div class="rank-head">
+        <span class="rank-pos">#${c.rank || '?'}</span>
+        <span class="rank-score">Puntaje ${c._score != null ? Math.round(c._score) : ''}</span>
+      </div>
+      ${cardMarkup(c)}
+      <div class="score-bars">${bars}</div>
+    </div>`;
+  }).join('');
+}
+
+async function loadTop10() {
+  try {
+    const res = await fetch('data/top10.json');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    renderTop10(await res.json());
+  } catch (e) {
+    document.getElementById('top10Note').textContent = 'No se pudo cargar el top 10.';
+  }
+}
+
 function renderGrid(cars) {
   const grid = document.getElementById('grid');
   if (!cars.length) {
@@ -576,37 +714,7 @@ function renderGrid(cars) {
     return 0;
   });
 
-  const brandColors = { toyota: 'badge-toyota', honda: 'badge-honda', kia: 'badge-kia', hyundai: 'badge-hyundai' };
-
-  grid.innerHTML = cars.map(c => {
-    const bc = brandColors[(c.brand || '').toLowerCase()] || '';
-    const transHtml = c.transmission === 'automatic'
-      ? '<span class="trans-badge trans-auto">Automático</span>'
-      : c.transmission === 'manual' ? '<span class="trans-badge trans-manual">MT</span>' : '';
-    const srcLabel = c.source === 'mercadolibre' ? 'Mercado Libre' : 'SemiNuevos';
-    const fuelBadge = getFuel(c) === 'hibrido' ? '<span class="badge badge-fuel">Híbrido</span>' : '';
-    const model = getModel(c);
-
-    return `<a href="${c.link || '#'}" target="_blank" rel="noopener" class="card">
-      ${c.image
-        ? `<img class="card-img" src="${c.image}" alt="${c.title}" loading="lazy" onerror="this.style.display='none'">`
-        : `<div class="card-img-placeholder"></div>`}
-      <div class="card-body">
-        <div class="card-title">${c.title}</div>
-        <div class="card-price">${c.price || 'N/A'}</div>
-        <div class="card-meta">
-          ${c.year !== 'N/A' ? `<span>${c.year}</span>` : ''}
-          ${c.mileage !== 'N/A' ? `<span>${c.mileage}</span>` : ''}
-          ${transHtml}${fuelBadge}
-        </div>
-        <div class="card-meta">
-          ${c.brand ? `<span class="badge ${bc}">${c.brand}${model ? ' · ' + model : ''}</span>` : ''}
-          <span class="source-badge">${srcLabel}</span>
-        </div>
-        <div class="card-location">${c.location}</div>
-      </div>
-    </a>`;
-  }).join('');
+  grid.innerHTML = cars.map(cardMarkup).join('');
 }
 
 loadData();
