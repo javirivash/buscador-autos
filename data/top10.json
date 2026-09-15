@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-15T05:49:26.393220Z",
+  "generated_at": "2026-09-15T06:11:39.097105Z",
   "weights": {
-    "precio": 0.3833,
-    "anio": 0.2333,
-    "km": 0.2333,
-    "frescura": 0.1,
+    "precio": 0.4,
+    "anio": 0.25,
+    "km": 0.25,
+    "frescura": 0.05,
     "completitud": 0.05
   },
   "total_count": 66,
@@ -22,7 +22,7 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-6170659996-hyundai-accent-16-gl-mid-auto-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=45&type=item&tracking_id=1bc37845-d982-4ee7-83d4-ef3a1cb0bc03&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_817206-MLM117205253447_092026-E.webp",
-      "_score": 75.7,
+      "_score": 74.0,
       "_components": {
         "precio": 91.3,
         "anio": 25.0,
@@ -45,7 +45,7 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-5904436784-kia-rio-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=28&type=item&tracking_id=89459a35-1118-46ec-9dc5-ad51e0fe8bb4&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_681095-MLM114347202594_082026-E.webp",
-      "_score": 67.2,
+      "_score": 65.0,
       "_components": {
         "precio": 92.4,
         "anio": 0.0,
@@ -68,7 +68,7 @@
       "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-hyundai-accent-guadalajara-2022/4830188",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/492026/4830188/o_o/4830188_1788570771342_882.jpeg",
-      "_score": 66.5,
+      "_score": 64.7,
       "_components": {
         "precio": 50.0,
         "anio": 50.0,
@@ -77,29 +77,6 @@
         "completitud": 100.0
       },
       "rank": 3
-    },
-    {
-      "id": "ml-6129270518",
-      "title": "Hyundai Accent 2018 1.6 Gls Auto",
-      "price": "$177,999",
-      "price_int": 177999,
-      "year": "2018",
-      "mileage": "118,493 Km",
-      "location": "Guadalajara - Jalisco",
-      "source": "mercadolibre",
-      "brand": "Hyundai",
-      "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6129270518-hyundai-accent-16-gls-auto-_JM#polycard_client=search-desktop&price_drop=false&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=35&type=item&tracking_id=1bc37845-d982-4ee7-83d4-ef3a1cb0bc03&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_934783-MLM116170071698_092026-E.webp",
-      "_score": 66.4,
-      "_components": {
-        "precio": 100.0,
-        "anio": 0.0,
-        "km": 56.1,
-        "frescura": 100.0,
-        "completitud": 100.0
-      },
-      "rank": 4
     },
     {
       "id": "sn-793100",
@@ -114,7 +91,7 @@
       "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-hyundai-accent-guadalajara-2018/4771189",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1222026/4771189/o_o/4771189_1770913629783_203.jpg",
-      "_score": 66.4,
+      "_score": 64.1,
       "_components": {
         "precio": 94.0,
         "anio": 0.0,
@@ -122,7 +99,7 @@
         "frescura": 100.0,
         "completitud": 100.0
       },
-      "rank": 5
+      "rank": 4
     },
     {
       "id": "sn-4831176",
@@ -137,7 +114,7 @@
       "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-hyundai-accent-zapopan-2018/4831176",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/992026/4831176/o_o/pt_4831176_1788919323592_626.jpg",
-      "_score": 66.4,
+      "_score": 64.1,
       "_components": {
         "precio": 94.0,
         "anio": 0.0,
@@ -145,7 +122,7 @@
         "frescura": 100.0,
         "completitud": 100.0
       },
-      "rank": 6
+      "rank": 5
     },
     {
       "id": "sn-4811976",
@@ -160,11 +137,34 @@
       "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-hyundai-accent-guadalajara-2018/4811976",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/202676/4811976/o_o/pt_4811976_1783357107862.JPG",
-      "_score": 66.4,
+      "_score": 64.1,
       "_components": {
         "precio": 94.0,
         "anio": 0.0,
         "km": 65.9,
+        "frescura": 100.0,
+        "completitud": 100.0
+      },
+      "rank": 6
+    },
+    {
+      "id": "ml-6129270518",
+      "title": "Hyundai Accent 2018 1.6 Gls Auto",
+      "price": "$177,999",
+      "price_int": 177999,
+      "year": "2018",
+      "mileage": "118,493 Km",
+      "location": "Guadalajara - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Hyundai",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6129270518-hyundai-accent-16-gls-auto-_JM#polycard_client=search-desktop&price_drop=false&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=35&type=item&tracking_id=1bc37845-d982-4ee7-83d4-ef3a1cb0bc03&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_934783-MLM116170071698_092026-E.webp",
+      "_score": 64.0,
+      "_components": {
+        "precio": 100.0,
+        "anio": 0.0,
+        "km": 56.1,
         "frescura": 100.0,
         "completitud": 100.0
       },
@@ -183,7 +183,7 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-3361967869-kia-rio-2020-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=40&type=item&tracking_id=c491185d-347f-4d89-a919-ab3f71ce9abb&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_999021-MLM115102741002_082026-E.webp",
-      "_score": 65.5,
+      "_score": 63.4,
       "_components": {
         "precio": 65.2,
         "anio": 25.0,
@@ -206,7 +206,7 @@
       "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-zapopan-2019/4832681",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1492026/4832681/o_o/pt_4832681_1789416630750_45.jpg",
-      "_score": 64.7,
+      "_score": 62.4,
       "_components": {
         "precio": 81.5,
         "anio": 12.5,
@@ -229,7 +229,7 @@
       "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-zapopan-2023/4815737",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1772026/4815737/o_o/4815737_1788545228263_829.",
-      "_score": 64.1,
+      "_score": 62.1,
       "_components": {
         "precio": 45.7,
         "anio": 62.5,
