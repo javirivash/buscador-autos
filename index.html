@@ -147,6 +147,38 @@
   }
   .footer-results { font-size: 12.5px; font-weight: 600; color: var(--accent-strong); }
 
+  /* Collapsible filters toggle */
+  .filters-toggle {
+    display: flex; align-items: center; justify-content: space-between; width: 100%;
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    box-shadow: var(--shadow); padding: 0; overflow: hidden; margin-bottom: 12px;
+  }
+  .filters-toggle .ft-row {
+    display: flex; align-items: center; gap: 6px; padding: 12px 14px; flex: 1;
+    font-size: 13px; font-weight: 700; color: var(--accent-strong); letter-spacing: .01em;
+  }
+  .filters-toggle .ft-row .fc {
+    font-size: 10.5px; font-weight: 700; color: #fff; background: var(--accent);
+    border-radius: 999px; min-width: 18px; height: 18px; display: inline-flex;
+    align-items: center; justify-content: center; padding: 0 5px;
+  }
+  .filters-toggle .ft-row .fc:empty, .filters-toggle .ft-row .fc[data-zero="1"] { display: none; }
+  .filters-toggle .ft-tail {
+    display: flex; align-items: center; gap: 6px; padding: 12px 14px;
+  }
+  .filters-toggle .ft-count {
+    font-size: 12.5px; font-weight: 600; color: var(--text-secondary); white-space: nowrap;
+  }
+  .filters-toggle .ft-arrow {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 22px; height: 22px; border-radius: 6px; color: var(--text-secondary);
+    transition: transform .2s;
+  }
+  .filters-toggle.open .ft-arrow { transform: rotate(180deg); color: var(--accent-strong); }
+  .filters-toggle .ft-arrow svg { width: 15px; height: 15px; }
+  .filters-panel { display: none; }
+  .filters-panel.open { display: block; }
+
   /* ============ GRID ============ */
   .grid { display: flex; flex-direction: column; gap: 11px; }
   .card {
@@ -301,7 +333,15 @@
   </div>
 
   <div class="tab-pane" id="pane-todos">
-    <div class="filters">
+    <button class="filters-toggle" id="filtersToggle" onclick="toggleFilters()" aria-expanded="false">
+      <span class="ft-row"><span class="fc" id="filterCountToggle" data-zero="1">0</span> Filtros</span>
+      <span class="ft-tail">
+        <span class="ft-count" id="resultsCount">0 resultados</span>
+        <span class="ft-arrow"><svg viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 1 L10 7 M10 1 L2 7"/></svg></span>
+      </span>
+    </button>
+
+    <div class="filters filters-panel" id="filtersPanel">
     <div class="filters-head">
       <span class="ft">Filtros <span class="filter-count" id="filterCount">0</span></span>
       <button class="clear-all" id="clearAll" onclick="resetFilters()" disabled>Limpiar todo</button>
@@ -379,11 +419,7 @@
       </div>
       <div class="range-labels"><span class="range-min" id="yearMinLabel">2018</span><span class="range-max" id="yearMaxLabel">2026</span></div>
     </div>
-
-    <div class="filters-foot">
-      <span class="footer-results" id="resultsCount">0 resultados</span>
     </div>
-  </div>
 
   <div class="grid" id="grid"></div>
   </div>
@@ -647,6 +683,9 @@ function applyFilters() {
   if (f.minPrice !== parseInt(document.getElementById('priceMin').min) || f.maxPrice !== parseInt(document.getElementById('priceMax').max)) count++;
   if (f.search) count++;
   document.getElementById('filterCount').textContent = count;
+  const tgl = document.getElementById('filterCountToggle');
+  tgl.textContent = count;
+  tgl.dataset.zero = (count === 0) ? '1' : '0';
   document.getElementById('clearAll').disabled = (count === 0);
 
   const groups = groupAds(filtered);
@@ -676,6 +715,14 @@ function switchTab(tab) {
   document.getElementById('tabBtnTodos').classList.toggle('active', !isTop);
   document.getElementById('pane-top10').classList.toggle('active', isTop);
   document.getElementById('pane-todos').classList.toggle('active', !isTop);
+}
+
+function toggleFilters() {
+  const btn = document.getElementById('filtersToggle');
+  const panel = document.getElementById('filtersPanel');
+  const open = btn.classList.toggle('open');
+  panel.classList.toggle('open', open);
+  btn.setAttribute('aria-expanded', open ? 'true' : 'false');
 }
 
 const RANK_LABELS = { precio: 'Precio', anio: 'Año', km: 'Km', frescura: 'Frescura', completitud: 'Datos' };
