@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T10:27:18.682388Z",
+  "generated_at": "2026-09-15T15:39:06.810544Z",
   "weights": {
     "precio": 0.4,
     "anio": 0.25,
@@ -7,7 +7,7 @@
     "frescura": 0.05,
     "completitud": 0.05
   },
-  "total_count": 48,
+  "total_count": 51,
   "cars": [
     {
       "id": "ml-6170659996",
@@ -15,19 +15,19 @@
       "price": "$185,999",
       "price_int": 185999,
       "year": "2020",
-      "mileage": "40,787 Km",
+      "mileage": "41,825 Km",
       "location": "Guadalajara - Jalisco",
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6170659996-hyundai-accent-16-gl-mid-auto-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=45&type=item&tracking_id=1bc37845-d982-4ee7-83d4-ef3a1cb0bc03&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_817206-MLM117205253447_092026-E.webp",
-      "group_id": "g-5b5133a76d",
-      "_score": 76.4,
+      "link": "https://auto.mercadolibre.com.mx/MLM-6170659996-hyundai-accent-16-gl-mid-auto-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=46&type=item&tracking_id=4ec1902b-9f04-4498-825d-e84da9199229&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_http://http2.mlstatic.com/resources/frontend/statics/processing-image/1.0.0/I-ES.jpg-E.webp",
+      "group_id": "g-882960dec0",
+      "_score": 76.3,
       "_components": {
         "precio": 91.3,
         "anio": 25.0,
-        "km": 94.7,
+        "km": 94.3,
         "frescura": 100.0,
         "completitud": 100.0
       },
@@ -39,14 +39,14 @@
           "price": "$185,999",
           "price_int": 185999,
           "year": "2020",
-          "mileage": "40,787 Km",
+          "mileage": "41,825 Km",
           "location": "Guadalajara - Jalisco",
           "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-6170659996-hyundai-accent-16-gl-mid-auto-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=45&type=item&tracking_id=1bc37845-d982-4ee7-83d4-ef3a1cb0bc03&sid=search",
-          "image": "https://http2.mlstatic.com/D_Q_NP_2X_817206-MLM117205253447_092026-E.webp",
+          "link": "https://auto.mercadolibre.com.mx/MLM-6170659996-hyundai-accent-16-gl-mid-auto-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=46&type=item&tracking_id=4ec1902b-9f04-4498-825d-e84da9199229&sid=search",
+          "image": "https://http2.mlstatic.com/D_Q_NP_2X_http://http2.mlstatic.com/resources/frontend/statics/processing-image/1.0.0/I-ES.jpg-E.webp",
           "transmission": "automatic",
           "brand": "Hyundai",
-          "group_id": "g-5b5133a76d"
+          "group_id": "g-882960dec0"
         }
       ]
     },
@@ -102,7 +102,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-5904436784-kia-rio-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=28&type=item&tracking_id=89459a35-1118-46ec-9dc5-ad51e0fe8bb4&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-5904436784-kia-rio-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=29&type=item&tracking_id=3960d5a8-85a6-45f4-8842-c0270f11ac58&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_681095-MLM114347202594_082026-E.webp",
       "group_id": "g-eb6b9c2803",
       "_score": 67.0,
@@ -124,7 +124,7 @@
           "mileage": "75,390 Km",
           "location": "Guadalajara - Jalisco",
           "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-5904436784-kia-rio-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=28&type=item&tracking_id=89459a35-1118-46ec-9dc5-ad51e0fe8bb4&sid=search",
+          "link": "https://auto.mercadolibre.com.mx/MLM-5904436784-kia-rio-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=29&type=item&tracking_id=3960d5a8-85a6-45f4-8842-c0270f11ac58&sid=search",
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_681095-MLM114347202594_082026-E.webp",
           "transmission": "automatic",
           "brand": "Kia",
@@ -182,7 +182,7 @@
           "source": "seminuevos",
           "link": "https://www.seminuevos.com/vehicle/autos-hyundai-accent-zapopan-2018/4831176",
           "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/992026/4831176/o_o/pt_4831176_1788919323592_626.jpg",
-          "transmission": "automatic",
+          "transmission": "unknown",
           "brand": "Hyundai",
           "group_id": "g-10b8da2efc"
         }
@@ -240,7 +240,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6129270518-hyundai-accent-16-gls-auto-_JM#polycard_client=search-desktop&price_drop=false&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=35&type=item&tracking_id=1bc37845-d982-4ee7-83d4-ef3a1cb0bc03&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6129270518-hyundai-accent-16-gls-auto-_JM#polycard_client=search-desktop&price_drop=false&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=36&type=item&tracking_id=4ec1902b-9f04-4498-825d-e84da9199229&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_934783-MLM116170071698_092026-E.webp",
       "group_id": "g-98c33ecc7c",
       "_score": 65.6,
@@ -262,11 +262,52 @@
           "mileage": "118,493 Km",
           "location": "Guadalajara - Jalisco",
           "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-6129270518-hyundai-accent-16-gls-auto-_JM#polycard_client=search-desktop&price_drop=false&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=35&type=item&tracking_id=1bc37845-d982-4ee7-83d4-ef3a1cb0bc03&sid=search",
+          "link": "https://auto.mercadolibre.com.mx/MLM-6129270518-hyundai-accent-16-gls-auto-_JM#polycard_client=search-desktop&price_drop=false&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=36&type=item&tracking_id=4ec1902b-9f04-4498-825d-e84da9199229&sid=search",
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_934783-MLM116170071698_092026-E.webp",
           "transmission": "automatic",
           "brand": "Hyundai",
           "group_id": "g-98c33ecc7c"
+        }
+      ]
+    },
+    {
+      "id": "sn-4832681",
+      "title": "Toyota Yaris",
+      "price": "$195,000",
+      "price_int": 195000,
+      "year": "2019",
+      "mileage": "90,558 km",
+      "location": "Zapopan",
+      "source": "seminuevos",
+      "brand": "Toyota",
+      "transmission": "unknown",
+      "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-zapopan-2019/4832681",
+      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1492026/4832681/o_o/pt_4832681_1789416630750_45.jpg",
+      "group_id": "g-fef0ab4a51",
+      "_score": 64.2,
+      "_components": {
+        "precio": 81.5,
+        "anio": 12.5,
+        "km": 74.0,
+        "frescura": 100.0,
+        "completitud": 100.0
+      },
+      "rank": 7,
+      "ads": [
+        {
+          "id": "sn-4832681",
+          "title": "Toyota Yaris",
+          "price": "$195,000",
+          "price_int": 195000,
+          "year": "2019",
+          "mileage": "90,558 km",
+          "location": "Zapopan",
+          "source": "seminuevos",
+          "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-zapopan-2019/4832681",
+          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1492026/4832681/o_o/pt_4832681_1789416630750_45.jpg",
+          "transmission": "unknown",
+          "brand": "Toyota",
+          "group_id": "g-fef0ab4a51"
         }
       ]
     },
@@ -281,7 +322,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-2929560907-hyundai-acento-gl-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=40&type=item&tracking_id=1bc37845-d982-4ee7-83d4-ef3a1cb0bc03&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-2929560907-hyundai-acento-gl-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=41&type=item&tracking_id=4ec1902b-9f04-4498-825d-e84da9199229&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_662772-MLM110698385390_052026-E.webp",
       "group_id": "g-12240e2bb4",
       "_score": 63.1,
@@ -292,7 +333,7 @@
         "frescura": 100.0,
         "completitud": 100.0
       },
-      "rank": 7,
+      "rank": 8,
       "ads": [
         {
           "id": "ml-2929560907",
@@ -303,7 +344,7 @@
           "mileage": "61,386 Km",
           "location": "Tlaquepaque - Jalisco",
           "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-2929560907-hyundai-acento-gl-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=40&type=item&tracking_id=1bc37845-d982-4ee7-83d4-ef3a1cb0bc03&sid=search",
+          "link": "https://auto.mercadolibre.com.mx/MLM-2929560907-hyundai-acento-gl-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=41&type=item&tracking_id=4ec1902b-9f04-4498-825d-e84da9199229&sid=search",
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_662772-MLM110698385390_052026-E.webp",
           "transmission": "automatic",
           "brand": "Hyundai",
@@ -322,7 +363,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3330439999-hyundai-accent-16-hb-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=25&type=item&tracking_id=1bc37845-d982-4ee7-83d4-ef3a1cb0bc03&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3330439999-hyundai-accent-16-hb-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=26&type=item&tracking_id=4ec1902b-9f04-4498-825d-e84da9199229&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_734482-MLM116252202967_082026-E.webp",
       "group_id": "g-ee4386b672",
       "_score": 62.1,
@@ -333,7 +374,7 @@
         "frescura": 100.0,
         "completitud": 100.0
       },
-      "rank": 8,
+      "rank": 9,
       "ads": [
         {
           "id": "ml-3330439999",
@@ -344,7 +385,7 @@
           "mileage": "105,000 Km",
           "location": "Zapopan - Jalisco",
           "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-3330439999-hyundai-accent-16-hb-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=25&type=item&tracking_id=1bc37845-d982-4ee7-83d4-ef3a1cb0bc03&sid=search",
+          "link": "https://auto.mercadolibre.com.mx/MLM-3330439999-hyundai-accent-16-hb-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=26&type=item&tracking_id=4ec1902b-9f04-4498-825d-e84da9199229&sid=search",
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_734482-MLM116252202967_082026-E.webp",
           "transmission": "automatic",
           "brand": "Hyundai",
@@ -374,7 +415,7 @@
         "frescura": 100.0,
         "completitud": 100.0
       },
-      "rank": 9,
+      "rank": 10,
       "ads": [
         {
           "id": "sn-787962",
@@ -390,47 +431,6 @@
           "transmission": "automatic",
           "brand": "Kia",
           "group_id": "g-87e4725ac1"
-        }
-      ]
-    },
-    {
-      "id": "sn-744403",
-      "title": "Kia Forte",
-      "price": "$190,000",
-      "price_int": 190000,
-      "year": "2018",
-      "mileage": "122,000 km",
-      "location": "Tlaquepaque",
-      "source": "seminuevos",
-      "brand": "Kia",
-      "transmission": "automatic",
-      "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-tlaquepaque-2018/4646701",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/20241220/4646701/o_o/pt_4646701_1734717037281.jpg",
-      "group_id": "g-d8c4c75584",
-      "_score": 60.0,
-      "_components": {
-        "precio": 87.0,
-        "anio": 0.0,
-        "km": 61.0,
-        "frescura": 100.0,
-        "completitud": 100.0
-      },
-      "rank": 10,
-      "ads": [
-        {
-          "id": "sn-744403",
-          "title": "Kia Forte",
-          "price": "$190,000",
-          "price_int": 190000,
-          "year": "2018",
-          "mileage": "122,000 km",
-          "location": "Tlaquepaque",
-          "source": "seminuevos",
-          "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-tlaquepaque-2018/4646701",
-          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/20241220/4646701/o_o/pt_4646701_1734717037281.jpg",
-          "transmission": "automatic",
-          "brand": "Kia",
-          "group_id": "g-d8c4c75584"
         }
       ]
     }
