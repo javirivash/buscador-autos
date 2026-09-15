@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T15:43:58.873578Z",
+  "generated_at": "2026-09-15T15:46:45.463085Z",
   "weights": {
     "precio": 0.4,
     "anio": 0.25,
@@ -7,7 +7,7 @@
     "frescura": 0.05,
     "completitud": 0.05
   },
-  "total_count": 55,
+  "total_count": 48,
   "cars": [
     {
       "id": "ml-6170659996",
@@ -92,47 +92,6 @@
       ]
     },
     {
-      "id": "sn-116601",
-      "title": "Hyundai Accent",
-      "price": "$224,000",
-      "price_int": 224000,
-      "year": "2022",
-      "mileage": "31,000 km",
-      "location": "Guadalajara",
-      "source": "seminuevos",
-      "brand": "Hyundai",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-hyundai-accent-guadalajara-2022/4830188",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/492026/4830188/o_o/4830188_1788570771342_882.jpeg",
-      "group_id": "g-0c66ba64f5",
-      "_score": 64.7,
-      "_components": {
-        "precio": 50.0,
-        "anio": 50.0,
-        "km": 88.7,
-        "frescura": 100.0,
-        "completitud": 100.0
-      },
-      "rank": 3,
-      "ads": [
-        {
-          "id": "sn-116601",
-          "title": "Hyundai Accent",
-          "price": "$224,000",
-          "price_int": 224000,
-          "year": "2022",
-          "mileage": "31,000 km",
-          "location": "Guadalajara",
-          "source": "seminuevos",
-          "link": "https://www.seminuevos.com/vehicle/autos-hyundai-accent-guadalajara-2022/4830188",
-          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/492026/4830188/o_o/4830188_1788570771342_882.jpeg",
-          "transmission": "unknown",
-          "brand": "Hyundai",
-          "group_id": "g-0c66ba64f5"
-        }
-      ]
-    },
-    {
       "id": "sn-793100",
       "title": "Hyundai Accent",
       "price": "$183,500",
@@ -154,7 +113,7 @@
         "frescura": 100.0,
         "completitud": 100.0
       },
-      "rank": 4,
+      "rank": 3,
       "ads": [
         {
           "id": "sn-793100",
@@ -182,7 +141,7 @@
           "source": "seminuevos",
           "link": "https://www.seminuevos.com/vehicle/autos-hyundai-accent-zapopan-2018/4831176",
           "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/992026/4831176/o_o/pt_4831176_1788919323592_626.jpg",
-          "transmission": "unknown",
+          "transmission": "automatic",
           "brand": "Hyundai",
           "group_id": "g-10b8da2efc"
         }
@@ -210,7 +169,7 @@
         "frescura": 100.0,
         "completitud": 100.0
       },
-      "rank": 5,
+      "rank": 4,
       "ads": [
         {
           "id": "ml-6129270518",
@@ -251,7 +210,7 @@
         "frescura": 100.0,
         "completitud": 100.0
       },
-      "rank": 6,
+      "rank": 5,
       "ads": [
         {
           "id": "ml-3361967869",
@@ -267,129 +226,6 @@
           "transmission": "automatic",
           "brand": "Kia",
           "group_id": "g-eb1fb0c08f"
-        }
-      ]
-    },
-    {
-      "id": "sn-4832681",
-      "title": "Toyota Yaris",
-      "price": "$195,000",
-      "price_int": 195000,
-      "year": "2019",
-      "mileage": "90,558 km",
-      "location": "Zapopan",
-      "source": "seminuevos",
-      "brand": "Toyota",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-zapopan-2019/4832681",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1492026/4832681/o_o/pt_4832681_1789416630750_45.jpg",
-      "group_id": "g-fef0ab4a51",
-      "_score": 62.4,
-      "_components": {
-        "precio": 81.5,
-        "anio": 12.5,
-        "km": 66.5,
-        "frescura": 100.0,
-        "completitud": 100.0
-      },
-      "rank": 7,
-      "ads": [
-        {
-          "id": "sn-4832681",
-          "title": "Toyota Yaris",
-          "price": "$195,000",
-          "price_int": 195000,
-          "year": "2019",
-          "mileage": "90,558 km",
-          "location": "Zapopan",
-          "source": "seminuevos",
-          "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-zapopan-2019/4832681",
-          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1492026/4832681/o_o/pt_4832681_1789416630750_45.jpg",
-          "transmission": "unknown",
-          "brand": "Toyota",
-          "group_id": "g-fef0ab4a51"
-        }
-      ]
-    },
-    {
-      "id": "sn-4815737",
-      "title": "Kia Rio",
-      "price": "$228,000",
-      "price_int": 228000,
-      "year": "2023",
-      "mileage": "73,251 km",
-      "location": "Zapopan",
-      "source": "seminuevos",
-      "brand": "Kia",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-zapopan-2023/4815737",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1772026/4815737/o_o/4815737_1788545228263_829.",
-      "group_id": "g-782bb7ea3d",
-      "_score": 62.1,
-      "_components": {
-        "precio": 45.7,
-        "anio": 62.5,
-        "km": 72.9,
-        "frescura": 100.0,
-        "completitud": 100.0
-      },
-      "rank": 8,
-      "ads": [
-        {
-          "id": "sn-4815737",
-          "title": "Kia Rio",
-          "price": "$228,000",
-          "price_int": 228000,
-          "year": "2023",
-          "mileage": "73,251 km",
-          "location": "Zapopan",
-          "source": "seminuevos",
-          "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-zapopan-2023/4815737",
-          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1772026/4815737/o_o/4815737_1788545228263_829.",
-          "transmission": "unknown",
-          "brand": "Kia",
-          "group_id": "g-782bb7ea3d"
-        }
-      ]
-    },
-    {
-      "id": "sn-4822678",
-      "title": "Kia Rio",
-      "price": "$228,000",
-      "price_int": 228000,
-      "year": "2023",
-      "mileage": "75,281 km",
-      "location": "Zapopan",
-      "source": "seminuevos",
-      "brand": "Kia",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-zapopan-2023/4822678",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1082026/4822678/o_o/4822678_1788981510110_894.",
-      "group_id": "g-7517dd73fa",
-      "_score": 61.9,
-      "_components": {
-        "precio": 45.7,
-        "anio": 62.5,
-        "km": 72.2,
-        "frescura": 100.0,
-        "completitud": 100.0
-      },
-      "rank": 9,
-      "ads": [
-        {
-          "id": "sn-4822678",
-          "title": "Kia Rio",
-          "price": "$228,000",
-          "price_int": 228000,
-          "year": "2023",
-          "mileage": "75,281 km",
-          "location": "Zapopan",
-          "source": "seminuevos",
-          "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-zapopan-2023/4822678",
-          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1082026/4822678/o_o/4822678_1788981510110_894.",
-          "transmission": "unknown",
-          "brand": "Kia",
-          "group_id": "g-7517dd73fa"
         }
       ]
     },
@@ -415,7 +251,7 @@
         "frescura": 100.0,
         "completitud": 100.0
       },
-      "rank": 10,
+      "rank": 6,
       "ads": [
         {
           "id": "ml-2929560907",
@@ -431,6 +267,170 @@
           "transmission": "automatic",
           "brand": "Hyundai",
           "group_id": "g-12240e2bb4"
+        }
+      ]
+    },
+    {
+      "id": "ml-3330439999",
+      "title": "Hyundai Accent 2019 1.6 Hb Gls At",
+      "price": "$196,600",
+      "price_int": 196600,
+      "year": "2019",
+      "mileage": "105,000 Km",
+      "location": "Zapopan - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Hyundai",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3330439999-hyundai-accent-16-hb-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=26&type=item&tracking_id=eef410b2-fc84-49a8-a657-13b4cfa7c4f4&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_734482-MLM116252202967_082026-E.webp",
+      "group_id": "g-ee4386b672",
+      "_score": 60.3,
+      "_components": {
+        "precio": 79.8,
+        "anio": 12.5,
+        "km": 61.1,
+        "frescura": 100.0,
+        "completitud": 100.0
+      },
+      "rank": 7,
+      "ads": [
+        {
+          "id": "ml-3330439999",
+          "title": "Hyundai Accent 2019 1.6 Hb Gls At",
+          "price": "$196,600",
+          "price_int": 196600,
+          "year": "2019",
+          "mileage": "105,000 Km",
+          "location": "Zapopan - Jalisco",
+          "source": "mercadolibre",
+          "link": "https://auto.mercadolibre.com.mx/MLM-3330439999-hyundai-accent-16-hb-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=26&type=item&tracking_id=eef410b2-fc84-49a8-a657-13b4cfa7c4f4&sid=search",
+          "image": "https://http2.mlstatic.com/D_Q_NP_2X_734482-MLM116252202967_082026-E.webp",
+          "transmission": "automatic",
+          "brand": "Hyundai",
+          "group_id": "g-ee4386b672"
+        }
+      ]
+    },
+    {
+      "id": "sn-4798682",
+      "title": "Kia K3",
+      "price": "$270,000",
+      "price_int": 270000,
+      "year": "2026",
+      "mileage": "566 km",
+      "location": "Tlaquepaque",
+      "source": "seminuevos",
+      "brand": "Kia",
+      "transmission": "unknown",
+      "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-tlaquepaque-2026/4798682",
+      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2152026/4798682/o_o/pt_4798682_1779336178737_961.jpg",
+      "group_id": "g-bd5bedc71a",
+      "_score": 60.0,
+      "_components": {
+        "precio": 0.0,
+        "anio": 100.0,
+        "km": 100.0,
+        "frescura": 100.0,
+        "completitud": 100.0
+      },
+      "rank": 8,
+      "ads": [
+        {
+          "id": "sn-4798682",
+          "title": "Kia K3",
+          "price": "$270,000",
+          "price_int": 270000,
+          "year": "2026",
+          "mileage": "566 km",
+          "location": "Tlaquepaque",
+          "source": "seminuevos",
+          "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-tlaquepaque-2026/4798682",
+          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2152026/4798682/o_o/pt_4798682_1779336178737_961.jpg",
+          "transmission": "unknown",
+          "brand": "Kia",
+          "group_id": "g-bd5bedc71a"
+        }
+      ]
+    },
+    {
+      "id": "sn-787962",
+      "title": "Kia Rio",
+      "price": "$210,000",
+      "price_int": 210000,
+      "year": "2020",
+      "mileage": "91,000 km",
+      "location": "Guadalajara",
+      "source": "seminuevos",
+      "brand": "Kia",
+      "transmission": "automatic",
+      "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-guadalajara-2020/4823661",
+      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1382026/4823661/o_o/pt_4823661_1786657532440_376.jpg",
+      "group_id": "g-87e4725ac1",
+      "_score": 58.9,
+      "_components": {
+        "precio": 65.2,
+        "anio": 25.0,
+        "km": 66.3,
+        "frescura": 100.0,
+        "completitud": 100.0
+      },
+      "rank": 9,
+      "ads": [
+        {
+          "id": "sn-787962",
+          "title": "Kia Rio",
+          "price": "$210,000",
+          "price_int": 210000,
+          "year": "2020",
+          "mileage": "91,000 km",
+          "location": "Guadalajara",
+          "source": "seminuevos",
+          "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-guadalajara-2020/4823661",
+          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1382026/4823661/o_o/pt_4823661_1786657532440_376.jpg",
+          "transmission": "automatic",
+          "brand": "Kia",
+          "group_id": "g-87e4725ac1"
+        }
+      ]
+    },
+    {
+      "id": "sn-744403",
+      "title": "Kia Forte",
+      "price": "$190,000",
+      "price_int": 190000,
+      "year": "2018",
+      "mileage": "122,000 km",
+      "location": "Tlaquepaque",
+      "source": "seminuevos",
+      "brand": "Kia",
+      "transmission": "automatic",
+      "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-tlaquepaque-2018/4646701",
+      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/20241220/4646701/o_o/pt_4646701_1734717037281.jpg",
+      "group_id": "g-d8c4c75584",
+      "_score": 58.5,
+      "_components": {
+        "precio": 87.0,
+        "anio": 0.0,
+        "km": 54.8,
+        "frescura": 100.0,
+        "completitud": 100.0
+      },
+      "rank": 10,
+      "ads": [
+        {
+          "id": "sn-744403",
+          "title": "Kia Forte",
+          "price": "$190,000",
+          "price_int": 190000,
+          "year": "2018",
+          "mileage": "122,000 km",
+          "location": "Tlaquepaque",
+          "source": "seminuevos",
+          "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-tlaquepaque-2018/4646701",
+          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/20241220/4646701/o_o/pt_4646701_1734717037281.jpg",
+          "transmission": "automatic",
+          "brand": "Kia",
+          "group_id": "g-d8c4c75584"
         }
       ]
     }
