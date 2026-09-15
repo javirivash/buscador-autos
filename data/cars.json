@@ -21,7 +21,7 @@
       "Jalisco"
     ]
   },
-  "total_count": 55,
+  "total_count": 54,
   "new_count": 6,
   "cars": [
     {
@@ -818,21 +818,6 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3439862003-toyota-prius-c-hibrido-2020-plata-9477-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=28&type=item&tracking_id=aab820d5-8112-421f-810f-b1126388cd14&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_931669-MLM117058418579_092026-E.webp",
       "group_id": "g-07465b1274"
-    },
-    {
-      "id": "sn-4798682",
-      "title": "Kia K3",
-      "price": "$270,000",
-      "price_int": 270000,
-      "year": "2026",
-      "mileage": "566 km",
-      "location": "Tlaquepaque",
-      "source": "seminuevos",
-      "brand": "Kia",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-tlaquepaque-2026/4798682",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2152026/4798682/o_o/pt_4798682_1779336178737_961.jpg",
-      "group_id": "g-bd5bedc71a"
     },
     {
       "id": "sn-265006",

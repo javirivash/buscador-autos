@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T17:28:20.765708Z",
+  "generated_at": "2026-09-15T19:05:50.701677Z",
   "weights": {
     "precio": 0.4,
     "anio": 0.25,
@@ -7,7 +7,7 @@
     "frescura": 0.05,
     "completitud": 0.05
   },
-  "total_count": 49,
+  "total_count": 48,
   "cars": [
     {
       "id": "ml-6170659996",
@@ -23,11 +23,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6170659996-hyundai-accent-16-gl-mid-auto-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=45&type=item&tracking_id=d0d90142-21fe-483b-b3d0-4e8851cb1138&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_601104-MLM116214132484_092026-E.webp",
       "group_id": "g-882960dec0",
-      "_score": 71.7,
+      "_score": 74.1,
       "_components": {
         "precio": 85.7,
         "anio": 25.0,
-        "km": 84.6,
+        "km": 94.3,
         "frescura": 100.0,
         "completitud": 100.0
       },
@@ -64,11 +64,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6129270518-hyundai-accent-16-gls-auto-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=36&type=item&tracking_id=d0d90142-21fe-483b-b3d0-4e8851cb1138&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_847934-MLM117704684519_092026-E.webp",
       "group_id": "g-210e5b578d",
-      "_score": 64.0,
+      "_score": 65.6,
       "_components": {
         "precio": 100.0,
         "anio": 0.0,
-        "km": 56.1,
+        "km": 62.5,
         "frescura": 100.0,
         "completitud": 100.0
       },
@@ -105,11 +105,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-5904436784-kia-rio-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=29&type=item&tracking_id=1acc6036-b5b8-47fd-a403-489d4f73b632&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_681095-MLM114347202594_082026-E.webp",
       "group_id": "g-eb6b9c2803",
-      "_score": 62.7,
+      "_score": 64.8,
       "_components": {
         "precio": 86.7,
         "anio": 0.0,
-        "km": 72.1,
+        "km": 80.3,
         "frescura": 100.0,
         "completitud": 100.0
       },
@@ -133,6 +133,47 @@
       ]
     },
     {
+      "id": "ml-3361967869",
+      "title": "Kia Rio 2020 1.6l L A/t Sedan",
+      "price": "$210,000",
+      "price_int": 210000,
+      "year": "2020",
+      "mileage": "43,071 Km",
+      "location": "Zapopan - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Kia",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3361967869-kia-rio-2020-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=40&type=item&tracking_id=c491185d-347f-4d89-a919-ab3f71ce9abb&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_999021-MLM115102741002_082026-E.webp",
+      "group_id": "g-eb1fb0c08f",
+      "_score": 64.2,
+      "_components": {
+        "precio": 61.2,
+        "anio": 25.0,
+        "km": 93.7,
+        "frescura": 100.0,
+        "completitud": 100.0
+      },
+      "rank": 4,
+      "ads": [
+        {
+          "id": "ml-3361967869",
+          "title": "Kia Rio 2020 1.6l L A/t Sedan",
+          "price": "$210,000",
+          "price_int": 210000,
+          "year": "2020",
+          "mileage": "43,071 Km",
+          "location": "Zapopan - Jalisco",
+          "source": "mercadolibre",
+          "link": "https://auto.mercadolibre.com.mx/MLM-3361967869-kia-rio-2020-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=40&type=item&tracking_id=c491185d-347f-4d89-a919-ab3f71ce9abb&sid=search",
+          "image": "https://http2.mlstatic.com/D_Q_NP_2X_999021-MLM115102741002_082026-E.webp",
+          "transmission": "automatic",
+          "brand": "Kia",
+          "group_id": "g-eb1fb0c08f"
+        }
+      ]
+    },
+    {
       "id": "sn-793100",
       "title": "Hyundai Accent",
       "price": "$183,500",
@@ -146,15 +187,15 @@
       "link": "https://www.seminuevos.com/vehicle/autos-hyundai-accent-guadalajara-2018/4771189",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1222026/4771189/o_o/4771189_1770913629783_203.jpg",
       "group_id": "g-10b8da2efc",
-      "_score": 61.8,
+      "_score": 63.7,
       "_components": {
         "precio": 88.3,
         "anio": 0.0,
-        "km": 65.9,
+        "km": 73.4,
         "frescura": 100.0,
         "completitud": 100.0
       },
-      "rank": 4,
+      "rank": 5,
       "ads": [
         {
           "id": "sn-793100",
@@ -189,88 +230,6 @@
       ]
     },
     {
-      "id": "ml-3361967869",
-      "title": "Kia Rio 2020 1.6l L A/t Sedan",
-      "price": "$210,000",
-      "price_int": 210000,
-      "year": "2020",
-      "mileage": "43,071 Km",
-      "location": "Zapopan - Jalisco",
-      "source": "mercadolibre",
-      "brand": "Kia",
-      "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3361967869-kia-rio-2020-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=40&type=item&tracking_id=c491185d-347f-4d89-a919-ab3f71ce9abb&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_999021-MLM115102741002_082026-E.webp",
-      "group_id": "g-eb1fb0c08f",
-      "_score": 61.8,
-      "_components": {
-        "precio": 61.2,
-        "anio": 25.0,
-        "km": 84.2,
-        "frescura": 100.0,
-        "completitud": 100.0
-      },
-      "rank": 5,
-      "ads": [
-        {
-          "id": "ml-3361967869",
-          "title": "Kia Rio 2020 1.6l L A/t Sedan",
-          "price": "$210,000",
-          "price_int": 210000,
-          "year": "2020",
-          "mileage": "43,071 Km",
-          "location": "Zapopan - Jalisco",
-          "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-3361967869-kia-rio-2020-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=40&type=item&tracking_id=c491185d-347f-4d89-a919-ab3f71ce9abb&sid=search",
-          "image": "https://http2.mlstatic.com/D_Q_NP_2X_999021-MLM115102741002_082026-E.webp",
-          "transmission": "automatic",
-          "brand": "Kia",
-          "group_id": "g-eb1fb0c08f"
-        }
-      ]
-    },
-    {
-      "id": "sn-4798682",
-      "title": "Kia K3",
-      "price": "$270,000",
-      "price_int": 270000,
-      "year": "2026",
-      "mileage": "566 km",
-      "location": "Tlaquepaque",
-      "source": "seminuevos",
-      "brand": "Kia",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-tlaquepaque-2026/4798682",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2152026/4798682/o_o/pt_4798682_1779336178737_961.jpg",
-      "group_id": "g-bd5bedc71a",
-      "_score": 60.0,
-      "_components": {
-        "precio": 0.0,
-        "anio": 100.0,
-        "km": 100.0,
-        "frescura": 100.0,
-        "completitud": 100.0
-      },
-      "rank": 6,
-      "ads": [
-        {
-          "id": "sn-4798682",
-          "title": "Kia K3",
-          "price": "$270,000",
-          "price_int": 270000,
-          "year": "2026",
-          "mileage": "566 km",
-          "location": "Tlaquepaque",
-          "source": "seminuevos",
-          "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-tlaquepaque-2026/4798682",
-          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2152026/4798682/o_o/pt_4798682_1779336178737_961.jpg",
-          "transmission": "unknown",
-          "brand": "Kia",
-          "group_id": "g-bd5bedc71a"
-        }
-      ]
-    },
-    {
       "id": "ml-2929560907",
       "title": "Hyundai Accent 2021 1.6 Sedan Gl At",
       "price": "$219,000",
@@ -284,15 +243,15 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-2929560907-hyundai-acento-gl-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=41&type=item&tracking_id=d0d90142-21fe-483b-b3d0-4e8851cb1138&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_662772-MLM110698385390_052026-E.webp",
       "group_id": "g-12240e2bb4",
-      "_score": 59.5,
+      "_score": 61.7,
       "_components": {
         "precio": 52.0,
         "anio": 37.5,
-        "km": 77.3,
+        "km": 86.1,
         "frescura": 100.0,
         "completitud": 100.0
       },
-      "rank": 7,
+      "rank": 6,
       "ads": [
         {
           "id": "ml-2929560907",
@@ -325,15 +284,15 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3330439999-hyundai-accent-16-hb-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=26&type=item&tracking_id=d0d90142-21fe-483b-b3d0-4e8851cb1138&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_734482-MLM116252202967_082026-E.webp",
       "group_id": "g-ee4386b672",
-      "_score": 58.4,
+      "_score": 60.1,
       "_components": {
         "precio": 74.9,
         "anio": 12.5,
-        "km": 61.1,
+        "km": 68.0,
         "frescura": 100.0,
         "completitud": 100.0
       },
-      "rank": 8,
+      "rank": 7,
       "ads": [
         {
           "id": "ml-3330439999",
@@ -366,15 +325,15 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-guadalajara-2020/4823661",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1382026/4823661/o_o/pt_4823661_1786657532440_376.jpg",
       "group_id": "g-87e4725ac1",
-      "_score": 57.3,
+      "_score": 59.2,
       "_components": {
         "precio": 61.2,
         "anio": 25.0,
-        "km": 66.3,
+        "km": 73.9,
         "frescura": 100.0,
         "completitud": 100.0
       },
-      "rank": 9,
+      "rank": 8,
       "ads": [
         {
           "id": "sn-787962",
@@ -407,15 +366,15 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-zapopan-2023/4817620",
       "image": "https://images.latamautos.com/thumbs/w/lg/ptx_migration_mexico/2372026/4817620/o_o/pt_4817620_1784831380450_70.jpg",
       "group_id": "g-0b9ba09799",
-      "_score": 56.9,
+      "_score": 59.1,
       "_components": {
         "precio": 30.7,
         "anio": 62.5,
-        "km": 76.1,
+        "km": 84.7,
         "frescura": 100.0,
         "completitud": 100.0
       },
-      "rank": 10,
+      "rank": 9,
       "ads": [
         {
           "id": "sn-18998",
@@ -431,6 +390,47 @@
           "transmission": "automatic",
           "brand": "Kia",
           "group_id": "g-0b9ba09799"
+        }
+      ]
+    },
+    {
+      "id": "sn-630217",
+      "title": "Kia K3",
+      "price": "$250,000",
+      "price_int": 250000,
+      "year": "2024",
+      "mileage": "59,067 km",
+      "location": "Zapopan",
+      "source": "seminuevos",
+      "brand": "Kia",
+      "transmission": "unknown",
+      "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-zapopan-2024/4819544",
+      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/3072026/4819544/o_o/4819544_1789408637995_223.",
+      "group_id": "g-2d5d97f806",
+      "_score": 58.7,
+      "_components": {
+        "precio": 20.4,
+        "anio": 75.0,
+        "km": 87.1,
+        "frescura": 100.0,
+        "completitud": 100.0
+      },
+      "rank": 10,
+      "ads": [
+        {
+          "id": "sn-630217",
+          "title": "Kia K3",
+          "price": "$250,000",
+          "price_int": 250000,
+          "year": "2024",
+          "mileage": "59,067 km",
+          "location": "Zapopan",
+          "source": "seminuevos",
+          "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-zapopan-2024/4819544",
+          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/3072026/4819544/o_o/4819544_1789408637995_223.",
+          "transmission": "unknown",
+          "brand": "Kia",
+          "group_id": "g-2d5d97f806"
         }
       ]
     }
