@@ -331,12 +331,12 @@
   <div class="tab-legend">Actualizado: <b id="lastUpdate">Cargando...</b></div>
 
   <div class="tabs">
-    <button class="tab-btn active" id="tabBtnHoy" onclick="switchTab('hoy')">Hoy<span class="tab-badge" id="badgeHoy" data-zero="1">0</span></button>
-    <button class="tab-btn" id="tabBtnTodos" onclick="switchTab('todos')">Todos<span class="tab-badge" id="badgeTodos" data-zero="1">0</span></button>
+    <button class="tab-btn active" id="tabBtnTodos" onclick="switchTab('todos')">Todos<span class="tab-badge" id="badgeTodos" data-zero="1">0</span></button>
+    <button class="tab-btn" id="tabBtnHoy" onclick="switchTab('hoy')">Hoy<span class="tab-badge" id="badgeHoy" data-zero="1">0</span></button>
     <button class="tab-btn" id="tabBtnTop10" onclick="switchTab('top10')">Top 10</button>
   </div>
 
-  <div class="tab-pane active" id="pane-hoy">
+  <div class="tab-pane" id="pane-hoy">
     <div class="top10-note" id="hoyNote">Cargando...</div>
     <div class="grid" id="gridHoy"></div>
   </div>
@@ -346,7 +346,7 @@
     <div class="grid" id="gridTop"></div>
   </div>
 
-  <div class="tab-pane" id="pane-todos">
+  <div class="tab-pane active" id="pane-todos">
     <button class="filters-toggle" id="filtersToggle" onclick="toggleFilters()" aria-expanded="false">
       <span class="ft-row"><span class="fc" id="filterCountToggle" data-zero="1">0</span> Filtros</span>
       <span class="ft-tail">
