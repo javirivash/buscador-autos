@@ -36,7 +36,7 @@
   .topbar {
     display: flex; align-items: center; justify-content: space-between; gap: 12px;
     background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
-    box-shadow: var(--shadow); padding: 10px 14px; margin-bottom: 12px;
+    box-shadow: var(--shadow); padding: 6px 14px; min-height: 48px; margin-bottom: 8px;
   }
   .topbar .tb-brand { min-width: 0; flex: 1; }
   .topbar .tb-name { font-size: 15px; font-weight: 700; letter-spacing: -.02em; line-height: 1.2; }
@@ -151,7 +151,7 @@
   .filters-toggle {
     display: flex; align-items: center; justify-content: space-between; width: 100%;
     background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
-    box-shadow: var(--shadow); padding: 0; overflow: hidden; margin-bottom: 12px;
+    box-shadow: var(--shadow); padding: 0; overflow: hidden; min-height: 48px; margin-bottom: 8px;
   }
   .filters-toggle .ft-row {
     display: flex; align-items: center; gap: 6px; padding: 12px 14px; flex: 1;
@@ -259,10 +259,10 @@
   .tabs {
     display: flex; gap: 6px; background: var(--surface);
     border: 1px solid var(--border); border-radius: var(--radius);
-    padding: 6px; box-shadow: var(--shadow); margin-bottom: 14px;
+    padding: 6px; box-shadow: var(--shadow); min-height: 48px; margin-bottom: 8px;
   }
   .tab-btn {
-    flex: 1; border: none; background: transparent; padding: 11px 0;
+    flex: 1; border: none; background: transparent; padding: 9px 0;
     font-size: 14px; font-weight: 600; color: var(--text-secondary);
     border-radius: var(--radius-sm); cursor: pointer; font-family: inherit;
     transition: background .15s, color .15s; text-align: center;
@@ -337,7 +337,7 @@
       <span class="ft-row"><span class="fc" id="filterCountToggle" data-zero="1">0</span> Filtros</span>
       <span class="ft-tail">
         <span class="ft-count" id="resultsCount">0 resultados</span>
-        <span class="ft-arrow"><svg viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 1 L10 7 M10 1 L2 7"/></svg></span>
+        <span class="ft-arrow"><svg viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 1 L6 7 M10 1 L6 7"/></svg></span>
       </span>
     </button>
 
