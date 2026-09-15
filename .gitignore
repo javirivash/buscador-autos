@@ -3,6 +3,7 @@ scraper.py
 scraper_config.json
 autosearch-scraper.sh
 autosearch-scraper.py
+fetch_missing_images.py
 
 # HTML with embedded data (redundant, stale)
 autos.html
