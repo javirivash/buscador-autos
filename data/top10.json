@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T05:40:33.616563Z",
+  "generated_at": "2026-09-15T05:49:26.393220Z",
   "weights": {
     "precio": 0.3833,
     "anio": 0.2333,
@@ -20,7 +20,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6170659996-hyundai-accent-16-gl-mid-auto-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=44&type=item&tracking_id=a44c7bb5-2f80-4e91-a467-f6ab8c649a95&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6170659996-hyundai-accent-16-gl-mid-auto-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=45&type=item&tracking_id=1bc37845-d982-4ee7-83d4-ef3a1cb0bc03&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_817206-MLM117205253447_092026-E.webp",
       "_score": 75.7,
       "_components": {
@@ -43,7 +43,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-5904436784-kia-rio-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=28&type=item&tracking_id=77f7751f-1ba8-4090-94a7-76eddba54a04&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-5904436784-kia-rio-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=28&type=item&tracking_id=89459a35-1118-46ec-9dc5-ad51e0fe8bb4&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_681095-MLM114347202594_082026-E.webp",
       "_score": 67.2,
       "_components": {
@@ -89,7 +89,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6129270518-hyundai-accent-16-gls-auto-_JM#polycard_client=search-desktop&price_drop=false&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=34&type=item&tracking_id=a44c7bb5-2f80-4e91-a467-f6ab8c649a95&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6129270518-hyundai-accent-16-gls-auto-_JM#polycard_client=search-desktop&price_drop=false&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=35&type=item&tracking_id=1bc37845-d982-4ee7-83d4-ef3a1cb0bc03&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_934783-MLM116170071698_092026-E.webp",
       "_score": 66.4,
       "_components": {
