@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T16:16:12.658579Z",
+  "generated_at": "2026-09-15T16:39:12.977735Z",
   "criterios": {
     "marcas": [
       "Toyota",
@@ -126,7 +126,7 @@
       "brand": "Kia",
       "transmission": "unknown",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-tlaquepaque-2018/4646701",
-      "image": "/vehicleCardPlaceHolder.png",
+      "image": "https://images.latamautos.com/thumbs/w/lg/ptx_migration_mexico/20241220/4646701/o_o/pt_4646701_1734717037281.jpg",
       "group_id": "g-d8c4c75584"
     },
     {
@@ -846,7 +846,7 @@
       "brand": "Kia",
       "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-guadalajara-2019/4831378",
-      "image": "",
+      "image": "https://images.latamautos.com/thumbs/w/lg/ptx_migration_mexico/992026/4831378/o_o/pt_4831378_1788986655958_443.jpg",
       "group_id": "g-593bf541f0"
     },
     {
