@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T16:39:12.977735Z",
+  "generated_at": "2026-09-15T16:48:00.817202Z",
   "criterios": {
     "marcas": [
       "Toyota",
@@ -22,7 +22,7 @@
     ]
   },
   "total_count": 61,
-  "new_count": 7,
+  "new_count": 0,
   "cars": [
     {
       "id": "ml-6129270518",
@@ -35,7 +35,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6129270518-hyundai-accent-16-gls-auto-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=36&type=item&tracking_id=735a846c-f4ee-4f99-a014-3e9441ee40a4&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6129270518-hyundai-accent-16-gls-auto-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=36&type=item&tracking_id=9d5cf0a5-a746-4ed9-af6a-90f3fe038453&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_847934-MLM117704684519_092026-E.webp",
       "group_id": "g-210e5b578d"
     },
@@ -80,7 +80,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-5904436784-kia-rio-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=29&type=item&tracking_id=88c616a3-55ed-4650-9814-95211136413e&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-5904436784-kia-rio-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=29&type=item&tracking_id=89a2114e-5d0d-4ad4-903a-742b57a364dd&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_681095-MLM114347202594_082026-E.webp",
       "group_id": "g-eb6b9c2803"
     },
@@ -95,7 +95,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6170659996-hyundai-accent-16-gl-mid-auto-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=45&type=item&tracking_id=735a846c-f4ee-4f99-a014-3e9441ee40a4&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6170659996-hyundai-accent-16-gl-mid-auto-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=45&type=item&tracking_id=9d5cf0a5-a746-4ed9-af6a-90f3fe038453&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_601104-MLM116214132484_092026-E.webp",
       "group_id": "g-882960dec0"
     },
@@ -126,7 +126,7 @@
       "brand": "Kia",
       "transmission": "unknown",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-tlaquepaque-2018/4646701",
-      "image": "https://images.latamautos.com/thumbs/w/lg/ptx_migration_mexico/20241220/4646701/o_o/pt_4646701_1734717037281.jpg",
+      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/20241220/4646701/o_o/pt_4646701_1734717037281.jpg",
       "group_id": "g-d8c4c75584"
     },
     {
@@ -155,7 +155,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3330439999-hyundai-accent-16-hb-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=26&type=item&tracking_id=735a846c-f4ee-4f99-a014-3e9441ee40a4&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3330439999-hyundai-accent-16-hb-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=26&type=item&tracking_id=9d5cf0a5-a746-4ed9-af6a-90f3fe038453&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_734482-MLM116252202967_082026-E.webp",
       "group_id": "g-ee4386b672"
     },
@@ -200,7 +200,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6204115338-kia-forte-2019-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=32&type=item&tracking_id=2a0e2c89-f1cd-4374-b191-935677e5aa71&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6204115338-kia-forte-2019-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=32&type=item&tracking_id=69a2af5d-66c9-47ad-8dde-9847b0c875b0&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_804722-MLM117496095765_092026-E.webp",
       "group_id": "g-69bbacedd6"
     },
@@ -215,7 +215,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-2929560907-hyundai-acento-gl-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=41&type=item&tracking_id=735a846c-f4ee-4f99-a014-3e9441ee40a4&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-2929560907-hyundai-acento-gl-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=41&type=item&tracking_id=9d5cf0a5-a746-4ed9-af6a-90f3fe038453&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_662772-MLM110698385390_052026-E.webp",
       "group_id": "g-12240e2bb4"
     },
@@ -260,7 +260,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3479034703-hyundai-accent-2021-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=2&type=item&tracking_id=3479cdd7-066a-43b2-ac1f-ae5aa9f5f3f8&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3479034703-hyundai-accent-2021-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=2&type=item&tracking_id=0e4d87cd-f16e-4fe4-be03-04ebe217b4cc&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_685886-MLM117496147445_092026-E.webp",
       "group_id": "g-c993744e33"
     },
@@ -275,7 +275,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6203940716-hyundai-elantra-2019-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=47&type=item&tracking_id=4b91113f-e606-446d-92b8-d6479a9dddc3&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6203940716-hyundai-elantra-2019-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=47&type=item&tracking_id=c7e830ed-0fb9-493b-83d3-38a85a22adc3&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_814081-MLM117525519727_092026-E.webp",
       "group_id": "g-aa0b339ac1"
     },
@@ -545,7 +545,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3400224351-kia-forte-sedan-2021-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=38&type=item&tracking_id=2a0e2c89-f1cd-4374-b191-935677e5aa71&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3400224351-kia-forte-sedan-2021-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=38&type=item&tracking_id=69a2af5d-66c9-47ad-8dde-9847b0c875b0&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_771532-MLM115391553276_082026-E.webp",
       "group_id": "g-a1163b7b4e"
     },
@@ -680,7 +680,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6160359960-kia-rio-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=44&type=item&tracking_id=88c616a3-55ed-4650-9814-95211136413e&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6160359960-kia-rio-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=44&type=item&tracking_id=89a2114e-5d0d-4ad4-903a-742b57a364dd&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_861661-MLM116185059872_092026-E.webp",
       "group_id": "g-64c3b74114"
     },
@@ -695,7 +695,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3496087333-hyundai-accent-16-hb-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=11&type=item&tracking_id=735a846c-f4ee-4f99-a014-3e9441ee40a4&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3496087333-hyundai-accent-16-hb-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=11&type=item&tracking_id=9d5cf0a5-a746-4ed9-af6a-90f3fe038453&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_657349-MLM117661785617_092026-E.webp",
       "group_id": "g-44a1a22d20"
     },
@@ -740,7 +740,7 @@
       "source": "mercadolibre",
       "brand": "Honda",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3446976033-honda-city-15-sport-cvt-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=32&type=item&tracking_id=34397cfc-efd0-4282-a401-4f53b99c9a3d&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3446976033-honda-city-15-sport-cvt-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=32&type=item&tracking_id=251de643-5bca-4258-948a-f79f34c5a31f&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_977203-MLM115699913878_092026-E.webp",
       "group_id": "g-010f4980bc"
     },
@@ -755,7 +755,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6203921934-kia-kia-rio-hb-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=23&type=item&tracking_id=88c616a3-55ed-4650-9814-95211136413e&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6203921934-kia-kia-rio-hb-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=23&type=item&tracking_id=89a2114e-5d0d-4ad4-903a-742b57a364dd&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_721596-MLM117494128259_092026-E.webp",
       "group_id": "g-511b56b35f"
     },
@@ -785,7 +785,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6112502310-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=24&type=item&tracking_id=7b63c85e-337f-4fbe-94ea-795d5cbf0f71&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6112502310-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=24&type=item&tracking_id=c8786726-3936-4296-949d-383ce0b828cb&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_972323-MLM116839347909_082026-E.webp",
       "group_id": "g-9e0ac000e3"
     },
@@ -800,7 +800,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3387771987-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=25&type=item&tracking_id=7b63c85e-337f-4fbe-94ea-795d5cbf0f71&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3387771987-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=25&type=item&tracking_id=c8786726-3936-4296-949d-383ce0b828cb&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_702333-MLM116674889251_082026-E.webp",
       "group_id": "g-a2da9dd941"
     },
@@ -815,7 +815,7 @@
       "source": "mercadolibre",
       "brand": "Toyota",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6210306656-toyota-camry-25-le-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=45&type=item&tracking_id=ee78e6c9-f518-4211-a272-fcd958220467&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6210306656-toyota-camry-25-le-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=44&type=item&tracking_id=6af0e15c-796f-45b4-ad7d-7fc362f755e6&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_868558-MLM117540123187_092026-E.webp",
       "group_id": "g-9e5699723f"
     },
@@ -875,7 +875,7 @@
       "source": "mercadolibre",
       "brand": "Honda",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3467663749-honda-city-15-ex-at-cvt-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=9&type=item&tracking_id=9b3678b6-c314-4f52-99d2-98e090e39e00&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3467663749-honda-city-15-ex-at-cvt-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=9&type=item&tracking_id=0a2752c9-f74e-4f25-b62d-af7f14a7629d&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_799132-MLM115913508006_092026-E.webp",
       "group_id": "g-157643e7a6"
     },
@@ -940,111 +940,5 @@
       "group_id": "g-acf6ecf530"
     }
   ],
-  "new_cars": [
-    {
-      "id": "sn-4817591",
-      "title": "Toyota Yaris",
-      "price": "$228,000",
-      "price_int": 228000,
-      "year": "2019",
-      "mileage": "125,000 km",
-      "location": "Guadalajara",
-      "source": "seminuevos",
-      "brand": "Toyota",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-guadalajara-2019/4817591",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2372026/4817591/o_o/pt_4817591_1784827738817_541.jpg",
-      "group_id": "g-691065099c"
-    },
-    {
-      "id": "sn-4832681",
-      "title": "Toyota Yaris",
-      "price": "$195,000",
-      "price_int": 195000,
-      "year": "2019",
-      "mileage": "90,558 km",
-      "location": "Zapopan",
-      "source": "seminuevos",
-      "brand": "Toyota",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-zapopan-2019/4832681",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1492026/4832681/o_o/pt_4832681_1789416630750_45.jpg",
-      "group_id": "g-fef0ab4a51"
-    },
-    {
-      "id": "sn-4815737",
-      "title": "Kia Rio",
-      "price": "$228,000",
-      "price_int": 228000,
-      "year": "2023",
-      "mileage": "73,251 km",
-      "location": "Zapopan",
-      "source": "seminuevos",
-      "brand": "Kia",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-zapopan-2023/4815737",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1772026/4815737/o_o/4815737_1788545228263_829.",
-      "group_id": "g-782bb7ea3d"
-    },
-    {
-      "id": "sn-4822678",
-      "title": "Kia Rio",
-      "price": "$228,000",
-      "price_int": 228000,
-      "year": "2023",
-      "mileage": "75,281 km",
-      "location": "Zapopan",
-      "source": "seminuevos",
-      "brand": "Kia",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-zapopan-2023/4822678",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1082026/4822678/o_o/4822678_1788981510110_894.",
-      "group_id": "g-7517dd73fa"
-    },
-    {
-      "id": "sn-4822595",
-      "title": "Kia Forte LX",
-      "price": "$189,500",
-      "price_int": 189500,
-      "year": "2018",
-      "mileage": "117,000 km",
-      "location": "Guadalajara",
-      "source": "seminuevos",
-      "brand": "Kia",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-kia-forte_lx-guadalajara-2018/4822595",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1082026/4822595/o_o/pt_4822595_1786401244947_166.jpg",
-      "group_id": "g-2845d502fc"
-    },
-    {
-      "id": "sn-4830188",
-      "title": "Hyundai Accent",
-      "price": "$224,000",
-      "price_int": 224000,
-      "year": "2022",
-      "mileage": "31,000 km",
-      "location": "Guadalajara",
-      "source": "seminuevos",
-      "brand": "Hyundai",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-hyundai-accent-guadalajara-2022/4830188",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/492026/4830188/o_o/4830188_1788570771342_882.jpeg",
-      "group_id": "g-0c66ba64f5"
-    },
-    {
-      "id": "sn-4830637",
-      "title": "Hyundai HB20 GL MID",
-      "price": "$259,000",
-      "price_int": 259000,
-      "year": "2023",
-      "mileage": "53,661 km",
-      "location": "Zapopan",
-      "source": "seminuevos",
-      "brand": "Hyundai",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-hyundai-hb20_gl_mid-zapopan-2023/4830637",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/792026/4830637/o_o/4830637_1788832104434_124.jpeg",
-      "group_id": "g-fd1766e867"
-    }
-  ]
+  "new_cars": []
 }
