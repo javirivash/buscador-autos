@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T13:05:55.948499Z",
+  "generated_at": "2026-09-17T13:03:28.594690Z",
   "criterios": {
     "marcas": [
       "Toyota",
@@ -21,8 +21,8 @@
       "Jalisco"
     ]
   },
-  "total_count": 56,
-  "new_count": 8,
+  "total_count": 63,
+  "new_count": 7,
   "cars": [
     {
       "id": "ml-6129270518",
@@ -80,7 +80,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-5904436784-kia-rio-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=29&type=item&tracking_id=005b5748-8862-4af6-a584-845665b49429&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-5904436784-kia-rio-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=31&type=item&tracking_id=69c12c3e-62ad-4a06-88d3-cce750041cbd&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_681095-MLM114347202594_082026-E.webp",
       "group_id": "g-eb6b9c2803"
     },
@@ -100,6 +100,21 @@
       "group_id": "g-882960dec0"
     },
     {
+      "id": "sn-4822595",
+      "title": "Kia Forte LX",
+      "price": "$189,500",
+      "price_int": 189500,
+      "year": "2018",
+      "mileage": "117,000 kms.",
+      "location": "Guadalajara",
+      "source": "seminuevos",
+      "brand": "Kia",
+      "transmission": "unknown",
+      "link": "https://www.seminuevos.com/vehicle/autos-kia-forte_lx-guadalajara-2018/4822595",
+      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1082026/4822595/o_o/pt_4822595_1786401244947_166.jpg",
+      "group_id": "g-2845d502fc"
+    },
+    {
       "id": "sn-744403",
       "title": "Kia Forte",
       "price": "$190,000",
@@ -109,10 +124,25 @@
       "location": "Tlaquepaque",
       "source": "seminuevos",
       "brand": "Kia",
-      "transmission": "automatic",
+      "transmission": "unknown",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-tlaquepaque-2018/4646701",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/20241220/4646701/o_o/pt_4646701_1734717037281.jpg",
       "group_id": "g-d8c4c75584"
+    },
+    {
+      "id": "sn-4832681",
+      "title": "Toyota Yaris",
+      "price": "$195,000",
+      "price_int": 195000,
+      "year": "2019",
+      "mileage": "90,558 kms.",
+      "location": "Zapopan",
+      "source": "seminuevos",
+      "brand": "Toyota",
+      "transmission": "unknown",
+      "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-zapopan-2019/4832681",
+      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1492026/4832681/o_o/pt_4832681_1789416630750_45.jpg",
+      "group_id": "g-fef0ab4a51"
     },
     {
       "id": "ml-3330439999",
@@ -125,7 +155,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3330439999-hyundai-accent-16-hb-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=23&type=item&tracking_id=d318b46c-213b-46c7-8dff-8c80fc470b14&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3330439999-hyundai-accent-16-hb-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=18&type=item&tracking_id=d99f318f-4bb3-4653-be6f-f36d72b03a90&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_734482-MLM116252202967_082026-E.webp",
       "group_id": "g-ee4386b672"
     },
@@ -140,9 +170,24 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6204115338-kia-forte-2019-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=26&type=item&tracking_id=9fbd9ca7-1f08-4f85-82f7-73de0578e4bb&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6204115338-kia-forte-2019-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=18&type=item&tracking_id=cb0043c4-3661-4b13-9b03-14c3dc856326&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_804722-MLM117496095765_092026-E.webp",
       "group_id": "g-c72a8b7e54"
+    },
+    {
+      "id": "ml-3315577157",
+      "title": "Kia Rio 2020 1.6 Lx Sedan At",
+      "price": "$210,000",
+      "price_int": 210000,
+      "year": "2020",
+      "mileage": "90,000 Km",
+      "location": "Guadalajara - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Kia",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3315577157-kia-rio-16-lx-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=44&type=item&tracking_id=69c12c3e-62ad-4a06-88d3-cce750041cbd&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_849546-MLM116188684419_082026-E.webp",
+      "group_id": "g-6ecaeb81bc"
     },
     {
       "id": "ml-3361967869",
@@ -169,7 +214,7 @@
       "location": "Guadalajara",
       "source": "seminuevos",
       "brand": "Kia",
-      "transmission": "automatic",
+      "transmission": "unknown",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-guadalajara-2020/4823661",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1382026/4823661/o_o/pt_4823661_1786657532440_376.jpg",
       "group_id": "g-87e4725ac1"
@@ -185,7 +230,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-2929560907-hyundai-acento-gl-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=39&type=item&tracking_id=d318b46c-213b-46c7-8dff-8c80fc470b14&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-2929560907-hyundai-acento-gl-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=22&type=item&tracking_id=d99f318f-4bb3-4653-be6f-f36d72b03a90&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_662772-MLM110698385390_052026-E.webp",
       "group_id": "g-12240e2bb4"
     },
@@ -214,7 +259,7 @@
       "location": "Guadalajara",
       "source": "seminuevos",
       "brand": "Kia",
-      "transmission": "automatic",
+      "transmission": "unknown",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-guadalajara-2019/4818696",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2772026/4818696/o_o/pt_4818696_1785196702219_625.jpg",
       "group_id": "g-c97f79a2a9"
@@ -230,7 +275,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3479034703-hyundai-accent-2021-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=3&type=item&tracking_id=4c385707-fd0a-42f0-bdbc-ad5d52becb92&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3479034703-hyundai-accent-2021-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=4&type=item&tracking_id=00b1875b-9782-4288-9d02-212efa9ef3ea&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_685886-MLM117496147445_092026-E.webp",
       "group_id": "g-c993744e33"
     },
@@ -265,6 +310,21 @@
       "group_id": "g-aa0b339ac1"
     },
     {
+      "id": "sn-4830188",
+      "title": "Hyundai Accent",
+      "price": "$224,000",
+      "price_int": 224000,
+      "year": "2022",
+      "mileage": "31,000 kms.",
+      "location": "Guadalajara",
+      "source": "seminuevos",
+      "brand": "Hyundai",
+      "transmission": "unknown",
+      "link": "https://www.seminuevos.com/vehicle/autos-hyundai-accent-guadalajara-2022/4830188",
+      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/492026/4830188/o_o/4830188_1788570771342_882.jpeg",
+      "group_id": "g-0c66ba64f5"
+    },
+    {
       "id": "sn-964017",
       "title": "Toyota Yaris R",
       "price": "$225,000",
@@ -278,6 +338,51 @@
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris_r-guadalajara-2018/4805639",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026612/4805639/o_o/pt_4805639_1781297665284.jpeg",
       "group_id": "g-4860c0a333"
+    },
+    {
+      "id": "sn-4817591",
+      "title": "Toyota Yaris",
+      "price": "$228,000",
+      "price_int": 228000,
+      "year": "2019",
+      "mileage": "125,000 kms.",
+      "location": "Guadalajara",
+      "source": "seminuevos",
+      "brand": "Toyota",
+      "transmission": "unknown",
+      "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-guadalajara-2019/4817591",
+      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2372026/4817591/o_o/pt_4817591_1784827738817_541.jpg",
+      "group_id": "g-691065099c"
+    },
+    {
+      "id": "sn-4815737",
+      "title": "Kia Rio",
+      "price": "$228,000",
+      "price_int": 228000,
+      "year": "2023",
+      "mileage": "73,251 kms.",
+      "location": "Zapopan",
+      "source": "seminuevos",
+      "brand": "Kia",
+      "transmission": "unknown",
+      "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-zapopan-2023/4815737",
+      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1772026/4815737/o_o/4815737_1788545228263_829.",
+      "group_id": "g-782bb7ea3d"
+    },
+    {
+      "id": "sn-4822678",
+      "title": "Kia Rio",
+      "price": "$228,000",
+      "price_int": 228000,
+      "year": "2023",
+      "mileage": "75,281 kms.",
+      "location": "Zapopan",
+      "source": "seminuevos",
+      "brand": "Kia",
+      "transmission": "unknown",
+      "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-zapopan-2023/4822678",
+      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1082026/4822678/o_o/4822678_1789515249104_690.",
+      "group_id": "g-7517dd73fa"
     },
     {
       "id": "sn-26427",
@@ -319,7 +424,7 @@
       "location": "Zapopan",
       "source": "seminuevos",
       "brand": "Toyota",
-      "transmission": "automatic",
+      "transmission": "unknown",
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-corolla-zapopan-2019/4830890",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/892026/4830890/o_o/pt_4830890_1788888422200_903.jpg",
       "group_id": "g-796ec5df28"
@@ -334,7 +439,7 @@
       "location": "Guadalajara",
       "source": "seminuevos",
       "brand": "Toyota",
-      "transmission": "automatic",
+      "transmission": "unknown",
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-guadalajara-2018/4751850",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2025122/4751850/o_o/pt_4751850_1764700148746.jpeg",
       "group_id": "g-2bd7d19be8"
@@ -379,7 +484,7 @@
       "location": "Guadalajara",
       "source": "seminuevos",
       "brand": "Kia",
-      "transmission": "automatic",
+      "transmission": "unknown",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-guadalajara-2021/4790121",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026420/4790121/o_o/pt_4790121_1779234986924.jpg",
       "group_id": "g-f8be8e5da8"
@@ -394,7 +499,7 @@
       "location": "Guadalajara",
       "source": "seminuevos",
       "brand": "Hyundai",
-      "transmission": "automatic",
+      "transmission": "unknown",
       "link": "https://www.seminuevos.com/vehicle/autos-hyundai-ioniq-guadalajara-2019/4792259",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026425/4792259/o_o/pt_4792259_1779395278000.jpg",
       "group_id": "g-edb5d157a5"
@@ -440,7 +545,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6195855258-hyundai-accent-2022-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=26&type=item&tracking_id=4c385707-fd0a-42f0-bdbc-ad5d52becb92&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6195855258-hyundai-accent-2022-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=25&type=item&tracking_id=00b1875b-9782-4288-9d02-212efa9ef3ea&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_861934-MLM117722359297_092026-E.webp",
       "group_id": "g-686637bcbb"
     },
@@ -455,8 +560,8 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3501116447-kia-forte-gt-line-2020-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=40&type=item&tracking_id=acd7009d-1052-4a8e-b3cb-7409a4ec023b&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_905646-MLM116220294544_092026-E.webp",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3501116447-kia-forte-gt-line-2020-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=40&type=item&tracking_id=85826522-f58b-4417-84a2-cc1b1f1230d7&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_695171-MLM117768669989_092026-E.webp",
       "group_id": "g-6c27516624"
     },
     {
@@ -470,7 +575,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3400224351-kia-forte-sedan-2021-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=38&type=item&tracking_id=acd7009d-1052-4a8e-b3cb-7409a4ec023b&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3400224351-kia-forte-sedan-2021-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=38&type=item&tracking_id=85826522-f58b-4417-84a2-cc1b1f1230d7&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_771532-MLM115391553276_082026-E.webp",
       "group_id": "g-a1163b7b4e"
     },
@@ -515,7 +620,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3272362011-kia-rio-version-gt-line-2021-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=27&type=item&tracking_id=c491185d-347f-4d89-a919-ab3f71ce9abb&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3272362011-kia-rio-version-gt-line-2021-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=48&type=item&tracking_id=69c12c3e-62ad-4a06-88d3-cce750041cbd&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_738969-MLM115786437225_082026-E.webp",
       "group_id": "g-6b4900c796"
     },
@@ -605,8 +710,8 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6160359960-kia-rio-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=43&type=item&tracking_id=1acc6036-b5b8-47fd-a403-489d4f73b632&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_861661-MLM116185059872_092026-E.webp",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6160359960-kia-rio-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=45&type=item&tracking_id=69c12c3e-62ad-4a06-88d3-cce750041cbd&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_790130-MLM117771709101_092026-E.webp",
       "group_id": "g-64c3b74114"
     },
     {
@@ -620,7 +725,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3496087333-hyundai-accent-16-hb-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=45&type=item&tracking_id=a3133233-cd6a-44f1-8374-fd68cf8f9af6&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3496087333-hyundai-accent-16-hb-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=39&type=item&tracking_id=db424456-db0a-4fd3-9543-cdbbc8c1f425&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_657349-MLM117661785617_092026-E.webp",
       "group_id": "g-44a1a22d20"
     },
@@ -680,7 +785,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6203921934-kia-kia-rio-hb-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=41&type=item&tracking_id=005b5748-8862-4af6-a584-845665b49429&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6203921934-kia-kia-rio-hb-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=35&type=item&tracking_id=69c12c3e-62ad-4a06-88d3-cce750041cbd&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_721596-MLM117494128259_092026-E.webp",
       "group_id": "g-511b56b35f"
     },
@@ -710,7 +815,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6112502310-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=24&type=item&tracking_id=e8a3f335-7b38-4f70-b124-beaf254b5058&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6112502310-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=32&type=item&tracking_id=934c9195-96e9-4671-9889-34695568b207&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_972323-MLM116839347909_082026-E.webp",
       "group_id": "g-9e0ac000e3"
     },
@@ -725,7 +830,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3387771987-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=25&type=item&tracking_id=e8a3f335-7b38-4f70-b124-beaf254b5058&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3387771987-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=23&type=item&tracking_id=934c9195-96e9-4671-9889-34695568b207&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_702333-MLM116674889251_082026-E.webp",
       "group_id": "g-a2da9dd941"
     },
@@ -740,7 +845,7 @@
       "source": "mercadolibre",
       "brand": "Toyota",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6210306656-toyota-camry-25-le-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=48&type=item&tracking_id=d49f264a-a4f2-4b96-944b-b1dd45df98ad&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6210306656-toyota-camry-25-le-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=46&type=item&tracking_id=8c1bf5f5-abd0-4078-8d18-caa7cbd573ed&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_868558-MLM117540123187_092026-E.webp",
       "group_id": "g-9e5699723f"
     },
@@ -815,7 +920,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6183557380-hyundai-hb20-hb-16-gl-mid-at-hb-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=47&type=item&tracking_id=50425b76-d9fd-4084-a1f3-7e6a4da24d2b&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6183557380-hyundai-hb20-hb-16-gl-mid-at-hb-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=42&type=item&tracking_id=db424456-db0a-4fd3-9543-cdbbc8c1f425&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_783639-MLM115866297324_092026-E.webp",
       "group_id": "g-dfa484762b"
     },
@@ -867,19 +972,19 @@
   ],
   "new_cars": [
     {
-      "id": "ml-3501116447",
-      "title": "Kia Forte 2020 2.0 Gt Line Sedan",
-      "price": "$249,900",
-      "price_int": 249900,
+      "id": "ml-3315577157",
+      "title": "Kia Rio 2020 1.6 Lx Sedan At",
+      "price": "$210,000",
+      "price_int": 210000,
       "year": "2020",
-      "mileage": "80,000 Km",
+      "mileage": "90,000 Km",
       "location": "Guadalajara - Jalisco",
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3501116447-kia-forte-gt-line-2020-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=40&type=item&tracking_id=acd7009d-1052-4a8e-b3cb-7409a4ec023b&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_905646-MLM116220294544_092026-E.webp",
-      "group_id": "g-6c27516624"
+      "link": "https://auto.mercadolibre.com.mx/MLM-3315577157-kia-rio-16-lx-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=44&type=item&tracking_id=69c12c3e-62ad-4a06-88d3-cce750041cbd&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_849546-MLM116188684419_082026-E.webp",
+      "group_id": "g-6ecaeb81bc"
     },
     {
       "id": "sn-4817591",
@@ -910,21 +1015,6 @@
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-zapopan-2019/4832681",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1492026/4832681/o_o/pt_4832681_1789416630750_45.jpg",
       "group_id": "g-fef0ab4a51"
-    },
-    {
-      "id": "sn-4798682",
-      "title": "Kia K3",
-      "price": "$270,000",
-      "price_int": 270000,
-      "year": "2026",
-      "mileage": "566 kms.",
-      "location": "Tlaquepaque",
-      "source": "seminuevos",
-      "brand": "Kia",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-tlaquepaque-2026/4798682",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2152026/4798682/o_o/pt_4798682_1779336178737_961.jpg",
-      "group_id": "g-bd5bedc71a"
     },
     {
       "id": "sn-4815737",
