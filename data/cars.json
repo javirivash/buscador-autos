@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T13:03:28.594690Z",
+  "generated_at": "2026-09-17T13:05:32.150928Z",
   "criterios": {
     "marcas": [
       "Toyota",
@@ -21,7 +21,7 @@
       "Jalisco"
     ]
   },
-  "total_count": 63,
+  "total_count": 56,
   "new_count": 7,
   "cars": [
     {
@@ -64,7 +64,7 @@
       "location": "Zapopan",
       "source": "seminuevos",
       "brand": "Hyundai",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-hyundai-accent-zapopan-2018/4831176",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/992026/4831176/o_o/pt_4831176_1788919323592_626.jpg",
       "group_id": "g-10b8da2efc"
@@ -100,21 +100,6 @@
       "group_id": "g-882960dec0"
     },
     {
-      "id": "sn-4822595",
-      "title": "Kia Forte LX",
-      "price": "$189,500",
-      "price_int": 189500,
-      "year": "2018",
-      "mileage": "117,000 kms.",
-      "location": "Guadalajara",
-      "source": "seminuevos",
-      "brand": "Kia",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-kia-forte_lx-guadalajara-2018/4822595",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1082026/4822595/o_o/pt_4822595_1786401244947_166.jpg",
-      "group_id": "g-2845d502fc"
-    },
-    {
       "id": "sn-744403",
       "title": "Kia Forte",
       "price": "$190,000",
@@ -124,25 +109,10 @@
       "location": "Tlaquepaque",
       "source": "seminuevos",
       "brand": "Kia",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-tlaquepaque-2018/4646701",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/20241220/4646701/o_o/pt_4646701_1734717037281.jpg",
       "group_id": "g-d8c4c75584"
-    },
-    {
-      "id": "sn-4832681",
-      "title": "Toyota Yaris",
-      "price": "$195,000",
-      "price_int": 195000,
-      "year": "2019",
-      "mileage": "90,558 kms.",
-      "location": "Zapopan",
-      "source": "seminuevos",
-      "brand": "Toyota",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-zapopan-2019/4832681",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1492026/4832681/o_o/pt_4832681_1789416630750_45.jpg",
-      "group_id": "g-fef0ab4a51"
     },
     {
       "id": "ml-3330439999",
@@ -214,7 +184,7 @@
       "location": "Guadalajara",
       "source": "seminuevos",
       "brand": "Kia",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-guadalajara-2020/4823661",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1382026/4823661/o_o/pt_4823661_1786657532440_376.jpg",
       "group_id": "g-87e4725ac1"
@@ -259,7 +229,7 @@
       "location": "Guadalajara",
       "source": "seminuevos",
       "brand": "Kia",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-guadalajara-2019/4818696",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2772026/4818696/o_o/pt_4818696_1785196702219_625.jpg",
       "group_id": "g-c97f79a2a9"
@@ -310,21 +280,6 @@
       "group_id": "g-aa0b339ac1"
     },
     {
-      "id": "sn-4830188",
-      "title": "Hyundai Accent",
-      "price": "$224,000",
-      "price_int": 224000,
-      "year": "2022",
-      "mileage": "31,000 kms.",
-      "location": "Guadalajara",
-      "source": "seminuevos",
-      "brand": "Hyundai",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-hyundai-accent-guadalajara-2022/4830188",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/492026/4830188/o_o/4830188_1788570771342_882.jpeg",
-      "group_id": "g-0c66ba64f5"
-    },
-    {
       "id": "sn-964017",
       "title": "Toyota Yaris R",
       "price": "$225,000",
@@ -338,51 +293,6 @@
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris_r-guadalajara-2018/4805639",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026612/4805639/o_o/pt_4805639_1781297665284.jpeg",
       "group_id": "g-4860c0a333"
-    },
-    {
-      "id": "sn-4817591",
-      "title": "Toyota Yaris",
-      "price": "$228,000",
-      "price_int": 228000,
-      "year": "2019",
-      "mileage": "125,000 kms.",
-      "location": "Guadalajara",
-      "source": "seminuevos",
-      "brand": "Toyota",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-guadalajara-2019/4817591",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2372026/4817591/o_o/pt_4817591_1784827738817_541.jpg",
-      "group_id": "g-691065099c"
-    },
-    {
-      "id": "sn-4815737",
-      "title": "Kia Rio",
-      "price": "$228,000",
-      "price_int": 228000,
-      "year": "2023",
-      "mileage": "73,251 kms.",
-      "location": "Zapopan",
-      "source": "seminuevos",
-      "brand": "Kia",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-zapopan-2023/4815737",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1772026/4815737/o_o/4815737_1788545228263_829.",
-      "group_id": "g-782bb7ea3d"
-    },
-    {
-      "id": "sn-4822678",
-      "title": "Kia Rio",
-      "price": "$228,000",
-      "price_int": 228000,
-      "year": "2023",
-      "mileage": "75,281 kms.",
-      "location": "Zapopan",
-      "source": "seminuevos",
-      "brand": "Kia",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-zapopan-2023/4822678",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1082026/4822678/o_o/4822678_1789515249104_690.",
-      "group_id": "g-7517dd73fa"
     },
     {
       "id": "sn-26427",
@@ -424,7 +334,7 @@
       "location": "Zapopan",
       "source": "seminuevos",
       "brand": "Toyota",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-corolla-zapopan-2019/4830890",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/892026/4830890/o_o/pt_4830890_1788888422200_903.jpg",
       "group_id": "g-796ec5df28"
@@ -439,7 +349,7 @@
       "location": "Guadalajara",
       "source": "seminuevos",
       "brand": "Toyota",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-guadalajara-2018/4751850",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2025122/4751850/o_o/pt_4751850_1764700148746.jpeg",
       "group_id": "g-2bd7d19be8"
@@ -484,7 +394,7 @@
       "location": "Guadalajara",
       "source": "seminuevos",
       "brand": "Kia",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-guadalajara-2021/4790121",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026420/4790121/o_o/pt_4790121_1779234986924.jpg",
       "group_id": "g-f8be8e5da8"
@@ -499,7 +409,7 @@
       "location": "Guadalajara",
       "source": "seminuevos",
       "brand": "Hyundai",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-hyundai-ioniq-guadalajara-2019/4792259",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026425/4792259/o_o/pt_4792259_1779395278000.jpg",
       "group_id": "g-edb5d157a5"
@@ -589,7 +499,7 @@
       "location": "Zapopan",
       "source": "seminuevos",
       "brand": "Kia",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-zapopan-2024/4819544",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/3072026/4819544/o_o/4819544_1789408637995_223.",
       "group_id": "g-2d5d97f806"
@@ -623,21 +533,6 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3272362011-kia-rio-version-gt-line-2021-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=48&type=item&tracking_id=69c12c3e-62ad-4a06-88d3-cce750041cbd&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_738969-MLM115786437225_082026-E.webp",
       "group_id": "g-6b4900c796"
-    },
-    {
-      "id": "sn-4830637",
-      "title": "Hyundai HB20 GL MID",
-      "price": "$259,000",
-      "price_int": 259000,
-      "year": "2023",
-      "mileage": "53,661 kms.",
-      "location": "Zapopan",
-      "source": "seminuevos",
-      "brand": "Hyundai",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-hyundai-hb20_gl_mid-zapopan-2023/4830637",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/792026/4830637/o_o/4830637_1788832104434_124.jpeg",
-      "group_id": "g-fd1766e867"
     },
     {
       "id": "sn-930615",
@@ -694,7 +589,7 @@
       "location": "Zapopan",
       "source": "seminuevos",
       "brand": "Honda",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-honda-civic-zapopan-2018/4764133",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1512026/4764133/o_o/pt_4764133_1768508287340_841.jpg",
       "group_id": "g-d0d2b383d7"
@@ -754,7 +649,7 @@
       "location": "Guadalajara",
       "source": "seminuevos",
       "brand": "Kia",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-guadalajara-2023/4825354",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1982026/4825354/o_o/pt_4825354_1787170706277_886.jpg",
       "group_id": "g-cf8b22c0c1"
