@@ -21,8 +21,8 @@
       "Jalisco"
     ]
   },
-  "total_count": 56,
-  "new_count": 7,
+  "total_count": 55,
+  "new_count": 1,
   "cars": [
     {
       "id": "ml-6129270518",
@@ -37,7 +37,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-6129270518-hyundai-accent-16-gls-auto-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=35&type=item&tracking_id=d318b46c-213b-46c7-8dff-8c80fc470b14&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_847934-MLM117704684519_092026-E.webp",
-      "group_id": "g-210e5b578d"
+      "group_id": "g-210e5b578d",
+      "_score": 64.5,
+      "_components": {
+        "precio": 100.0,
+        "anio": 0.0,
+        "km": 62.5,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-793100",
@@ -52,7 +60,15 @@
       "transmission": "unknown",
       "link": "https://www.seminuevos.com/vehicle/autos-hyundai-accent-guadalajara-2018/4771189",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1222026/4771189/o_o/4771189_1770913629783_203.jpg",
-      "group_id": "g-10b8da2efc"
+      "group_id": "g-10b8da2efc",
+      "_score": 62.6,
+      "_components": {
+        "precio": 88.3,
+        "anio": 0.0,
+        "km": 73.4,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-4831176",
@@ -67,7 +83,15 @@
       "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-hyundai-accent-zapopan-2018/4831176",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/992026/4831176/o_o/pt_4831176_1788919323592_626.jpg",
-      "group_id": "g-10b8da2efc"
+      "group_id": "g-10b8da2efc",
+      "_score": 62.6,
+      "_components": {
+        "precio": 88.3,
+        "anio": 0.0,
+        "km": 73.4,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-5904436784",
@@ -82,7 +106,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-5904436784-kia-rio-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=31&type=item&tracking_id=69c12c3e-62ad-4a06-88d3-cce750041cbd&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_681095-MLM114347202594_082026-E.webp",
-      "group_id": "g-eb6b9c2803"
+      "group_id": "g-eb6b9c2803",
+      "_score": 63.7,
+      "_components": {
+        "precio": 86.7,
+        "anio": 0.0,
+        "km": 80.3,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-6170659996",
@@ -97,7 +129,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-6170659996-hyundai-accent-16-gl-mid-auto-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=45&type=item&tracking_id=d318b46c-213b-46c7-8dff-8c80fc470b14&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_601104-MLM116214132484_092026-E.webp",
-      "group_id": "g-882960dec0"
+      "group_id": "g-882960dec0",
+      "_score": 73.0,
+      "_components": {
+        "precio": 85.7,
+        "anio": 25.0,
+        "km": 94.3,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-744403",
@@ -112,7 +152,15 @@
       "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-tlaquepaque-2018/4646701",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/20241220/4646701/o_o/pt_4646701_1734717037281.jpg",
-      "group_id": "g-d8c4c75584"
+      "group_id": "g-d8c4c75584",
+      "_score": 56.8,
+      "_components": {
+        "precio": 81.6,
+        "anio": 0.0,
+        "km": 61.0,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-3330439999",
@@ -127,7 +175,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-3330439999-hyundai-accent-16-hb-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=18&type=item&tracking_id=d99f318f-4bb3-4653-be6f-f36d72b03a90&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_734482-MLM116252202967_082026-E.webp",
-      "group_id": "g-ee4386b672"
+      "group_id": "g-ee4386b672",
+      "_score": 59.0,
+      "_components": {
+        "precio": 74.9,
+        "anio": 12.5,
+        "km": 68.0,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-6204115338",
@@ -142,7 +198,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-6204115338-kia-forte-2019-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=18&type=item&tracking_id=cb0043c4-3661-4b13-9b03-14c3dc856326&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_804722-MLM117496095765_092026-E.webp",
-      "group_id": "g-c72a8b7e54"
+      "group_id": "g-c72a8b7e54",
+      "_score": 57.2,
+      "_components": {
+        "precio": 63.4,
+        "anio": 12.5,
+        "km": 79.1,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-3315577157",
@@ -157,7 +221,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-3315577157-kia-rio-16-lx-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=44&type=item&tracking_id=69c12c3e-62ad-4a06-88d3-cce750041cbd&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_849546-MLM116188684419_082026-E.webp",
-      "group_id": "g-6ecaeb81bc"
+      "group_id": "g-6ecaeb81bc",
+      "_score": 59.0,
+      "_components": {
+        "precio": 61.2,
+        "anio": 25.0,
+        "km": 74.3,
+        "frescura": 92.9,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-3361967869",
@@ -172,7 +244,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-3361967869-kia-rio-2020-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=40&type=item&tracking_id=c491185d-347f-4d89-a919-ab3f71ce9abb&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_999021-MLM115102741002_082026-E.webp",
-      "group_id": "g-eb1fb0c08f"
+      "group_id": "g-eb1fb0c08f",
+      "_score": 63.1,
+      "_components": {
+        "precio": 61.2,
+        "anio": 25.0,
+        "km": 93.7,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-787962",
@@ -187,7 +267,15 @@
       "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-guadalajara-2020/4823661",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1382026/4823661/o_o/pt_4823661_1786657532440_376.jpg",
-      "group_id": "g-87e4725ac1"
+      "group_id": "g-87e4725ac1",
+      "_score": 58.1,
+      "_components": {
+        "precio": 61.2,
+        "anio": 25.0,
+        "km": 73.9,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-2929560907",
@@ -202,7 +290,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-2929560907-hyundai-acento-gl-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=22&type=item&tracking_id=d99f318f-4bb3-4653-be6f-f36d72b03a90&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_662772-MLM110698385390_052026-E.webp",
-      "group_id": "g-12240e2bb4"
+      "group_id": "g-12240e2bb4",
+      "_score": 60.7,
+      "_components": {
+        "precio": 52.0,
+        "anio": 37.5,
+        "km": 86.1,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-601953",
@@ -217,7 +313,15 @@
       "transmission": "unknown",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-zapopan-2020/4826969",
       "image": "https://images.latamautos.com/thumbs/w/lg/ptx_migration_mexico/2582026/4826969/o_o/4826969_1787687834775_530.jpg",
-      "group_id": "g-f2a03b647b"
+      "group_id": "g-f2a03b647b",
+      "_score": 41.2,
+      "_components": {
+        "precio": 52.0,
+        "anio": 25.0,
+        "km": 20.7,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-11276",
@@ -232,7 +336,15 @@
       "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-guadalajara-2019/4818696",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2772026/4818696/o_o/pt_4818696_1785196702219_625.jpg",
-      "group_id": "g-c97f79a2a9"
+      "group_id": "g-c97f79a2a9",
+      "_score": 54.8,
+      "_components": {
+        "precio": 51.1,
+        "anio": 12.5,
+        "km": 89.2,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-3479034703",
@@ -247,7 +359,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-3479034703-hyundai-accent-2021-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=4&type=item&tracking_id=00b1875b-9782-4288-9d02-212efa9ef3ea&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_685886-MLM117496147445_092026-E.webp",
-      "group_id": "g-c993744e33"
+      "group_id": "g-c993744e33",
+      "_score": 56.4,
+      "_components": {
+        "precio": 51.0,
+        "anio": 37.5,
+        "km": 70.6,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-6203940716",
@@ -262,7 +382,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-6203940716-hyundai-elantra-2019-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=46&type=item&tracking_id=67431b67-670d-4414-b6c2-e8a3ab32d842&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_814081-MLM117525519727_092026-E.webp",
-      "group_id": "g-aa0b339ac1"
+      "group_id": "g-aa0b339ac1",
+      "_score": 52.7,
+      "_components": {
+        "precio": 51.0,
+        "anio": 12.5,
+        "km": 80.8,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-218427",
@@ -277,7 +405,15 @@
       "transmission": "unknown",
       "link": "https://www.seminuevos.com/vehicle/autos-hyundai-elantra-guadalajara-2019/4831857",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1092026/4831857/o_o/4831857_1789085741262_29.jpeg",
-      "group_id": "g-aa0b339ac1"
+      "group_id": "g-aa0b339ac1",
+      "_score": 52.7,
+      "_components": {
+        "precio": 51.0,
+        "anio": 12.5,
+        "km": 80.8,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-964017",
@@ -292,7 +428,15 @@
       "transmission": "unknown",
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris_r-guadalajara-2018/4805639",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026612/4805639/o_o/pt_4805639_1781297665284.jpeg",
-      "group_id": "g-4860c0a333"
+      "group_id": "g-4860c0a333",
+      "_score": 46.4,
+      "_components": {
+        "precio": 45.9,
+        "anio": 0.0,
+        "km": 76.3,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-26427",
@@ -307,7 +451,15 @@
       "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-guadalajara-2019/4810471",
       "image": "https://images.latamautos.com/thumbs/w/lg/ptx_migration_mexico/2026630/4810471/o_o/pt_4810471_1782848303814.jpg",
-      "group_id": "g-01cc2f06e3"
+      "group_id": "g-01cc2f06e3",
+      "_score": 49.1,
+      "_components": {
+        "precio": 41.8,
+        "anio": 12.5,
+        "km": 81.1,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-3704",
@@ -322,7 +474,15 @@
       "transmission": "unknown",
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-guadalajara-2019/4829352",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/292026/4829352/o_o/4829352_1788393929487_290.jpeg",
-      "group_id": "g-adc8423581"
+      "group_id": "g-adc8423581",
+      "_score": 46.9,
+      "_components": {
+        "precio": 31.6,
+        "anio": 12.5,
+        "km": 88.8,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-212341",
@@ -337,7 +497,15 @@
       "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-corolla-zapopan-2019/4830890",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/892026/4830890/o_o/pt_4830890_1788888422200_903.jpg",
-      "group_id": "g-796ec5df28"
+      "group_id": "g-796ec5df28",
+      "_score": 44.4,
+      "_components": {
+        "precio": 31.6,
+        "anio": 12.5,
+        "km": 78.8,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-985046",
@@ -352,7 +520,15 @@
       "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-guadalajara-2018/4751850",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2025122/4751850/o_o/pt_4751850_1764700148746.jpeg",
-      "group_id": "g-2bd7d19be8"
+      "group_id": "g-2bd7d19be8",
+      "_score": 41.6,
+      "_components": {
+        "precio": 30.8,
+        "anio": 0.0,
+        "km": 81.6,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-18998",
@@ -367,7 +543,15 @@
       "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-zapopan-2023/4817620",
       "image": "https://images.latamautos.com/thumbs/w/lg/ptx_migration_mexico/2372026/4817620/o_o/pt_4817620_1784831380450_70.jpg",
-      "group_id": "g-0b9ba09799"
+      "group_id": "g-0b9ba09799",
+      "_score": 58.0,
+      "_components": {
+        "precio": 30.7,
+        "anio": 62.5,
+        "km": 84.7,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-3451597273",
@@ -382,7 +566,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-3451597273-kia-forte-20-ex-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=48&type=item&tracking_id=e2d51ee7-c596-4d11-98b8-cd01f21aed74&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_843633-MLM115758366334_092026-E.webp",
-      "group_id": "g-f8be8e5da8"
+      "group_id": "g-f8be8e5da8",
+      "_score": 49.6,
+      "_components": {
+        "precio": 30.6,
+        "anio": 37.5,
+        "km": 76.3,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-675692",
@@ -397,7 +589,15 @@
       "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-guadalajara-2021/4790121",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026420/4790121/o_o/pt_4790121_1779234986924.jpg",
-      "group_id": "g-f8be8e5da8"
+      "group_id": "g-f8be8e5da8",
+      "_score": 49.6,
+      "_components": {
+        "precio": 30.6,
+        "anio": 37.5,
+        "km": 76.3,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-692549",
@@ -412,7 +612,15 @@
       "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-hyundai-ioniq-guadalajara-2019/4792259",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026425/4792259/o_o/pt_4792259_1779395278000.jpg",
-      "group_id": "g-edb5d157a5"
+      "group_id": "g-edb5d157a5",
+      "_score": 40.8,
+      "_components": {
+        "precio": 30.6,
+        "anio": 12.5,
+        "km": 66.0,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-3305608339",
@@ -427,7 +635,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-3305608339-hyundai-ioniq-16-limited-dsg6-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=39&type=item&tracking_id=48459a76-0820-4c5c-adb2-598d458dc9de&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_686390-MLM116043121307_082026-E.webp",
-      "group_id": "g-edb5d157a5"
+      "group_id": "g-edb5d157a5",
+      "_score": 40.8,
+      "_components": {
+        "precio": 30.6,
+        "anio": 12.5,
+        "km": 66.0,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-942486",
@@ -442,7 +658,15 @@
       "transmission": "unknown",
       "link": "https://www.seminuevos.com/vehicle/autos-honda-city-zapopan-2020/4828349",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2982026/4828349/o_o/4828349_1788832103739_4.jpeg",
-      "group_id": "g-a1b76a01c7"
+      "group_id": "g-a1b76a01c7",
+      "_score": 42.1,
+      "_components": {
+        "precio": 21.4,
+        "anio": 25.0,
+        "km": 73.3,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-6195855258",
@@ -457,7 +681,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-6195855258-hyundai-accent-2022-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=25&type=item&tracking_id=00b1875b-9782-4288-9d02-212efa9ef3ea&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_861934-MLM117722359297_092026-E.webp",
-      "group_id": "g-686637bcbb"
+      "group_id": "g-686637bcbb",
+      "_score": 47.8,
+      "_components": {
+        "precio": 21.4,
+        "anio": 50.0,
+        "km": 71.1,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-3501116447",
@@ -472,7 +704,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-3501116447-kia-forte-gt-line-2020-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=40&type=item&tracking_id=85826522-f58b-4417-84a2-cc1b1f1230d7&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_695171-MLM117768669989_092026-E.webp",
-      "group_id": "g-6c27516624"
+      "group_id": "g-6c27516624",
+      "_score": 43.3,
+      "_components": {
+        "precio": 20.5,
+        "anio": 25.0,
+        "km": 78.4,
+        "frescura": 85.7,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-3400224351",
@@ -487,7 +727,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-3400224351-kia-forte-sedan-2021-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=38&type=item&tracking_id=85826522-f58b-4417-84a2-cc1b1f1230d7&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_771532-MLM115391553276_082026-E.webp",
-      "group_id": "g-a1163b7b4e"
+      "group_id": "g-a1163b7b4e",
+      "_score": 44.5,
+      "_components": {
+        "precio": 20.4,
+        "anio": 37.5,
+        "km": 72.2,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-630217",
@@ -502,7 +750,15 @@
       "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-zapopan-2024/4819544",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/3072026/4819544/o_o/4819544_1789408637995_223.",
-      "group_id": "g-2d5d97f806"
+      "group_id": "g-2d5d97f806",
+      "_score": 57.6,
+      "_components": {
+        "precio": 20.4,
+        "anio": 75.0,
+        "km": 87.1,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-869107",
@@ -517,7 +773,15 @@
       "transmission": "unknown",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-guadalajara-2021/4816236",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2072026/4816236/o_o/4816236_1787760161929_532.jpeg",
-      "group_id": "g-a1163b7b4e"
+      "group_id": "g-a1163b7b4e",
+      "_score": 44.5,
+      "_components": {
+        "precio": 20.4,
+        "anio": 37.5,
+        "km": 72.2,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-3272362011",
@@ -532,7 +796,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-3272362011-kia-rio-version-gt-line-2021-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=48&type=item&tracking_id=69c12c3e-62ad-4a06-88d3-cce750041cbd&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_738969-MLM115786437225_082026-E.webp",
-      "group_id": "g-6b4900c796"
+      "group_id": "g-6b4900c796",
+      "_score": 38.0,
+      "_components": {
+        "precio": 13.3,
+        "anio": 37.5,
+        "km": 57.7,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-930615",
@@ -547,7 +819,15 @@
       "transmission": "unknown",
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-prius_c-guadalajara-2019/4826715",
       "image": "https://images.latamautos.com/thumbs/w/lg/ptx_migration_mexico/2482026/4826715/o_o/4826715_1787621856543_252.jpg",
-      "group_id": "g-9c65755ebe"
+      "group_id": "g-9c65755ebe",
+      "_score": 17.6,
+      "_components": {
+        "precio": 11.2,
+        "anio": 12.5,
+        "km": 4.1,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-266902",
@@ -562,7 +842,15 @@
       "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-guadalajara-2018/4832241",
       "image": "https://images.latamautos.com/thumbs/w/lg/ptx_migration_mexico/1292026/4832241/o_o/pt_4832241_1789186550851_717.jpg",
-      "group_id": "g-17aa1591fb"
+      "group_id": "g-17aa1591fb",
+      "_score": 33.0,
+      "_components": {
+        "precio": 11.2,
+        "anio": 0.0,
+        "km": 78.4,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-17873",
@@ -577,7 +865,15 @@
       "transmission": "unknown",
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-zapopan-2022/4815123",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1572026/4815123/o_o/4815123_1784136789914_276.jpg",
-      "group_id": "g-fb0fd3f9b7"
+      "group_id": "g-fb0fd3f9b7",
+      "_score": 46.0,
+      "_components": {
+        "precio": 11.2,
+        "anio": 50.0,
+        "km": 80.5,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-654929",
@@ -592,7 +888,15 @@
       "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-honda-civic-zapopan-2018/4764133",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1512026/4764133/o_o/pt_4764133_1768508287340_841.jpg",
-      "group_id": "g-d0d2b383d7"
+      "group_id": "g-d0d2b383d7",
+      "_score": 29.1,
+      "_components": {
+        "precio": 11.2,
+        "anio": 0.0,
+        "km": 62.7,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-6160359960",
@@ -607,7 +911,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-6160359960-kia-rio-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=45&type=item&tracking_id=69c12c3e-62ad-4a06-88d3-cce750041cbd&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_790130-MLM117771709101_092026-E.webp",
-      "group_id": "g-64c3b74114"
+      "group_id": "g-64c3b74114",
+      "_score": 52.9,
+      "_components": {
+        "precio": 10.2,
+        "anio": 62.5,
+        "km": 97.1,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-3496087333",
@@ -622,7 +934,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-3496087333-hyundai-accent-16-hb-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=39&type=item&tracking_id=db424456-db0a-4fd3-9543-cdbbc8c1f425&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_657349-MLM117661785617_092026-E.webp",
-      "group_id": "g-44a1a22d20"
+      "group_id": "g-44a1a22d20",
+      "_score": 46.0,
+      "_components": {
+        "precio": 5.3,
+        "anio": 50.0,
+        "km": 89.7,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-3395054851",
@@ -637,7 +957,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-3395054851-hyundai-accent-16-hb-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=15&type=item&tracking_id=a62cd99b-6205-4982-b389-550b7fb76301&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_870601-MLM115315817114_082026-E.webp",
-      "group_id": "g-68a52ffc63"
+      "group_id": "g-68a52ffc63",
+      "_score": 46.0,
+      "_components": {
+        "precio": 5.3,
+        "anio": 50.0,
+        "km": 89.7,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-488334",
@@ -652,7 +980,15 @@
       "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-guadalajara-2023/4825354",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1982026/4825354/o_o/pt_4825354_1787170706277_886.jpg",
-      "group_id": "g-cf8b22c0c1"
+      "group_id": "g-cf8b22c0c1",
+      "_score": 51.0,
+      "_components": {
+        "precio": 5.1,
+        "anio": 62.5,
+        "km": 97.5,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-3446976033",
@@ -667,7 +1003,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-3446976033-honda-city-15-sport-cvt-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=19&type=item&tracking_id=4ecd06de-9a6f-4caa-8c6c-4d8b2130b611&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_977203-MLM115699913878_092026-E.webp",
-      "group_id": "g-010f4980bc"
+      "group_id": "g-010f4980bc",
+      "_score": 46.2,
+      "_components": {
+        "precio": 5.1,
+        "anio": 50.0,
+        "km": 90.9,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-6203921934",
@@ -682,7 +1026,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-6203921934-kia-kia-rio-hb-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=35&type=item&tracking_id=69c12c3e-62ad-4a06-88d3-cce750041cbd&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_721596-MLM117494128259_092026-E.webp",
-      "group_id": "g-511b56b35f"
+      "group_id": "g-511b56b35f",
+      "_score": 49.2,
+      "_components": {
+        "precio": 1.0,
+        "anio": 62.5,
+        "km": 97.1,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-6196788456",
@@ -697,7 +1049,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-6196788456-kia-forte-16-hb-gt-at-doble-embrague-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=23&type=item&tracking_id=fbd3ddea-b468-4f65-b2ae-b775df2f6bdb&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_776824-MLM117454349071_092026-E.webp",
-      "group_id": "g-593bf541f0"
+      "group_id": "g-593bf541f0",
+      "_score": 33.9,
+      "_components": {
+        "precio": 1.0,
+        "anio": 12.5,
+        "km": 85.9,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-6112502310",
@@ -712,7 +1072,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-6112502310-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=32&type=item&tracking_id=934c9195-96e9-4671-9889-34695568b207&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_972323-MLM116839347909_082026-E.webp",
-      "group_id": "g-9e0ac000e3"
+      "group_id": "g-9e0ac000e3",
+      "_score": 53.0,
+      "_components": {
+        "precio": 1.0,
+        "anio": 75.0,
+        "km": 99.6,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-3387771987",
@@ -727,7 +1095,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-3387771987-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=23&type=item&tracking_id=934c9195-96e9-4671-9889-34695568b207&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_702333-MLM116674889251_082026-E.webp",
-      "group_id": "g-a2da9dd941"
+      "group_id": "g-a2da9dd941",
+      "_score": 53.1,
+      "_components": {
+        "precio": 1.0,
+        "anio": 75.0,
+        "km": 100.0,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-6210306656",
@@ -742,7 +1118,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-6210306656-toyota-camry-25-le-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=46&type=item&tracking_id=8c1bf5f5-abd0-4078-8d18-caa7cbd573ed&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_868558-MLM117540123187_092026-E.webp",
-      "group_id": "g-9e5699723f"
+      "group_id": "g-9e5699723f",
+      "_score": 28.2,
+      "_components": {
+        "precio": 1.0,
+        "anio": 0.0,
+        "km": 75.3,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-914668",
@@ -757,7 +1141,15 @@
       "transmission": "unknown",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-zapopan-2023/4831845",
       "image": "https://images.latamautos.com/thumbs/w/lg/ptx_migration_mexico/1092026/4831845/o_o/4831845_1789084177691_389.jpeg",
-      "group_id": "g-77c7f585d4"
+      "group_id": "g-77c7f585d4",
+      "_score": 25.0,
+      "_components": {
+        "precio": 1.0,
+        "anio": 62.5,
+        "km": 0.0,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-2787",
@@ -772,7 +1164,15 @@
       "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-guadalajara-2019/4831378",
       "image": "https://images.latamautos.com/thumbs/w/lg/ptx_migration_mexico/992026/4831378/o_o/pt_4831378_1788986655958_443.jpg",
-      "group_id": "g-593bf541f0"
+      "group_id": "g-593bf541f0",
+      "_score": 33.9,
+      "_components": {
+        "precio": 1.0,
+        "anio": 12.5,
+        "km": 85.9,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-3102504223",
@@ -787,7 +1187,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-3102504223-hyundai-hb20-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=46&type=item&tracking_id=50425b76-d9fd-4084-a1f3-7e6a4da24d2b&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_836687-MLM113078522822_072026-E.webp",
-      "group_id": "g-1501273c24"
+      "group_id": "g-1501273c24",
+      "_score": 48.5,
+      "_components": {
+        "precio": 1.0,
+        "anio": 62.5,
+        "km": 94.2,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-3467663749",
@@ -802,7 +1210,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-3467663749-honda-city-15-ex-at-cvt-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=47&type=item&tracking_id=4ecd06de-9a6f-4caa-8c6c-4d8b2130b611&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_799132-MLM115913508006_092026-E.webp",
-      "group_id": "g-157643e7a6"
+      "group_id": "g-157643e7a6",
+      "_score": 36.5,
+      "_components": {
+        "precio": 1.0,
+        "anio": 12.5,
+        "km": 96.3,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-6183557380",
@@ -817,7 +1233,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-6183557380-hyundai-hb20-hb-16-gl-mid-at-hb-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=42&type=item&tracking_id=db424456-db0a-4fd3-9543-cdbbc8c1f425&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_783639-MLM115866297324_092026-E.webp",
-      "group_id": "g-dfa484762b"
+      "group_id": "g-dfa484762b",
+      "_score": 46.5,
+      "_components": {
+        "precio": 0.5,
+        "anio": 62.5,
+        "km": 87.1,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "ml-3439862003",
@@ -832,22 +1256,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-3439862003-toyota-prius-c-hibrido-2020-plata-9477-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=28&type=item&tracking_id=aab820d5-8112-421f-810f-b1126388cd14&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_931669-MLM117058418579_092026-E.webp",
-      "group_id": "g-07465b1274"
-    },
-    {
-      "id": "sn-4798682",
-      "title": "Kia K3",
-      "price": "$270,000",
-      "price_int": 270000,
-      "year": "2026",
-      "mileage": "566 kms.",
-      "location": "Tlaquepaque",
-      "source": "seminuevos",
-      "brand": "Kia",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-tlaquepaque-2026/4798682",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2152026/4798682/o_o/pt_4798682_1779336178737_961.jpg",
-      "group_id": "g-bd5bedc71a"
+      "group_id": "g-07465b1274",
+      "_score": 37.2,
+      "_components": {
+        "precio": 0.1,
+        "anio": 25.0,
+        "km": 88.0,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     },
     {
       "id": "sn-265006",
@@ -862,7 +1279,15 @@
       "transmission": "unknown",
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris_r-zapopan-2022/4782597",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2132026/4782597/o_o/pt_4782597_1774127858096_409.jpg",
-      "group_id": "g-acf6ecf530"
+      "group_id": "g-acf6ecf530",
+      "_score": 45.1,
+      "_components": {
+        "precio": 0.0,
+        "anio": 50.0,
+        "km": 94.6,
+        "frescura": 78.6,
+        "completitud": 100.0
+      }
     }
   ],
   "new_cars": [
@@ -879,97 +1304,15 @@
       "transmission": "automatic",
       "link": "https://auto.mercadolibre.com.mx/MLM-3315577157-kia-rio-16-lx-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=44&type=item&tracking_id=69c12c3e-62ad-4a06-88d3-cce750041cbd&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_849546-MLM116188684419_082026-E.webp",
-      "group_id": "g-6ecaeb81bc"
-    },
-    {
-      "id": "sn-4817591",
-      "title": "Toyota Yaris",
-      "price": "$228,000",
-      "price_int": 228000,
-      "year": "2019",
-      "mileage": "125,000 kms.",
-      "location": "Guadalajara",
-      "source": "seminuevos",
-      "brand": "Toyota",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-guadalajara-2019/4817591",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2372026/4817591/o_o/pt_4817591_1784827738817_541.jpg",
-      "group_id": "g-691065099c"
-    },
-    {
-      "id": "sn-4832681",
-      "title": "Toyota Yaris",
-      "price": "$195,000",
-      "price_int": 195000,
-      "year": "2019",
-      "mileage": "90,558 kms.",
-      "location": "Zapopan",
-      "source": "seminuevos",
-      "brand": "Toyota",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-zapopan-2019/4832681",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1492026/4832681/o_o/pt_4832681_1789416630750_45.jpg",
-      "group_id": "g-fef0ab4a51"
-    },
-    {
-      "id": "sn-4815737",
-      "title": "Kia Rio",
-      "price": "$228,000",
-      "price_int": 228000,
-      "year": "2023",
-      "mileage": "73,251 kms.",
-      "location": "Zapopan",
-      "source": "seminuevos",
-      "brand": "Kia",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-zapopan-2023/4815737",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1772026/4815737/o_o/4815737_1788545228263_829.",
-      "group_id": "g-782bb7ea3d"
-    },
-    {
-      "id": "sn-4822678",
-      "title": "Kia Rio",
-      "price": "$228,000",
-      "price_int": 228000,
-      "year": "2023",
-      "mileage": "75,281 kms.",
-      "location": "Zapopan",
-      "source": "seminuevos",
-      "brand": "Kia",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-kia-rio-zapopan-2023/4822678",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1082026/4822678/o_o/4822678_1789515249104_690.",
-      "group_id": "g-7517dd73fa"
-    },
-    {
-      "id": "sn-4822595",
-      "title": "Kia Forte LX",
-      "price": "$189,500",
-      "price_int": 189500,
-      "year": "2018",
-      "mileage": "117,000 kms.",
-      "location": "Guadalajara",
-      "source": "seminuevos",
-      "brand": "Kia",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-kia-forte_lx-guadalajara-2018/4822595",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1082026/4822595/o_o/pt_4822595_1786401244947_166.jpg",
-      "group_id": "g-2845d502fc"
-    },
-    {
-      "id": "sn-4830188",
-      "title": "Hyundai Accent",
-      "price": "$224,000",
-      "price_int": 224000,
-      "year": "2022",
-      "mileage": "31,000 kms.",
-      "location": "Guadalajara",
-      "source": "seminuevos",
-      "brand": "Hyundai",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-hyundai-accent-guadalajara-2022/4830188",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/492026/4830188/o_o/4830188_1788570771342_882.jpeg",
-      "group_id": "g-0c66ba64f5"
+      "group_id": "g-6ecaeb81bc",
+      "_score": 59.0,
+      "_components": {
+        "precio": 61.2,
+        "anio": 25.0,
+        "km": 74.3,
+        "frescura": 92.9,
+        "completitud": 100.0
+      }
     }
   ]
 }
