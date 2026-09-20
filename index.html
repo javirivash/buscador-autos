@@ -206,6 +206,7 @@
   .badge-hyundai { background: #d1fae5; color: #0f8a5f; }
   .badge-honda { background: #dbeafe; color: #2563eb; }
   .badge-toyota { background: #fee2e2; color: #dc2626; }
+  .badge-mazda { background: #fef3c7; color: #b45309; }
   .badge-fuel { background: #fff4e6; color: #b45309; }
   .trans-badge { font-size: 10px; padding: 2px 7px; border-radius: 5px; font-weight: 600; line-height: 1.4; }
   .trans-auto { background: var(--green-soft); color: var(--green); }
@@ -469,7 +470,7 @@ const MODEL_KEYWORDS = {
   hyundai: ['Accent', 'Elantra', 'Grand', 'Ioniq', 'Sonata', 'Veloster', 'Tucson', 'Santa Fe', 'Creta']
 };
 const HYBRID_KW = ['prius', 'ioniq', 'hev', 'hibrido', 'híbrido', 'phev'];
-const BRAND_COLORS = { toyota: 'badge-toyota', honda: 'badge-honda', kia: 'badge-kia', hyundai: 'badge-hyundai' };
+const BRAND_COLORS = { toyota: 'badge-toyota', honda: 'badge-honda', kia: 'badge-kia', hyundai: 'badge-hyundai', mazda: 'badge-mazda' };
 
 function getModel(c) {
   const brand = (c.brand || '').toLowerCase();
