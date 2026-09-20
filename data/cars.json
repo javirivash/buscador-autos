@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T09:35:17.539190Z",
+  "generated_at": "2026-09-20T09:52:48.736598Z",
   "criterios": {
     "marcas": [
       "Toyota",
@@ -23,7 +23,7 @@
     ]
   },
   "total_count": 40,
-  "new_count": 3,
+  "new_count": 0,
   "cars": [
     {
       "id": "sn-744403",
@@ -381,7 +381,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6197190594-hyundai-creta-16-limited-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=2&type=item&tracking_id=b9989dec-0166-4f57-ac23-34ff42f76b68&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6197190594-hyundai-creta-16-limited-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=2&type=item&tracking_id=0ba19e84-f280-41df-bff4-83c7618e4dd9&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_770655-MLM117593209507_092026-E.webp",
       "group_id": "g-e4a8f7364f",
       "_score": 42.4,
@@ -427,7 +427,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3501116447-kia-forte-gt-line-2020-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=40&type=item&tracking_id=d0626bc7-68b2-487a-92fd-ad1b455d6978&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3501116447-kia-forte-gt-line-2020-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=40&type=item&tracking_id=2dc5176c-6b5a-4b50-9cef-38818303bdc5&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_695171-MLM117768669989_092026-E.webp",
       "group_id": "g-6c27516624",
       "_score": 42.2,
@@ -450,7 +450,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3400224351-kia-forte-sedan-2021-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=38&type=item&tracking_id=d0626bc7-68b2-487a-92fd-ad1b455d6978&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3400224351-kia-forte-sedan-2021-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=38&type=item&tracking_id=2dc5176c-6b5a-4b50-9cef-38818303bdc5&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_771532-MLM115391553276_082026-E.webp",
       "group_id": "g-a1163b7b4e",
       "_score": 43.5,
@@ -519,7 +519,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3289029201-hyundai-creta-16-limited-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=4&type=item&tracking_id=b9989dec-0166-4f57-ac23-34ff42f76b68&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3289029201-hyundai-creta-16-limited-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=4&type=item&tracking_id=0ba19e84-f280-41df-bff4-83c7618e4dd9&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_641933-MLM115897525225_082026-E.webp",
       "group_id": "g-d8b86bf102",
       "_score": 38.1,
@@ -726,7 +726,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6112502310-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=24&type=item&tracking_id=a11c6ee0-01d3-4c5e-8854-88423887fdd5&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6112502310-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=24&type=item&tracking_id=552c4762-7ff7-4e3f-8027-08a8484f638c&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_972323-MLM116839347909_082026-E.webp",
       "group_id": "g-9e0ac000e3",
       "_score": 49.7,
@@ -749,7 +749,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3387771987-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=19&type=item&tracking_id=a11c6ee0-01d3-4c5e-8854-88423887fdd5&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3387771987-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=19&type=item&tracking_id=552c4762-7ff7-4e3f-8027-08a8484f638c&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_702333-MLM116674889251_082026-E.webp",
       "group_id": "g-a2da9dd941",
       "_score": 49.8,
@@ -946,75 +946,5 @@
       }
     }
   ],
-  "new_cars": [
-    {
-      "id": "ml-6197190594",
-      "title": "Hyundai Creta 2019 1.6 Limited At",
-      "price": "$245,000",
-      "price_int": 245000,
-      "year": "2019",
-      "mileage": "86,010 Km",
-      "location": "Zapopan - Jalisco",
-      "source": "mercadolibre",
-      "brand": "Hyundai",
-      "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6197190594-hyundai-creta-16-limited-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=2&type=item&tracking_id=b9989dec-0166-4f57-ac23-34ff42f76b68&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_770655-MLM117593209507_092026-E.webp",
-      "group_id": "g-e4a8f7364f",
-      "_score": 42.4,
-      "_components": {
-        "precio": 31.2,
-        "anio": 12.5,
-        "km": 66.9,
-        "frescura": 100.0,
-        "completitud": 100.0
-      }
-    },
-    {
-      "id": "ml-3289029201",
-      "title": "Hyundai Creta 2019 1.6 Limited At",
-      "price": "$255,000",
-      "price_int": 255000,
-      "year": "2019",
-      "mileage": "78,000 Km",
-      "location": "Puerto Vallarta - Jalisco",
-      "source": "mercadolibre",
-      "brand": "Hyundai",
-      "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3289029201-hyundai-creta-16-limited-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=4&type=item&tracking_id=b9989dec-0166-4f57-ac23-34ff42f76b68&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_641933-MLM115897525225_082026-E.webp",
-      "group_id": "g-d8b86bf102",
-      "_score": 38.1,
-      "_components": {
-        "precio": 18.8,
-        "anio": 12.5,
-        "km": 70.0,
-        "frescura": 100.0,
-        "completitud": 100.0
-      }
-    },
-    {
-      "id": "sn-4806943",
-      "title": "Mazda CX-3",
-      "price": "$239,500",
-      "price_int": 239500,
-      "year": "2019",
-      "mileage": "95,000 kms.",
-      "location": "Guadalajara",
-      "source": "seminuevos",
-      "brand": "Mazda",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-mazda-cx_3-guadalajara-2019/4806943",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026617/4806943/o_o/pt_4806943_1781729864817.jpeg",
-      "group_id": "g-ac7f04f2db",
-      "_score": 44.2,
-      "_components": {
-        "precio": 38.1,
-        "anio": 12.5,
-        "km": 63.5,
-        "frescura": 100.0,
-        "completitud": 100.0
-      }
-    }
-  ]
+  "new_cars": []
 }
