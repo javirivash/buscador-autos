@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T07:56:38.746826Z",
+  "generated_at": "2026-09-21T09:06:41.197197Z",
   "criterios": {
     "marcas": [
       "Toyota",
@@ -22,8 +22,8 @@
       "Jalisco"
     ]
   },
-  "total_count": 34,
-  "new_count": 0,
+  "total_count": 38,
+  "new_count": 4,
   "cars": [
     {
       "id": "ml-3516648239",
@@ -36,7 +36,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3516648239-kia-sorento-lx-24-lt-tratocar-13338-1809-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=18&type=item&tracking_id=e2700062-dea1-45f5-9799-d6d8a3c17b5c&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3516648239-kia-sorento-lx-24-lt-tratocar-13338-1809-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=18&type=item&tracking_id=52bcee0c-965c-4061-8230-eea2be5ef258&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_759556-MLM116379108608_092026-E.webp",
       "group_id": "g-4862532acd",
       "_score": 58.8,
@@ -82,7 +82,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-5510620742-hyundai-santa-fe-sport-awd-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=39&type=item&tracking_id=78f148dd-dde6-4ec7-ae47-ea502b3a80ac&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-5510620742-hyundai-santa-fe-sport-awd-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=39&type=item&tracking_id=397af77e-0aa3-46a1-b1e6-7f8db2d09e06&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_752919-MLM112462156082_062026-E.webp",
       "group_id": "g-13fd27ec60",
       "_score": 60.2,
@@ -128,7 +128,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3495208855-kia-sorento-lx-24-lt-tratocar-12584-1409-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=16&type=item&tracking_id=e2700062-dea1-45f5-9799-d6d8a3c17b5c&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3495208855-kia-sorento-lx-24-lt-tratocar-12584-1409-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=16&type=item&tracking_id=52bcee0c-965c-4061-8230-eea2be5ef258&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_704654-MLM117653066369_092026-E.webp",
       "group_id": "g-af7bb65fc3",
       "_score": 56.3,
@@ -151,7 +151,7 @@
       "source": "mercadolibre",
       "brand": "Mazda",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3488278627-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-1209-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=17&type=item&tracking_id=3a28e189-e625-4107-9c51-0986f2968880&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3488278627-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-1209-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=17&type=item&tracking_id=baddcb45-2810-4bf3-b461-eb3c705e74d6&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_949241-MLM117579612743_092026-E.webp",
       "group_id": "g-c77419ec33",
       "_score": 52.1,
@@ -174,7 +174,7 @@
       "source": "mercadolibre",
       "brand": "Mazda",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3467600809-mazda-mazda-3-25-s-grand-touring-hchback-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=34&type=item&tracking_id=02950f68-c0e4-445d-8b2b-f0d11fb1713e&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3467600809-mazda-mazda-3-25-s-grand-touring-hchback-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=34&type=item&tracking_id=6785b40b-01fc-4bac-9f05-fad07702397b&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_765203-MLM117381568537_092026-E.webp",
       "group_id": "g-3b88659073",
       "_score": 49.9,
@@ -243,7 +243,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3427950461-kia-sorento-24-lx-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=21&type=item&tracking_id=e2700062-dea1-45f5-9799-d6d8a3c17b5c&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3427950461-kia-sorento-24-lx-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=21&type=item&tracking_id=52bcee0c-965c-4061-8230-eea2be5ef258&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_624704-MLM115514024578_082026-E.webp",
       "group_id": "g-7dba14edaf",
       "_score": 48.3,
@@ -348,6 +348,29 @@
       }
     },
     {
+      "id": "ml-3316496491",
+      "title": "Hyundai Tucson 2017 2.0 Limited At",
+      "price": "$240,000",
+      "price_int": 240000,
+      "year": "2017",
+      "mileage": "189,000 Km",
+      "location": "Guadalajara - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Hyundai",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3316496491-hyundai-tucson-20-limited-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=32&type=item&tracking_id=b47b7c12-3cb4-46ca-a32d-e4891dbc0795&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_906039-MLM114812713386_082026-E.webp",
+      "group_id": "g-e4e05b829a",
+      "_score": 31.2,
+      "_components": {
+        "precio": 34.1,
+        "anio": 0.0,
+        "km": 30.3,
+        "frescura": 100.0,
+        "completitud": 100.0
+      }
+    },
+    {
       "id": "sn-692549",
       "title": "Hyundai Ioniq",
       "price": "$240,000",
@@ -394,6 +417,29 @@
       }
     },
     {
+      "id": "ml-6232035872",
+      "title": "Hyundai Tucson 2017 2.0 Gls At",
+      "price": "$242,900",
+      "price_int": 242900,
+      "year": "2017",
+      "mileage": "88,000 Km",
+      "location": "Guadalajara - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Hyundai",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6232035872-hyundai-tucson-20-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=12&type=item&tracking_id=b47b7c12-3cb4-46ca-a32d-e4891dbc0795&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_684449-MLM117746521771_092026-E.webp",
+      "group_id": "g-f45a995457",
+      "_score": 40.8,
+      "_components": {
+        "precio": 30.8,
+        "anio": 0.0,
+        "km": 74.0,
+        "frescura": 100.0,
+        "completitud": 100.0
+      }
+    },
+    {
       "id": "ml-6197190594",
       "title": "Hyundai Creta 2019 1.6 Limited At",
       "price": "$245,000",
@@ -404,7 +450,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6197190594-hyundai-creta-16-limited-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=48&type=item&tracking_id=d7f31d32-5a01-4a9b-a61d-27d367b615ab&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6197190594-hyundai-creta-16-limited-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=48&type=item&tracking_id=2b090080-83b0-4d84-a294-f5bbae4496cc&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_770655-MLM117593209507_092026-E.webp",
       "group_id": "g-e4a8f7364f",
       "_score": 45.3,
@@ -413,6 +459,29 @@
         "anio": 22.2,
         "km": 74.9,
         "frescura": 92.9,
+        "completitud": 100.0
+      }
+    },
+    {
+      "id": "ml-3101203509",
+      "title": "Hyundai Tucson 2017 2.0 Gls At",
+      "price": "$247,000",
+      "price_int": 247000,
+      "year": "2017",
+      "mileage": "50,000 Km",
+      "location": "Zapopan - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Hyundai",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3101203509-hyundai-tucson-2017-roja-impecable-1-duena-factura-origina-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=13&type=item&tracking_id=b47b7c12-3cb4-46ca-a32d-e4891dbc0795&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_855252-MLM113065597182_072026-E.webp",
+      "group_id": "g-96228c90d0",
+      "_score": 43.1,
+      "_components": {
+        "precio": 26.1,
+        "anio": 0.0,
+        "km": 90.5,
+        "frescura": 100.0,
         "completitud": 100.0
       }
     },
@@ -588,7 +657,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6243287002-hyundai-creta-2020-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=30&type=item&tracking_id=d7f31d32-5a01-4a9b-a61d-27d367b615ab&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6243287002-hyundai-creta-2020-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=30&type=item&tracking_id=2b090080-83b0-4d84-a294-f5bbae4496cc&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_946328-MLM116339213992_092026-E.webp",
       "group_id": "g-4a7e4cf0e3",
       "_score": 39.7,
@@ -762,6 +831,29 @@
       }
     },
     {
+      "id": "ml-3483742649",
+      "title": "Hyundai Tucson 2017 2.0 Limited At",
+      "price": "$269,800",
+      "price_int": 269800,
+      "year": "2017",
+      "mileage": "98,256 Km",
+      "location": "Guadalajara - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Hyundai",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3483742649-hyundai-tucson-20-limited-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=3&type=item&tracking_id=b47b7c12-3cb4-46ca-a32d-e4891dbc0795&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_972203-MLM117536966055_092026-E.webp",
+      "group_id": "g-bc625acf38",
+      "_score": 27.5,
+      "_components": {
+        "precio": 0.2,
+        "anio": 0.0,
+        "km": 69.6,
+        "frescura": 100.0,
+        "completitud": 100.0
+      }
+    },
+    {
       "id": "ml-3439862003",
       "title": "Toyota Prius 2020 1.5 C Hibrido",
       "price": "$269,900",
@@ -808,5 +900,98 @@
       }
     }
   ],
-  "new_cars": []
+  "new_cars": [
+    {
+      "id": "ml-3483742649",
+      "title": "Hyundai Tucson 2017 2.0 Limited At",
+      "price": "$269,800",
+      "price_int": 269800,
+      "year": "2017",
+      "mileage": "98,256 Km",
+      "location": "Guadalajara - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Hyundai",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3483742649-hyundai-tucson-20-limited-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=3&type=item&tracking_id=b47b7c12-3cb4-46ca-a32d-e4891dbc0795&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_972203-MLM117536966055_092026-E.webp",
+      "group_id": "g-bc625acf38",
+      "_score": 27.5,
+      "_components": {
+        "precio": 0.2,
+        "anio": 0.0,
+        "km": 69.6,
+        "frescura": 100.0,
+        "completitud": 100.0
+      }
+    },
+    {
+      "id": "ml-6232035872",
+      "title": "Hyundai Tucson 2017 2.0 Gls At",
+      "price": "$242,900",
+      "price_int": 242900,
+      "year": "2017",
+      "mileage": "88,000 Km",
+      "location": "Guadalajara - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Hyundai",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6232035872-hyundai-tucson-20-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=12&type=item&tracking_id=b47b7c12-3cb4-46ca-a32d-e4891dbc0795&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_684449-MLM117746521771_092026-E.webp",
+      "group_id": "g-f45a995457",
+      "_score": 40.8,
+      "_components": {
+        "precio": 30.8,
+        "anio": 0.0,
+        "km": 74.0,
+        "frescura": 100.0,
+        "completitud": 100.0
+      }
+    },
+    {
+      "id": "ml-3101203509",
+      "title": "Hyundai Tucson 2017 2.0 Gls At",
+      "price": "$247,000",
+      "price_int": 247000,
+      "year": "2017",
+      "mileage": "50,000 Km",
+      "location": "Zapopan - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Hyundai",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3101203509-hyundai-tucson-2017-roja-impecable-1-duena-factura-origina-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=13&type=item&tracking_id=b47b7c12-3cb4-46ca-a32d-e4891dbc0795&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_855252-MLM113065597182_072026-E.webp",
+      "group_id": "g-96228c90d0",
+      "_score": 43.1,
+      "_components": {
+        "precio": 26.1,
+        "anio": 0.0,
+        "km": 90.5,
+        "frescura": 100.0,
+        "completitud": 100.0
+      }
+    },
+    {
+      "id": "ml-3316496491",
+      "title": "Hyundai Tucson 2017 2.0 Limited At",
+      "price": "$240,000",
+      "price_int": 240000,
+      "year": "2017",
+      "mileage": "189,000 Km",
+      "location": "Guadalajara - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Hyundai",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3316496491-hyundai-tucson-20-limited-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=32&type=item&tracking_id=b47b7c12-3cb4-46ca-a32d-e4891dbc0795&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_906039-MLM114812713386_082026-E.webp",
+      "group_id": "g-e4e05b829a",
+      "_score": 31.2,
+      "_components": {
+        "precio": 34.1,
+        "anio": 0.0,
+        "km": 30.3,
+        "frescura": 100.0,
+        "completitud": 100.0
+      }
+    }
+  ]
 }
