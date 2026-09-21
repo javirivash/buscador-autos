@@ -23,7 +23,7 @@
     ]
   },
   "total_count": 38,
-  "new_count": 4,
+  "new_count": 10,
   "cars": [
     {
       "id": "ml-3516648239",
@@ -39,13 +39,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3516648239-kia-sorento-lx-24-lt-tratocar-13338-1809-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=18&type=item&tracking_id=52bcee0c-965c-4061-8230-eea2be5ef258&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_759556-MLM116379108608_092026-E.webp",
       "group_id": "g-4862532acd",
-      "_score": 58.8,
+      "_score": 50.5,
       "_components": {
         "precio": 100.0,
         "anio": 0.0,
-        "km": 35.1,
-        "frescura": 100.0,
-        "completitud": 100.0
+        "km": 35.1
       }
     },
     {
@@ -62,13 +60,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-tlaquepaque-2018/4646701",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/20241220/4646701/o_o/pt_4646701_1734717037281.jpg",
       "group_id": "g-d8c4c75584",
-      "_score": 61.8,
+      "_score": 57.5,
       "_components": {
         "precio": 90.9,
         "anio": 11.1,
-        "km": 59.3,
-        "frescura": 57.1,
-        "completitud": 100.0
+        "km": 59.3
       }
     },
     {
@@ -85,13 +81,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-5510620742-hyundai-santa-fe-sport-awd-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=39&type=item&tracking_id=397af77e-0aa3-46a1-b1e6-7f8db2d09e06&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_752919-MLM112462156082_062026-E.webp",
       "group_id": "g-13fd27ec60",
-      "_score": 60.2,
+      "_score": 53.4,
       "_components": {
         "precio": 85.2,
         "anio": 0.0,
-        "km": 64.5,
-        "frescura": 100.0,
-        "completitud": 100.0
+        "km": 64.5
       }
     },
     {
@@ -108,13 +102,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-zapopan-2019/4832681",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1492026/4832681/o_o/pt_4832681_1789416630750_45.jpg",
       "group_id": "g-fef0ab4a51",
-      "_score": 65.7,
+      "_score": 62.6,
       "_components": {
         "precio": 85.2,
         "anio": 22.2,
-        "km": 72.9,
-        "frescura": 57.1,
-        "completitud": 100.0
+        "km": 72.9
       }
     },
     {
@@ -131,13 +123,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3495208855-kia-sorento-lx-24-lt-tratocar-12584-1409-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=16&type=item&tracking_id=52bcee0c-965c-4061-8230-eea2be5ef258&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_704654-MLM117653066369_092026-E.webp",
       "group_id": "g-af7bb65fc3",
-      "_score": 56.3,
+      "_score": 50.1,
       "_components": {
         "precio": 68.2,
         "anio": 11.1,
-        "km": 65.0,
-        "frescura": 100.0,
-        "completitud": 100.0
+        "km": 65.0
       }
     },
     {
@@ -154,13 +144,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3488278627-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-1209-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=17&type=item&tracking_id=baddcb45-2810-4bf3-b461-eb3c705e74d6&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_949241-MLM117579612743_092026-E.webp",
       "group_id": "g-c77419ec33",
-      "_score": 52.1,
+      "_score": 45.2,
       "_components": {
         "precio": 67.0,
         "anio": 0.0,
-        "km": 61.1,
-        "frescura": 100.0,
-        "completitud": 100.0
+        "km": 61.1
       }
     },
     {
@@ -177,13 +165,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3467600809-mazda-mazda-3-25-s-grand-touring-hchback-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=34&type=item&tracking_id=6785b40b-01fc-4bac-9f05-fad07702397b&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_765203-MLM117381568537_092026-E.webp",
       "group_id": "g-3b88659073",
-      "_score": 49.9,
+      "_score": 43.3,
       "_components": {
         "precio": 56.8,
         "anio": 11.1,
-        "km": 57.6,
-        "frescura": 100.0,
-        "completitud": 100.0
+        "km": 57.6
       }
     },
     {
@@ -200,13 +186,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris_r-guadalajara-2018/4805639",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026612/4805639/o_o/pt_4805639_1781297665284.jpeg",
       "group_id": "g-4860c0a333",
-      "_score": 49.9,
+      "_score": 46.4,
       "_components": {
         "precio": 51.1,
         "anio": 11.1,
-        "km": 75.3,
-        "frescura": 57.1,
-        "completitud": 100.0
+        "km": 75.3
       }
     },
     {
@@ -223,13 +207,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-guadalajara-2019/4817591",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2372026/4817591/o_o/pt_4817591_1784827738817_541.jpg",
       "group_id": "g-691065099c",
-      "_score": 47.0,
+      "_score": 43.2,
       "_components": {
         "precio": 47.7,
         "anio": 22.2,
-        "km": 58.0,
-        "frescura": 57.1,
-        "completitud": 100.0
+        "km": 58.0
       }
     },
     {
@@ -246,13 +228,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3427950461-kia-sorento-24-lx-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=21&type=item&tracking_id=52bcee0c-965c-4061-8230-eea2be5ef258&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_624704-MLM115514024578_082026-E.webp",
       "group_id": "g-7dba14edaf",
-      "_score": 48.3,
+      "_score": 42.3,
       "_components": {
         "precio": 46.6,
         "anio": 0.0,
-        "km": 78.8,
-        "frescura": 100.0,
-        "completitud": 100.0
+        "km": 78.8
       }
     },
     {
@@ -269,13 +249,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-guadalajara-2019/4829352",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/292026/4829352/o_o/4829352_1788393929487_290.jpeg",
       "group_id": "g-adc8423581",
-      "_score": 49.6,
+      "_score": 47.3,
       "_components": {
         "precio": 35.2,
         "anio": 22.2,
-        "km": 88.3,
-        "frescura": 57.1,
-        "completitud": 100.0
+        "km": 88.3
       }
     },
     {
@@ -292,13 +270,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-corolla-zapopan-2019/4830890",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/892026/4830890/o_o/pt_4830890_1788888422200_903.jpg",
       "group_id": "g-796ec5df28",
-      "_score": 47.0,
+      "_score": 44.1,
       "_components": {
         "precio": 35.2,
         "anio": 22.2,
-        "km": 77.9,
-        "frescura": 57.1,
-        "completitud": 100.0
+        "km": 77.9
       }
     },
     {
@@ -315,13 +291,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-mazda-cx_3-guadalajara-2019/4806943",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026617/4806943/o_o/pt_4806943_1781729864817.jpeg",
       "group_id": "g-ac7f04f2db",
-      "_score": 46.8,
+      "_score": 41.8,
       "_components": {
         "precio": 34.7,
         "anio": 22.2,
-        "km": 71.0,
-        "frescura": 92.9,
-        "completitud": 100.0
+        "km": 71.0
       }
     },
     {
@@ -338,13 +312,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-guadalajara-2018/4751850",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2025122/4751850/o_o/pt_4751850_1764700148746.jpeg",
       "group_id": "g-2bd7d19be8",
-      "_score": 44.5,
+      "_score": 41.3,
       "_components": {
         "precio": 34.3,
         "anio": 11.1,
-        "km": 80.8,
-        "frescura": 57.1,
-        "completitud": 100.0
+        "km": 80.8
       }
     },
     {
@@ -361,13 +333,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3316496491-hyundai-tucson-20-limited-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=32&type=item&tracking_id=b47b7c12-3cb4-46ca-a32d-e4891dbc0795&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_906039-MLM114812713386_082026-E.webp",
       "group_id": "g-e4e05b829a",
-      "_score": 31.2,
+      "_score": 22.7,
       "_components": {
         "precio": 34.1,
         "anio": 0.0,
-        "km": 30.3,
-        "frescura": 100.0,
-        "completitud": 100.0
+        "km": 30.3
       }
     },
     {
@@ -384,13 +354,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-hyundai-ioniq-guadalajara-2019/4792259",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026425/4792259/o_o/pt_4792259_1779395278000.jpg",
       "group_id": "g-edb5d157a5",
-      "_score": 43.2,
+      "_score": 39.7,
       "_components": {
         "precio": 34.1,
         "anio": 22.2,
-        "km": 64.5,
-        "frescura": 57.1,
-        "completitud": 100.0
+        "km": 64.5
       }
     },
     {
@@ -407,13 +375,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3305608339-hyundai-ioniq-16-limited-dsg6-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=39&type=item&tracking_id=48459a76-0820-4c5c-adb2-598d458dc9de&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_686390-MLM116043121307_082026-E.webp",
       "group_id": "g-edb5d157a5",
-      "_score": 43.2,
+      "_score": 39.7,
       "_components": {
         "precio": 34.1,
         "anio": 22.2,
-        "km": 64.5,
-        "frescura": 57.1,
-        "completitud": 100.0
+        "km": 64.5
       }
     },
     {
@@ -430,13 +396,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6232035872-hyundai-tucson-20-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=12&type=item&tracking_id=b47b7c12-3cb4-46ca-a32d-e4891dbc0795&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_684449-MLM117746521771_092026-E.webp",
       "group_id": "g-f45a995457",
-      "_score": 40.8,
+      "_score": 34.5,
       "_components": {
         "precio": 30.8,
         "anio": 0.0,
-        "km": 74.0,
-        "frescura": 100.0,
-        "completitud": 100.0
+        "km": 74.0
       }
     },
     {
@@ -453,13 +417,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6197190594-hyundai-creta-16-limited-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=48&type=item&tracking_id=2b090080-83b0-4d84-a294-f5bbae4496cc&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_770655-MLM117593209507_092026-E.webp",
       "group_id": "g-e4a8f7364f",
-      "_score": 45.3,
+      "_score": 40.5,
       "_components": {
         "precio": 28.4,
         "anio": 22.2,
-        "km": 74.9,
-        "frescura": 92.9,
-        "completitud": 100.0
+        "km": 74.9
       }
     },
     {
@@ -476,13 +438,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3101203509-hyundai-tucson-2017-roja-impecable-1-duena-factura-origina-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=13&type=item&tracking_id=b47b7c12-3cb4-46ca-a32d-e4891dbc0795&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_855252-MLM113065597182_072026-E.webp",
       "group_id": "g-96228c90d0",
-      "_score": 43.1,
+      "_score": 37.6,
       "_components": {
         "precio": 26.1,
         "anio": 0.0,
-        "km": 90.5,
-        "frescura": 100.0,
-        "completitud": 100.0
+        "km": 90.5
       }
     },
     {
@@ -499,13 +459,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-honda-city-zapopan-2020/4828349",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2982026/4828349/o_o/4828349_1788832103739_4.jpeg",
       "group_id": "g-a1b76a01c7",
-      "_score": 43.8,
+      "_score": 41.2,
       "_components": {
         "precio": 23.9,
         "anio": 33.3,
-        "km": 72.2,
-        "frescura": 57.1,
-        "completitud": 100.0
+        "km": 72.2
       }
     },
     {
@@ -522,13 +480,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-zapopan-2024/4819544",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/3072026/4819544/o_o/4819544_1789408637995_223.",
       "group_id": "g-2d5d97f806",
-      "_score": 58.0,
+      "_score": 58.4,
       "_components": {
         "precio": 22.7,
         "anio": 77.8,
-        "km": 86.6,
-        "frescura": 57.1,
-        "completitud": 100.0
+        "km": 86.6
       }
     },
     {
@@ -545,13 +501,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3289029201-hyundai-creta-16-limited-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=4&type=item&tracking_id=0ba19e84-f280-41df-bff4-83c7618e4dd9&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_641933-MLM115897525225_082026-E.webp",
       "group_id": "g-d8b86bf102",
-      "_score": 41.6,
+      "_score": 37.0,
       "_components": {
         "precio": 17.0,
         "anio": 22.2,
-        "km": 78.4,
-        "frescura": 92.9,
-        "completitud": 100.0
+        "km": 78.4
       }
     },
     {
@@ -568,13 +522,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-prius_c-guadalajara-2019/4826715",
       "image": "https://images.latamautos.com/thumbs/w/lg/ptx_migration_mexico/2482026/4826715/o_o/4826715_1787621856543_252.jpg",
       "group_id": "g-9c65755ebe",
-      "_score": 18.4,
+      "_score": 11.7,
       "_components": {
         "precio": 12.5,
         "anio": 22.2,
-        "km": 0.0,
-        "frescura": 57.1,
-        "completitud": 100.0
+        "km": 0.0
       }
     },
     {
@@ -591,13 +543,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-guadalajara-2018/4832241",
       "image": "https://images.latamautos.com/thumbs/w/lg/ptx_migration_mexico/1292026/4832241/o_o/pt_4832241_1789186550851_717.jpg",
       "group_id": "g-17aa1591fb",
-      "_score": 35.0,
+      "_score": 31.6,
       "_components": {
         "precio": 12.5,
         "anio": 11.1,
-        "km": 77.5,
-        "frescura": 57.1,
-        "completitud": 100.0
+        "km": 77.5
       }
     },
     {
@@ -614,13 +564,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-zapopan-2022/4815123",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1572026/4815123/o_o/4815123_1784136789914_276.jpg",
       "group_id": "g-fb0fd3f9b7",
-      "_score": 46.7,
+      "_score": 45.6,
       "_components": {
         "precio": 12.5,
         "anio": 55.6,
-        "km": 79.7,
-        "frescura": 57.1,
-        "completitud": 100.0
+        "km": 79.7
       }
     },
     {
@@ -637,13 +585,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-honda-civic-zapopan-2018/4764133",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1512026/4764133/o_o/pt_4764133_1768508287340_841.jpg",
       "group_id": "g-d0d2b383d7",
-      "_score": 30.9,
+      "_score": 26.6,
       "_components": {
         "precio": 12.5,
         "anio": 11.1,
-        "km": 61.0,
-        "frescura": 57.1,
-        "completitud": 100.0
+        "km": 61.0
       }
     },
     {
@@ -660,13 +606,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6243287002-hyundai-creta-2020-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=30&type=item&tracking_id=2b090080-83b0-4d84-a294-f5bbae4496cc&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_946328-MLM116339213992_092026-E.webp",
       "group_id": "g-4a7e4cf0e3",
-      "_score": 39.7,
+      "_score": 35.2,
       "_components": {
         "precio": 11.7,
         "anio": 33.3,
-        "km": 68.3,
-        "frescura": 92.9,
-        "completitud": 100.0
+        "km": 68.3
       }
     },
     {
@@ -683,13 +627,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3446976033-honda-city-15-sport-cvt-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=19&type=item&tracking_id=4ecd06de-9a6f-4caa-8c6c-4d8b2130b611&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_977203-MLM115699913878_092026-E.webp",
       "group_id": "g-010f4980bc",
-      "_score": 46.6,
+      "_score": 46.1,
       "_components": {
         "precio": 5.7,
         "anio": 55.6,
-        "km": 90.5,
-        "frescura": 57.1,
-        "completitud": 100.0
+        "km": 90.5
       }
     },
     {
@@ -706,13 +648,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6112502310-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=24&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_972323-MLM116839347909_082026-E.webp",
       "group_id": "g-9e0ac000e3",
-      "_score": 52.6,
+      "_score": 53.7,
       "_components": {
         "precio": 1.1,
         "anio": 77.8,
-        "km": 99.6,
-        "frescura": 57.1,
-        "completitud": 100.0
+        "km": 99.6
       }
     },
     {
@@ -729,13 +669,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3387771987-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=19&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_702333-MLM116674889251_082026-E.webp",
       "group_id": "g-a2da9dd941",
-      "_score": 52.8,
+      "_score": 53.8,
       "_components": {
         "precio": 1.1,
         "anio": 77.8,
-        "km": 100.0,
-        "frescura": 57.1,
-        "completitud": 100.0
+        "km": 100.0
       }
     },
     {
@@ -752,13 +690,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6210306656-toyota-camry-25-le-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=46&type=item&tracking_id=8c1bf5f5-abd0-4078-8d18-caa7cbd573ed&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_868558-MLM117540123187_092026-E.webp",
       "group_id": "g-9e5699723f",
-      "_score": 29.6,
+      "_score": 26.1,
       "_components": {
         "precio": 1.1,
         "anio": 11.1,
-        "km": 74.2,
-        "frescura": 57.1,
-        "completitud": 100.0
+        "km": 74.2
       }
     },
     {
@@ -775,13 +711,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3102504223-hyundai-hb20-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=46&type=item&tracking_id=50425b76-d9fd-4084-a1f3-7e6a4da24d2b&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_836687-MLM113078522822_072026-E.webp",
       "group_id": "g-1501273c24",
-      "_score": 48.5,
+      "_score": 48.6,
       "_components": {
         "precio": 1.1,
         "anio": 66.7,
-        "km": 93.9,
-        "frescura": 57.1,
-        "completitud": 100.0
+        "km": 93.9
       }
     },
     {
@@ -798,13 +732,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3467663749-honda-city-15-ex-at-cvt-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=47&type=item&tracking_id=4ecd06de-9a6f-4caa-8c6c-4d8b2130b611&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_799132-MLM115913508006_092026-E.webp",
       "group_id": "g-157643e7a6",
-      "_score": 37.9,
+      "_score": 36.0,
       "_components": {
         "precio": 1.1,
         "anio": 22.2,
-        "km": 96.1,
-        "frescura": 57.1,
-        "completitud": 100.0
+        "km": 96.1
       }
     },
     {
@@ -821,13 +753,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6183557380-hyundai-hb20-hb-16-gl-mid-at-hb-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=48&type=item&tracking_id=2951a440-7f54-4fa4-9dcd-fa543b560696&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_783639-MLM115866297324_092026-E.webp",
       "group_id": "g-dfa484762b",
-      "_score": 46.4,
+      "_score": 46.2,
       "_components": {
         "precio": 0.6,
         "anio": 66.7,
-        "km": 86.6,
-        "frescura": 57.1,
-        "completitud": 100.0
+        "km": 86.6
       }
     },
     {
@@ -844,13 +774,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3483742649-hyundai-tucson-20-limited-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=3&type=item&tracking_id=b47b7c12-3cb4-46ca-a32d-e4891dbc0795&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_972203-MLM117536966055_092026-E.webp",
       "group_id": "g-bc625acf38",
-      "_score": 27.5,
+      "_score": 21.0,
       "_components": {
         "precio": 0.2,
         "anio": 0.0,
-        "km": 69.6,
-        "frescura": 100.0,
-        "completitud": 100.0
+        "km": 69.6
       }
     },
     {
@@ -867,13 +795,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3439862003-toyota-prius-c-hibrido-2020-plata-9477-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=28&type=item&tracking_id=aab820d5-8112-421f-810f-b1126388cd14&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_931669-MLM117058418579_092026-E.webp",
       "group_id": "g-07465b1274",
-      "_score": 38.1,
+      "_score": 36.3,
       "_components": {
         "precio": 0.1,
         "anio": 33.3,
-        "km": 87.4,
-        "frescura": 57.1,
-        "completitud": 100.0
+        "km": 87.4
       }
     },
     {
@@ -890,84 +816,139 @@
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris_r-zapopan-2022/4782597",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2132026/4782597/o_o/pt_4782597_1774127858096_409.jpg",
       "group_id": "g-acf6ecf530",
-      "_score": 45.3,
+      "_score": 45.0,
       "_components": {
         "precio": 0.0,
         "anio": 55.6,
-        "km": 94.4,
-        "frescura": 57.1,
-        "completitud": 100.0
+        "km": 94.4
       }
     }
   ],
   "new_cars": [
     {
-      "id": "ml-3483742649",
-      "title": "Hyundai Tucson 2017 2.0 Limited At",
-      "price": "$269,800",
-      "price_int": 269800,
+      "id": "ml-3516648239",
+      "title": "Kia Sorento 2017 Lx 2.4 Lt",
+      "price": "$182,000",
+      "price_int": 182000,
       "year": "2017",
-      "mileage": "98,256 Km",
+      "mileage": "177,938 Km",
+      "location": "Guadalajara - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Kia",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3516648239-kia-sorento-lx-24-lt-tratocar-13338-1809-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=18&type=item&tracking_id=52bcee0c-965c-4061-8230-eea2be5ef258&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_759556-MLM116379108608_092026-E.webp",
+      "group_id": "g-4862532acd",
+      "_score": 50.5,
+      "_components": {
+        "precio": 100.0,
+        "anio": 0.0,
+        "km": 35.1
+      }
+    },
+    {
+      "id": "ml-5510620742",
+      "title": "Hyundai Santa Fe 2017 2.0 Sport Awd",
+      "price": "$195,000",
+      "price_int": 195000,
+      "year": "2017",
+      "mileage": "110,000 Km",
       "location": "Guadalajara - Jalisco",
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3483742649-hyundai-tucson-20-limited-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=3&type=item&tracking_id=b47b7c12-3cb4-46ca-a32d-e4891dbc0795&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_972203-MLM117536966055_092026-E.webp",
-      "group_id": "g-bc625acf38",
-      "_score": 27.5,
+      "link": "https://auto.mercadolibre.com.mx/MLM-5510620742-hyundai-santa-fe-sport-awd-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=39&type=item&tracking_id=397af77e-0aa3-46a1-b1e6-7f8db2d09e06&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_752919-MLM112462156082_062026-E.webp",
+      "group_id": "g-13fd27ec60",
+      "_score": 53.4,
       "_components": {
-        "precio": 0.2,
+        "precio": 85.2,
         "anio": 0.0,
-        "km": 69.6,
-        "frescura": 100.0,
-        "completitud": 100.0
+        "km": 64.5
       }
     },
     {
-      "id": "ml-6232035872",
-      "title": "Hyundai Tucson 2017 2.0 Gls At",
-      "price": "$242,900",
-      "price_int": 242900,
-      "year": "2017",
-      "mileage": "88,000 Km",
+      "id": "ml-3495208855",
+      "title": "Kia Sorento 2018 Lx 2.4 Lt",
+      "price": "$210,000",
+      "price_int": 210000,
+      "year": "2018",
+      "mileage": "108,794 Km",
       "location": "Guadalajara - Jalisco",
       "source": "mercadolibre",
-      "brand": "Hyundai",
+      "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6232035872-hyundai-tucson-20-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=12&type=item&tracking_id=b47b7c12-3cb4-46ca-a32d-e4891dbc0795&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_684449-MLM117746521771_092026-E.webp",
-      "group_id": "g-f45a995457",
-      "_score": 40.8,
+      "link": "https://auto.mercadolibre.com.mx/MLM-3495208855-kia-sorento-lx-24-lt-tratocar-12584-1409-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=16&type=item&tracking_id=52bcee0c-965c-4061-8230-eea2be5ef258&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_704654-MLM117653066369_092026-E.webp",
+      "group_id": "g-af7bb65fc3",
+      "_score": 50.1,
       "_components": {
-        "precio": 30.8,
-        "anio": 0.0,
-        "km": 74.0,
-        "frescura": 100.0,
-        "completitud": 100.0
+        "precio": 68.2,
+        "anio": 11.1,
+        "km": 65.0
       }
     },
     {
-      "id": "ml-3101203509",
-      "title": "Hyundai Tucson 2017 2.0 Gls At",
-      "price": "$247,000",
-      "price_int": 247000,
+      "id": "ml-3488278627",
+      "title": "Mazda Mazda 6 2017 I Grand Touring Plus 2.5 Lt",
+      "price": "$211,000",
+      "price_int": 211000,
       "year": "2017",
-      "mileage": "50,000 Km",
+      "mileage": "117,792 Km",
+      "location": "Guadalajara - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Mazda",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3488278627-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-1209-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=17&type=item&tracking_id=baddcb45-2810-4bf3-b461-eb3c705e74d6&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_949241-MLM117579612743_092026-E.webp",
+      "group_id": "g-c77419ec33",
+      "_score": 45.2,
+      "_components": {
+        "precio": 67.0,
+        "anio": 0.0,
+        "km": 61.1
+      }
+    },
+    {
+      "id": "ml-3467600809",
+      "title": "Mazda Mazda 3 2018 2.5 S Grand Touring Hchback At",
+      "price": "$220,000",
+      "price_int": 220000,
+      "year": "2018",
+      "mileage": "126,000 Km",
+      "location": "Guadalajara - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Mazda",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3467600809-mazda-mazda-3-25-s-grand-touring-hchback-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=34&type=item&tracking_id=6785b40b-01fc-4bac-9f05-fad07702397b&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_765203-MLM117381568537_092026-E.webp",
+      "group_id": "g-3b88659073",
+      "_score": 43.3,
+      "_components": {
+        "precio": 56.8,
+        "anio": 11.1,
+        "km": 57.6
+      }
+    },
+    {
+      "id": "ml-3427950461",
+      "title": "Kia Sorento 2017 2.4 Lx At",
+      "price": "$229,000",
+      "price_int": 229000,
+      "year": "2017",
+      "mileage": "77,000 Km",
       "location": "Zapopan - Jalisco",
       "source": "mercadolibre",
-      "brand": "Hyundai",
+      "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3101203509-hyundai-tucson-2017-roja-impecable-1-duena-factura-origina-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=13&type=item&tracking_id=b47b7c12-3cb4-46ca-a32d-e4891dbc0795&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_855252-MLM113065597182_072026-E.webp",
-      "group_id": "g-96228c90d0",
-      "_score": 43.1,
+      "link": "https://auto.mercadolibre.com.mx/MLM-3427950461-kia-sorento-24-lx-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=21&type=item&tracking_id=52bcee0c-965c-4061-8230-eea2be5ef258&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_624704-MLM115514024578_082026-E.webp",
+      "group_id": "g-7dba14edaf",
+      "_score": 42.3,
       "_components": {
-        "precio": 26.1,
+        "precio": 46.6,
         "anio": 0.0,
-        "km": 90.5,
-        "frescura": 100.0,
-        "completitud": 100.0
+        "km": 78.8
       }
     },
     {
@@ -984,13 +965,74 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3316496491-hyundai-tucson-20-limited-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=32&type=item&tracking_id=b47b7c12-3cb4-46ca-a32d-e4891dbc0795&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_906039-MLM114812713386_082026-E.webp",
       "group_id": "g-e4e05b829a",
-      "_score": 31.2,
+      "_score": 22.7,
       "_components": {
         "precio": 34.1,
         "anio": 0.0,
-        "km": 30.3,
-        "frescura": 100.0,
-        "completitud": 100.0
+        "km": 30.3
+      }
+    },
+    {
+      "id": "ml-6232035872",
+      "title": "Hyundai Tucson 2017 2.0 Gls At",
+      "price": "$242,900",
+      "price_int": 242900,
+      "year": "2017",
+      "mileage": "88,000 Km",
+      "location": "Guadalajara - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Hyundai",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6232035872-hyundai-tucson-20-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=12&type=item&tracking_id=b47b7c12-3cb4-46ca-a32d-e4891dbc0795&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_684449-MLM117746521771_092026-E.webp",
+      "group_id": "g-f45a995457",
+      "_score": 34.5,
+      "_components": {
+        "precio": 30.8,
+        "anio": 0.0,
+        "km": 74.0
+      }
+    },
+    {
+      "id": "ml-3101203509",
+      "title": "Hyundai Tucson 2017 2.0 Gls At",
+      "price": "$247,000",
+      "price_int": 247000,
+      "year": "2017",
+      "mileage": "50,000 Km",
+      "location": "Zapopan - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Hyundai",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3101203509-hyundai-tucson-2017-roja-impecable-1-duena-factura-origina-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=13&type=item&tracking_id=b47b7c12-3cb4-46ca-a32d-e4891dbc0795&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_855252-MLM113065597182_072026-E.webp",
+      "group_id": "g-96228c90d0",
+      "_score": 37.6,
+      "_components": {
+        "precio": 26.1,
+        "anio": 0.0,
+        "km": 90.5
+      }
+    },
+    {
+      "id": "ml-3483742649",
+      "title": "Hyundai Tucson 2017 2.0 Limited At",
+      "price": "$269,800",
+      "price_int": 269800,
+      "year": "2017",
+      "mileage": "98,256 Km",
+      "location": "Guadalajara - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Hyundai",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3483742649-hyundai-tucson-20-limited-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=3&type=item&tracking_id=b47b7c12-3cb4-46ca-a32d-e4891dbc0795&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_972203-MLM117536966055_092026-E.webp",
+      "group_id": "g-bc625acf38",
+      "_score": 21.0,
+      "_components": {
+        "precio": 0.2,
+        "anio": 0.0,
+        "km": 69.6
       }
     }
   ]

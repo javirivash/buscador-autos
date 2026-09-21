@@ -563,13 +563,13 @@ function renderHoy() {
   const note = document.getElementById('hoyNote');
   const groups = groupAds(newCars);
   if (!groups.length) {
-    note.textContent = 'Sin anuncios nuevos en la última corrida.';
+    note.textContent = 'Sin anuncios nuevos hoy.';
     grid.innerHTML = '';
     return;
   }
   note.textContent = groups.length === 1
-    ? '1 auto nuevo detectado.'
-    : groups.length + ' autos nuevos detectados.';
+    ? '1 auto nuevo hoy.'
+    : groups.length + ' autos nuevos hoy.';
   sortGroups(groups);
   grid.innerHTML = groups.map(renderGroupCard).join('');
 }
@@ -803,7 +803,7 @@ function toggleFilters() {
   btn.setAttribute('aria-expanded', open ? 'true' : 'false');
 }
 
-const RANK_LABELS = { precio: 'Precio', anio: 'Año', km: 'Km', frescura: 'Frescura', completitud: 'Datos' };
+const RANK_LABELS = { precio: 'Precio', anio: 'Año', km: 'Km' };
 
 function cardMarkup(c, showScore) {
   const bc = BRAND_COLORS[(c.brand || '').toLowerCase()] || '';
@@ -850,7 +850,7 @@ function renderTop10(data) {
     grid.innerHTML = '';
     return;
   }
-  note.textContent = 'Ranking por puntaje de valor (precio, año, km, frescura y completitud). Actualizado con el último scrape.';
+  note.textContent = 'Ranking por puntaje de valor (precio 40%, año 30%, km 30%). Actualizado con el último scrape.';
   grid.innerHTML = cars.map(c => {
     const comp = c._components || {};
     const bars = Object.keys(RANK_LABELS).map(k => {
