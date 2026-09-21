@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T13:05:41.723058Z",
+  "generated_at": "2026-09-21T07:40:49.956900Z",
   "weights": {
     "precio": 0.4,
     "anio": 0.25,
@@ -7,8 +7,49 @@
     "frescura": 0.05,
     "completitud": 0.05
   },
-  "total_count": 32,
+  "total_count": 40,
   "cars": [
+    {
+      "id": "sn-4832681",
+      "title": "Toyota Yaris",
+      "price": "$195,000",
+      "price_int": 195000,
+      "year": "2019",
+      "mileage": "90,558 kms.",
+      "location": "Zapopan",
+      "source": "seminuevos",
+      "brand": "Toyota",
+      "transmission": "unknown",
+      "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-zapopan-2019/4832681",
+      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1492026/4832681/o_o/pt_4832681_1789416630750_45.jpg",
+      "group_id": "g-fef0ab4a51",
+      "_score": 65.7,
+      "_components": {
+        "precio": 85.2,
+        "anio": 22.2,
+        "km": 72.9,
+        "frescura": 57.1,
+        "completitud": 100.0
+      },
+      "rank": 1,
+      "ads": [
+        {
+          "id": "sn-4832681",
+          "title": "Toyota Yaris",
+          "price": "$195,000",
+          "price_int": 195000,
+          "year": "2019",
+          "mileage": "90,558 kms.",
+          "location": "Zapopan",
+          "source": "seminuevos",
+          "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-zapopan-2019/4832681",
+          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1492026/4832681/o_o/pt_4832681_1789416630750_45.jpg",
+          "transmission": "unknown",
+          "brand": "Toyota",
+          "group_id": "g-fef0ab4a51"
+        }
+      ]
+    },
     {
       "id": "sn-744403",
       "title": "Kia Forte",
@@ -23,15 +64,15 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-tlaquepaque-2018/4646701",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/20241220/4646701/o_o/pt_4646701_1734717037281.jpg",
       "group_id": "g-d8c4c75584",
-      "_score": 63.0,
+      "_score": 61.8,
       "_components": {
-        "precio": 100.0,
-        "anio": 0.0,
+        "precio": 90.9,
+        "anio": 11.1,
         "km": 59.3,
-        "frescura": 64.3,
+        "frescura": 57.1,
         "completitud": 100.0
       },
-      "rank": 1,
+      "rank": 2,
       "ads": [
         {
           "id": "sn-744403",
@@ -64,15 +105,15 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6204115338-kia-forte-2019-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=24&type=item&tracking_id=2e78b5dd-76d8-4267-a2ce-4ecb73ab59e4&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_804722-MLM117496095765_092026-E.webp",
       "group_id": "g-c72a8b7e54",
-      "_score": 62.0,
+      "_score": 61.2,
       "_components": {
-        "precio": 77.7,
-        "anio": 12.5,
+        "precio": 70.6,
+        "anio": 22.2,
         "km": 78.2,
-        "frescura": 64.3,
+        "frescura": 57.1,
         "completitud": 100.0
       },
-      "rank": 2,
+      "rank": 3,
       "ads": [
         {
           "id": "ml-6204115338",
@@ -92,6 +133,88 @@
       ]
     },
     {
+      "id": "ml-5510620742",
+      "title": "Hyundai Santa Fe 2017 2.0 Sport Awd",
+      "price": "$195,000",
+      "price_int": 195000,
+      "year": "2017",
+      "mileage": "110,000 Km",
+      "location": "Guadalajara - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Hyundai",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-5510620742-hyundai-santa-fe-sport-awd-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=39&type=item&tracking_id=da7e276f-0afd-4fab-b080-605b233a7d1a&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_752919-MLM112462156082_062026-E.webp",
+      "group_id": "g-13fd27ec60",
+      "_score": 60.2,
+      "_components": {
+        "precio": 85.2,
+        "anio": 0.0,
+        "km": 64.5,
+        "frescura": 100.0,
+        "completitud": 100.0
+      },
+      "rank": 4,
+      "ads": [
+        {
+          "id": "ml-5510620742",
+          "title": "Hyundai Santa Fe 2017 2.0 Sport Awd",
+          "price": "$195,000",
+          "price_int": 195000,
+          "year": "2017",
+          "mileage": "110,000 Km",
+          "location": "Guadalajara - Jalisco",
+          "source": "mercadolibre",
+          "link": "https://auto.mercadolibre.com.mx/MLM-5510620742-hyundai-santa-fe-sport-awd-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=39&type=item&tracking_id=da7e276f-0afd-4fab-b080-605b233a7d1a&sid=search",
+          "image": "https://http2.mlstatic.com/D_Q_NP_2X_752919-MLM112462156082_062026-E.webp",
+          "transmission": "automatic",
+          "brand": "Hyundai",
+          "group_id": "g-13fd27ec60"
+        }
+      ]
+    },
+    {
+      "id": "ml-3516648239",
+      "title": "Kia Sorento 2017 Lx 2.4 Lt",
+      "price": "$182,000",
+      "price_int": 182000,
+      "year": "2017",
+      "mileage": "177,938 Km",
+      "location": "Guadalajara - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Kia",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3516648239-kia-sorento-lx-24-lt-tratocar-13338-1809-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=18&type=item&tracking_id=ba7a2a75-8746-45f1-adfc-91ee5ec4d69b&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_759556-MLM116379108608_092026-E.webp",
+      "group_id": "g-4862532acd",
+      "_score": 58.8,
+      "_components": {
+        "precio": 100.0,
+        "anio": 0.0,
+        "km": 35.1,
+        "frescura": 100.0,
+        "completitud": 100.0
+      },
+      "rank": 5,
+      "ads": [
+        {
+          "id": "ml-3516648239",
+          "title": "Kia Sorento 2017 Lx 2.4 Lt",
+          "price": "$182,000",
+          "price_int": 182000,
+          "year": "2017",
+          "mileage": "177,938 Km",
+          "location": "Guadalajara - Jalisco",
+          "source": "mercadolibre",
+          "link": "https://auto.mercadolibre.com.mx/MLM-3516648239-kia-sorento-lx-24-lt-tratocar-13338-1809-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=18&type=item&tracking_id=ba7a2a75-8746-45f1-adfc-91ee5ec4d69b&sid=search",
+          "image": "https://http2.mlstatic.com/D_Q_NP_2X_759556-MLM116379108608_092026-E.webp",
+          "transmission": "automatic",
+          "brand": "Kia",
+          "group_id": "g-4862532acd"
+        }
+      ]
+    },
+    {
       "id": "sn-630217",
       "title": "Kia K3",
       "price": "$250,000",
@@ -105,15 +228,15 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-zapopan-2024/4819544",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/3072026/4819544/o_o/4819544_1789408637995_223.",
       "group_id": "g-2d5d97f806",
-      "_score": 58.6,
+      "_score": 58.0,
       "_components": {
-        "precio": 25.0,
-        "anio": 75.0,
+        "precio": 22.7,
+        "anio": 77.8,
         "km": 86.6,
-        "frescura": 64.3,
+        "frescura": 57.1,
         "completitud": 100.0
       },
-      "rank": 3,
+      "rank": 6,
       "ads": [
         {
           "id": "sn-630217",
@@ -133,6 +256,47 @@
       ]
     },
     {
+      "id": "ml-3495208855",
+      "title": "Kia Sorento 2018 Lx 2.4 Lt",
+      "price": "$210,000",
+      "price_int": 210000,
+      "year": "2018",
+      "mileage": "108,794 Km",
+      "location": "Guadalajara - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Kia",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3495208855-kia-sorento-lx-24-lt-tratocar-12584-1409-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=16&type=item&tracking_id=ba7a2a75-8746-45f1-adfc-91ee5ec4d69b&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_704654-MLM117653066369_092026-E.webp",
+      "group_id": "g-af7bb65fc3",
+      "_score": 56.3,
+      "_components": {
+        "precio": 68.2,
+        "anio": 11.1,
+        "km": 65.0,
+        "frescura": 100.0,
+        "completitud": 100.0
+      },
+      "rank": 7,
+      "ads": [
+        {
+          "id": "ml-3495208855",
+          "title": "Kia Sorento 2018 Lx 2.4 Lt",
+          "price": "$210,000",
+          "price_int": 210000,
+          "year": "2018",
+          "mileage": "108,794 Km",
+          "location": "Guadalajara - Jalisco",
+          "source": "mercadolibre",
+          "link": "https://auto.mercadolibre.com.mx/MLM-3495208855-kia-sorento-lx-24-lt-tratocar-12584-1409-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=16&type=item&tracking_id=ba7a2a75-8746-45f1-adfc-91ee5ec4d69b&sid=search",
+          "image": "https://http2.mlstatic.com/D_Q_NP_2X_704654-MLM117653066369_092026-E.webp",
+          "transmission": "automatic",
+          "brand": "Kia",
+          "group_id": "g-af7bb65fc3"
+        }
+      ]
+    },
+    {
       "id": "ml-6203940716",
       "title": "Hyundai Elantra 2019 2.0 Gls At",
       "price": "$220,000",
@@ -146,15 +310,15 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6203940716-hyundai-elantra-2019-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=46&type=item&tracking_id=67431b67-670d-4414-b6c2-e8a3ab32d842&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_814081-MLM117525519727_092026-E.webp",
       "group_id": "g-aa0b339ac1",
-      "_score": 56.3,
+      "_score": 56.1,
       "_components": {
-        "precio": 62.5,
-        "anio": 12.5,
+        "precio": 56.8,
+        "anio": 22.2,
         "km": 80.0,
-        "frescura": 64.3,
+        "frescura": 57.1,
         "completitud": 100.0
       },
-      "rank": 4,
+      "rank": 8,
       "ads": [
         {
           "id": "ml-6203940716",
@@ -202,15 +366,15 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3387771987-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=19&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_702333-MLM116674889251_082026-E.webp",
       "group_id": "g-a2da9dd941",
-      "_score": 52.5,
+      "_score": 52.8,
       "_components": {
-        "precio": 1.2,
-        "anio": 75.0,
+        "precio": 1.1,
+        "anio": 77.8,
         "km": 100.0,
-        "frescura": 64.3,
+        "frescura": 57.1,
         "completitud": 100.0
       },
-      "rank": 5,
+      "rank": 9,
       "ads": [
         {
           "id": "ml-3387771987",
@@ -243,15 +407,15 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6112502310-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=24&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_972323-MLM116839347909_082026-E.webp",
       "group_id": "g-9e0ac000e3",
-      "_score": 52.4,
+      "_score": 52.6,
       "_components": {
-        "precio": 1.2,
-        "anio": 75.0,
+        "precio": 1.1,
+        "anio": 77.8,
         "km": 99.6,
-        "frescura": 64.3,
+        "frescura": 57.1,
         "completitud": 100.0
       },
-      "rank": 6,
+      "rank": 10,
       "ads": [
         {
           "id": "ml-6112502310",
@@ -267,185 +431,6 @@
           "transmission": "automatic",
           "brand": "Kia",
           "group_id": "g-9e0ac000e3"
-        }
-      ]
-    },
-    {
-      "id": "ml-3451597273",
-      "title": "Kia Forte 2021 2.0 Ex At",
-      "price": "$240,000",
-      "price_int": 240000,
-      "year": "2021",
-      "mileage": "85,000 Km",
-      "location": "Guadalajara - Jalisco",
-      "source": "mercadolibre",
-      "brand": "Kia",
-      "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3451597273-kia-forte-20-ex-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=48&type=item&tracking_id=e2d51ee7-c596-4d11-98b8-cd01f21aed74&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_843633-MLM115758366334_092026-E.webp",
-      "group_id": "g-f8be8e5da8",
-      "_score": 51.4,
-      "_components": {
-        "precio": 37.5,
-        "anio": 37.5,
-        "km": 75.3,
-        "frescura": 64.3,
-        "completitud": 100.0
-      },
-      "rank": 7,
-      "ads": [
-        {
-          "id": "ml-3451597273",
-          "title": "Kia Forte 2021 2.0 Ex At",
-          "price": "$240,000",
-          "price_int": 240000,
-          "year": "2021",
-          "mileage": "85,000 Km",
-          "location": "Guadalajara - Jalisco",
-          "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-3451597273-kia-forte-20-ex-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=48&type=item&tracking_id=e2d51ee7-c596-4d11-98b8-cd01f21aed74&sid=search",
-          "image": "https://http2.mlstatic.com/D_Q_NP_2X_843633-MLM115758366334_092026-E.webp",
-          "transmission": "automatic",
-          "brand": "Kia",
-          "group_id": "g-f8be8e5da8"
-        },
-        {
-          "id": "sn-675692",
-          "title": "Kia Forte",
-          "price": "$240,000",
-          "price_int": 240000,
-          "year": "2021",
-          "mileage": "85,000 kms.",
-          "location": "Guadalajara",
-          "source": "seminuevos",
-          "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-guadalajara-2021/4790121",
-          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026420/4790121/o_o/pt_4790121_1779234986924.jpg",
-          "transmission": "automatic",
-          "brand": "Kia",
-          "group_id": "g-f8be8e5da8"
-        }
-      ]
-    },
-    {
-      "id": "sn-4792536",
-      "title": "Kia Forte",
-      "price": "$264,900",
-      "price_int": 264900,
-      "year": "2023",
-      "mileage": "58,000 kms.",
-      "location": "Guadalajara",
-      "source": "seminuevos",
-      "brand": "Kia",
-      "transmission": "automatic",
-      "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-guadalajara-2023/4792536",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026427/4792536/o_o/pt_4792536_1777310729316.jpg",
-      "group_id": "g-73b4a09d2a",
-      "_score": 49.6,
-      "_components": {
-        "precio": 6.4,
-        "anio": 62.5,
-        "km": 87.0,
-        "frescura": 92.9,
-        "completitud": 100.0
-      },
-      "rank": 8,
-      "ads": [
-        {
-          "id": "sn-4792536",
-          "title": "Kia Forte",
-          "price": "$264,900",
-          "price_int": 264900,
-          "year": "2023",
-          "mileage": "58,000 kms.",
-          "location": "Guadalajara",
-          "source": "seminuevos",
-          "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-guadalajara-2023/4792536",
-          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026427/4792536/o_o/pt_4792536_1777310729316.jpg",
-          "transmission": "automatic",
-          "brand": "Kia",
-          "group_id": "g-73b4a09d2a"
-        }
-      ]
-    },
-    {
-      "id": "sn-964017",
-      "title": "Toyota Yaris R",
-      "price": "$225,000",
-      "price_int": 225000,
-      "year": "2018",
-      "mileage": "85,000 kms.",
-      "location": "Guadalajara",
-      "source": "seminuevos",
-      "brand": "Toyota",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris_r-guadalajara-2018/4805639",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026612/4805639/o_o/pt_4805639_1781297665284.jpeg",
-      "group_id": "g-4860c0a333",
-      "_score": 49.5,
-      "_components": {
-        "precio": 56.2,
-        "anio": 0.0,
-        "km": 75.3,
-        "frescura": 64.3,
-        "completitud": 100.0
-      },
-      "rank": 9,
-      "ads": [
-        {
-          "id": "sn-964017",
-          "title": "Toyota Yaris R",
-          "price": "$225,000",
-          "price_int": 225000,
-          "year": "2018",
-          "mileage": "85,000 kms.",
-          "location": "Guadalajara",
-          "source": "seminuevos",
-          "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris_r-guadalajara-2018/4805639",
-          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026612/4805639/o_o/pt_4805639_1781297665284.jpeg",
-          "transmission": "unknown",
-          "brand": "Toyota",
-          "group_id": "g-4860c0a333"
-        }
-      ]
-    },
-    {
-      "id": "sn-3704",
-      "title": "Toyota Yaris",
-      "price": "$239,000",
-      "price_int": 239000,
-      "year": "2019",
-      "mileage": "55,000 kms.",
-      "location": "Guadalajara",
-      "source": "seminuevos",
-      "brand": "Toyota",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-guadalajara-2019/4829352",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/292026/4829352/o_o/4829352_1788393929487_290.jpeg",
-      "group_id": "g-adc8423581",
-      "_score": 48.9,
-      "_components": {
-        "precio": 38.8,
-        "anio": 12.5,
-        "km": 88.3,
-        "frescura": 64.3,
-        "completitud": 100.0
-      },
-      "rank": 10,
-      "ads": [
-        {
-          "id": "sn-3704",
-          "title": "Toyota Yaris",
-          "price": "$239,000",
-          "price_int": 239000,
-          "year": "2019",
-          "mileage": "55,000 kms.",
-          "location": "Guadalajara",
-          "source": "seminuevos",
-          "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-guadalajara-2019/4829352",
-          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/292026/4829352/o_o/4829352_1788393929487_290.jpeg",
-          "transmission": "unknown",
-          "brand": "Toyota",
-          "group_id": "g-adc8423581"
         }
       ]
     }
