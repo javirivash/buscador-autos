@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:04:39.404815Z",
+  "generated_at": "2026-09-22T13:05:17.481256Z",
   "criterios": {
     "marcas": [
       "Toyota",
@@ -22,7 +22,7 @@
       "Jalisco"
     ]
   },
-  "total_count": 48,
+  "total_count": 47,
   "new_count": 8,
   "cars": [
     {
@@ -56,7 +56,7 @@
       "location": "Guadalajara",
       "source": "seminuevos",
       "brand": "Toyota",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-guadalajara-2017/4834573",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2292026/4834573/o_o/pt_4834573_1790050266536_127.jpg",
       "group_id": "g-91010d9308",
@@ -86,27 +86,6 @@
         "precio": 90.9,
         "anio": 11.1,
         "km": 59.3
-      }
-    },
-    {
-      "id": "sn-4832681",
-      "title": "Toyota Yaris",
-      "price": "$195,000",
-      "price_int": 195000,
-      "year": "2019",
-      "mileage": "90,558 kms.",
-      "location": "Zapopan",
-      "source": "seminuevos",
-      "brand": "Toyota",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-zapopan-2019/4832681",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1492026/4832681/o_o/pt_4832681_1789416630750_45.jpg",
-      "group_id": "g-fef0ab4a51",
-      "_score": 68.9,
-      "_components": {
-        "precio": 85.2,
-        "anio": 22.2,
-        "km": 72.9
       }
     },
     {
@@ -329,7 +308,7 @@
       "location": "Zapopan",
       "source": "seminuevos",
       "brand": "Toyota",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-corolla-zapopan-2019/4830890",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/892026/4830890/o_o/pt_4830890_1788888422200_903.jpg",
       "group_id": "g-796ec5df28",
@@ -371,7 +350,7 @@
       "location": "Guadalajara",
       "source": "seminuevos",
       "brand": "Toyota",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-guadalajara-2018/4751850",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2025122/4751850/o_o/pt_4751850_1764700148746.jpeg",
       "group_id": "g-2bd7d19be8",
@@ -1045,7 +1024,7 @@
       "location": "Guadalajara",
       "source": "seminuevos",
       "brand": "Toyota",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-guadalajara-2017/4834573",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2292026/4834573/o_o/pt_4834573_1790050266536_127.jpg",
       "group_id": "g-91010d9308",
