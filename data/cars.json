@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:05:17.481256Z",
+  "generated_at": "2026-09-23T12:18:34.015441Z",
   "criterios": {
     "marcas": [
       "Toyota",
@@ -22,8 +22,8 @@
       "Jalisco"
     ]
   },
-  "total_count": 32,
-  "new_count": 0,
+  "total_count": 33,
+  "new_count": 1,
   "cars": [
     {
       "id": "ml-3516648239",
@@ -120,7 +120,7 @@
       "source": "mercadolibre",
       "brand": "Mazda",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6264563432-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-2109-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=16&type=item&tracking_id=007b4154-704b-4a71-916a-e1d6740b1fb0&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6264563432-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-2109-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=16&type=item&tracking_id=a330737f-852d-4383-a24a-87d72ba029c8&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_826868-MLM116501386092_092026-E.webp",
       "group_id": "g-c77419ec33",
       "_score": 46.8,
@@ -162,7 +162,7 @@
       "source": "mercadolibre",
       "brand": "Mazda",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3501193857-mazda-mazda-3-25-s-grand-touring-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=32&type=item&tracking_id=b2e00627-b1b1-43dd-914d-0b5cd0218abf&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3501193857-mazda-mazda-3-25-s-grand-touring-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=36&type=item&tracking_id=47d08c3e-c094-4004-bc9e-9fd27ca5d235&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_650297-MLM117710016121_092026-E.webp",
       "group_id": "g-b0d7f42d57",
       "_score": 54.2,
@@ -183,7 +183,7 @@
       "source": "mercadolibre",
       "brand": "Mazda",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3467600809-mazda-mazda-3-25-s-grand-touring-hchback-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=28&type=item&tracking_id=b2e00627-b1b1-43dd-914d-0b5cd0218abf&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3467600809-mazda-mazda-3-25-s-grand-touring-hchback-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=12&type=item&tracking_id=47d08c3e-c094-4004-bc9e-9fd27ca5d235&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_765203-MLM117381568537_092026-E.webp",
       "group_id": "g-3b88659073",
       "_score": 42.4,
@@ -246,7 +246,7 @@
       "source": "mercadolibre",
       "brand": "Mazda",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6249987662-mazda-3-i-sport-2019-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=15&type=item&tracking_id=6a6e9ac0-f9c5-44ea-9454-71218d31992c&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6249987662-mazda-3-i-sport-2019-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=13&type=item&tracking_id=eb3fa4d3-cf53-4adc-b2e8-e18a1007a3e1&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_601884-MLM117874780509_092026-E.webp",
       "group_id": "g-c39cc22f0f",
       "_score": 44.2,
@@ -393,7 +393,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3108596663-kia-sportage-20-lx-l-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=25&type=item&tracking_id=e90b7886-62b2-4952-985c-e1e9d2a3f6b7&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3108596663-kia-sportage-20-lx-l-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=27&type=item&tracking_id=09e8658a-5085-493a-ba62-547158550ca2&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_670983-MLM116451634731_082026-E.webp",
       "group_id": "g-8784e55259",
       "_score": 31.0,
@@ -456,7 +456,7 @@
       "source": "mercadolibre",
       "brand": "Mazda",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6110594804-mazda-cx-3-20-i-grand-touring-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=43&type=item&tracking_id=1b9a957a-1d73-4b44-b3fc-2a85bca292c3&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6110594804-mazda-cx-3-20-i-grand-touring-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=38&type=item&tracking_id=099a3455-f458-4563-8ae2-45a23dd8c02a&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_607531-MLM115408180388_082026-E.webp",
       "group_id": "g-46af80e42c",
       "_score": 26.9,
@@ -477,7 +477,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6243287002-hyundai-creta-2020-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=30&type=item&tracking_id=f8e9afcc-4162-4195-bf9c-c1d8740c9da3&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6243287002-hyundai-creta-2020-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=33&type=item&tracking_id=521cdfbe-5c41-4122-8998-dce50a12f3aa&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_946328-MLM116339213992_092026-E.webp",
       "group_id": "g-4a7e4cf0e3",
       "_score": 28.9,
@@ -519,7 +519,7 @@
       "source": "mercadolibre",
       "brand": "Mazda",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-5934853034-mazda-6-25-signature-auto-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=32&type=item&tracking_id=007b4154-704b-4a71-916a-e1d6740b1fb0&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-5934853034-mazda-6-25-signature-auto-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=32&type=item&tracking_id=a330737f-852d-4383-a24a-87d72ba029c8&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_766609-MLM118041330531_092026-E.webp",
       "group_id": "g-349a9d542b",
       "_score": 28.9,
@@ -624,7 +624,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6183557380-hyundai-hb20-hb-16-gl-mid-at-hb-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=48&type=item&tracking_id=2951a440-7f54-4fa4-9dcd-fa543b560696&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6183557380-hyundai-hb20-hb-16-gl-mid-at-hb-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=47&type=item&tracking_id=40b9dd60-9adf-4518-9ca6-7f0266e53a98&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_783639-MLM115866297324_092026-E.webp",
       "group_id": "g-dfa484762b",
       "_score": 37.8,
@@ -645,7 +645,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3315807759-kia-sorento-24-lx-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=14&type=item&tracking_id=7ec67318-ca02-472e-9cef-bfdb76d8c405&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3315807759-kia-sorento-24-lx-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=15&type=item&tracking_id=cdf2a793-301d-4ee6-a640-9bc86c2f3fe1&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_808764-MLM114773185346_082026-E.webp",
       "group_id": "g-92a478a852",
       "_score": 15.8,
@@ -677,6 +677,27 @@
       }
     },
     {
+      "id": "ml-3478990237",
+      "title": "Kia Soul 2020 2.0 Ex At",
+      "price": "$270,000",
+      "price_int": 270000,
+      "year": "2020",
+      "mileage": "61,889 Km",
+      "location": "Zapopan - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Kia",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3478990237-kia-soul-2020-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=18&type=item&tracking_id=d8663dff-a19c-49ff-9425-a290a6f5c811&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_900002-MLM116105842368_092026-E.webp",
+      "group_id": "g-ce31211629",
+      "_score": 30.4,
+      "_components": {
+        "precio": 0.0,
+        "anio": 33.3,
+        "km": 79.0
+      }
+    },
+    {
       "id": "ml-3522600077",
       "title": "Hyundai Creta 2020 1.6 Gls Premium At",
       "price": "$270,000",
@@ -698,5 +719,27 @@
       }
     }
   ],
-  "new_cars": []
+  "new_cars": [
+    {
+      "id": "ml-3478990237",
+      "title": "Kia Soul 2020 2.0 Ex At",
+      "price": "$270,000",
+      "price_int": 270000,
+      "year": "2020",
+      "mileage": "61,889 Km",
+      "location": "Zapopan - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Kia",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3478990237-kia-soul-2020-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=18&type=item&tracking_id=d8663dff-a19c-49ff-9425-a290a6f5c811&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_900002-MLM116105842368_092026-E.webp",
+      "group_id": "g-ce31211629",
+      "_score": 30.4,
+      "_components": {
+        "precio": 0.0,
+        "anio": 33.3,
+        "km": 79.0
+      }
+    }
+  ]
 }

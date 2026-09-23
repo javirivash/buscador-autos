@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-23T08:53:28.607812Z",
+  "generated_at": "2026-09-23T12:18:34.017733Z",
   "weights": {
     "precio": 0.5,
     "km": 0.3,
     "anio": 0.2
   },
-  "total_count": 31,
+  "total_count": 32,
   "cars": [
     {
       "id": "sn-744403",
@@ -96,7 +96,7 @@
       "source": "mercadolibre",
       "brand": "Mazda",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3501193857-mazda-mazda-3-25-s-grand-touring-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=32&type=item&tracking_id=b2e00627-b1b1-43dd-914d-0b5cd0218abf&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3501193857-mazda-mazda-3-25-s-grand-touring-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=36&type=item&tracking_id=47d08c3e-c094-4004-bc9e-9fd27ca5d235&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_650297-MLM117710016121_092026-E.webp",
       "group_id": "g-b0d7f42d57",
       "_score": 54.2,
@@ -116,7 +116,7 @@
           "mileage": "86,872 Km",
           "location": "Guadalajara - Jalisco",
           "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-3501193857-mazda-mazda-3-25-s-grand-touring-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=32&type=item&tracking_id=b2e00627-b1b1-43dd-914d-0b5cd0218abf&sid=search",
+          "link": "https://auto.mercadolibre.com.mx/MLM-3501193857-mazda-mazda-3-25-s-grand-touring-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=36&type=item&tracking_id=47d08c3e-c094-4004-bc9e-9fd27ca5d235&sid=search",
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_650297-MLM117710016121_092026-E.webp",
           "transmission": "automatic",
           "brand": "Mazda",
@@ -291,7 +291,7 @@
       "source": "mercadolibre",
       "brand": "Mazda",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6264563432-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-2109-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=16&type=item&tracking_id=007b4154-704b-4a71-916a-e1d6740b1fb0&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6264563432-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-2109-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=16&type=item&tracking_id=a330737f-852d-4383-a24a-87d72ba029c8&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_826868-MLM116501386092_092026-E.webp",
       "group_id": "g-c77419ec33",
       "_score": 46.8,
@@ -311,7 +311,7 @@
           "mileage": "117,792 Km",
           "location": "Guadalajara - Jalisco",
           "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-6264563432-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-2109-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=16&type=item&tracking_id=007b4154-704b-4a71-916a-e1d6740b1fb0&sid=search",
+          "link": "https://auto.mercadolibre.com.mx/MLM-6264563432-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-2109-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=16&type=item&tracking_id=a330737f-852d-4383-a24a-87d72ba029c8&sid=search",
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_826868-MLM116501386092_092026-E.webp",
           "transmission": "automatic",
           "brand": "Mazda",
