@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "pais": "Mexico",
+    "rango_anios": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+    "criterio": "Tipo de transmision automatica ofrecida en versiones automaticas vendidas en Mexico, por anio modelo",
+    "valores_posibles": ["AT", "CVT", "IVT", "DCT", "AMT", "N/V", "N/D"],
+    "notacion_combinada": "Si un anio modelo ofrece mas de un tipo de automatica segun version, se listan separados por ' / '",
+    "criterio_hibridos": "eCVT de Toyota y e-CVT de Honda = CVT. Hibridos Hyundai/Kia (Santa Fe HEV, Tucson HEV, Sportage HEV) usan automatica convencional de 6 vel. = AT"
+  },
+  "tabla": [
+    {"marca": "Honda", "modelo": "City", "2017": "CVT", "2018": "CVT", "2019": "CVT", "2020": "CVT", "2021": "CVT", "2022": "CVT", "2023": "CVT", "2024": "CVT", "2025": "CVT", "2026": "CVT"},
+    {"marca": "Honda", "modelo": "Civic", "2017": "CVT", "2018": "CVT", "2019": "CVT", "2020": "CVT", "2021": "CVT", "2022": "CVT", "2023": "CVT", "2024": "CVT", "2025": "CVT", "2026": "CVT"},
+    {"marca": "Hyundai", "modelo": "Creta", "2017": "AT", "2018": "AT", "2019": "AT", "2020": "AT", "2021": "IVT / DCT", "2022": "IVT / DCT", "2023": "IVT / DCT", "2024": "IVT / DCT", "2025": "IVT / DCT", "2026": "IVT / DCT"},
+    {"marca": "Hyundai", "modelo": "HB20", "2017": "N/V", "2018": "N/V", "2019": "N/V", "2020": "N/V", "2021": "N/V", "2022": "N/V", "2023": "AT", "2024": "AT", "2025": "AT", "2026": "AT"},
+    {"marca": "Hyundai", "modelo": "Ioniq", "2017": "DCT", "2018": "DCT", "2019": "DCT", "2020": "DCT", "2021": "DCT", "2022": "DCT", "2023": "N/D", "2024": "N/V", "2025": "N/V", "2026": "N/V"},
+    {"marca": "Hyundai", "modelo": "Santa Fe", "2017": "AT", "2018": "AT", "2019": "AT", "2020": "AT", "2021": "N/D", "2022": "DCT", "2023": "DCT", "2024": "DCT", "2025": "DCT / AT", "2026": "DCT / AT"},
+    {"marca": "Hyundai", "modelo": "Tucson", "2017": "AT", "2018": "AT", "2019": "AT", "2020": "AT", "2021": "AT", "2022": "AT", "2023": "AT", "2024": "AT", "2025": "AT", "2026": "AT"},
+    {"marca": "Kia", "modelo": "Forte", "2017": "AT", "2018": "AT", "2019": "IVT", "2020": "IVT / DCT", "2021": "IVT / DCT", "2022": "IVT / DCT", "2023": "IVT / DCT", "2024": "IVT / DCT", "2025": "N/V", "2026": "N/V"},
+    {"marca": "Kia", "modelo": "K3", "2017": "N/V", "2018": "N/V", "2019": "N/V", "2020": "N/V", "2021": "N/V", "2022": "N/V", "2023": "N/V", "2024": "AT", "2025": "AT", "2026": "AT"},
+    {"marca": "Kia", "modelo": "Sorento", "2017": "AT", "2018": "AT", "2019": "AT", "2020": "AT", "2021": "AT", "2022": "AT / DCT", "2023": "AT / DCT", "2024": "AT / DCT", "2025": "AT / DCT", "2026": "AT / DCT"},
+    {"marca": "Kia", "modelo": "Sportage", "2017": "AT", "2018": "AT", "2019": "AT", "2020": "AT", "2021": "AT", "2022": "AT", "2023": "AT", "2024": "AT", "2025": "AT", "2026": "AT"},
+    {"marca": "Mazda", "modelo": "3", "2017": "AT", "2018": "AT", "2019": "AT", "2020": "AT", "2021": "AT", "2022": "AT", "2023": "AT", "2024": "AT", "2025": "AT", "2026": "AT"},
+    {"marca": "Mazda", "modelo": "6", "2017": "AT", "2018": "AT", "2019": "AT", "2020": "AT", "2021": "AT", "2022": "AT", "2023": "N/V", "2024": "N/V", "2025": "N/V", "2026": "N/V"},
+    {"marca": "Mazda", "modelo": "CX-3", "2017": "AT", "2018": "AT", "2019": "AT", "2020": "AT", "2021": "AT", "2022": "AT", "2023": "AT", "2024": "AT", "2025": "AT", "2026": "AT"},
+    {"marca": "Toyota", "modelo": "Camry", "2017": "AT", "2018": "AT", "2019": "AT / CVT", "2020": "AT / CVT", "2021": "AT / CVT", "2022": "AT / CVT", "2023": "AT / CVT", "2024": "AT / CVT", "2025": "CVT", "2026": "CVT"},
+    {"marca": "Toyota", "modelo": "Corolla", "2017": "CVT", "2018": "CVT", "2019": "CVT", "2020": "CVT", "2021": "CVT", "2022": "CVT", "2023": "CVT", "2024": "CVT", "2025": "CVT", "2026": "CVT"},
+    {"marca": "Toyota", "modelo": "Prius", "2017": "CVT", "2018": "CVT", "2019": "CVT", "2020": "CVT", "2021": "CVT", "2022": "CVT", "2023": "CVT", "2024": "CVT", "2025": "CVT", "2026": "CVT"},
+    {"marca": "Toyota", "modelo": "Prius C", "2017": "CVT", "2018": "CVT", "2019": "CVT", "2020": "CVT", "2021": "CVT", "2022": "N/V", "2023": "N/V", "2024": "N/V", "2025": "N/V", "2026": "N/V"},
+    {"marca": "Toyota", "modelo": "Yaris", "2017": "CVT", "2018": "CVT", "2019": "CVT", "2020": "CVT", "2021": "CVT", "2022": "CVT", "2023": "CVT", "2024": "CVT", "2025": "CVT", "2026": "CVT"},
+    {"marca": "Toyota", "modelo": "Yaris R", "2017": "AT", "2018": "AT", "2019": "AT", "2020": "AT", "2021": "N/V", "2022": "N/V", "2023": "N/V", "2024": "N/V", "2025": "N/V", "2026": "N/V"}
+  ]
+}

@@ -1,51 +1,12 @@
 {
-  "generated_at": "2026-09-22T13:05:17.568434Z",
+  "generated_at": "2026-09-23T08:53:28.607812Z",
   "weights": {
     "precio": 0.5,
     "km": 0.3,
     "anio": 0.2
   },
-  "total_count": 45,
+  "total_count": 31,
   "cars": [
-    {
-      "id": "sn-4834573",
-      "title": "Toyota Yaris",
-      "price": "$189,900",
-      "price_int": 189900,
-      "year": "2017",
-      "mileage": "98,000 kms.",
-      "location": "Guadalajara",
-      "source": "seminuevos",
-      "brand": "Toyota",
-      "transmission": "automatic",
-      "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-guadalajara-2017/4834573",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2292026/4834573/o_o/pt_4834573_1790050266536_127.jpg",
-      "group_id": "g-91010d9308",
-      "_score": 66.4,
-      "_components": {
-        "precio": 91.0,
-        "anio": 0.0,
-        "km": 69.7
-      },
-      "rank": 1,
-      "ads": [
-        {
-          "id": "sn-4834573",
-          "title": "Toyota Yaris",
-          "price": "$189,900",
-          "price_int": 189900,
-          "year": "2017",
-          "mileage": "98,000 kms.",
-          "location": "Guadalajara",
-          "source": "seminuevos",
-          "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-guadalajara-2017/4834573",
-          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2292026/4834573/o_o/pt_4834573_1790050266536_127.jpg",
-          "transmission": "automatic",
-          "brand": "Toyota",
-          "group_id": "g-91010d9308"
-        }
-      ]
-    },
     {
       "id": "sn-744403",
       "title": "Kia Forte",
@@ -60,13 +21,13 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-tlaquepaque-2018/4646701",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/20241220/4646701/o_o/pt_4646701_1734717037281.jpg",
       "group_id": "g-d8c4c75584",
-      "_score": 65.5,
+      "_score": 60.2,
       "_components": {
         "precio": 90.9,
         "anio": 11.1,
-        "km": 59.3
+        "km": 41.6
       },
-      "rank": 2,
+      "rank": 1,
       "ads": [
         {
           "id": "sn-744403",
@@ -99,13 +60,13 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-5510620742-hyundai-santa-fe-sport-awd-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=39&type=item&tracking_id=13f43d1e-1343-4c02-9653-7d8685f86dbe&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_752919-MLM112462156082_062026-E.webp",
       "group_id": "g-13fd27ec60",
-      "_score": 62.0,
+      "_score": 57.3,
       "_components": {
         "precio": 85.2,
         "anio": 0.0,
-        "km": 64.5
+        "km": 49.1
       },
-      "rank": 3,
+      "rank": 2,
       "ads": [
         {
           "id": "ml-5510620742",
@@ -125,6 +86,45 @@
       ]
     },
     {
+      "id": "ml-3501193857",
+      "title": "Mazda Mazda 3 2018 2.5 S Grand Touring Sedan At",
+      "price": "$212,000",
+      "price_int": 212000,
+      "year": "2018",
+      "mileage": "86,872 Km",
+      "location": "Guadalajara - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Mazda",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3501193857-mazda-mazda-3-25-s-grand-touring-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=32&type=item&tracking_id=b2e00627-b1b1-43dd-914d-0b5cd0218abf&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_650297-MLM117710016121_092026-E.webp",
+      "group_id": "g-b0d7f42d57",
+      "_score": 54.2,
+      "_components": {
+        "precio": 65.9,
+        "anio": 11.1,
+        "km": 63.4
+      },
+      "rank": 3,
+      "ads": [
+        {
+          "id": "ml-3501193857",
+          "title": "Mazda Mazda 3 2018 2.5 S Grand Touring Sedan At",
+          "price": "$212,000",
+          "price_int": 212000,
+          "year": "2018",
+          "mileage": "86,872 Km",
+          "location": "Guadalajara - Jalisco",
+          "source": "mercadolibre",
+          "link": "https://auto.mercadolibre.com.mx/MLM-3501193857-mazda-mazda-3-25-s-grand-touring-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=32&type=item&tracking_id=b2e00627-b1b1-43dd-914d-0b5cd0218abf&sid=search",
+          "image": "https://http2.mlstatic.com/D_Q_NP_2X_650297-MLM117710016121_092026-E.webp",
+          "transmission": "automatic",
+          "brand": "Mazda",
+          "group_id": "g-b0d7f42d57"
+        }
+      ]
+    },
+    {
       "id": "ml-3516648239",
       "title": "Kia Sorento 2017 Lx 2.4 Lt",
       "price": "$182,000",
@@ -138,11 +138,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3516648239-kia-sorento-lx-24-lt-tratocar-13338-1809-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=18&type=item&tracking_id=52bcee0c-965c-4061-8230-eea2be5ef258&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_759556-MLM116379108608_092026-E.webp",
       "group_id": "g-4862532acd",
-      "_score": 60.5,
+      "_score": 52.1,
       "_components": {
         "precio": 100.0,
         "anio": 0.0,
-        "km": 35.1
+        "km": 6.9
       },
       "rank": 4,
       "ads": [
@@ -164,45 +164,6 @@
       ]
     },
     {
-      "id": "ml-3501193857",
-      "title": "Mazda Mazda 3 2018 2.5 S Grand Touring Sedan At",
-      "price": "$212,000",
-      "price_int": 212000,
-      "year": "2018",
-      "mileage": "86,872 Km",
-      "location": "Guadalajara - Jalisco",
-      "source": "mercadolibre",
-      "brand": "Mazda",
-      "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3501193857-mazda-mazda-3-25-s-grand-touring-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=32&type=item&tracking_id=b2e00627-b1b1-43dd-914d-0b5cd0218abf&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_650297-MLM117710016121_092026-E.webp",
-      "group_id": "g-b0d7f42d57",
-      "_score": 57.5,
-      "_components": {
-        "precio": 65.9,
-        "anio": 11.1,
-        "km": 74.5
-      },
-      "rank": 5,
-      "ads": [
-        {
-          "id": "ml-3501193857",
-          "title": "Mazda Mazda 3 2018 2.5 S Grand Touring Sedan At",
-          "price": "$212,000",
-          "price_int": 212000,
-          "year": "2018",
-          "mileage": "86,872 Km",
-          "location": "Guadalajara - Jalisco",
-          "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-3501193857-mazda-mazda-3-25-s-grand-touring-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=32&type=item&tracking_id=b2e00627-b1b1-43dd-914d-0b5cd0218abf&sid=search",
-          "image": "https://http2.mlstatic.com/D_Q_NP_2X_650297-MLM117710016121_092026-E.webp",
-          "transmission": "automatic",
-          "brand": "Mazda",
-          "group_id": "g-b0d7f42d57"
-        }
-      ]
-    },
-    {
       "id": "ml-3495208855",
       "title": "Kia Sorento 2018 Lx 2.4 Lt",
       "price": "$210,000",
@@ -216,13 +177,13 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3495208855-kia-sorento-lx-24-lt-tratocar-12584-1409-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=16&type=item&tracking_id=52bcee0c-965c-4061-8230-eea2be5ef258&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_704654-MLM117653066369_092026-E.webp",
       "group_id": "g-af7bb65fc3",
-      "_score": 55.8,
+      "_score": 51.3,
       "_components": {
         "precio": 68.2,
         "anio": 11.1,
-        "km": 65.0
+        "km": 49.8
       },
-      "rank": 6,
+      "rank": 5,
       "ads": [
         {
           "id": "ml-3495208855",
@@ -255,13 +216,13 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-zapopan-2024/4819544",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/3072026/4819544/o_o/4819544_1789408637995_223.",
       "group_id": "g-2d5d97f806",
-      "_score": 52.9,
+      "_score": 51.1,
       "_components": {
         "precio": 22.7,
         "anio": 77.8,
-        "km": 86.6
+        "km": 80.7
       },
-      "rank": 7,
+      "rank": 6,
       "ads": [
         {
           "id": "sn-630217",
@@ -281,6 +242,45 @@
       ]
     },
     {
+      "id": "sn-964017",
+      "title": "Toyota Yaris R",
+      "price": "$225,000",
+      "price_int": 225000,
+      "year": "2018",
+      "mileage": "85,000 kms.",
+      "location": "Guadalajara",
+      "source": "seminuevos",
+      "brand": "Toyota",
+      "transmission": "unknown",
+      "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris_r-guadalajara-2018/4805639",
+      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026612/4805639/o_o/pt_4805639_1781297665284.jpeg",
+      "group_id": "g-4860c0a333",
+      "_score": 47.2,
+      "_components": {
+        "precio": 51.1,
+        "anio": 11.1,
+        "km": 64.6
+      },
+      "rank": 7,
+      "ads": [
+        {
+          "id": "sn-964017",
+          "title": "Toyota Yaris R",
+          "price": "$225,000",
+          "price_int": 225000,
+          "year": "2018",
+          "mileage": "85,000 kms.",
+          "location": "Guadalajara",
+          "source": "seminuevos",
+          "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris_r-guadalajara-2018/4805639",
+          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026612/4805639/o_o/pt_4805639_1781297665284.jpeg",
+          "transmission": "unknown",
+          "brand": "Toyota",
+          "group_id": "g-4860c0a333"
+        }
+      ]
+    },
+    {
       "id": "ml-6264563432",
       "title": "Mazda Mazda 6 2017 I Grand Touring Plus 2.5 Lt",
       "price": "$211,000",
@@ -294,11 +294,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6264563432-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-2109-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=16&type=item&tracking_id=007b4154-704b-4a71-916a-e1d6740b1fb0&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_826868-MLM116501386092_092026-E.webp",
       "group_id": "g-c77419ec33",
-      "_score": 51.9,
+      "_score": 46.8,
       "_components": {
         "precio": 67.0,
         "anio": 0.0,
-        "km": 61.1
+        "km": 44.2
       },
       "rank": 8,
       "ads": [
@@ -335,80 +335,80 @@
       ]
     },
     {
-      "id": "sn-964017",
-      "title": "Toyota Yaris R",
-      "price": "$225,000",
-      "price_int": 225000,
-      "year": "2018",
-      "mileage": "85,000 kms.",
-      "location": "Guadalajara",
-      "source": "seminuevos",
-      "brand": "Toyota",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris_r-guadalajara-2018/4805639",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026612/4805639/o_o/pt_4805639_1781297665284.jpeg",
-      "group_id": "g-4860c0a333",
-      "_score": 50.4,
+      "id": "ml-3387771987",
+      "title": "Kia K3 2024 1.6 L Sedan At",
+      "price": "$269,000",
+      "price_int": 269000,
+      "year": "2024",
+      "mileage": "28,000 Km",
+      "location": "Zapopan - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Kia",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3387771987-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=19&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_702333-MLM116674889251_082026-E.webp",
+      "group_id": "g-a2da9dd941",
+      "_score": 46.1,
       "_components": {
-        "precio": 51.1,
-        "anio": 11.1,
-        "km": 75.3
+        "precio": 1.1,
+        "anio": 77.8,
+        "km": 100.0
       },
       "rank": 9,
       "ads": [
         {
-          "id": "sn-964017",
-          "title": "Toyota Yaris R",
-          "price": "$225,000",
-          "price_int": 225000,
-          "year": "2018",
-          "mileage": "85,000 kms.",
-          "location": "Guadalajara",
-          "source": "seminuevos",
-          "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris_r-guadalajara-2018/4805639",
-          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026612/4805639/o_o/pt_4805639_1781297665284.jpeg",
-          "transmission": "unknown",
-          "brand": "Toyota",
-          "group_id": "g-4860c0a333"
+          "id": "ml-3387771987",
+          "title": "Kia K3 2024 1.6 L Sedan At",
+          "price": "$269,000",
+          "price_int": 269000,
+          "year": "2024",
+          "mileage": "28,000 Km",
+          "location": "Zapopan - Jalisco",
+          "source": "mercadolibre",
+          "link": "https://auto.mercadolibre.com.mx/MLM-3387771987-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=19&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
+          "image": "https://http2.mlstatic.com/D_Q_NP_2X_702333-MLM116674889251_082026-E.webp",
+          "transmission": "automatic",
+          "brand": "Kia",
+          "group_id": "g-a2da9dd941"
         }
       ]
     },
     {
-      "id": "sn-3704",
-      "title": "Toyota Yaris",
-      "price": "$239,000",
-      "price_int": 239000,
-      "year": "2019",
-      "mileage": "55,000 kms.",
-      "location": "Guadalajara",
-      "source": "seminuevos",
-      "brand": "Toyota",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-guadalajara-2019/4829352",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/292026/4829352/o_o/4829352_1788393929487_290.jpeg",
-      "group_id": "g-adc8423581",
-      "_score": 48.6,
+      "id": "ml-6112502310",
+      "title": "Kia K3 2024 1.6 L Sedan At",
+      "price": "$269,000",
+      "price_int": 269000,
+      "year": "2024",
+      "mileage": "29,000 Km",
+      "location": "Zapopan - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Kia",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6112502310-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=24&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_972323-MLM116839347909_082026-E.webp",
+      "group_id": "g-9e0ac000e3",
+      "_score": 45.9,
       "_components": {
-        "precio": 35.2,
-        "anio": 22.2,
-        "km": 88.3
+        "precio": 1.1,
+        "anio": 77.8,
+        "km": 99.4
       },
       "rank": 10,
       "ads": [
         {
-          "id": "sn-3704",
-          "title": "Toyota Yaris",
-          "price": "$239,000",
-          "price_int": 239000,
-          "year": "2019",
-          "mileage": "55,000 kms.",
-          "location": "Guadalajara",
-          "source": "seminuevos",
-          "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris-guadalajara-2019/4829352",
-          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/292026/4829352/o_o/4829352_1788393929487_290.jpeg",
-          "transmission": "unknown",
-          "brand": "Toyota",
-          "group_id": "g-adc8423581"
+          "id": "ml-6112502310",
+          "title": "Kia K3 2024 1.6 L Sedan At",
+          "price": "$269,000",
+          "price_int": 269000,
+          "year": "2024",
+          "mileage": "29,000 Km",
+          "location": "Zapopan - Jalisco",
+          "source": "mercadolibre",
+          "link": "https://auto.mercadolibre.com.mx/MLM-6112502310-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=24&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
+          "image": "https://http2.mlstatic.com/D_Q_NP_2X_972323-MLM116839347909_082026-E.webp",
+          "transmission": "automatic",
+          "brand": "Kia",
+          "group_id": "g-9e0ac000e3"
         }
       ]
     }
