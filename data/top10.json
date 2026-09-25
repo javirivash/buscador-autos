@@ -42,9 +42,11 @@
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_988261-MLM116619792228_092026-E.webp",
           "transmission": "automatic",
           "brand": "Hyundai",
-          "group_id": "g-5eedd38edc"
+          "group_id": "g-5eedd38edc",
+          "_trans_status": "ND"
         }
-      ]
+      ],
+      "_trans_status": "ND"
     },
     {
       "id": "sn-744403",
@@ -81,9 +83,11 @@
           "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/20241220/4646701/o_o/pt_4646701_1734717037281.jpg",
           "transmission": "automatic",
           "brand": "Kia",
-          "group_id": "g-d8c4c75584"
+          "group_id": "g-d8c4c75584",
+          "_trans_status": "AT"
         }
-      ]
+      ],
+      "_trans_status": "AT"
     },
     {
       "id": "ml-3501193857",
@@ -120,9 +124,11 @@
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_650297-MLM117710016121_092026-E.webp",
           "transmission": "automatic",
           "brand": "Mazda",
-          "group_id": "g-b0d7f42d57"
+          "group_id": "g-b0d7f42d57",
+          "_trans_status": "AT"
         }
-      ]
+      ],
+      "_trans_status": "AT"
     },
     {
       "id": "sn-630217",
@@ -159,9 +165,11 @@
           "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/3072026/4819544/o_o/4819544_1789408637995_223.",
           "transmission": "automatic",
           "brand": "Kia",
-          "group_id": "g-2d5d97f806"
+          "group_id": "g-2d5d97f806",
+          "_trans_status": "AT"
         }
-      ]
+      ],
+      "_trans_status": "AT"
     },
     {
       "id": "ml-6279881590",
@@ -198,9 +206,11 @@
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_782487-MLM118125926237_092026-E.webp",
           "transmission": "automatic",
           "brand": "Kia",
-          "group_id": "g-99be24dda5"
+          "group_id": "g-99be24dda5",
+          "_trans_status": "AT"
         }
-      ]
+      ],
+      "_trans_status": "AT"
     },
     {
       "id": "ml-3387771987",
@@ -237,9 +247,11 @@
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_702333-MLM116674889251_082026-E.webp",
           "transmission": "automatic",
           "brand": "Kia",
-          "group_id": "g-a2da9dd941"
+          "group_id": "g-a2da9dd941",
+          "_trans_status": "AT"
         }
-      ]
+      ],
+      "_trans_status": "AT"
     },
     {
       "id": "ml-6112502310",
@@ -276,9 +288,11 @@
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_972323-MLM116839347909_082026-E.webp",
           "transmission": "automatic",
           "brand": "Kia",
-          "group_id": "g-9e0ac000e3"
+          "group_id": "g-9e0ac000e3",
+          "_trans_status": "AT"
         }
-      ]
+      ],
+      "_trans_status": "AT"
     },
     {
       "id": "sn-964017",
@@ -315,9 +329,11 @@
           "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026612/4805639/o_o/pt_4805639_1781297665284.jpeg",
           "transmission": "unknown",
           "brand": "Toyota",
-          "group_id": "g-4860c0a333"
+          "group_id": "g-4860c0a333",
+          "_trans_status": "AT"
         }
-      ]
+      ],
+      "_trans_status": "AT"
     },
     {
       "id": "ml-6264563432",
@@ -354,9 +370,11 @@
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_826868-MLM116501386092_092026-E.webp",
           "transmission": "automatic",
           "brand": "Mazda",
-          "group_id": "g-c77419ec33"
+          "group_id": "g-c77419ec33",
+          "_trans_status": "AT"
         }
-      ]
+      ],
+      "_trans_status": "AT"
     },
     {
       "id": "ml-3102504223",
@@ -393,9 +411,11 @@
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_836687-MLM113078522822_072026-E.webp",
           "transmission": "automatic",
           "brand": "Hyundai",
-          "group_id": "g-1501273c24"
+          "group_id": "g-1501273c24",
+          "_trans_status": "AT"
         }
-      ]
+      ],
+      "_trans_status": "AT"
     }
   ]
 }

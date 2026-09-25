@@ -211,6 +211,8 @@
   .trans-badge { font-size: 10px; padding: 2px 7px; border-radius: 5px; font-weight: 600; line-height: 1.4; }
   .trans-auto { background: var(--green-soft); color: var(--green); }
   .trans-manual { background: #fef2f2; color: #dc2626; }
+  .trans-nv { background: #fef3c7; color: #b45309; }
+  .trans-nd { background: #fef9c3; color: #a16207; }
   .source-badge { font-size: 10px; padding: 2px 7px; border-radius: 5px; background: var(--bg); color: var(--text-muted); font-weight: 500; }
   .card-location { font-size: 11px; color: var(--text-muted); display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
   .card-score {
@@ -807,9 +809,21 @@ const RANK_LABELS = { precio: 'Precio', km: 'Km', anio: 'Año' };
 
 function cardMarkup(c, showScore) {
   const bc = BRAND_COLORS[(c.brand || '').toLowerCase()] || '';
-  const transHtml = c.transmission === 'automatic'
-    ? '<span class="trans-badge trans-auto">Automático</span>'
-    : c.transmission === 'manual' ? '<span class="trans-badge trans-manual">MT</span>' : '';
+  // Etiqueta de transmisión/estado: usa _trans_status (AT / N/V / ND). ND cubre
+  // N/D (no verificado) y modelos fuera de la tabla. Fallback al badge previo.
+  const ts = c._trans_status;
+  let transHtml;
+  if (ts === 'NV') {
+    transHtml = '<span class="trans-badge trans-nv">N/V</span>';
+  } else if (ts === 'ND') {
+    transHtml = '<span class="trans-badge trans-nd">ND</span>';
+  } else if (ts === 'AT') {
+    transHtml = '<span class="trans-badge trans-auto">Automático</span>';
+  } else {
+    transHtml = c.transmission === 'automatic'
+      ? '<span class="trans-badge trans-auto">Automático</span>'
+      : c.transmission === 'manual' ? '<span class="trans-badge trans-manual">MT</span>' : '';
+  }
   const srcLabel = c.source === 'mercadolibre' ? 'Mercado Libre' : 'SemiNuevos';
   const fuelBadge = getFuel(c) === 'hibrido' ? '<span class="badge badge-fuel">Híbrido</span>' : '';
   const model = getModel(c);
