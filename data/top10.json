@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T13:04:48.287887Z",
+  "generated_at": "2026-09-26T13:04:56.485396Z",
   "weights": {
     "precio": 0.5,
     "km": 0.3,
@@ -18,7 +18,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3541900515-hyundai-elantra-20-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=46&type=item&tracking_id=831c6ce4-129d-4df8-81f9-10b2bd59db12&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3541900515-hyundai-elantra-20-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=47&type=item&tracking_id=a1f4e003-fa36-431b-9d53-6d2fab6b4365&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_988261-MLM116619792228_092026-E.webp",
       "group_id": "g-5eedd38edc",
       "_score": 64.8,
@@ -39,7 +39,7 @@
           "mileage": "41,000 Km",
           "location": "Guadalajara - Jalisco",
           "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-3541900515-hyundai-elantra-20-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=46&type=item&tracking_id=831c6ce4-129d-4df8-81f9-10b2bd59db12&sid=search",
+          "link": "https://auto.mercadolibre.com.mx/MLM-3541900515-hyundai-elantra-20-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=47&type=item&tracking_id=a1f4e003-fa36-431b-9d53-6d2fab6b4365&sid=search",
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_988261-MLM116619792228_092026-E.webp",
           "transmission": "automatic",
           "brand": "Hyundai",
@@ -90,47 +90,6 @@
       ]
     },
     {
-      "id": "ml-3501193857",
-      "title": "Mazda Mazda 3 2018 2.5 S Grand Touring Sedan At",
-      "price": "$212,000",
-      "price_int": 212000,
-      "year": "2018",
-      "mileage": "86,872 Km",
-      "location": "Guadalajara - Jalisco",
-      "source": "mercadolibre",
-      "brand": "Mazda",
-      "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3501193857-mazda-mazda-3-25-s-grand-touring-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=36&type=item&tracking_id=308631a1-16e1-468a-ba4d-177991a2083a&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_650297-MLM117710016121_092026-E.webp",
-      "group_id": "g-b0d7f42d57",
-      "_score": 50.5,
-      "_components": {
-        "precio": 72.5,
-        "anio": 11.1,
-        "km": 39.9
-      },
-      "_trans_status": "AT",
-      "rank": 3,
-      "ads": [
-        {
-          "id": "ml-3501193857",
-          "title": "Mazda Mazda 3 2018 2.5 S Grand Touring Sedan At",
-          "price": "$212,000",
-          "price_int": 212000,
-          "year": "2018",
-          "mileage": "86,872 Km",
-          "location": "Guadalajara - Jalisco",
-          "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-3501193857-mazda-mazda-3-25-s-grand-touring-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=36&type=item&tracking_id=308631a1-16e1-468a-ba4d-177991a2083a&sid=search",
-          "image": "https://http2.mlstatic.com/D_Q_NP_2X_650297-MLM117710016121_092026-E.webp",
-          "transmission": "automatic",
-          "brand": "Mazda",
-          "group_id": "g-b0d7f42d57",
-          "_trans_status": "AT"
-        }
-      ]
-    },
-    {
       "id": "sn-630217",
       "title": "Kia K3",
       "price": "$250,000",
@@ -151,7 +110,7 @@
         "km": 68.3
       },
       "_trans_status": "AT",
-      "rank": 4,
+      "rank": 3,
       "ads": [
         {
           "id": "sn-630217",
@@ -192,7 +151,7 @@
         "km": 100.0
       },
       "_trans_status": "AT",
-      "rank": 5,
+      "rank": 4,
       "ads": [
         {
           "id": "ml-3387771987",
@@ -233,7 +192,7 @@
         "km": 41.8
       },
       "_trans_status": "AT",
-      "rank": 6,
+      "rank": 5,
       "ads": [
         {
           "id": "ml-6279881590",
@@ -274,7 +233,7 @@
         "km": 99.0
       },
       "_trans_status": "AT",
-      "rank": 7,
+      "rank": 6,
       "ads": [
         {
           "id": "ml-6112502310",
@@ -315,7 +274,7 @@
         "km": 41.8
       },
       "_trans_status": "AT",
-      "rank": 8,
+      "rank": 7,
       "ads": [
         {
           "id": "sn-964017",
@@ -332,6 +291,45 @@
           "brand": "Toyota",
           "group_id": "g-4860c0a333",
           "_trans_status": "AT"
+        }
+      ]
+    },
+    {
+      "id": "ml-6290546328",
+      "title": "Mazda Mazda 2 2023 4p I Sport L4/1.5 Aut",
+      "price": "$269,000",
+      "price_int": 269000,
+      "year": "2023",
+      "mileage": "39,000 Km",
+      "location": "Guadalajara - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Mazda",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6290546328-mazda-mazda-2-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=26&type=item&tracking_id=bcd71e36-4ed9-44ee-b56e-a4fa48889e14&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_860493-MLM116709414186_092026-E.webp",
+      "group_id": "g-3202a9ff56",
+      "_score": 40.6,
+      "_components": {
+        "precio": 1.2,
+        "anio": 66.7,
+        "km": 88.8
+      },
+      "rank": 8,
+      "ads": [
+        {
+          "id": "ml-6290546328",
+          "title": "Mazda Mazda 2 2023 4p I Sport L4/1.5 Aut",
+          "price": "$269,000",
+          "price_int": 269000,
+          "year": "2023",
+          "mileage": "39,000 Km",
+          "location": "Guadalajara - Jalisco",
+          "source": "mercadolibre",
+          "link": "https://auto.mercadolibre.com.mx/MLM-6290546328-mazda-mazda-2-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=26&type=item&tracking_id=bcd71e36-4ed9-44ee-b56e-a4fa48889e14&sid=search",
+          "image": "https://http2.mlstatic.com/D_Q_NP_2X_860493-MLM116709414186_092026-E.webp",
+          "transmission": "automatic",
+          "brand": "Mazda",
+          "group_id": "g-3202a9ff56"
         }
       ]
     },
@@ -387,7 +385,7 @@
       "source": "mercadolibre",
       "brand": "Mazda",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6264563432-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-2109-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=14&type=item&tracking_id=2dfd83a1-c3a7-4017-898e-60c7b381469f&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6264563432-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-2109-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=15&type=item&tracking_id=5469d3a6-5b45-4efc-9d89-02003929246b&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_826868-MLM116501386092_092026-E.webp",
       "group_id": "g-c77419ec33",
       "_score": 39.4,
@@ -408,7 +406,7 @@
           "mileage": "117,792 Km",
           "location": "Guadalajara - Jalisco",
           "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-6264563432-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-2109-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=14&type=item&tracking_id=2dfd83a1-c3a7-4017-898e-60c7b381469f&sid=search",
+          "link": "https://auto.mercadolibre.com.mx/MLM-6264563432-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-2109-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=15&type=item&tracking_id=5469d3a6-5b45-4efc-9d89-02003929246b&sid=search",
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_826868-MLM116501386092_092026-E.webp",
           "transmission": "automatic",
           "brand": "Mazda",
