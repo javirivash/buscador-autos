@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-26T13:05:03.370593Z",
+  "generated_at": "2026-09-27T13:04:07.372887Z",
   "weights": {
     "precio": 0.5,
     "km": 0.3,
     "anio": 0.2
   },
-  "total_count": 23,
+  "total_count": 22,
   "cars": [
     {
       "id": "ml-3541900515",
@@ -18,7 +18,7 @@
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3541900515-hyundai-elantra-20-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=47&type=item&tracking_id=a1f4e003-fa36-431b-9d53-6d2fab6b4365&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3541900515-hyundai-elantra-20-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=45&type=item&tracking_id=2f6676bc-ca21-47f7-81d7-c52a9e77ab77&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_988261-MLM116619792228_092026-E.webp",
       "group_id": "g-5eedd38edc",
       "_score": 64.8,
@@ -39,7 +39,7 @@
           "mileage": "41,000 Km",
           "location": "Guadalajara - Jalisco",
           "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-3541900515-hyundai-elantra-20-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=47&type=item&tracking_id=a1f4e003-fa36-431b-9d53-6d2fab6b4365&sid=search",
+          "link": "https://auto.mercadolibre.com.mx/MLM-3541900515-hyundai-elantra-20-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=45&type=item&tracking_id=2f6676bc-ca21-47f7-81d7-c52a9e77ab77&sid=search",
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_988261-MLM116619792228_092026-E.webp",
           "transmission": "automatic",
           "brand": "Hyundai",
@@ -172,47 +172,6 @@
       ]
     },
     {
-      "id": "ml-6279881590",
-      "title": "Kia Sportage 2018 2.0 Lx L At",
-      "price": "$219,900",
-      "price_int": 219900,
-      "year": "2018",
-      "mileage": "85,000 Km",
-      "location": "Tlaquepaque - Jalisco",
-      "source": "mercadolibre",
-      "brand": "Kia",
-      "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6279881590-kia-sportage-20-lx-l-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=19&type=item&tracking_id=14a5093e-bd4c-49b5-b083-1df50af396df&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_782487-MLM118125926237_092026-E.webp",
-      "group_id": "g-99be24dda5",
-      "_score": 46.1,
-      "_components": {
-        "precio": 62.6,
-        "anio": 11.1,
-        "km": 41.8
-      },
-      "_trans_status": "AT",
-      "rank": 5,
-      "ads": [
-        {
-          "id": "ml-6279881590",
-          "title": "Kia Sportage 2018 2.0 Lx L At",
-          "price": "$219,900",
-          "price_int": 219900,
-          "year": "2018",
-          "mileage": "85,000 Km",
-          "location": "Tlaquepaque - Jalisco",
-          "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-6279881590-kia-sportage-20-lx-l-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=19&type=item&tracking_id=14a5093e-bd4c-49b5-b083-1df50af396df&sid=search",
-          "image": "https://http2.mlstatic.com/D_Q_NP_2X_782487-MLM118125926237_092026-E.webp",
-          "transmission": "automatic",
-          "brand": "Kia",
-          "group_id": "g-99be24dda5",
-          "_trans_status": "AT"
-        }
-      ]
-    },
-    {
       "id": "ml-6112502310",
       "title": "Kia K3 2024 1.6 L Sedan At",
       "price": "$269,000",
@@ -233,7 +192,7 @@
         "km": 99.0
       },
       "_trans_status": "AT",
-      "rank": 6,
+      "rank": 5,
       "ads": [
         {
           "id": "ml-6112502310",
@@ -274,7 +233,7 @@
         "km": 41.8
       },
       "_trans_status": "AT",
-      "rank": 7,
+      "rank": 6,
       "ads": [
         {
           "id": "sn-964017",
@@ -305,8 +264,8 @@
       "source": "mercadolibre",
       "brand": "Mazda",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6290546328-mazda-mazda-2-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=26&type=item&tracking_id=bcd71e36-4ed9-44ee-b56e-a4fa48889e14&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_860493-MLM116709414186_092026-E.webp",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6290546328-mazda-mazda-2-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=40&type=item&tracking_id=129d6375-14ab-4e06-8354-8c2f094e7c41&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_843295-MLM118325285917_092026-E.webp",
       "group_id": "g-3202a9ff56",
       "_score": 40.6,
       "_components": {
@@ -315,7 +274,7 @@
         "km": 88.8
       },
       "_trans_status": "ND",
-      "rank": 8,
+      "rank": 7,
       "ads": [
         {
           "id": "ml-6290546328",
@@ -326,8 +285,8 @@
           "mileage": "39,000 Km",
           "location": "Guadalajara - Jalisco",
           "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-6290546328-mazda-mazda-2-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=26&type=item&tracking_id=bcd71e36-4ed9-44ee-b56e-a4fa48889e14&sid=search",
-          "image": "https://http2.mlstatic.com/D_Q_NP_2X_860493-MLM116709414186_092026-E.webp",
+          "link": "https://auto.mercadolibre.com.mx/MLM-6290546328-mazda-mazda-2-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=40&type=item&tracking_id=129d6375-14ab-4e06-8354-8c2f094e7c41&sid=search",
+          "image": "https://http2.mlstatic.com/D_Q_NP_2X_843295-MLM118325285917_092026-E.webp",
           "transmission": "automatic",
           "brand": "Mazda",
           "group_id": "g-3202a9ff56",
@@ -356,7 +315,7 @@
         "km": 85.6
       },
       "_trans_status": "AT",
-      "rank": 9,
+      "rank": 8,
       "ads": [
         {
           "id": "ml-3102504223",
@@ -387,7 +346,7 @@
       "source": "mercadolibre",
       "brand": "Mazda",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6264563432-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-2109-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=15&type=item&tracking_id=5469d3a6-5b45-4efc-9d89-02003929246b&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6264563432-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-2109-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=16&type=item&tracking_id=60f959aa-8875-4ed7-b056-42a26c348bb1&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_826868-MLM116501386092_092026-E.webp",
       "group_id": "g-c77419ec33",
       "_score": 39.4,
@@ -397,7 +356,7 @@
         "km": 8.4
       },
       "_trans_status": "AT",
-      "rank": 10,
+      "rank": 9,
       "ads": [
         {
           "id": "ml-6264563432",
@@ -408,12 +367,51 @@
           "mileage": "117,792 Km",
           "location": "Guadalajara - Jalisco",
           "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-6264563432-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-2109-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=15&type=item&tracking_id=5469d3a6-5b45-4efc-9d89-02003929246b&sid=search",
+          "link": "https://auto.mercadolibre.com.mx/MLM-6264563432-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-2109-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=16&type=item&tracking_id=60f959aa-8875-4ed7-b056-42a26c348bb1&sid=search",
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_826868-MLM116501386092_092026-E.webp",
           "transmission": "automatic",
           "brand": "Mazda",
           "group_id": "g-c77419ec33",
           "_trans_status": "AT"
+        }
+      ]
+    },
+    {
+      "id": "ml-3530175195",
+      "title": "Kia Soul 2018 1.6 Lx At",
+      "price": "$219,900",
+      "price_int": 219900,
+      "year": "2018",
+      "mileage": "120,000 Km",
+      "location": "Guadalajara - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Kia",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3530175195-kia-soul-16-lx-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=9&type=item&tracking_id=0f63d1fb-1350-4255-a880-880267b56715&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_845104-MLM118014749647_092026-E.webp",
+      "group_id": "g-21c47bd63d",
+      "_score": 35.4,
+      "_components": {
+        "precio": 62.6,
+        "anio": 11.1,
+        "km": 6.1
+      },
+      "rank": 10,
+      "ads": [
+        {
+          "id": "ml-3530175195",
+          "title": "Kia Soul 2018 1.6 Lx At",
+          "price": "$219,900",
+          "price_int": 219900,
+          "year": "2018",
+          "mileage": "120,000 Km",
+          "location": "Guadalajara - Jalisco",
+          "source": "mercadolibre",
+          "link": "https://auto.mercadolibre.com.mx/MLM-3530175195-kia-soul-16-lx-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=9&type=item&tracking_id=0f63d1fb-1350-4255-a880-880267b56715&sid=search",
+          "image": "https://http2.mlstatic.com/D_Q_NP_2X_845104-MLM118014749647_092026-E.webp",
+          "transmission": "automatic",
+          "brand": "Kia",
+          "group_id": "g-21c47bd63d"
         }
       ]
     }
