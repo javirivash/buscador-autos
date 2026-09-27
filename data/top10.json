@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T13:04:07.372887Z",
+  "generated_at": "2026-09-27T13:04:16.061813Z",
   "weights": {
     "precio": 0.5,
     "km": 0.3,
@@ -396,6 +396,7 @@
         "anio": 11.1,
         "km": 6.1
       },
+      "_trans_status": "ND",
       "rank": 10,
       "ads": [
         {
@@ -411,7 +412,8 @@
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_845104-MLM118014749647_092026-E.webp",
           "transmission": "automatic",
           "brand": "Kia",
-          "group_id": "g-21c47bd63d"
+          "group_id": "g-21c47bd63d",
+          "_trans_status": "ND"
         }
       ]
     }
