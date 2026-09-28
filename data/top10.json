@@ -27,7 +27,7 @@
         "anio": 22.2,
         "km": 86.7
       },
-      "_trans_status": "ND",
+      "_trans_status": "AT",
       "rank": 1,
       "ads": [
         {
@@ -44,7 +44,7 @@
           "transmission": "automatic",
           "brand": "Hyundai",
           "group_id": "g-5eedd38edc",
-          "_trans_status": "ND"
+          "_trans_status": "AT"
         }
       ]
     },
@@ -396,7 +396,7 @@
         "anio": 11.1,
         "km": 6.1
       },
-      "_trans_status": "ND",
+      "_trans_status": "AT",
       "rank": 10,
       "ads": [
         {
@@ -413,7 +413,7 @@
           "transmission": "automatic",
           "brand": "Kia",
           "group_id": "g-21c47bd63d",
-          "_trans_status": "ND"
+          "_trans_status": "AT"
         }
       ]
     }

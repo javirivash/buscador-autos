@@ -89,7 +89,7 @@
         "anio": 22.2,
         "km": 86.7
       },
-      "_trans_status": "ND"
+      "_trans_status": "AT"
     },
     {
       "id": "ml-3530175195",
@@ -111,7 +111,7 @@
         "anio": 11.1,
         "km": 6.1
       },
-      "_trans_status": "ND"
+      "_trans_status": "AT"
     },
     {
       "id": "ml-3467600809",
@@ -331,7 +331,7 @@
         "anio": 11.1,
         "km": 6.1
       },
-      "_trans_status": "ND"
+      "_trans_status": "AT"
     },
     {
       "id": "ml-3315807759",
@@ -507,7 +507,7 @@
         "anio": 33.3,
         "km": 65.4
       },
-      "_trans_status": "ND"
+      "_trans_status": "AT"
     }
   ],
   "new_cars": [
@@ -531,7 +531,7 @@
         "anio": 11.1,
         "km": 6.1
       },
-      "_trans_status": "ND"
+      "_trans_status": "AT"
     }
   ]
 }
