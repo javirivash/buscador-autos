@@ -213,6 +213,8 @@
   .trans-manual { background: #fef2f2; color: #dc2626; }
   .trans-nv { background: #fef3c7; color: #b45309; }
   .trans-nd { background: #fef9c3; color: #a16207; }
+  .fuel-badge { font-size: 10px; padding: 2px 7px; border-radius: 5px; font-weight: 600; line-height: 1.4; background: #d1fae5; color: #0f8a5f; }
+  .fuel-badge-nd { font-size: 10px; padding: 2px 7px; border-radius: 5px; font-weight: 600; line-height: 1.4; background: #fef9c3; color: #a16207; }
   .source-badge { font-size: 10px; padding: 2px 7px; border-radius: 5px; background: var(--bg); color: var(--text-muted); font-weight: 500; }
   .card-location { font-size: 11px; color: var(--text-muted); display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
   .card-score {
@@ -805,7 +807,7 @@ function toggleFilters() {
   btn.setAttribute('aria-expanded', open ? 'true' : 'false');
 }
 
-const RANK_LABELS = { precio: 'Precio', km: 'Km', anio: 'Año' };
+const RANK_LABELS = { precio: 'Precio', combustible: 'Combustible', km: 'Km', anio: 'Año' };
 
 function cardMarkup(c, showScore) {
   const bc = BRAND_COLORS[(c.brand || '').toLowerCase()] || '';
@@ -826,6 +828,14 @@ function cardMarkup(c, showScore) {
   }
   const srcLabel = c.source === 'mercadolibre' ? 'Mercado Libre' : 'SemiNuevos';
   const fuelBadge = getFuel(c) === 'hibrido' ? '<span class="badge badge-fuel">Híbrido</span>' : '';
+  // Badge de rendimiento combinado [xx.x km/l]. Muestra cifra si existe;
+  // si no, un badge ND (sin dato) para señalarlo.
+  let fuelKmBadge = '';
+  if (c._fuel != null && c._fuel !== '') {
+    fuelKmBadge = `<span class="fuel-badge">[${Number(c._fuel).toFixed(1)} km/l]</span>`;
+  } else if (c._fuel_status === 'ND') {
+    fuelKmBadge = '<span class="fuel-badge-nd">[km/l N/D]</span>';
+  }
   const model = getModel(c);
   const scoreBadge = showScore && c._score != null
     ? `<span class="card-score">${Math.round(c._score)}</span>` : '';
@@ -840,7 +850,7 @@ function cardMarkup(c, showScore) {
         <div class="card-meta">
           ${c.year !== 'N/A' ? `<span>${c.year}</span>` : ''}
           ${c.mileage !== 'N/A' ? `<span>${c.mileage}</span>` : ''}
-          ${transHtml}${fuelBadge}
+          ${transHtml}${fuelBadge}${fuelKmBadge}
         </div>
         <div class="card-meta">
           ${c.brand ? `<span class="badge ${bc}">${c.brand}${model ? ' · ' + model : ''}</span>` : ''}
@@ -864,7 +874,7 @@ function renderTop10(data) {
     grid.innerHTML = '';
     return;
   }
-  note.textContent = 'Ranking por puntaje de valor (precio 50%, km 30%, año 20%). Actualizado con el último scrape.';
+  note.textContent = 'Ranking por puntaje de valor (precio 40%, combustible 30%, km 20%, año 10%). Actualizado con el último scrape.';
   grid.innerHTML = cars.map(c => {
     const comp = c._components || {};
     const bars = Object.keys(RANK_LABELS).map(k => {

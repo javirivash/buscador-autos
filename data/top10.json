@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-09-27T13:04:16.061813Z",
+  "generated_at": "2026-09-28T11:24:52.028555Z",
   "weights": {
-    "precio": 0.5,
-    "km": 0.3,
-    "anio": 0.2
+    "precio": 0.4,
+    "combustible": 0.3,
+    "km": 0.2,
+    "anio": 0.1
   },
-  "total_count": 22,
+  "total_count": 21,
   "cars": [
     {
       "id": "ml-3541900515",
@@ -21,13 +22,16 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3541900515-hyundai-elantra-20-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=45&type=item&tracking_id=2f6676bc-ca21-47f7-81d7-c52a9e77ab77&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_988261-MLM116619792228_092026-E.webp",
       "group_id": "g-5eedd38edc",
-      "_score": 64.8,
+      "_score": 68.1,
       "_components": {
-        "precio": 68.8,
-        "anio": 22.2,
-        "km": 86.7
+        "precio": 68.4,
+        "combustible": 70.6,
+        "km": 86.7,
+        "anio": 22.2
       },
       "_trans_status": "AT",
+      "_fuel": 18.42,
+      "_fuel_status": "OK",
       "rank": 1,
       "ads": [
         {
@@ -44,7 +48,9 @@
           "transmission": "automatic",
           "brand": "Hyundai",
           "group_id": "g-5eedd38edc",
-          "_trans_status": "AT"
+          "_trans_status": "AT",
+          "_fuel": 18.42,
+          "_fuel_status": "OK"
         }
       ]
     },
@@ -62,13 +68,16 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-tlaquepaque-2018/4646701",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/20241220/4646701/o_o/pt_4646701_1734717037281.jpg",
       "group_id": "g-d8c4c75584",
-      "_score": 53.4,
+      "_score": 64.8,
       "_components": {
         "precio": 100.0,
-        "anio": 11.1,
-        "km": 4.1
+        "combustible": 76.2,
+        "km": 4.1,
+        "anio": 11.1
       },
       "_trans_status": "AT",
+      "_fuel": 18.76,
+      "_fuel_status": "OK",
       "rank": 2,
       "ads": [
         {
@@ -85,130 +94,9 @@
           "transmission": "automatic",
           "brand": "Kia",
           "group_id": "g-d8c4c75584",
-          "_trans_status": "AT"
-        }
-      ]
-    },
-    {
-      "id": "sn-630217",
-      "title": "Kia K3",
-      "price": "$250,000",
-      "price_int": 250000,
-      "year": "2024",
-      "mileage": "59,067 kms.",
-      "location": "Zapopan",
-      "source": "seminuevos",
-      "brand": "Kia",
-      "transmission": "automatic",
-      "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-zapopan-2024/4819544",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/3072026/4819544/o_o/4819544_1789408637995_223.",
-      "group_id": "g-2d5d97f806",
-      "_score": 48.5,
-      "_components": {
-        "precio": 25.0,
-        "anio": 77.8,
-        "km": 68.3
-      },
-      "_trans_status": "AT",
-      "rank": 3,
-      "ads": [
-        {
-          "id": "sn-630217",
-          "title": "Kia K3",
-          "price": "$250,000",
-          "price_int": 250000,
-          "year": "2024",
-          "mileage": "59,067 kms.",
-          "location": "Zapopan",
-          "source": "seminuevos",
-          "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-zapopan-2024/4819544",
-          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/3072026/4819544/o_o/4819544_1789408637995_223.",
-          "transmission": "automatic",
-          "brand": "Kia",
-          "group_id": "g-2d5d97f806",
-          "_trans_status": "AT"
-        }
-      ]
-    },
-    {
-      "id": "ml-3387771987",
-      "title": "Kia K3 2024 1.6 L Sedan At",
-      "price": "$269,000",
-      "price_int": 269000,
-      "year": "2024",
-      "mileage": "28,000 Km",
-      "location": "Zapopan - Jalisco",
-      "source": "mercadolibre",
-      "brand": "Kia",
-      "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3387771987-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=19&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_702333-MLM116674889251_082026-E.webp",
-      "group_id": "g-a2da9dd941",
-      "_score": 46.2,
-      "_components": {
-        "precio": 1.2,
-        "anio": 77.8,
-        "km": 100.0
-      },
-      "_trans_status": "AT",
-      "rank": 4,
-      "ads": [
-        {
-          "id": "ml-3387771987",
-          "title": "Kia K3 2024 1.6 L Sedan At",
-          "price": "$269,000",
-          "price_int": 269000,
-          "year": "2024",
-          "mileage": "28,000 Km",
-          "location": "Zapopan - Jalisco",
-          "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-3387771987-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=19&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
-          "image": "https://http2.mlstatic.com/D_Q_NP_2X_702333-MLM116674889251_082026-E.webp",
-          "transmission": "automatic",
-          "brand": "Kia",
-          "group_id": "g-a2da9dd941",
-          "_trans_status": "AT"
-        }
-      ]
-    },
-    {
-      "id": "ml-6112502310",
-      "title": "Kia K3 2024 1.6 L Sedan At",
-      "price": "$269,000",
-      "price_int": 269000,
-      "year": "2024",
-      "mileage": "29,000 Km",
-      "location": "Zapopan - Jalisco",
-      "source": "mercadolibre",
-      "brand": "Kia",
-      "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6112502310-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=24&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_972323-MLM116839347909_082026-E.webp",
-      "group_id": "g-9e0ac000e3",
-      "_score": 45.9,
-      "_components": {
-        "precio": 1.2,
-        "anio": 77.8,
-        "km": 99.0
-      },
-      "_trans_status": "AT",
-      "rank": 5,
-      "ads": [
-        {
-          "id": "ml-6112502310",
-          "title": "Kia K3 2024 1.6 L Sedan At",
-          "price": "$269,000",
-          "price_int": 269000,
-          "year": "2024",
-          "mileage": "29,000 Km",
-          "location": "Zapopan - Jalisco",
-          "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-6112502310-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=24&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
-          "image": "https://http2.mlstatic.com/D_Q_NP_2X_972323-MLM116839347909_082026-E.webp",
-          "transmission": "automatic",
-          "brand": "Kia",
-          "group_id": "g-9e0ac000e3",
-          "_trans_status": "AT"
+          "_trans_status": "AT",
+          "_fuel": 18.76,
+          "_fuel_status": "OK"
         }
       ]
     },
@@ -226,14 +114,17 @@
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris_r-guadalajara-2018/4805639",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026612/4805639/o_o/pt_4805639_1781297665284.jpeg",
       "group_id": "g-4860c0a333",
-      "_score": 42.9,
+      "_score": 61.3,
       "_components": {
-        "precio": 56.2,
-        "anio": 11.1,
-        "km": 41.8
+        "precio": 55.7,
+        "combustible": 98.3,
+        "km": 41.8,
+        "anio": 11.1
       },
       "_trans_status": "AT",
-      "rank": 6,
+      "_fuel": 20.1,
+      "_fuel_status": "OK",
+      "rank": 3,
       "ads": [
         {
           "id": "sn-964017",
@@ -249,7 +140,55 @@
           "transmission": "unknown",
           "brand": "Toyota",
           "group_id": "g-4860c0a333",
-          "_trans_status": "AT"
+          "_trans_status": "AT",
+          "_fuel": 20.1,
+          "_fuel_status": "OK"
+        }
+      ]
+    },
+    {
+      "id": "sn-630217",
+      "title": "Kia K3",
+      "price": "$250,000",
+      "price_int": 250000,
+      "year": "2024",
+      "mileage": "59,067 kms.",
+      "location": "Zapopan",
+      "source": "seminuevos",
+      "brand": "Kia",
+      "transmission": "automatic",
+      "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-zapopan-2024/4819544",
+      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/3072026/4819544/o_o/4819544_1789408637995_223.",
+      "group_id": "g-2d5d97f806",
+      "_score": 55.9,
+      "_components": {
+        "precio": 24.1,
+        "combustible": 82.8,
+        "km": 68.3,
+        "anio": 77.8
+      },
+      "_trans_status": "AT",
+      "_fuel": 19.16,
+      "_fuel_status": "OK",
+      "rank": 4,
+      "ads": [
+        {
+          "id": "sn-630217",
+          "title": "Kia K3",
+          "price": "$250,000",
+          "price_int": 250000,
+          "year": "2024",
+          "mileage": "59,067 kms.",
+          "location": "Zapopan",
+          "source": "seminuevos",
+          "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-zapopan-2024/4819544",
+          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/3072026/4819544/o_o/4819544_1789408637995_223.",
+          "transmission": "automatic",
+          "brand": "Kia",
+          "group_id": "g-2d5d97f806",
+          "_trans_status": "AT",
+          "_fuel": 19.16,
+          "_fuel_status": "OK"
         }
       ]
     },
@@ -267,14 +206,17 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6290546328-mazda-mazda-2-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=40&type=item&tracking_id=129d6375-14ab-4e06-8354-8c2f094e7c41&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_843295-MLM118325285917_092026-E.webp",
       "group_id": "g-3202a9ff56",
-      "_score": 40.6,
+      "_score": 54.4,
       "_components": {
-        "precio": 1.2,
-        "anio": 66.7,
-        "km": 88.8
+        "precio": 0.0,
+        "combustible": 100.0,
+        "km": 88.8,
+        "anio": 66.7
       },
-      "_trans_status": "ND",
-      "rank": 7,
+      "_trans_status": "AT",
+      "_fuel": 20.2,
+      "_fuel_status": "OK",
+      "rank": 5,
       "ads": [
         {
           "id": "ml-6290546328",
@@ -290,7 +232,101 @@
           "transmission": "automatic",
           "brand": "Mazda",
           "group_id": "g-3202a9ff56",
-          "_trans_status": "ND"
+          "_trans_status": "AT",
+          "_fuel": 20.2,
+          "_fuel_status": "OK"
+        }
+      ]
+    },
+    {
+      "id": "ml-3387771987",
+      "title": "Kia K3 2024 1.6 L Sedan At",
+      "price": "$269,000",
+      "price_int": 269000,
+      "year": "2024",
+      "mileage": "28,000 Km",
+      "location": "Zapopan - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Kia",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3387771987-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=19&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_702333-MLM116674889251_082026-E.webp",
+      "group_id": "g-a2da9dd941",
+      "_score": 52.6,
+      "_components": {
+        "precio": 0.0,
+        "combustible": 82.8,
+        "km": 100.0,
+        "anio": 77.8
+      },
+      "_trans_status": "AT",
+      "_fuel": 19.16,
+      "_fuel_status": "OK",
+      "rank": 6,
+      "ads": [
+        {
+          "id": "ml-3387771987",
+          "title": "Kia K3 2024 1.6 L Sedan At",
+          "price": "$269,000",
+          "price_int": 269000,
+          "year": "2024",
+          "mileage": "28,000 Km",
+          "location": "Zapopan - Jalisco",
+          "source": "mercadolibre",
+          "link": "https://auto.mercadolibre.com.mx/MLM-3387771987-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=19&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
+          "image": "https://http2.mlstatic.com/D_Q_NP_2X_702333-MLM116674889251_082026-E.webp",
+          "transmission": "automatic",
+          "brand": "Kia",
+          "group_id": "g-a2da9dd941",
+          "_trans_status": "AT",
+          "_fuel": 19.16,
+          "_fuel_status": "OK"
+        }
+      ]
+    },
+    {
+      "id": "ml-6112502310",
+      "title": "Kia K3 2024 1.6 L Sedan At",
+      "price": "$269,000",
+      "price_int": 269000,
+      "year": "2024",
+      "mileage": "29,000 Km",
+      "location": "Zapopan - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Kia",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6112502310-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=24&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_972323-MLM116839347909_082026-E.webp",
+      "group_id": "g-9e0ac000e3",
+      "_score": 52.4,
+      "_components": {
+        "precio": 0.0,
+        "combustible": 82.8,
+        "km": 99.0,
+        "anio": 77.8
+      },
+      "_trans_status": "AT",
+      "_fuel": 19.16,
+      "_fuel_status": "OK",
+      "rank": 7,
+      "ads": [
+        {
+          "id": "ml-6112502310",
+          "title": "Kia K3 2024 1.6 L Sedan At",
+          "price": "$269,000",
+          "price_int": 269000,
+          "year": "2024",
+          "mileage": "29,000 Km",
+          "location": "Zapopan - Jalisco",
+          "source": "mercadolibre",
+          "link": "https://auto.mercadolibre.com.mx/MLM-6112502310-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=24&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
+          "image": "https://http2.mlstatic.com/D_Q_NP_2X_972323-MLM116839347909_082026-E.webp",
+          "transmission": "automatic",
+          "brand": "Kia",
+          "group_id": "g-9e0ac000e3",
+          "_trans_status": "AT",
+          "_fuel": 19.16,
+          "_fuel_status": "OK"
         }
       ]
     },
@@ -308,13 +344,16 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3102504223-hyundai-hb20-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=46&type=item&tracking_id=50425b76-d9fd-4084-a1f3-7e6a4da24d2b&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_836687-MLM113078522822_072026-E.webp",
       "group_id": "g-1501273c24",
-      "_score": 39.6,
+      "_score": 45.4,
       "_components": {
-        "precio": 1.2,
-        "anio": 66.7,
-        "km": 85.6
+        "precio": 0.0,
+        "combustible": 71.9,
+        "km": 85.6,
+        "anio": 66.7
       },
       "_trans_status": "AT",
+      "_fuel": 18.5,
+      "_fuel_status": "OK",
       "rank": 8,
       "ads": [
         {
@@ -331,7 +370,9 @@
           "transmission": "automatic",
           "brand": "Hyundai",
           "group_id": "g-1501273c24",
-          "_trans_status": "AT"
+          "_trans_status": "AT",
+          "_fuel": 18.5,
+          "_fuel_status": "OK"
         }
       ]
     },
@@ -349,13 +390,16 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6264563432-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-2109-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=16&type=item&tracking_id=60f959aa-8875-4ed7-b056-42a26c348bb1&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_826868-MLM116501386092_092026-E.webp",
       "group_id": "g-c77419ec33",
-      "_score": 39.4,
+      "_score": 41.7,
       "_components": {
-        "precio": 73.8,
-        "anio": 0.0,
-        "km": 8.4
+        "precio": 73.4,
+        "combustible": 35.5,
+        "km": 8.4,
+        "anio": 0.0
       },
       "_trans_status": "AT",
+      "_fuel": 16.3,
+      "_fuel_status": "OK",
       "rank": 9,
       "ads": [
         {
@@ -372,48 +416,55 @@
           "transmission": "automatic",
           "brand": "Mazda",
           "group_id": "g-c77419ec33",
-          "_trans_status": "AT"
+          "_trans_status": "AT",
+          "_fuel": 16.3,
+          "_fuel_status": "OK"
         }
       ]
     },
     {
-      "id": "ml-3530175195",
-      "title": "Kia Soul 2018 1.6 Lx At",
-      "price": "$219,900",
-      "price_int": 219900,
-      "year": "2018",
-      "mileage": "120,000 Km",
-      "location": "Guadalajara - Jalisco",
-      "source": "mercadolibre",
-      "brand": "Kia",
+      "id": "sn-4806943",
+      "title": "Mazda CX-3",
+      "price": "$239,500",
+      "price_int": 239500,
+      "year": "2019",
+      "mileage": "95,000 kms.",
+      "location": "Guadalajara",
+      "source": "seminuevos",
+      "brand": "Mazda",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3530175195-kia-soul-16-lx-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=9&type=item&tracking_id=0f63d1fb-1350-4255-a880-880267b56715&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_845104-MLM118014749647_092026-E.webp",
-      "group_id": "g-21c47bd63d",
-      "_score": 35.4,
+      "link": "https://www.seminuevos.com/vehicle/autos-mazda-cx_3-guadalajara-2019/4806943",
+      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026617/4806943/o_o/pt_4806943_1781729864817.jpeg",
+      "group_id": "g-ac7f04f2db",
+      "_score": 39.1,
       "_components": {
-        "precio": 62.6,
-        "anio": 11.1,
-        "km": 6.1
+        "precio": 37.3,
+        "combustible": 52.1,
+        "km": 31.6,
+        "anio": 22.2
       },
       "_trans_status": "AT",
+      "_fuel": 17.3,
+      "_fuel_status": "OK",
       "rank": 10,
       "ads": [
         {
-          "id": "ml-3530175195",
-          "title": "Kia Soul 2018 1.6 Lx At",
-          "price": "$219,900",
-          "price_int": 219900,
-          "year": "2018",
-          "mileage": "120,000 Km",
-          "location": "Guadalajara - Jalisco",
-          "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-3530175195-kia-soul-16-lx-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=9&type=item&tracking_id=0f63d1fb-1350-4255-a880-880267b56715&sid=search",
-          "image": "https://http2.mlstatic.com/D_Q_NP_2X_845104-MLM118014749647_092026-E.webp",
+          "id": "sn-4806943",
+          "title": "Mazda CX-3",
+          "price": "$239,500",
+          "price_int": 239500,
+          "year": "2019",
+          "mileage": "95,000 kms.",
+          "location": "Guadalajara",
+          "source": "seminuevos",
+          "link": "https://www.seminuevos.com/vehicle/autos-mazda-cx_3-guadalajara-2019/4806943",
+          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026617/4806943/o_o/pt_4806943_1781729864817.jpeg",
           "transmission": "automatic",
-          "brand": "Kia",
-          "group_id": "g-21c47bd63d",
-          "_trans_status": "AT"
+          "brand": "Mazda",
+          "group_id": "g-ac7f04f2db",
+          "_trans_status": "AT",
+          "_fuel": 17.3,
+          "_fuel_status": "OK"
         }
       ]
     }

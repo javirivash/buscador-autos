@@ -1,0 +1,3942 @@
+{
+  "metadata": {
+    "fuente": "Autos automaticos vendidos en Mexico 2017-2026: transmision y rendimiento de combustible por version",
+    "version": "3.0 (formato largo)",
+    "fecha": "2026-09-28",
+    "pais": "Mexico",
+    "rango_anios": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "banderas": {
+      "arrastre_anio_siguiente": "Toyota no reporto en CONUEE 2021 y los anios vecinos difieren; se usa el valor 2022",
+      "inconsistencia_catalogo": "Creta 1.4T DCT: CONUEE publica ciudad 13.7 / carretera 15.0 con combinado 15.1 (55/45 daria 14.3); 2024-2025 ademas son arrastre",
+      "inconsistencia_ficha": "Mazda 2 HB Signature 2025: la ficha publica 18.8 pero sus propios ciudad/carretera dan 18.3",
+      "combinado_recalculado": "Creta 2019: CONUEE publica 19.10 (igual a carretera); se recalcula 15.91",
+      "cifra_lanzamiento_no_comparable": "Yaris Sedan HEV 2026: 'hasta 27 km/l' de lanzamiento, no es combinado CONUEE"
+    },
+    "conflictos": [
+      "Santa Fe 2.5T DCT: CONUEE 2023-2025 = 14.66; ficha oficial 2025/2026 = 13.12. Se usa CONUEE hasta 2025 y 13.12 en 2026.",
+      "Creta 2026: la pagina oficial ya muestra el anio modelo 2027 (misma generacion); valores C.",
+      "Camry 2017: sin cifra oficial (unico N/D)."
+    ],
+    "mazda_versiones": "CONUEE 2017-2022 lista a Mazda sin nombre de version (pares 16.7/16.9, 15.2/15.3, 16.3/16.4, 15.5/15.6, 17.5/17.6, 17.1/17.3). Cada valor se asigno a su version con las fichas tecnicas oficiales de Mazda Mexico (URL en fuente). Asignaciones con matiz: Mazda3 2017-2018 por orden de columnas de la ficha; Mazda3 sedan 2019 y HB 2021 etiquetados con fichas de 2020; CX-3 2017 i Sport y CX-3 2021 (celda combinada) agrupados como en fichas de anios vecinos.",
+    "estado_total": {
+      "dato": 375,
+      "N/V": 37,
+      "N/D": 1
+    }
+  },
+  "tabla": [
+    {
+      "marca": "Honda",
+      "modelo": "City",
+      "anios": {
+        "2017": [
+          {
+            "version": "Todas (automaticas)",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 20.8,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2018": [
+          {
+            "version": "Todas (automaticas)",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 20.8,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2019": [
+          {
+            "version": "EX CVT",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 20.8,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2020": [
+          {
+            "version": "EX / LX",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 20.8,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2021": [
+          {
+            "version": "EX / LX",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 20.8,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2022": [
+          {
+            "version": "Touring / Prime / Sport CVT",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 20.3,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2023": [
+          {
+            "version": "Touring / Prime / Sport CVT",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 20.8,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2024": [
+          {
+            "version": "Sport / Touring / Prime CVT",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 20.8,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2025": [
+          {
+            "version": "Sport CVT / Touring CVT / Prime CVT",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 20.8,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2026": [
+          {
+            "version": "Sport CVT / Touring CVT / Prime CVT",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 20.8,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ]
+      }
+    },
+    {
+      "marca": "Honda",
+      "modelo": "Civic",
+      "anios": {
+        "2017": [
+          {
+            "version": "Sedan",
+            "motor": "2.0",
+            "transmision": "CVT",
+            "combinado_km_l": 20.07,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Coupe",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 20.86,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 20.86,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2018": [
+          {
+            "version": "Sedan",
+            "motor": "2.0",
+            "transmision": "CVT",
+            "combinado_km_l": 20.07,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Coupe",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 20.86,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 20.86,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2019": [
+          {
+            "version": "EX / i-Style CVT",
+            "motor": "2.0",
+            "transmision": "CVT",
+            "combinado_km_l": 20.07,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Turbo Plus / Touring / Coupe CVT",
+            "motor": "1.5T",
+            "transmision": "CVT",
+            "combinado_km_l": 20.86,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2020": [
+          {
+            "version": "Sedan Turbo Plus / Touring",
+            "motor": "1.5T",
+            "transmision": "CVT",
+            "combinado_km_l": 20.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan i Style",
+            "motor": "2.0",
+            "transmision": "CVT",
+            "combinado_km_l": 20.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Coupe Sport Plus",
+            "motor": "1.5T",
+            "transmision": "CVT",
+            "combinado_km_l": 20.9,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2021": [
+          {
+            "version": "EX / i Style / Uniq",
+            "motor": "2.0",
+            "transmision": "CVT",
+            "combinado_km_l": 20.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Turbo / Touring / Sport",
+            "motor": "1.5T",
+            "transmision": "CVT",
+            "combinado_km_l": 20.9,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2022": [
+          {
+            "version": "i Style",
+            "motor": "2.0",
+            "transmision": "CVT",
+            "combinado_km_l": 20.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sport / Touring",
+            "motor": "1.5T",
+            "transmision": "CVT",
+            "combinado_km_l": 21.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2023": [
+          {
+            "version": "i Style",
+            "motor": "2.0",
+            "transmision": "CVT",
+            "combinado_km_l": 20.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sport / Touring",
+            "motor": "1.5T",
+            "transmision": "CVT",
+            "combinado_km_l": 21.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2024": [
+          {
+            "version": "i Style",
+            "motor": "2.0",
+            "transmision": "CVT",
+            "combinado_km_l": 20.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sport / Touring",
+            "motor": "1.5T",
+            "transmision": "CVT",
+            "combinado_km_l": 21.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2025": [
+          {
+            "version": "i Style",
+            "motor": "2.0",
+            "transmision": "CVT",
+            "combinado_km_l": 20.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sport HEV / Touring HEV",
+            "motor": "2.0 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 29.8,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2026": [
+          {
+            "version": "i Style",
+            "motor": "2.0",
+            "transmision": "CVT",
+            "combinado_km_l": 20.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sport HEV / Touring HEV",
+            "motor": "2.0 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 29.8,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ]
+      }
+    },
+    {
+      "marca": "Hyundai",
+      "modelo": "Creta",
+      "anios": {
+        "2017": [
+          {
+            "version": "Todas (automaticas)",
+            "motor": "1.6",
+            "transmision": "AT",
+            "combinado_km_l": 16.12,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2018": [
+          {
+            "version": "GLS / GLS Premium / Limited",
+            "motor": "1.6",
+            "transmision": "AT",
+            "combinado_km_l": 16.13,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2019": [
+          {
+            "version": "GLS TA / GLS Premium TA / Limited",
+            "motor": "1.6",
+            "transmision": "AT",
+            "combinado_km_l": 15.91,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2020": [
+          {
+            "version": "GLS TA / GLS Premium TA / Limited",
+            "motor": "1.6",
+            "transmision": "AT",
+            "combinado_km_l": 16.0,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2021": [
+          {
+            "version": "Limited Turbo",
+            "motor": "1.4T",
+            "transmision": "DCT",
+            "combinado_km_l": 15.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "GLS IVT / GLS Premium",
+            "motor": "1.5",
+            "transmision": "IVT",
+            "combinado_km_l": 15.0,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2022": [
+          {
+            "version": "Limited Turbo",
+            "motor": "1.4T",
+            "transmision": "DCT",
+            "combinado_km_l": 15.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "GLS IVT",
+            "motor": "1.5",
+            "transmision": "IVT",
+            "combinado_km_l": 15.0,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "GLS Premium",
+            "motor": "1.5",
+            "transmision": "IVT",
+            "combinado_km_l": 15.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2023": [
+          {
+            "version": "Versiones 1.4T DCT",
+            "motor": "1.4T",
+            "transmision": "DCT",
+            "combinado_km_l": 15.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Versiones 1.5 IVT",
+            "motor": "1.5",
+            "transmision": "IVT",
+            "combinado_km_l": 15.0,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2024": [
+          {
+            "version": "Limited Turbo",
+            "motor": "1.4T",
+            "transmision": "DCT",
+            "combinado_km_l": 15.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "GLS IVT / GLS Premium",
+            "motor": "1.5",
+            "transmision": "IVT",
+            "combinado_km_l": 15.0,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2025": [
+          {
+            "version": "Limited Turbo",
+            "motor": "1.4T",
+            "transmision": "DCT",
+            "combinado_km_l": 15.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "GLS IVT / GLS Premium",
+            "motor": "1.5",
+            "transmision": "IVT",
+            "combinado_km_l": 15.0,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2026": [
+          {
+            "version": "Limited Turbo",
+            "motor": "1.5T",
+            "transmision": "DCT",
+            "combinado_km_l": 19.68,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "GLS IVT / GLS Premium IVT",
+            "motor": "1.5",
+            "transmision": "IVT",
+            "combinado_km_l": 17.86,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ]
+      }
+    },
+    {
+      "marca": "Hyundai",
+      "modelo": "Elantra",
+      "anios": {
+        "2017": [
+          {
+            "version": "Todas (automaticas)",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 18.41,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2018": [
+          {
+            "version": "GLS / GLS Premium / Limited Tech Navi",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 18.42,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2019": [
+          {
+            "version": "GLS TA / GLS Premium TA / Limited Tech TA",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 18.42,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2020": [
+          {
+            "version": "GLS CVT / Limited Tech CVT / GLS Premium IVT",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 20.4,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2021": [
+          {
+            "version": "GLS CVT / GLS Premium IVT / Limited Tech CVT",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 20.4,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2022": [
+          {
+            "version": "GLS / GLS Premium / Limited Tech IVT",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 20.6,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2023": [
+          {
+            "version": "HEV",
+            "motor": "1.6 HEV",
+            "transmision": "DCT",
+            "combinado_km_l": 28.7,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          },
+          {
+            "version": "Versiones 2.0 IVT",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 20.59,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2024": [
+          {
+            "version": "HEV GLS Premium",
+            "motor": "1.6 HEV",
+            "transmision": "DCT",
+            "combinado_km_l": 28.7,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          },
+          {
+            "version": "GLS Premium IVT",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 18.78,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Limited Tech IVT",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 20.59,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2025": [
+          {
+            "version": "HEV GLS Premium",
+            "motor": "1.6 HEV",
+            "transmision": "DCT",
+            "combinado_km_l": 28.7,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          },
+          {
+            "version": "GLS Premium IVT",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 18.78,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Limited Tech IVT",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 20.59,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2026": [
+          {
+            "version": "GLS / GLS Premium Hibrido",
+            "motor": "1.6 HEV",
+            "transmision": "DCT",
+            "combinado_km_l": 28.7,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          },
+          {
+            "version": "GLS Premium IVT",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 18.78,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Limited Tech IVT",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 20.59,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ]
+      }
+    },
+    {
+      "marca": "Hyundai",
+      "modelo": "HB20",
+      "anios": {
+        "2017": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2018": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2019": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2020": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2021": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2022": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2023": [
+          {
+            "version": "Todas (automaticas)",
+            "motor": "1.6",
+            "transmision": "AT",
+            "combinado_km_l": 18.5,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2024": [
+          {
+            "version": "GL TA / GL Mid TA / GLS TA",
+            "motor": "1.6",
+            "transmision": "AT",
+            "combinado_km_l": 18.5,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2025": [
+          {
+            "version": "GL TA / GL Mid TA / GLS TA",
+            "motor": "1.6",
+            "transmision": "AT",
+            "combinado_km_l": 18.5,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2026": [
+          {
+            "version": "GL AT / GL Mid AT / GLS AT",
+            "motor": "1.6",
+            "transmision": "AT",
+            "combinado_km_l": 18.5,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ]
+      }
+    },
+    {
+      "marca": "Hyundai",
+      "modelo": "Ioniq",
+      "anios": {
+        "2017": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2018": [
+          {
+            "version": "GLS Premium / Limited",
+            "motor": "1.6 HEV",
+            "transmision": "DCT",
+            "combinado_km_l": 28.4,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2019": [
+          {
+            "version": "GLS Premium / Limited",
+            "motor": "1.6 HEV",
+            "transmision": "DCT",
+            "combinado_km_l": 28.4,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2020": [
+          {
+            "version": "GLS Premium / Limited",
+            "motor": "1.6 HEV",
+            "transmision": "DCT",
+            "combinado_km_l": 28.4,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2021": [
+          {
+            "version": "GLS Premium / Limited",
+            "motor": "1.6 HEV",
+            "transmision": "DCT",
+            "combinado_km_l": 28.4,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2022": [
+          {
+            "version": "GLS Premium / Limited",
+            "motor": "1.6 HEV",
+            "transmision": "DCT",
+            "combinado_km_l": 28.3,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2023": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2024": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2025": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2026": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ]
+      }
+    },
+    {
+      "marca": "Hyundai",
+      "modelo": "Santa Fe",
+      "anios": {
+        "2017": [
+          {
+            "version": "7 Pasajeros",
+            "motor": "3.3",
+            "transmision": "AT",
+            "combinado_km_l": 11.72,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sport",
+            "motor": "2.0T",
+            "transmision": "AT",
+            "combinado_km_l": 12.86,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2018": [
+          {
+            "version": "7 Pasajeros",
+            "motor": "3.3",
+            "transmision": "AT",
+            "combinado_km_l": 11.73,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sport 2.0T",
+            "motor": "2.0T",
+            "transmision": "AT",
+            "combinado_km_l": 12.86,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2019": [
+          {
+            "version": "7 Pasajeros GLS Premium / Limited Tech",
+            "motor": "3.3",
+            "transmision": "AT",
+            "combinado_km_l": 11.73,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "GLS / Limited Tech",
+            "motor": "2.0T",
+            "transmision": "AT",
+            "combinado_km_l": 12.9,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2020": [
+          {
+            "version": "7 Pasajeros GLS Premium / Limited Tech",
+            "motor": "3.3",
+            "transmision": "AT",
+            "combinado_km_l": 11.73,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "GLS / Limited Tech",
+            "motor": "2.0T",
+            "transmision": "AT",
+            "combinado_km_l": 12.9,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2021": [
+          {
+            "version": "7 Pasajeros GLS Premium / Limited Tech",
+            "motor": "3.3",
+            "transmision": "AT",
+            "combinado_km_l": 11.73,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "GLS / Limited Tech",
+            "motor": "2.0T",
+            "transmision": "AT",
+            "combinado_km_l": 12.9,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2022": [
+          {
+            "version": "GLS Premium / Limited Tech 2.5T",
+            "motor": "2.5T",
+            "transmision": "DCT",
+            "combinado_km_l": 14.66,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2023": [
+          {
+            "version": "Todas (automaticas)",
+            "motor": "2.5T",
+            "transmision": "DCT",
+            "combinado_km_l": 14.66,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2024": [
+          {
+            "version": "Limited Tech / GLS Premium",
+            "motor": "2.5T",
+            "transmision": "DCT",
+            "combinado_km_l": 14.66,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2025": [
+          {
+            "version": "HEV GLS",
+            "motor": "1.6T HEV",
+            "transmision": "AT",
+            "combinado_km_l": 19.77,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          },
+          {
+            "version": "Limited Tech / GLS Premium",
+            "motor": "2.5T",
+            "transmision": "DCT",
+            "combinado_km_l": 14.66,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2026": [
+          {
+            "version": "GLS Premium / Limited Tech Hibrida",
+            "motor": "1.6T HEV",
+            "transmision": "AT",
+            "combinado_km_l": 19.77,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          },
+          {
+            "version": "GLS Premium 2.5T",
+            "motor": "2.5T",
+            "transmision": "DCT",
+            "combinado_km_l": 13.12,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ]
+      }
+    },
+    {
+      "marca": "Hyundai",
+      "modelo": "Tucson",
+      "anios": {
+        "2017": [
+          {
+            "version": "Todas (automaticas)",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 14.62,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2018": [
+          {
+            "version": "GLS / GLS Premium / Limited / Limited Tech Navi",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 14.63,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2019": [
+          {
+            "version": "GLS / GLS Premium / Limited / Limited Tech Navi",
+            "motor": "2.0 / 2.4",
+            "transmision": "AT",
+            "combinado_km_l": 14.63,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2020": [
+          {
+            "version": "GLS / GLS Premium / Limited / Limited Tech Navi",
+            "motor": "2.0 / 2.4",
+            "transmision": "AT",
+            "combinado_km_l": 14.63,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2021": [
+          {
+            "version": "GLS / GLS Premium / Limited / Limited Tech Navi",
+            "motor": "2.0 / 2.4",
+            "transmision": "AT",
+            "combinado_km_l": 14.63,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2022": [
+          {
+            "version": "GLS / GLS Premium / Limited / Limited Tech",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 14.9,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2023": [
+          {
+            "version": "Versiones 2.5 AT",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 14.9,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "HEV",
+            "motor": "1.6T HEV",
+            "transmision": "AT",
+            "combinado_km_l": 21.6,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2024": [
+          {
+            "version": "GLS / GLS Premium / Limited Tech",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 14.9,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "HEV Limited",
+            "motor": "1.6T HEV",
+            "transmision": "AT",
+            "combinado_km_l": 21.6,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2025": [
+          {
+            "version": "GLS / GLS Premium / Limited Tech",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 14.9,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "HEV Limited",
+            "motor": "1.6T HEV",
+            "transmision": "AT",
+            "combinado_km_l": 21.6,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2026": [
+          {
+            "version": "GLS / Limited / Limited Tech",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 14.9,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Limited Tech Hibrida",
+            "motor": "1.6T HEV",
+            "transmision": "AT",
+            "combinado_km_l": 21.3,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ]
+      }
+    },
+    {
+      "marca": "Kia",
+      "modelo": "Forte",
+      "anios": {
+        "2017": [
+          {
+            "version": "Hatchback",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 15.72,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 15.89,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2018": [
+          {
+            "version": "Hatchback",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 15.72,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "SX",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 18.49,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 18.76,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2019": [
+          {
+            "version": "Hatchback GT",
+            "motor": "1.6T",
+            "transmision": "DCT",
+            "combinado_km_l": 17.02,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "L / LX / EX / EX Premium / GT-Line",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 18.53,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Hatchback EX / GT-Line",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 19.48,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2020": [
+          {
+            "version": "Hatchback GT",
+            "motor": "1.6T",
+            "transmision": "DCT",
+            "combinado_km_l": 17.02,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "GT",
+            "motor": "1.6T",
+            "transmision": "DCT",
+            "combinado_km_l": 17.07,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "L / LX / EX / GT-Line",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 18.53,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Hatchback EX / GT-Line",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 19.48,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2021": [
+          {
+            "version": "Hatchback GT",
+            "motor": "1.6T",
+            "transmision": "DCT",
+            "combinado_km_l": 17.02,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan GT",
+            "motor": "1.6T",
+            "transmision": "DCT",
+            "combinado_km_l": 17.07,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan L / LX / EX / GT-Line",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 18.53,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Hatchback EX / GT-Line",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 19.48,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2022": [
+          {
+            "version": "Hatchback GT",
+            "motor": "1.6T",
+            "transmision": "DCT",
+            "combinado_km_l": 17.02,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan GT",
+            "motor": "1.6T",
+            "transmision": "DCT",
+            "combinado_km_l": 17.07,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan EX / GT-Line / LX",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 18.53,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Hatchback GT-Line / EX",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 19.48,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2023": [
+          {
+            "version": "Hatchback GT",
+            "motor": "1.6T",
+            "transmision": "DCT",
+            "combinado_km_l": 17.02,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan GT",
+            "motor": "1.6T",
+            "transmision": "DCT",
+            "combinado_km_l": 17.07,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan L / LX / EX / GT-Line",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 18.53,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Hatchback EX / GT-Line",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 19.48,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2024": [
+          {
+            "version": "Sedan GT",
+            "motor": "1.6T",
+            "transmision": "DCT",
+            "combinado_km_l": 17.07,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan L / LX / EX / GT-Line",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 18.53,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2025": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2026": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ]
+      }
+    },
+    {
+      "marca": "Kia",
+      "modelo": "K3",
+      "anios": {
+        "2017": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2018": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2019": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2020": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2021": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2022": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2023": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2024": [
+          {
+            "version": "GT Line TA",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 16.8,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "L TA / LX TA / EX / EX Pack",
+            "motor": "1.6",
+            "transmision": "AT",
+            "combinado_km_l": 19.16,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2025": [
+          {
+            "version": "GT Line TA",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 16.8,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "L TA / LX TA / EX / EX Pack",
+            "motor": "1.6",
+            "transmision": "AT",
+            "combinado_km_l": 19.16,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2026": [
+          {
+            "version": "GT Line TA",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 16.8,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "L TA / LX TA / EX / EX Pack",
+            "motor": "1.6",
+            "transmision": "AT",
+            "combinado_km_l": 19.16,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ]
+      }
+    },
+    {
+      "marca": "Kia",
+      "modelo": "Sorento",
+      "anios": {
+        "2017": [
+          {
+            "version": "AWD",
+            "motor": "3.3",
+            "transmision": "AT",
+            "combinado_km_l": 11.07,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Versiones 3.3 AT",
+            "motor": "3.3",
+            "transmision": "AT",
+            "combinado_km_l": 11.8,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Versiones 2.4 AT",
+            "motor": "2.4",
+            "transmision": "AT",
+            "combinado_km_l": 14.15,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2018": [
+          {
+            "version": "AWD",
+            "motor": "3.3",
+            "transmision": "AT",
+            "combinado_km_l": 11.07,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Versiones 3.3 AT",
+            "motor": "3.3",
+            "transmision": "AT",
+            "combinado_km_l": 11.8,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Versiones 2.4 AT",
+            "motor": "2.4",
+            "transmision": "AT",
+            "combinado_km_l": 14.15,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2019": [
+          {
+            "version": "SXL",
+            "motor": "3.3",
+            "transmision": "AT",
+            "combinado_km_l": 12.55,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "EX / EX Pack",
+            "motor": "3.3",
+            "transmision": "AT",
+            "combinado_km_l": 12.88,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "LX / EX",
+            "motor": "2.4",
+            "transmision": "AT",
+            "combinado_km_l": 14.67,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2020": [
+          {
+            "version": "SX",
+            "motor": "3.3",
+            "transmision": "AT",
+            "combinado_km_l": 12.88,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "LX / EX / EX Pack",
+            "motor": "2.4",
+            "transmision": "AT",
+            "combinado_km_l": 14.67,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2021": [
+          {
+            "version": "EX / SX / EX Pack",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.26,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2022": [
+          {
+            "version": "LX / EX / SX / EX Pack",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.26,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "SXL",
+            "motor": "2.5T",
+            "transmision": "DCT",
+            "combinado_km_l": 15.22,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2023": [
+          {
+            "version": "EX / EX Pack",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.26,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "SXL",
+            "motor": "2.5T",
+            "transmision": "DCT",
+            "combinado_km_l": 15.22,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2024": [
+          {
+            "version": "EX / EX Pack",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.26,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "SXL",
+            "motor": "2.5T",
+            "transmision": "DCT",
+            "combinado_km_l": 15.22,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2025": [
+          {
+            "version": "EX / EX Pack",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.26,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "SXL",
+            "motor": "2.5T",
+            "transmision": "DCT",
+            "combinado_km_l": 15.22,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2026": [
+          {
+            "version": "EX / EX Pack",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.26,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "SXL",
+            "motor": "2.5T",
+            "transmision": "DCT",
+            "combinado_km_l": 15.22,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ]
+      }
+    },
+    {
+      "marca": "Kia",
+      "modelo": "Soul",
+      "anios": {
+        "2017": [
+          {
+            "version": "Versiones 2.0 AT",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 15.12,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Versiones 1.6 AT",
+            "motor": "1.6",
+            "transmision": "AT",
+            "combinado_km_l": 16.43,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Versiones 1.6T DCT",
+            "motor": "1.6T",
+            "transmision": "DCT",
+            "combinado_km_l": 16.51,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2018": [
+          {
+            "version": "Versiones 2.0 AT",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 15.12,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Versiones 1.6 AT",
+            "motor": "1.6",
+            "transmision": "AT",
+            "combinado_km_l": 16.43,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Versiones 1.6T DCT",
+            "motor": "1.6T",
+            "transmision": "DCT",
+            "combinado_km_l": 16.51,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2019": [
+          {
+            "version": "EX / EX Pack",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 15.12,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "LX",
+            "motor": "1.6",
+            "transmision": "AT",
+            "combinado_km_l": 16.43,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "SX",
+            "motor": "1.6T",
+            "transmision": "DCT",
+            "combinado_km_l": 16.51,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2020": [
+          {
+            "version": "LX",
+            "motor": "1.6",
+            "transmision": "AT",
+            "combinado_km_l": 16.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "SX",
+            "motor": "1.6T",
+            "transmision": "DCT",
+            "combinado_km_l": 16.73,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "EX / EX Pack",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 17.46,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2021": [
+          {
+            "version": "LX",
+            "motor": "1.6",
+            "transmision": "AT",
+            "combinado_km_l": 16.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "EX / EX Pack",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 17.46,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2022": [
+          {
+            "version": "LX",
+            "motor": "1.6",
+            "transmision": "AT",
+            "combinado_km_l": 16.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "EX",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 17.46,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2023": [
+          {
+            "version": "LX",
+            "motor": "1.6",
+            "transmision": "AT",
+            "combinado_km_l": 16.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "GT Line",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 17.46,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2024": [
+          {
+            "version": "LX TA",
+            "motor": "1.6",
+            "transmision": "AT",
+            "combinado_km_l": 16.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "GT Line IVT",
+            "motor": "2.0",
+            "transmision": "IVT",
+            "combinado_km_l": 17.46,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2025": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2026": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ]
+      }
+    },
+    {
+      "marca": "Kia",
+      "modelo": "Sportage",
+      "anios": {
+        "2017": [
+          {
+            "version": "AWD",
+            "motor": "2.4",
+            "transmision": "AT",
+            "combinado_km_l": 13.81,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Versiones 2.4 AT",
+            "motor": "2.4",
+            "transmision": "AT",
+            "combinado_km_l": 14.5,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Versiones 2.0 AT",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 14.77,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2018": [
+          {
+            "version": "AWD",
+            "motor": "2.4",
+            "transmision": "AT",
+            "combinado_km_l": 13.81,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Versiones 2.4 AT",
+            "motor": "2.4",
+            "transmision": "AT",
+            "combinado_km_l": 14.5,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Versiones 2.0 AT",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 14.77,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2019": [
+          {
+            "version": "SXL AWD",
+            "motor": "2.4",
+            "transmision": "AT",
+            "combinado_km_l": 13.81,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "SX / SXL",
+            "motor": "2.4",
+            "transmision": "AT",
+            "combinado_km_l": 14.5,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "LX / EX / EX Pack",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 14.77,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2020": [
+          {
+            "version": "SXL AWD",
+            "motor": "2.4",
+            "transmision": "AT",
+            "combinado_km_l": 13.81,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "SX / SXL",
+            "motor": "2.4",
+            "transmision": "AT",
+            "combinado_km_l": 14.5,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "LX / EX / EX Pack",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 14.77,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2021": [
+          {
+            "version": "EX Pack / SX / SXL",
+            "motor": "2.4",
+            "transmision": "AT",
+            "combinado_km_l": 14.5,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "LX / EX",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 14.77,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2022": [
+          {
+            "version": "SXL / EX Pack",
+            "motor": "2.4",
+            "transmision": "AT",
+            "combinado_km_l": 14.5,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "LX / EX",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 14.77,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2023": [
+          {
+            "version": "EX",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 14.55,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "SXL / EX Pack",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 14.68,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2024": [
+          {
+            "version": "EX",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 14.55,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "EX Pack / SXL",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 14.68,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Hibrida",
+            "motor": "1.6T HEV",
+            "transmision": "AT",
+            "combinado_km_l": 23.7,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2025": [
+          {
+            "version": "EX",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 14.55,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "EX Pack / SXL",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 14.68,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Hibrida",
+            "motor": "1.6T HEV",
+            "transmision": "AT",
+            "combinado_km_l": 23.7,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2026": [
+          {
+            "version": "EX / EX Pack / SXL",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 14.68,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "X-Line Hibrida",
+            "motor": "1.6T HEV",
+            "transmision": "AT",
+            "combinado_km_l": 23.7,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ]
+      }
+    },
+    {
+      "marca": "Mazda",
+      "modelo": "2",
+      "anios": {
+        "2017": [
+          {
+            "version": "HB",
+            "motor": "1.5",
+            "transmision": "AT",
+            "combinado_km_l": 19.7,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2018": [
+          {
+            "version": "Todas (automaticas)",
+            "motor": "1.5",
+            "transmision": "AT",
+            "combinado_km_l": 19.0,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2019": [
+          {
+            "version": "Sedan / HB",
+            "motor": "1.5",
+            "transmision": "AT",
+            "combinado_km_l": 19.0,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2020": [
+          {
+            "version": "HB / Sedan",
+            "motor": "1.5",
+            "transmision": "AT",
+            "combinado_km_l": 20.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2021": [
+          {
+            "version": "Sedan / HB",
+            "motor": "1.5",
+            "transmision": "AT",
+            "combinado_km_l": 20.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2022": [
+          {
+            "version": "HB / Sedan",
+            "motor": "1.5",
+            "transmision": "AT",
+            "combinado_km_l": 20.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan / HB version 1.5 de 110 hp (14.0:1)",
+            "motor": "1.5",
+            "transmision": "AT",
+            "combinado_km_l": 20.8,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2023": [
+          {
+            "version": "Sedan i / i Sport; HB i Sport",
+            "motor": "1.5",
+            "transmision": "AT",
+            "combinado_km_l": 20.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan / HB i Grand Touring MHEV y Carbon",
+            "motor": "1.5 MHEV",
+            "transmision": "AT",
+            "combinado_km_l": 20.8,
+            "estado": "dato",
+            "combustible": "MHEV"
+          }
+        ],
+        "2024": [
+          {
+            "version": "HB Signature",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 18.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan Signature",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 18.4,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "HB i Sport; Sedan i / i Sport",
+            "motor": "1.5",
+            "transmision": "AT",
+            "combinado_km_l": 20.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan / HB i Grand Touring",
+            "motor": "1.5",
+            "transmision": "AT",
+            "combinado_km_l": 20.8,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2025": [
+          {
+            "version": "Sedan Signature",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 18.4,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "HB Signature",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 18.8,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan i / i Sport TA; HB i Sport TA",
+            "motor": "1.5",
+            "transmision": "AT",
+            "combinado_km_l": 20.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "i Grand Touring",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 20.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2026": [
+          {
+            "version": "HB Signature",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 18.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan Signature",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 18.4,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan i / i Sport TA; HB i Sport TA",
+            "motor": "1.5",
+            "transmision": "AT",
+            "combinado_km_l": 20.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "i Grand Touring",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 20.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ]
+      }
+    },
+    {
+      "marca": "Mazda",
+      "modelo": "3",
+      "anios": {
+        "2017": [
+          {
+            "version": "HB Grand Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 16.5,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan s Grand Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 16.7,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "HB Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 16.7,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan s / s Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 16.9,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan i / i Touring (2.0)",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 18.5,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2018": [
+          {
+            "version": "HB Grand Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 16.5,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan s Grand Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 16.7,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "HB Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 16.7,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan s",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 16.9,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan i / i Touring (2.0)",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 18.5,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2019": [
+          {
+            "version": "HB i Sport / i Grand Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan i Sport / i Grand Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan i",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.3,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2020": [
+          {
+            "version": "HB i Sport / i Grand Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan i Sport / i Grand Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan i",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.3,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2021": [
+          {
+            "version": "HB Turbo (2.5T)",
+            "motor": "2.5T",
+            "transmision": "AT",
+            "combinado_km_l": 14.9,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "HB i Sport / i Grand Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan i Sport / i Grand Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan i",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.3,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2022": [
+          {
+            "version": "HB Signature (2.5T)",
+            "motor": "2.5T",
+            "transmision": "AT",
+            "combinado_km_l": 14.9,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan Signature (2.5T)",
+            "motor": "2.5T",
+            "transmision": "AT",
+            "combinado_km_l": 14.9,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "HB i Sport / i Grand Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan i Sport / i Grand Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan i",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.3,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan i Sport MHEV",
+            "motor": "2.0 MHEV",
+            "transmision": "AT",
+            "combinado_km_l": 17.2,
+            "estado": "dato",
+            "combustible": "MHEV"
+          }
+        ],
+        "2023": [
+          {
+            "version": "HB Signature / Carbon",
+            "motor": "2.5T",
+            "transmision": "AT",
+            "combinado_km_l": 14.9,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan Signature / Carbon",
+            "motor": "2.5T",
+            "transmision": "AT",
+            "combinado_km_l": 14.9,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "HB i Sport / i Grand Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan i Sport / i Grand Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan i",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.3,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan i Sport MHEV",
+            "motor": "2.0 MHEV",
+            "transmision": "AT",
+            "combinado_km_l": 17.2,
+            "estado": "dato",
+            "combustible": "MHEV"
+          }
+        ],
+        "2024": [
+          {
+            "version": "HB / Sedan Signature",
+            "motor": "2.5T",
+            "transmision": "AT",
+            "combinado_km_l": 14.9,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "HB i Sport / i Grand Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan i Sport / i Grand Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan i",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.3,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan i Sport MHEV",
+            "motor": "2.0 MHEV",
+            "transmision": "AT",
+            "combinado_km_l": 17.2,
+            "estado": "dato",
+            "combustible": "MHEV"
+          }
+        ],
+        "2025": [
+          {
+            "version": "HB Signature",
+            "motor": "2.5T",
+            "transmision": "AT",
+            "combinado_km_l": 14.9,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "HB i Sport / i Grand Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2026": [
+          {
+            "version": "Sedan Signature (2.5T)",
+            "motor": "2.5T",
+            "transmision": "AT",
+            "combinado_km_l": 14.9,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan i Sport / i Grand Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan i",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.3,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan i Sport MHEV",
+            "motor": "2.0 MHEV",
+            "transmision": "AT",
+            "combinado_km_l": 17.2,
+            "estado": "dato",
+            "combustible": "MHEV"
+          }
+        ]
+      }
+    },
+    {
+      "marca": "Mazda",
+      "modelo": "6",
+      "anios": {
+        "2017": [
+          {
+            "version": "i Grand Touring Plus",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 16.3,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "i Sport / i Grand Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 16.4,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2018": [
+          {
+            "version": "i Grand Touring Plus",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 16.3,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "i Sport / i Grand Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 16.4,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2019": [
+          {
+            "version": "i Grand Touring Plus / Signature (2.5T)",
+            "motor": "2.5T",
+            "transmision": "AT",
+            "combinado_km_l": 14.7,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "i Grand Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.5,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "i Sport",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.6,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2020": [
+          {
+            "version": "i Grand Touring Plus / Signature (2.5T)",
+            "motor": "2.5T",
+            "transmision": "AT",
+            "combinado_km_l": 14.7,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "i Grand Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.5,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "i Sport",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.6,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2021": [
+          {
+            "version": "Versiones 2.5T (incl. Carbon Edition)",
+            "motor": "2.5T",
+            "transmision": "AT",
+            "combinado_km_l": 14.7,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2022": [
+          {
+            "version": "Signature (2.5T)",
+            "motor": "2.5T",
+            "transmision": "AT",
+            "combinado_km_l": 14.7,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "i Grand Touring",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 15.5,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2023": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2024": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2025": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2026": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ]
+      }
+    },
+    {
+      "marca": "Mazda",
+      "modelo": "CX-3",
+      "anios": {
+        "2017": [
+          {
+            "version": "i Sport / i Grand Touring",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 17.5,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "i",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 17.6,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2018": [
+          {
+            "version": "i Sport / i Grand Touring",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 17.5,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "i",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 17.6,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2019": [
+          {
+            "version": "i",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 17.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "i Sport / i Grand Touring",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 17.3,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2020": [
+          {
+            "version": "i",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 17.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "i Sport / i Grand Touring",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 17.3,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2021": [
+          {
+            "version": "i",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 17.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "i Sport / i Grand Touring",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 17.3,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2022": [
+          {
+            "version": "i",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 17.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "i Sport / i Grand Touring",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 17.3,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2023": [
+          {
+            "version": "i",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 17.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "i Sport / i Grand Touring",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 17.3,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2024": [
+          {
+            "version": "i",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 17.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "i Sport / i Grand Touring",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 17.3,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2025": [
+          {
+            "version": "i",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 17.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "i Sport",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 17.3,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2026": [
+          {
+            "version": "i",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 17.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "i Sport",
+            "motor": "2.0",
+            "transmision": "AT",
+            "combinado_km_l": 17.3,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ]
+      }
+    },
+    {
+      "marca": "Toyota",
+      "modelo": "Camry",
+      "anios": {
+        "2017": [
+          {
+            "version": "LE / SE / XLE (2.5)",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": "",
+            "estado": "N/D",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2018": [
+          {
+            "version": "LE / SE / XLE / XLE Navi",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 18.4,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2019": [
+          {
+            "version": "LE / SE / XLE / XLE Navi",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 18.4,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "XLE Navi HV",
+            "motor": "2.5 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 26.8,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2020": [
+          {
+            "version": "LE / SE / XLE Navi",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 18.43,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "XLE Navi HV",
+            "motor": "2.5 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 26.75,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2021": [
+          {
+            "version": "LE / SE / XLE",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 18.41,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "XLE HEV",
+            "motor": "2.5 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 26.73,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2022": [
+          {
+            "version": "Versiones 2.5 AT",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 18.41,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Hibrido",
+            "motor": "2.5 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 26.73,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2023": [
+          {
+            "version": "Versiones 2.5 AT",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 18.41,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Hibrido",
+            "motor": "2.5 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 26.73,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2024": [
+          {
+            "version": "Versiones 2.5 AT",
+            "motor": "2.5",
+            "transmision": "AT",
+            "combinado_km_l": 18.41,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Hibrido",
+            "motor": "2.5 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 26.73,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2025": [
+          {
+            "version": "Hibrido",
+            "motor": "2.5 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 27.26,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2026": [
+          {
+            "version": "LE / XLE HEV",
+            "motor": "2.5 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 27.2,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ]
+      }
+    },
+    {
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "anios": {
+        "2017": [
+          {
+            "version": "Base / LE / SE / SE Plus CVT",
+            "motor": "1.8",
+            "transmision": "CVT",
+            "combinado_km_l": 17.8,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2018": [
+          {
+            "version": "Base / LE / SE / SE Plus",
+            "motor": "1.8",
+            "transmision": "CVT",
+            "combinado_km_l": 17.8,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2019": [
+          {
+            "version": "Base / LE / SE / SE Plus CVT",
+            "motor": "1.8",
+            "transmision": "CVT",
+            "combinado_km_l": 17.8,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2020": [
+          {
+            "version": "LE CVT / Base CVT",
+            "motor": "1.8",
+            "transmision": "CVT",
+            "combinado_km_l": 18.4,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "SE CVT",
+            "motor": "2.0",
+            "transmision": "CVT",
+            "combinado_km_l": 20.3,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "LE HV",
+            "motor": "1.8 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 29.3,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2021": [
+          {
+            "version": "1.8 CVT",
+            "motor": "1.8",
+            "transmision": "CVT",
+            "combinado_km_l": 18.42,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "2.0 CVT (SE)",
+            "motor": "2.0",
+            "transmision": "CVT",
+            "combinado_km_l": 19.59,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Hibrido",
+            "motor": "1.8 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 29.44,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2022": [
+          {
+            "version": "1.8L",
+            "motor": "1.8",
+            "transmision": "CVT",
+            "combinado_km_l": 18.42,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "2.0L",
+            "motor": "2.0",
+            "transmision": "CVT",
+            "combinado_km_l": 19.59,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Hibrido",
+            "motor": "1.8 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 29.44,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2023": [
+          {
+            "version": "Versiones 2.0 CVT",
+            "motor": "2.0",
+            "transmision": "CVT",
+            "combinado_km_l": 19.14,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Hibrido",
+            "motor": "1.8 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 31.31,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2024": [
+          {
+            "version": "Versiones 2.0 CVT",
+            "motor": "2.0",
+            "transmision": "CVT",
+            "combinado_km_l": 19.14,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Hibrido",
+            "motor": "1.8 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 31.31,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2025": [
+          {
+            "version": "Versiones 2.0 CVT",
+            "motor": "2.0",
+            "transmision": "CVT",
+            "combinado_km_l": 19.14,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Hibrido",
+            "motor": "1.8 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 31.31,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2026": [
+          {
+            "version": "2.0 CVT",
+            "motor": "2.0",
+            "transmision": "CVT",
+            "combinado_km_l": 19.14,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Hibrido",
+            "motor": "1.8 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 31.31,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ]
+      }
+    },
+    {
+      "marca": "Toyota",
+      "modelo": "Prius",
+      "anios": {
+        "2017": [
+          {
+            "version": "Base / Premium",
+            "motor": "1.8 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 26.5,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2018": [
+          {
+            "version": "Todas (automaticas)",
+            "motor": "1.8 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 26.5,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2019": [
+          {
+            "version": "Base / Premium",
+            "motor": "1.8 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 26.5,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2020": [
+          {
+            "version": "Base / Premium",
+            "motor": "1.8 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 26.48,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2021": [
+          {
+            "version": "Base / Premium",
+            "motor": "1.8 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 26.47,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2022": [
+          {
+            "version": "1.8L Hibrido",
+            "motor": "1.8 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 26.47,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2023": [
+          {
+            "version": "Hibrido",
+            "motor": "1.8 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 31.12,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2024": [
+          {
+            "version": "Hibrido",
+            "motor": "1.8 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 31.12,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2025": [
+          {
+            "version": "Hibrido",
+            "motor": "1.8 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 31.12,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2026": [
+          {
+            "version": "Base / Premium",
+            "motor": "2.0 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 31.1,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ]
+      }
+    },
+    {
+      "marca": "Toyota",
+      "modelo": "Prius C",
+      "anios": {
+        "2017": [
+          {
+            "version": "Prius C",
+            "motor": "1.5 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 27.23,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2018": [
+          {
+            "version": "Todas (automaticas)",
+            "motor": "1.5 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 27.23,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2019": [
+          {
+            "version": "Todas (automaticas)",
+            "motor": "1.5 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 27.3,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2020": [
+          {
+            "version": "Todas (automaticas)",
+            "motor": "1.5 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 27.23,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2021": [
+          {
+            "version": "Prius C",
+            "motor": "1.5 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 27.23,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ],
+        "2022": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2023": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2024": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2025": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2026": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ]
+      }
+    },
+    {
+      "marca": "Toyota",
+      "modelo": "Yaris",
+      "anios": {
+        "2017": [
+          {
+            "version": "Sedan / HB CVT",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 18.9,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2018": [
+          {
+            "version": "Core SD / S SD / Core HB / S HB",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 18.9,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2019": [
+          {
+            "version": "SD S / SD Core / HB Core / HB S",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 18.9,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2020": [
+          {
+            "version": "Core CVT / S CVT",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 18.9,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2021": [
+          {
+            "version": "Sedan / HB CVT",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 19.22,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2022": [
+          {
+            "version": "Todas (automaticas)",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 19.22,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2023": [
+          {
+            "version": "Sedan CVT",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 18.54,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "HB CVT",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 19.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2024": [
+          {
+            "version": "Sedan CVT",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 18.54,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "HB CVT",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 19.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2025": [
+          {
+            "version": "Sedan CVT",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 18.54,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "HB CVT",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 19.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2026": [
+          {
+            "version": "Sedan CVT",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 18.54,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "HB CVT",
+            "motor": "1.5",
+            "transmision": "CVT",
+            "combinado_km_l": 19.2,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "Sedan HEV",
+            "motor": "1.5 HEV",
+            "transmision": "CVT",
+            "combinado_km_l": 27.0,
+            "estado": "dato",
+            "combustible": "Hibrido (HEV)"
+          }
+        ]
+      }
+    },
+    {
+      "marca": "Toyota",
+      "modelo": "Yaris R",
+      "anios": {
+        "2017": [
+          {
+            "version": "XLE",
+            "motor": "1.5",
+            "transmision": "AT",
+            "combinado_km_l": 19.6,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "LE",
+            "motor": "1.5",
+            "transmision": "AT",
+            "combinado_km_l": 20.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2018": [
+          {
+            "version": "XLE",
+            "motor": "1.5",
+            "transmision": "AT",
+            "combinado_km_l": 19.6,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          },
+          {
+            "version": "LE",
+            "motor": "1.5",
+            "transmision": "AT",
+            "combinado_km_l": 20.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2019": [
+          {
+            "version": "LE / XLE",
+            "motor": "1.5",
+            "transmision": "AT",
+            "combinado_km_l": 20.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2020": [
+          {
+            "version": "XLE AT",
+            "motor": "1.5",
+            "transmision": "AT",
+            "combinado_km_l": 20.1,
+            "estado": "dato",
+            "combustible": "Gasolina"
+          }
+        ],
+        "2021": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2022": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2023": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2024": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2025": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ],
+        "2026": [
+          {
+            "version": "",
+            "motor": "",
+            "transmision": "N/V",
+            "combinado_km_l": "",
+            "estado": "N/V",
+            "combustible": ""
+          }
+        ]
+      }
+    }
+  ]
+}
