@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T13:04:27.703531Z",
+  "generated_at": "2026-09-29T13:04:39.611914Z",
   "criterios": {
     "marcas": [
       "Toyota",
@@ -22,8 +22,8 @@
       "Jalisco"
     ]
   },
-  "total_count": 22,
-  "new_count": 1,
+  "total_count": 25,
+  "new_count": 2,
   "cars": [
     {
       "id": "sn-744403",
@@ -39,15 +39,40 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-tlaquepaque-2018/4646701",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/20241220/4646701/o_o/pt_4646701_1734717037281.jpg",
       "group_id": "g-d8c4c75584",
-      "_score": 64.8,
+      "_score": 66.0,
       "_components": {
         "precio": 100.0,
-        "combustible": 76.2,
+        "combustible": 80.4,
         "km": 4.1,
         "anio": 11.1
       },
       "_trans_status": "AT",
       "_fuel": 18.76,
+      "_fuel_status": "OK"
+    },
+    {
+      "id": "ml-3540863335",
+      "title": "Kia Sorento 2018 Lx 2.4 Lt",
+      "price": "$210,000",
+      "price_int": 210000,
+      "year": "2018",
+      "mileage": "108,794 Km",
+      "location": "Guadalajara - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Kia",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3540863335-kia-sorento-lx-24-lt-tratocar-12584-2309-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=45&type=item&tracking_id=705dfea5-f32d-4c1e-99d1-443c0ceea679&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_804229-MLM118116238079_092026-E.webp",
+      "group_id": "g-af7bb65fc3",
+      "_score": 39.8,
+      "_components": {
+        "precio": 74.7,
+        "combustible": 17.6,
+        "km": 17.6,
+        "anio": 11.1
+      },
+      "_trans_status": "AT",
+      "_fuel": 14.15,
       "_fuel_status": "OK"
     },
     {
@@ -61,13 +86,13 @@
       "source": "mercadolibre",
       "brand": "Mazda",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6264563432-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-2109-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=15&type=item&tracking_id=7a5a17c2-6eb7-4b35-8f84-33cc57c6a36f&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6264563432-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-2109-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=17&type=item&tracking_id=448418f7-8a10-4306-ac61-74f85ddb0ba7&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_826868-MLM116501386092_092026-E.webp",
       "group_id": "g-c77419ec33",
-      "_score": 41.7,
+      "_score": 45.1,
       "_components": {
         "precio": 73.4,
-        "combustible": 35.5,
+        "combustible": 46.9,
         "km": 8.4,
         "anio": 0.0
       },
@@ -89,10 +114,10 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3541900515-hyundai-elantra-20-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=43&type=item&tracking_id=d33c8d65-06be-47f9-a90e-353702d92ec6&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_988261-MLM116619792228_092026-E.webp",
       "group_id": "g-5eedd38edc",
-      "_score": 68.1,
+      "_score": 69.6,
       "_components": {
         "precio": 68.4,
-        "combustible": 70.6,
+        "combustible": 75.7,
         "km": 86.7,
         "anio": 22.2
       },
@@ -114,10 +139,10 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3530175195-kia-soul-16-lx-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=9&type=item&tracking_id=0f63d1fb-1350-4255-a880-880267b56715&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_845104-MLM118014749647_092026-E.webp",
       "group_id": "g-21c47bd63d",
-      "_score": 38.5,
+      "_score": 41.8,
       "_components": {
         "precio": 62.2,
-        "combustible": 37.7,
+        "combustible": 48.6,
         "km": 6.1,
         "anio": 11.1
       },
@@ -139,10 +164,10 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3467600809-mazda-mazda-3-25-s-grand-touring-hchback-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=18&type=item&tracking_id=73d4c0c4-5c89-4e93-ae87-7e39f0e44192&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_765203-MLM117381568537_092026-E.webp",
       "group_id": "g-3b88659073",
-      "_score": 37.6,
+      "_score": 40.8,
       "_components": {
         "precio": 62.0,
-        "combustible": 38.8,
+        "combustible": 49.6,
         "km": 0.0,
         "anio": 11.1
       },
@@ -167,7 +192,7 @@
       "_score": 61.3,
       "_components": {
         "precio": 55.7,
-        "combustible": 98.3,
+        "combustible": 98.6,
         "km": 41.8,
         "anio": 11.1
       },
@@ -186,13 +211,13 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6299814724-kia-sorento-24-lx-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=14&type=item&tracking_id=c4b27bfa-dc7b-4e55-ad1e-fc6fa003a22e&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6299814724-kia-sorento-24-lx-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=12&type=item&tracking_id=705dfea5-f32d-4c1e-99d1-443c0ceea679&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_956160-MLM116794885666_092026-E.webp",
       "group_id": "g-7dba14edaf",
-      "_score": 30.3,
+      "_score": 35.5,
       "_components": {
         "precio": 50.6,
-        "combustible": 0.0,
+        "combustible": 17.6,
         "km": 50.0,
         "anio": 0.0
       },
@@ -214,10 +239,10 @@
       "link": "https://www.seminuevos.com/vehicle/autos-mazda-cx_3-guadalajara-2019/4806943",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026617/4806943/o_o/pt_4806943_1781729864817.jpeg",
       "group_id": "g-ac7f04f2db",
-      "_score": 39.1,
+      "_score": 41.6,
       "_components": {
         "precio": 37.3,
-        "combustible": 52.1,
+        "combustible": 60.5,
         "km": 31.6,
         "anio": 22.2
       },
@@ -236,18 +261,68 @@
       "source": "mercadolibre",
       "brand": "Mazda",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6291564034-mazda-cx-3-20-i-sport-2wd-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=43&type=item&tracking_id=b32b6fba-242d-4ea4-927f-be8f1d6b2d0e&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6291564034-mazda-cx-3-20-i-sport-2wd-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=46&type=item&tracking_id=112bfa70-af2d-4455-8c1c-d3c38166ea4d&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_756011-MLM118334732601_092026-E.webp",
       "group_id": "g-96f237bc89",
-      "_score": 38.9,
+      "_score": 41.3,
       "_components": {
         "precio": 37.0,
-        "combustible": 55.4,
+        "combustible": 63.2,
         "km": 37.8,
         "anio": 0.0
       },
       "_trans_status": "AT",
       "_fuel": 17.5,
+      "_fuel_status": "OK"
+    },
+    {
+      "id": "ml-6232035872",
+      "title": "Hyundai Tucson 2017 2.0 Gls At",
+      "price": "$242,900",
+      "price_int": 242900,
+      "year": "2017",
+      "mileage": "88,000 Km",
+      "location": "Guadalajara - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Hyundai",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6232035872-hyundai-tucson-20-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=46&type=item&tracking_id=13178233-1ae3-409f-8504-f3549059517a&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_684449-MLM117746521771_092026-E.webp",
+      "group_id": "g-f45a995457",
+      "_score": 28.2,
+      "_components": {
+        "precio": 33.0,
+        "combustible": 24.0,
+        "km": 38.8,
+        "anio": 0.0
+      },
+      "_trans_status": "AT",
+      "_fuel": 14.62,
+      "_fuel_status": "OK"
+    },
+    {
+      "id": "ml-3535634597",
+      "title": "Hyundai Santa Fe 2018 3.4 Limited Tech At",
+      "price": "$248,000",
+      "price_int": 248000,
+      "year": "2018",
+      "mileage": "78,000 Km",
+      "location": "Guadalajara - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Hyundai",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3535634597-hyundai-santa-fe-34-limited-tech-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=44&type=item&tracking_id=abbdae30-7349-4551-a480-11cbe94aa85f&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_687125-MLM118068245681_092026-E.webp",
+      "group_id": "g-7797884d21",
+      "_score": 21.5,
+      "_components": {
+        "precio": 26.6,
+        "combustible": 0.0,
+        "km": 49.0,
+        "anio": 11.1
+      },
+      "_trans_status": "AT",
+      "_fuel": 12.86,
       "_fuel_status": "OK"
     },
     {
@@ -264,10 +339,10 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-zapopan-2024/4819544",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/3072026/4819544/o_o/4819544_1789408637995_223.",
       "group_id": "g-2d5d97f806",
-      "_score": 55.9,
+      "_score": 56.8,
       "_components": {
         "precio": 24.1,
-        "combustible": 82.8,
+        "combustible": 85.8,
         "km": 68.3,
         "anio": 77.8
       },
@@ -286,13 +361,13 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3108596663-kia-sportage-20-lx-l-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=28&type=item&tracking_id=ead7742f-e9ac-462e-a8e5-ed5a5cb7255a&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3108596663-kia-sportage-20-lx-l-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=24&type=item&tracking_id=1aa6c6f3-8fe5-47c0-a45c-da8470b725c4&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_670983-MLM116451634731_082026-E.webp",
       "group_id": "g-8784e55259",
-      "_score": 21.5,
+      "_score": 26.2,
       "_components": {
         "precio": 22.6,
-        "combustible": 10.2,
+        "combustible": 26.0,
         "km": 46.9,
         "anio": 0.0
       },
@@ -314,10 +389,10 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3289029201-hyundai-creta-16-limited-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=4&type=item&tracking_id=0ba19e84-f280-41df-bff4-83c7618e4dd9&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_641933-MLM115897525225_082026-E.webp",
       "group_id": "g-d8b86bf102",
-      "_score": 27.8,
+      "_score": 31.6,
       "_components": {
         "precio": 17.7,
-        "combustible": 29.1,
+        "combustible": 41.6,
         "km": 49.0,
         "anio": 22.2
       },
@@ -339,10 +414,10 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6243287002-hyundai-creta-2020-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=43&type=item&tracking_id=fd78489d-300e-448f-93fa-c5d32d6f9981&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_946328-MLM116339213992_092026-E.webp",
       "group_id": "g-e936ea38a1",
-      "_score": 23.5,
+      "_score": 27.1,
       "_components": {
         "precio": 14.7,
-        "combustible": 30.6,
+        "combustible": 42.8,
         "km": 25.3,
         "anio": 33.3
       },
@@ -364,10 +439,10 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6110594804-mazda-cx-3-20-i-grand-touring-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=42&type=item&tracking_id=b32b6fba-242d-4ea4-927f-be8f1d6b2d0e&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_607531-MLM115408180388_082026-E.webp",
       "group_id": "g-46af80e42c",
-      "_score": 31.5,
+      "_score": 33.8,
       "_components": {
         "precio": 12.7,
-        "combustible": 55.4,
+        "combustible": 63.2,
         "km": 49.0,
         "anio": 0.0
       },
@@ -389,10 +464,10 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-5903036670-kia-soul-16-sx-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=7&type=item&tracking_id=df0a44ae-9814-4e3b-9b42-375a3493a8a9&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_868628-MLM115695955735_082026-E.webp",
       "group_id": "g-c795e2aadc",
-      "_score": 18.5,
+      "_score": 21.7,
       "_components": {
         "precio": 12.0,
-        "combustible": 37.7,
+        "combustible": 48.6,
         "km": 6.1,
         "anio": 11.1
       },
@@ -411,13 +486,13 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3315807759-kia-sorento-24-lx-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=25&type=item&tracking_id=c4b27bfa-dc7b-4e55-ad1e-fc6fa003a22e&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3315807759-kia-sorento-24-lx-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=22&type=item&tracking_id=705dfea5-f32d-4c1e-99d1-443c0ceea679&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_808764-MLM114773185346_082026-E.webp",
       "group_id": "g-97db377580",
-      "_score": 6.3,
+      "_score": 11.6,
       "_components": {
         "precio": 5.1,
-        "combustible": 0.0,
+        "combustible": 17.6,
         "km": 21.4,
         "anio": 0.0
       },
@@ -436,13 +511,13 @@
       "source": "mercadolibre",
       "brand": "Mazda",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-5934853034-mazda-6-25-signature-auto-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=25&type=item&tracking_id=7a5a17c2-6eb7-4b35-8f84-33cc57c6a36f&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-5934853034-mazda-6-25-signature-auto-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=29&type=item&tracking_id=448418f7-8a10-4306-ac61-74f85ddb0ba7&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_766609-MLM118041330531_092026-E.webp",
       "group_id": "g-349a9d542b",
-      "_score": 18.3,
+      "_score": 23.1,
       "_components": {
         "precio": 0.0,
-        "combustible": 9.1,
+        "combustible": 25.1,
         "km": 66.6,
         "anio": 22.2
       },
@@ -461,7 +536,7 @@
       "source": "mercadolibre",
       "brand": "Mazda",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6290546328-mazda-mazda-2-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=36&type=item&tracking_id=acd0facc-05e7-407f-b4d7-47b84ffe68bf&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6290546328-mazda-mazda-2-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=16&type=item&tracking_id=03d80dbd-cbae-4d00-8331-fe76bed98a43&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_943774-MLM118351726063_092026-E.webp",
       "group_id": "g-3202a9ff56",
       "_score": 54.4,
@@ -489,10 +564,10 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6112502310-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=24&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_972323-MLM116839347909_082026-E.webp",
       "group_id": "g-9e0ac000e3",
-      "_score": 52.4,
+      "_score": 53.3,
       "_components": {
         "precio": 0.0,
-        "combustible": 82.8,
+        "combustible": 85.8,
         "km": 99.0,
         "anio": 77.8
       },
@@ -514,10 +589,10 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3387771987-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=19&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_702333-MLM116674889251_082026-E.webp",
       "group_id": "g-a2da9dd941",
-      "_score": 52.6,
+      "_score": 53.5,
       "_components": {
         "precio": 0.0,
-        "combustible": 82.8,
+        "combustible": 85.8,
         "km": 100.0,
         "anio": 77.8
       },
@@ -536,13 +611,13 @@
       "source": "mercadolibre",
       "brand": "Toyota",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6210306656-toyota-camry-25-le-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=23&type=item&tracking_id=a9bdd193-adfa-4d8f-93d3-8f09b25b4293&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6210306656-toyota-camry-25-le-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=22&type=item&tracking_id=df28fe7e-075b-44b4-aea7-458eb9e18c09&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_868558-MLM117540123187_092026-E.webp",
       "group_id": "g-9e5699723f",
-      "_score": 30.0,
+      "_score": 31.6,
       "_components": {
         "precio": 0.0,
-        "combustible": 70.2,
+        "combustible": 75.5,
         "km": 39.3,
         "anio": 11.1
       },
@@ -564,10 +639,10 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3102504223-hyundai-hb20-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=46&type=item&tracking_id=50425b76-d9fd-4084-a1f3-7e6a4da24d2b&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_836687-MLM113078522822_072026-E.webp",
       "group_id": "g-1501273c24",
-      "_score": 45.4,
+      "_score": 46.8,
       "_components": {
         "precio": 0.0,
-        "combustible": 71.9,
+        "combustible": 76.8,
         "km": 85.6,
         "anio": 66.7
       },
@@ -578,28 +653,53 @@
   ],
   "new_cars": [
     {
-      "id": "ml-6299814724",
-      "title": "Kia Sorento 2017 2.4 Lx At",
-      "price": "$229,000",
-      "price_int": 229000,
-      "year": "2017",
-      "mileage": "77,000 Km",
-      "location": "Zapopan - Jalisco",
+      "id": "ml-3540863335",
+      "title": "Kia Sorento 2018 Lx 2.4 Lt",
+      "price": "$210,000",
+      "price_int": 210000,
+      "year": "2018",
+      "mileage": "108,794 Km",
+      "location": "Guadalajara - Jalisco",
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6299814724-kia-sorento-24-lx-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=14&type=item&tracking_id=c4b27bfa-dc7b-4e55-ad1e-fc6fa003a22e&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_956160-MLM116794885666_092026-E.webp",
-      "group_id": "g-7dba14edaf",
-      "_score": 30.3,
+      "link": "https://auto.mercadolibre.com.mx/MLM-3540863335-kia-sorento-lx-24-lt-tratocar-12584-2309-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=45&type=item&tracking_id=705dfea5-f32d-4c1e-99d1-443c0ceea679&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_804229-MLM118116238079_092026-E.webp",
+      "group_id": "g-af7bb65fc3",
+      "_score": 39.8,
       "_components": {
-        "precio": 50.6,
-        "combustible": 0.0,
-        "km": 50.0,
-        "anio": 0.0
+        "precio": 74.7,
+        "combustible": 17.6,
+        "km": 17.6,
+        "anio": 11.1
       },
       "_trans_status": "AT",
       "_fuel": 14.15,
+      "_fuel_status": "OK"
+    },
+    {
+      "id": "ml-3535634597",
+      "title": "Hyundai Santa Fe 2018 3.4 Limited Tech At",
+      "price": "$248,000",
+      "price_int": 248000,
+      "year": "2018",
+      "mileage": "78,000 Km",
+      "location": "Guadalajara - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Hyundai",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3535634597-hyundai-santa-fe-34-limited-tech-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=44&type=item&tracking_id=abbdae30-7349-4551-a480-11cbe94aa85f&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_687125-MLM118068245681_092026-E.webp",
+      "group_id": "g-7797884d21",
+      "_score": 21.5,
+      "_components": {
+        "precio": 26.6,
+        "combustible": 0.0,
+        "km": 49.0,
+        "anio": 11.1
+      },
+      "_trans_status": "AT",
+      "_fuel": 12.86,
       "_fuel_status": "OK"
     }
   ]
