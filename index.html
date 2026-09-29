@@ -208,12 +208,15 @@
   .badge-toyota { background: #fee2e2; color: #dc2626; }
   .badge-mazda { background: #fef3c7; color: #b45309; }
   .badge-fuel { background: #fff4e6; color: #b45309; }
+  .b-year { font-size: 10px; padding: 2px 7px; border-radius: 5px; font-weight: 600; line-height: 1.4; background: #dbeafe; color: #2563eb; }
+  .b-km { font-size: 10px; padding: 2px 7px; border-radius: 5px; font-weight: 600; line-height: 1.4; background: #e4e4f7; color: #5b21b6; }
+  .b-loc { font-size: 10px; padding: 2px 7px; border-radius: 5px; font-weight: 600; line-height: 1.4; background: #e0f2fe; color: #0369a1; }
   .trans-badge { font-size: 10px; padding: 2px 7px; border-radius: 5px; font-weight: 600; line-height: 1.4; }
   .trans-auto { background: var(--green-soft); color: var(--green); }
   .trans-manual { background: #fef2f2; color: #dc2626; }
   .trans-nv { background: #fef3c7; color: #b45309; }
   .trans-nd { background: #fef9c3; color: #a16207; }
-  .fuel-badge { font-size: 10px; padding: 2px 7px; border-radius: 5px; font-weight: 600; line-height: 1.4; background: #d1fae5; color: #0f8a5f; }
+  .fuel-badge { font-size: 10px; padding: 2px 7px; border-radius: 5px; font-weight: 600; line-height: 1.4; background: #ccfbf1; color: #0f766e; }
   .fuel-badge-nd { font-size: 10px; padding: 2px 7px; border-radius: 5px; font-weight: 600; line-height: 1.4; background: #fef9c3; color: #a16207; }
   .source-badge { font-size: 10px; padding: 2px 7px; border-radius: 5px; background: var(--bg); color: var(--text-muted); font-weight: 500; }
   .card-location { font-size: 11px; color: var(--text-muted); display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
@@ -851,6 +854,16 @@ function cardMarkup(c, showScore) {
   const scoreBadge = showScore && c._score != null
     ? `<span class="card-score">${Math.round(c._score)}</span>` : '';
 
+  // Badges normalizados: año, km (xxx,xxx km), ubicación, fuente.
+  const bYear = c.year && c.year !== 'N/A'
+    ? `<span class="b-year">${c.year}</span>` : '';
+  const kmNum = getKm(c);
+  const bKm = kmNum ? `<span class="b-km">${kmNum.toLocaleString('es-MX')} km</span>` : '';
+  const bLoc = c.location && c.location !== 'N/A'
+    ? `<span class="b-loc">${c.location}</span>` : '';
+  const bBrand = c.brand
+    ? `<span class="badge ${bc}">${c.brand}${model ? ' &middot; ' + model : ''}</span>` : '';
+
   return `<a href="${c.link || '#'}" target="_blank" rel="noopener" class="card">
       <div class="card-head">
         <div class="card-title">${c.title}</div>
@@ -858,16 +871,15 @@ function cardMarkup(c, showScore) {
       </div>
       <div class="card-body">
         <div class="card-price">${c.price || 'N/A'}</div>
-        <div class="card-meta">
-          ${c.year !== 'N/A' ? `<span>${c.year}</span>` : ''}
-          ${c.mileage !== 'N/A' ? `<span>${c.mileage}</span>` : ''}
+        <div class="card-meta card-row-1">
+          ${bBrand}${bYear}${bKm}
+        </div>
+        <div class="card-meta card-row-2">
           ${transHtml}${fuelBadge}${fuelKmBadge}
         </div>
-        <div class="card-meta">
-          ${c.brand ? `<span class="badge ${bc}">${c.brand}${model ? ' · ' + model : ''}</span>` : ''}
-          <span class="source-badge">${srcLabel}</span>
+        <div class="card-meta card-row-3">
+          ${bLoc}<span class="source-badge">${srcLabel}</span>
         </div>
-        <div class="card-location">${c.location}</div>
       </div>
       ${c.image
         ? `<img class="card-img" src="${c.image}" alt="${c.title}" loading="lazy" onerror="this.outerHTML='<div class=&quot;card-img-placeholder&quot;>Sin<br>imagen</div>'">`
