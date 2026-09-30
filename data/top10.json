@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T13:04:46.231364Z",
+  "generated_at": "2026-09-30T13:04:54.779084Z",
   "weights": {
     "precio": 0.4,
     "combustible": 0.3,
@@ -22,9 +22,9 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3541900515-hyundai-elantra-20-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=43&type=item&tracking_id=d33c8d65-06be-47f9-a90e-353702d92ec6&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_988261-MLM116619792228_092026-E.webp",
       "group_id": "g-5eedd38edc",
-      "_score": 69.6,
+      "_score": 69.8,
       "_components": {
-        "precio": 68.4,
+        "precio": 68.7,
         "combustible": 75.7,
         "km": 86.7,
         "anio": 22.2
@@ -114,9 +114,9 @@
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris_r-guadalajara-2018/4805639",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026612/4805639/o_o/pt_4805639_1781297665284.jpeg",
       "group_id": "g-4860c0a333",
-      "_score": 61.3,
+      "_score": 61.5,
       "_components": {
-        "precio": 55.7,
+        "precio": 56.2,
         "combustible": 98.6,
         "km": 41.8,
         "anio": 11.1
@@ -160,9 +160,9 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-zapopan-2024/4819544",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/3072026/4819544/o_o/4819544_1789408637995_223.",
       "group_id": "g-2d5d97f806",
-      "_score": 56.8,
+      "_score": 57.1,
       "_components": {
-        "precio": 24.1,
+        "precio": 24.9,
         "combustible": 85.8,
         "km": 68.3,
         "anio": 77.8
@@ -206,9 +206,9 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6290546328-mazda-mazda-2-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=16&type=item&tracking_id=03d80dbd-cbae-4d00-8331-fe76bed98a43&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_943774-MLM118351726063_092026-E.webp",
       "group_id": "g-3202a9ff56",
-      "_score": 54.4,
+      "_score": 54.9,
       "_components": {
-        "precio": 0.0,
+        "precio": 1.1,
         "combustible": 100.0,
         "km": 88.8,
         "anio": 66.7
@@ -252,9 +252,9 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3387771987-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=19&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_702333-MLM116674889251_082026-E.webp",
       "group_id": "g-a2da9dd941",
-      "_score": 53.5,
+      "_score": 54.0,
       "_components": {
-        "precio": 0.0,
+        "precio": 1.1,
         "combustible": 85.8,
         "km": 100.0,
         "anio": 77.8
@@ -298,9 +298,9 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6112502310-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=24&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_972323-MLM116839347909_082026-E.webp",
       "group_id": "g-9e0ac000e3",
-      "_score": 53.3,
+      "_score": 53.8,
       "_components": {
-        "precio": 0.0,
+        "precio": 1.1,
         "combustible": 85.8,
         "km": 99.0,
         "anio": 77.8
@@ -344,9 +344,9 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3102504223-hyundai-hb20-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=46&type=item&tracking_id=50425b76-d9fd-4084-a1f3-7e6a4da24d2b&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_836687-MLM113078522822_072026-E.webp",
       "group_id": "g-1501273c24",
-      "_score": 46.8,
+      "_score": 47.3,
       "_components": {
-        "precio": 0.0,
+        "precio": 1.1,
         "combustible": 76.8,
         "km": 85.6,
         "anio": 66.7
@@ -387,12 +387,12 @@
       "source": "mercadolibre",
       "brand": "Mazda",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6264563432-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-2109-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=17&type=item&tracking_id=448418f7-8a10-4306-ac61-74f85ddb0ba7&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6264563432-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-2109-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=18&type=item&tracking_id=ab6724a3-5088-4484-94b8-0d3ffefab3d8&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_826868-MLM116501386092_092026-E.webp",
       "group_id": "g-c77419ec33",
-      "_score": 45.1,
+      "_score": 45.2,
       "_components": {
-        "precio": 73.4,
+        "precio": 73.7,
         "combustible": 46.9,
         "km": 8.4,
         "anio": 0.0
@@ -411,7 +411,7 @@
           "mileage": "117,792 Km",
           "location": "Guadalajara - Jalisco",
           "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-6264563432-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-2109-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=17&type=item&tracking_id=448418f7-8a10-4306-ac61-74f85ddb0ba7&sid=search",
+          "link": "https://auto.mercadolibre.com.mx/MLM-6264563432-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-2109-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=18&type=item&tracking_id=ab6724a3-5088-4484-94b8-0d3ffefab3d8&sid=search",
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_826868-MLM116501386092_092026-E.webp",
           "transmission": "automatic",
           "brand": "Mazda",
@@ -423,47 +423,47 @@
       ]
     },
     {
-      "id": "ml-3530175195",
-      "title": "Kia Soul 2018 1.6 Lx At",
-      "price": "$219,900",
-      "price_int": 219900,
-      "year": "2018",
-      "mileage": "120,000 Km",
-      "location": "Guadalajara - Jalisco",
-      "source": "mercadolibre",
-      "brand": "Kia",
+      "id": "sn-4806943",
+      "title": "Mazda CX-3",
+      "price": "$239,500",
+      "price_int": 239500,
+      "year": "2019",
+      "mileage": "95,000 kms.",
+      "location": "Guadalajara",
+      "source": "seminuevos",
+      "brand": "Mazda",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3530175195-kia-soul-16-lx-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=9&type=item&tracking_id=0f63d1fb-1350-4255-a880-880267b56715&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_845104-MLM118014749647_092026-E.webp",
-      "group_id": "g-21c47bd63d",
-      "_score": 41.8,
+      "link": "https://www.seminuevos.com/vehicle/autos-mazda-cx_3-guadalajara-2019/4806943",
+      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026617/4806943/o_o/pt_4806943_1781729864817.jpeg",
+      "group_id": "g-ac7f04f2db",
+      "_score": 41.9,
       "_components": {
-        "precio": 62.2,
-        "combustible": 48.6,
-        "km": 6.1,
-        "anio": 11.1
+        "precio": 38.0,
+        "combustible": 60.5,
+        "km": 31.6,
+        "anio": 22.2
       },
       "_trans_status": "AT",
-      "_fuel": 16.43,
+      "_fuel": 17.3,
       "_fuel_status": "OK",
       "rank": 10,
       "ads": [
         {
-          "id": "ml-3530175195",
-          "title": "Kia Soul 2018 1.6 Lx At",
-          "price": "$219,900",
-          "price_int": 219900,
-          "year": "2018",
-          "mileage": "120,000 Km",
-          "location": "Guadalajara - Jalisco",
-          "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-3530175195-kia-soul-16-lx-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=9&type=item&tracking_id=0f63d1fb-1350-4255-a880-880267b56715&sid=search",
-          "image": "https://http2.mlstatic.com/D_Q_NP_2X_845104-MLM118014749647_092026-E.webp",
+          "id": "sn-4806943",
+          "title": "Mazda CX-3",
+          "price": "$239,500",
+          "price_int": 239500,
+          "year": "2019",
+          "mileage": "95,000 kms.",
+          "location": "Guadalajara",
+          "source": "seminuevos",
+          "link": "https://www.seminuevos.com/vehicle/autos-mazda-cx_3-guadalajara-2019/4806943",
+          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026617/4806943/o_o/pt_4806943_1781729864817.jpeg",
           "transmission": "automatic",
-          "brand": "Kia",
-          "group_id": "g-21c47bd63d",
+          "brand": "Mazda",
+          "group_id": "g-ac7f04f2db",
           "_trans_status": "AT",
-          "_fuel": 16.43,
+          "_fuel": 17.3,
           "_fuel_status": "OK"
         }
       ]
