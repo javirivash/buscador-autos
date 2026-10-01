@@ -470,6 +470,7 @@
 <script>
 let allCars = [];
 let newCars = [];
+let cacheBust = ''; // versión del scrape para cache-buster (fresco tras cada update)
 let rangeCache = {}; // avoid redundant re-render when sliders update
 
 const MODEL_KEYWORDS = {
@@ -530,9 +531,12 @@ function groupAds(adList) {
 
 async function loadData() {
   try {
-    const res = await fetch('data/cars.json');
+    // Cache-buster: fuerza a buscar la versión fresca del scrape (Pages cachea
+    // hasta 10 min). Sin esto, tras un scrape el navegador puede mostrar datos viejos.
+    const res = await fetch('data/cars.json?v=' + Date.now());
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
+    cacheBust = (data && data.generated_at) ? data.generated_at : String(Date.now());
     allCars = data.cars || [];
     newCars = data.new_cars || [];
     updateHeader(data);
@@ -923,7 +927,9 @@ function renderTop10(data) {
 
 async function loadTop10() {
   try {
-    const res = await fetch('data/top10.json');
+    // Mismo cache-buster que loadData: si ya cargamos cars.json usamos su
+    // generated_at; si no, un timestamp.
+    const res = await fetch('data/top10.json?v=' + (cacheBust || Date.now()));
     if (!res.ok) throw new Error('HTTP ' + res.status);
     renderTop10(await res.json());
   } catch (e) {
