@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-01T14:38:14.445183Z",
+  "generated_at": "2026-10-01T14:39:34.969221Z",
   "weights": {
     "precio": 0.4,
     "combustible": 0.3,
     "km": 0.2,
     "anio": 0.1
   },
-  "total_count": 44,
+  "total_count": 42,
   "cars": [
     {
       "id": "ml-6146350364",
@@ -22,11 +22,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6146350364-toyota-prius-c-15-hybrid-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=39&type=item&tracking_id=f271ab78-a30e-432c-9aca-b00a39d4cb39&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_757426-MLM115557847530_082026-E.webp",
       "group_id": "g-6dd10e0db7",
-      "_score": 62.2,
+      "_score": 64.7,
       "_components": {
-        "precio": 44.8,
+        "precio": 45.0,
         "combustible": 100.0,
-        "km": 60.6,
+        "km": 72.3,
         "anio": 22.2
       },
       "_trans_status": "AT",
@@ -64,15 +64,15 @@
       "location": "Zapopan",
       "source": "seminuevos",
       "brand": "Kia",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-zapopan-2018/4835414",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2492026/4835414/o_o/pt_4835414_1790294271956_810.jpg",
       "group_id": "g-f8fb7b19bf",
-      "_score": 55.1,
+      "_score": 55.6,
       "_components": {
-        "precio": 99.5,
+        "precio": 100.0,
         "combustible": 40.9,
-        "km": 9.5,
+        "km": 11.3,
         "anio": 11.1
       },
       "_trans_status": "AT",
@@ -91,52 +91,12 @@
           "source": "seminuevos",
           "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-zapopan-2018/4835414",
           "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2492026/4835414/o_o/pt_4835414_1790294271956_810.jpg",
-          "transmission": "unknown",
+          "transmission": "automatic",
           "brand": "Kia",
           "group_id": "g-f8fb7b19bf",
           "_trans_status": "AT",
           "_fuel": 18.76,
           "_fuel_status": "OK"
-        }
-      ]
-    },
-    {
-      "id": "sn-4828567",
-      "title": "Kia Forte",
-      "price": "$169,500",
-      "price_int": 169500,
-      "year": "2017",
-      "mileage": "100,000 kms.",
-      "location": "Guadalajara",
-      "source": "seminuevos",
-      "brand": "Kia",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-guadalajara-2017/4828567",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/3182026/4828567/o_o/pt_4828567_1788197488836_50.jpg",
-      "group_id": "g-abcb94067d",
-      "_score": 54.5,
-      "_components": {
-        "precio": 100.0,
-        "combustible": 21.0,
-        "km": 41.0,
-        "anio": 0.0
-      },
-      "rank": 3,
-      "ads": [
-        {
-          "id": "sn-4828567",
-          "title": "Kia Forte",
-          "price": "$169,500",
-          "price_int": 169500,
-          "year": "2017",
-          "mileage": "100,000 kms.",
-          "location": "Guadalajara",
-          "source": "seminuevos",
-          "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-guadalajara-2017/4828567",
-          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/3182026/4828567/o_o/pt_4828567_1788197488836_50.jpg",
-          "transmission": "unknown",
-          "brand": "Kia",
-          "group_id": "g-abcb94067d"
         }
       ]
     },
@@ -154,17 +114,17 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3496683411-toyota-prius-c-15-hybrid-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=18&type=item&tracking_id=8a8dafdc-d66e-445c-999c-15e15b54f74b&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_866396-MLM117670510003_092026-E.webp",
       "group_id": "g-6ba9e51102",
-      "_score": 53.5,
+      "_score": 55.5,
       "_components": {
-        "precio": 24.9,
+        "precio": 25.0,
         "combustible": 99.5,
-        "km": 51.7,
+        "km": 61.7,
         "anio": 33.3
       },
       "_trans_status": "AT",
       "_fuel": 27.23,
       "_fuel_status": "OK",
-      "rank": 4,
+      "rank": 3,
       "ads": [
         {
           "id": "ml-3496683411",
@@ -196,21 +156,21 @@
       "location": "Tlaquepaque",
       "source": "seminuevos",
       "brand": "Kia",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-tlaquepaque-2018/4646701",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/20241220/4646701/o_o/pt_4646701_1734717037281.jpg",
       "group_id": "g-d8c4c75584",
-      "_score": 50.8,
+      "_score": 52.0,
       "_components": {
-        "precio": 79.6,
+        "precio": 80.0,
         "combustible": 40.9,
-        "km": 27.9,
+        "km": 33.3,
         "anio": 11.1
       },
       "_trans_status": "AT",
       "_fuel": 18.76,
       "_fuel_status": "OK",
-      "rank": 5,
+      "rank": 4,
       "ads": [
         {
           "id": "sn-744403",
@@ -223,7 +183,7 @@
           "source": "seminuevos",
           "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-tlaquepaque-2018/4646701",
           "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/20241220/4646701/o_o/pt_4646701_1734717037281.jpg",
-          "transmission": "unknown",
+          "transmission": "automatic",
           "brand": "Kia",
           "group_id": "g-d8c4c75584",
           "_trans_status": "AT",
@@ -246,17 +206,17 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6155674704-toyota-prius-c-2020-plata-5393-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=48&type=item&tracking_id=f271ab78-a30e-432c-9aca-b00a39d4cb39&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_641904-MLM117052863077_092026-E.webp",
       "group_id": "g-e11a32c8a2",
-      "_score": 45.6,
+      "_score": 48.3,
       "_components": {
         "precio": 0.1,
         "combustible": 94.3,
-        "km": 69.5,
+        "km": 83.0,
         "anio": 33.3
       },
       "_trans_status": "AT",
       "_fuel": 26.48,
       "_fuel_status": "OK",
-      "rank": 6,
+      "rank": 5,
       "ads": [
         {
           "id": "ml-6155674704",
@@ -292,17 +252,17 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3439862003-toyota-prius-c-hibrido-2020-plata-9477-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=32&type=item&tracking_id=f271ab78-a30e-432c-9aca-b00a39d4cb39&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_931669-MLM117058418579_092026-E.webp",
       "group_id": "g-07465b1274",
-      "_score": 45.0,
+      "_score": 47.6,
       "_components": {
         "precio": 0.1,
         "combustible": 94.3,
-        "km": 66.5,
+        "km": 79.4,
         "anio": 33.3
       },
       "_trans_status": "AT",
       "_fuel": 26.48,
       "_fuel_status": "OK",
-      "rank": 7,
+      "rank": 6,
       "ads": [
         {
           "id": "ml-3439862003",
@@ -338,17 +298,17 @@
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris_r-guadalajara-2018/4805639",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026612/4805639/o_o/pt_4805639_1781297665284.jpeg",
       "group_id": "g-4860c0a333",
-      "_score": 44.0,
+      "_score": 46.1,
       "_components": {
-        "precio": 44.8,
+        "precio": 45.0,
         "combustible": 50.1,
-        "km": 49.9,
+        "km": 59.6,
         "anio": 11.1
       },
       "_trans_status": "AT",
       "_fuel": 20.1,
       "_fuel_status": "OK",
-      "rank": 8,
+      "rank": 7,
       "ads": [
         {
           "id": "sn-964017",
@@ -371,46 +331,6 @@
       ]
     },
     {
-      "id": "sn-4798682",
-      "title": "Kia K3",
-      "price": "$270,000",
-      "price_int": 270000,
-      "year": "2026",
-      "mileage": "566 kms.",
-      "location": "Tlaquepaque",
-      "source": "seminuevos",
-      "brand": "Kia",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-tlaquepaque-2026/4798682",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2152026/4798682/o_o/pt_4798682_1779336178737_961.jpg",
-      "group_id": "g-bd5bedc71a",
-      "_score": 43.1,
-      "_components": {
-        "precio": 0.0,
-        "combustible": 43.6,
-        "km": 100.0,
-        "anio": 100.0
-      },
-      "rank": 9,
-      "ads": [
-        {
-          "id": "sn-4798682",
-          "title": "Kia K3",
-          "price": "$270,000",
-          "price_int": 270000,
-          "year": "2026",
-          "mileage": "566 kms.",
-          "location": "Tlaquepaque",
-          "source": "seminuevos",
-          "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-tlaquepaque-2026/4798682",
-          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2152026/4798682/o_o/pt_4798682_1779336178737_961.jpg",
-          "transmission": "unknown",
-          "brand": "Kia",
-          "group_id": "g-bd5bedc71a"
-        }
-      ]
-    },
-    {
       "id": "sn-630217",
       "title": "Kia K3",
       "price": "$250,000",
@@ -420,21 +340,21 @@
       "location": "Zapopan",
       "source": "seminuevos",
       "brand": "Kia",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-zapopan-2024/4819544",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/3072026/4819544/o_o/4819544_1789408637995_223.",
       "group_id": "g-2d5d97f806",
-      "_score": 41.9,
+      "_score": 44.5,
       "_components": {
-        "precio": 19.9,
+        "precio": 20.0,
         "combustible": 43.6,
-        "km": 65.3,
+        "km": 78.0,
         "anio": 77.8
       },
       "_trans_status": "AT",
       "_fuel": 19.16,
       "_fuel_status": "OK",
-      "rank": 10,
+      "rank": 8,
       "ads": [
         {
           "id": "sn-630217",
@@ -447,9 +367,101 @@
           "source": "seminuevos",
           "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-zapopan-2024/4819544",
           "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/3072026/4819544/o_o/4819544_1789408637995_223.",
-          "transmission": "unknown",
+          "transmission": "automatic",
           "brand": "Kia",
           "group_id": "g-2d5d97f806",
+          "_trans_status": "AT",
+          "_fuel": 19.16,
+          "_fuel_status": "OK"
+        }
+      ]
+    },
+    {
+      "id": "ml-3387771987",
+      "title": "Kia K3 2024 1.6 L Sedan At",
+      "price": "$269,000",
+      "price_int": 269000,
+      "year": "2024",
+      "mileage": "28,000 Km",
+      "location": "Zapopan - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Kia",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3387771987-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=19&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_702333-MLM116674889251_082026-E.webp",
+      "group_id": "g-a2da9dd941",
+      "_score": 41.3,
+      "_components": {
+        "precio": 1.0,
+        "combustible": 43.6,
+        "km": 100.0,
+        "anio": 77.8
+      },
+      "_trans_status": "AT",
+      "_fuel": 19.16,
+      "_fuel_status": "OK",
+      "rank": 9,
+      "ads": [
+        {
+          "id": "ml-3387771987",
+          "title": "Kia K3 2024 1.6 L Sedan At",
+          "price": "$269,000",
+          "price_int": 269000,
+          "year": "2024",
+          "mileage": "28,000 Km",
+          "location": "Zapopan - Jalisco",
+          "source": "mercadolibre",
+          "link": "https://auto.mercadolibre.com.mx/MLM-3387771987-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=19&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
+          "image": "https://http2.mlstatic.com/D_Q_NP_2X_702333-MLM116674889251_082026-E.webp",
+          "transmission": "automatic",
+          "brand": "Kia",
+          "group_id": "g-a2da9dd941",
+          "_trans_status": "AT",
+          "_fuel": 19.16,
+          "_fuel_status": "OK"
+        }
+      ]
+    },
+    {
+      "id": "ml-6112502310",
+      "title": "Kia K3 2024 1.6 L Sedan At",
+      "price": "$269,000",
+      "price_int": 269000,
+      "year": "2024",
+      "mileage": "29,000 Km",
+      "location": "Zapopan - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Kia",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6112502310-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=24&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_972323-MLM116839347909_082026-E.webp",
+      "group_id": "g-9e0ac000e3",
+      "_score": 41.1,
+      "_components": {
+        "precio": 1.0,
+        "combustible": 43.6,
+        "km": 99.3,
+        "anio": 77.8
+      },
+      "_trans_status": "AT",
+      "_fuel": 19.16,
+      "_fuel_status": "OK",
+      "rank": 10,
+      "ads": [
+        {
+          "id": "ml-6112502310",
+          "title": "Kia K3 2024 1.6 L Sedan At",
+          "price": "$269,000",
+          "price_int": 269000,
+          "year": "2024",
+          "mileage": "29,000 Km",
+          "location": "Zapopan - Jalisco",
+          "source": "mercadolibre",
+          "link": "https://auto.mercadolibre.com.mx/MLM-6112502310-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=24&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
+          "image": "https://http2.mlstatic.com/D_Q_NP_2X_972323-MLM116839347909_082026-E.webp",
+          "transmission": "automatic",
+          "brand": "Kia",
+          "group_id": "g-9e0ac000e3",
           "_trans_status": "AT",
           "_fuel": 19.16,
           "_fuel_status": "OK"
