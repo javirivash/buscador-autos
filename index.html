@@ -35,26 +35,33 @@
   }
   .container { max-width: 700px; margin: 0 auto; padding: 0 16px; }
 
-  /* ============ NAVBAR (sticky): hora + tabs + filtros en una sola barra ============ */
+  /* ============ NAVBAR (sticky): 3 filas apiladas ============ */
+  /* Fila 1: última actualización · Fila 2: tabs · Fila 3: filtros/limpiar/ordenar */
   .navbar {
     position: sticky; top: 0; z-index: 100;
     background: var(--surface);
     border-bottom: 1px solid var(--border); box-shadow: var(--shadow);
+    display: flex; flex-direction: column;
   }
-  /* Fila compacta: hora (izq) + controles de filtro (der), sin bordes envolventes */
-  .nav-controls {
-    display: flex; align-items: center; justify-content: space-between; gap: 5px;
-    padding: 2px 10px 9px;
+  /* Fila 1: actualizado, centrado */
+  .nav-top {
+    display: flex; align-items: center; justify-content: center;
+    padding: 8px 0;
   }
   .nav-update {
-    display: inline-flex; align-items: center; gap: 5px; min-width: 0; flex-shrink: 1;
+    display: inline-flex; align-items: center; gap: 6px;
     font-size: 11px; color: var(--text-muted); white-space: nowrap;
-    overflow: hidden; text-overflow: ellipsis;
   }
   .nav-update::before {
     content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--green);
   }
   .nav-update b { font-weight: 600; color: var(--text-secondary); }
+  /* Fila 3: filtros + limpiar (izq) / ordenar (der) */
+  .nav-controls {
+    display: flex; align-items: center; justify-content: space-between; gap: 10px;
+    padding: 7px 10px 8px;
+  }
+  .nf-left { display: flex; align-items: center; gap: 8px; }
   .nf-open {
     display: inline-flex; align-items: center; gap: 6px;
     background: var(--accent-soft); color: var(--accent-strong);
@@ -337,8 +344,8 @@
     .card-price { font-size: 17px; }
     .card-img-placeholder { display:flex; align-items:center; justify-content:center; background: var(--bg-alt,#eef0f3); color:#9aa1ab; font-size:9px; line-height:1.15; text-align:center; }
     .pill { padding: 6px 12px; font-size: 12.5px; }
-    /* En pantallas estrechas la hora se recorta para que los controles respiren */
-    .nav-update { font-size: 10.5px; max-width: 120px; }
+    .nav-update { font-size: 10.5px; }
+    .nav-controls { gap: 8px; }
     .nf-sort { max-width: 118px; }
   }
 </style>
@@ -348,18 +355,24 @@
 
   <!-- ============ NAVBAR STICKY ============ -->
   <nav class="navbar" id="navbar">
-    <!-- Tabs (segmented control) -->
+    <!-- 1. Última actualización -->
+    <div class="nav-top">
+      <span class="nav-update">Actualizado: <b id="lastUpdate">Cargando...</b></span>
+    </div>
+
+    <!-- 2. Tabs (segmented control) -->
     <div class="tabs">
       <button class="tab-btn active" id="tabBtnTodos" onclick="switchTab('todos')">Todos<span class="tab-badge" id="badgeTodos" data-zero="1">0</span></button>
       <button class="tab-btn" id="tabBtnHoy" onclick="switchTab('hoy')">Hoy<span class="tab-badge" id="badgeHoy" data-zero="1">0</span></button>
       <button class="tab-btn" id="tabBtnTop10" onclick="switchTab('top10')">Top 10</button>
     </div>
 
-    <!-- Fila compacta: hora + controles de filtro -->
+    <!-- 3. Filtros + Limpiar (izq) / Ordenar (der) -->
     <div class="nav-controls">
-      <span class="nav-update">Actualizado: <b id="lastUpdate">Cargando...</b></span>
-      <button class="nf-open" id="openFiltersBtn" onclick="openFilterModal()">Filtros<span class="nf-count" id="navResultCount" data-zero="1">0</span></button>
-      <button class="nf-clear" id="navClearBtn" onclick="resetFilters()" disabled>Limpiar</button>
+      <div class="nf-left">
+        <button class="nf-open" id="openFiltersBtn" onclick="openFilterModal()">Filtros<span class="nf-count" id="navResultCount" data-zero="1">0</span></button>
+        <button class="nf-clear" id="navClearBtn" onclick="resetFilters()" disabled>Limpiar</button>
+      </div>
       <span class="nf-wrap">
         <label for="sortOrder">Ordenar</label>
         <select class="nf-sort" id="sortOrder" onchange="applyFilters()">
