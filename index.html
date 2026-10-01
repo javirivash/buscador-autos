@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <title>Buscador de Autos · GDL / Tepic</title>
 <style>
   :root {
@@ -22,13 +25,13 @@
     --shadow-hover: 0 4px 14px rgba(16,24,40,.10);
     --radius: 14px;
     --radius-sm: 9px;
+    --bg-alt: #eef0f3;
     --focus-ring: 0 0 0 3px var(--accent-soft);
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
     background: var(--bg); color: var(--text); min-height: 100vh; padding: 0 0 16px;
-    -webkit-font-smoothing: antialiased;
   }
   .container { max-width: 700px; margin: 0 auto; padding: 0 16px; }
 
@@ -38,18 +41,6 @@
     background: var(--surface);
     border-bottom: 1px solid var(--border); box-shadow: var(--shadow);
   }
-  /* Segmented control de tabs sobre un track gris suave (look iOS/Android) */
-  .tabs {
-    display: flex; gap: 4px; margin: 0;
-    background: var(--bg); border-radius: var(--radius-sm); padding: 4px;
-  }
-  .tab-btn {
-    flex: 1; border: none; background: transparent; padding: 9px 0;
-    font-size: 13.5px; font-weight: 600; color: var(--text-secondary);
-    border-radius: 7px; cursor: pointer; font-family: inherit;
-    transition: background .15s, color .15s; text-align: center; white-space: nowrap;
-  }
-  .tab-btn.active { background: var(--accent); color: #fff; box-shadow: var(--shadow); }
   /* Fila compacta: hora (izq) + controles de filtro (der), sin bordes envolventes */
   .nav-controls {
     display: flex; align-items: center; justify-content: space-between; gap: 5px;
@@ -914,13 +905,13 @@ function cardMarkup(c, showScore) {
       </div>
       <div class="card-body">
         <div class="card-price">${c.price || 'N/A'}</div>
-        <div class="card-meta card-row-1">
+        <div class="card-meta">
           ${bBrand}${bYear}${bKm}
         </div>
-        <div class="card-meta card-row-2">
+        <div class="card-meta">
           ${transHtml}${fuelBadge}${fuelKmBadge}
         </div>
-        <div class="card-meta card-row-3">
+        <div class="card-meta">
           ${bLoc}<span class="source-badge">${srcLabel}</span>
         </div>
       </div>
