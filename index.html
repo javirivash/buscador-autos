@@ -67,15 +67,15 @@
     padding: 4px 8px 6px;
   }
   .nav-controls.hidden { display: none; } /* solo se muestra en la vista "Todos" */
-  .nf-open { /* Botón primario: borde azul, sin relleno sólido, mismo ancho que Ordenar */
+  .nf-open { /* Texto azul, mismo formato que Ordenar/Limpiar: sin borde ni fondo */
     flex: 1 1 0;
     display: inline-flex; align-items: center; justify-content: center; gap: 6px;
     background: transparent; color: var(--accent-strong);
-    border: 1.5px solid var(--accent); border-radius: var(--radius-sm);
+    border: none; outline: none;
     padding: 8px 0; font-size: 13px; font-weight: 700; font-family: inherit; cursor: pointer;
-    transition: border-color .15s, background .15s;
+    transition: color .15s;
   }
-  .nf-open:hover { background: var(--accent-soft); border-color: var(--accent-strong); }
+  .nf-open:hover { color: var(--accent); }
   .nf-count { /* inline: con badge, el grupo "Filtros + n" queda centrado */
     font-size: 10px; font-weight: 700; color: #fff; background: var(--accent);
     border-radius: 999px; min-width: 17px; height: 17px; display: inline-flex;
