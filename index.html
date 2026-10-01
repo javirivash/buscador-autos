@@ -40,10 +40,12 @@
   .navbar {
     position: sticky; top: 0; z-index: 100;
     background: var(--surface);
-    border: 1px solid var(--border); border-radius: var(--radius);
+    border-style: solid; border-color: var(--border);
+    border-width: 0 1px 1px 1px; /* sin borde superior */
+    border-radius: 0 0 var(--radius) var(--radius); /* esquinas superiores rectas, inferiores redondeadas */
     box-shadow: var(--shadow);
     display: flex; flex-direction: column;
-    overflow: hidden; /* recorta los hijos al radio: esquinas redondeadas en todas las tabs */
+    overflow: hidden;
     margin-bottom: 11px; /* igual al gap entre tarjetas */
   }
   /* Fila 1: actualizado, centrado */
