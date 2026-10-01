@@ -395,7 +395,6 @@
   </div>
 
   <div class="tab-pane" id="pane-top10">
-    <div class="top10-note" id="top10Note">Cargando...</div>
     <div class="grid" id="gridTop"></div>
   </div>
 
@@ -932,15 +931,12 @@ function cardMarkup(c, showScore) {
 
 function renderTop10(data) {
   const grid = document.getElementById('gridTop');
-  const note = document.getElementById('top10Note');
   const cars = (data && data.cars) || [];
   const weights = (data && data.weights) || {};
   if (!cars.length) {
-    note.textContent = 'Aún no hay top 10. El siguiente scrape lo generará.';
     grid.innerHTML = '';
     return;
   }
-  note.textContent = 'Ranking por puntaje de valor (precio 40%, rendimiento 30%, km 20%, año 10%). Actualizado con el último scrape.';
   grid.innerHTML = cars.map(c => {
     const comp = c._components || {};
     const bars = Object.keys(RANK_LABELS).map(k => {
@@ -972,7 +968,7 @@ async function loadTop10() {
     if (!res.ok) throw new Error('HTTP ' + res.status);
     renderTop10(await res.json());
   } catch (e) {
-    document.getElementById('top10Note').textContent = 'No se pudo cargar el top 10.';
+    // sin nota: la pestaña Top 10 no muestra descripción
   }
 }
 
