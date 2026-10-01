@@ -51,7 +51,7 @@
   /* Fila 1: actualizado, centrado */
   .nav-top {
     display: flex; align-items: center; justify-content: center;
-    padding: 8px 0;
+    padding: 8px 16px;
   }
   .nav-update {
     display: inline-flex; align-items: center; gap: 6px;
@@ -64,11 +64,11 @@
   /* Fila 3: Filtros / Limpiar / Ordenar — tres segmentos iguales que llenan la fila */
   .nav-controls {
     display: flex; align-items: stretch; gap: 8px;
-    padding: 7px 10px 8px;
+    padding: 7px 16px 8px;
   }
   .nav-controls.hidden { display: none; } /* solo se muestra en la vista "Todos" */
   .nf-open { /* Botón primario: borde azul, sin relleno sólido, contenido centrado */
-    flex: 1 1 0; min-width: 0;
+    flex: 1 1 auto;
     display: inline-flex; align-items: center; justify-content: center; gap: 6px;
     background: transparent; color: var(--accent-strong);
     border: 1.5px solid var(--accent); border-radius: var(--radius-sm);
@@ -84,7 +84,7 @@
   }
   .nf-count[data-zero="1"] { display: none; } /* sin badge: solo el texto, centrado */
   .nf-clear { /* Botón texto, formato Ordenar: sin fondo ni borde */
-    flex: 1 1 0; min-width: 0;
+    flex: 1 1 auto;
     display: inline-flex; align-items: center; justify-content: center; gap: 4px;
     background: transparent; color: var(--accent-strong);
     border: none; outline: none;
@@ -94,7 +94,7 @@
   .nf-clear:hover:not(:disabled) { color: var(--accent); }
   .nf-clear:disabled { color: var(--text-muted); opacity: .55; cursor: default; }
   .nf-wrap { /* Ordenar: sin borde, letra azul, flexible para ocupar la fila */
-    flex: 1 1 0; min-width: 0;
+    flex: 1 1 auto; min-width: 0;
     display: flex; align-items: center; justify-content: center;
     background: transparent; border: none;
   }
@@ -110,7 +110,7 @@
   /* ============ TABS ============ */
   .tabs {
     display: flex; gap: 6px; background: var(--surface);
-    padding: 5px;
+    padding: 5px 16px;
   }
   .tab-btn {
     flex: 1; border: none; background: transparent; padding: 9px 0;
@@ -354,9 +354,8 @@
 </style>
 </head>
 <body>
-<div class="container">
 
-  <!-- ============ NAVBAR STICKY ============ -->
+  <!-- ============ NAVBAR STICKY (full width de la página) ============ -->
   <nav class="navbar" id="navbar">
     <!-- 1. Última actualización -->
     <div class="nav-top">
@@ -392,6 +391,7 @@
     </div>
   </nav>
 
+  <div class="container">
   <div class="tab-pane" id="pane-hoy">
     <div class="grid" id="gridHoy"></div>
   </div>
