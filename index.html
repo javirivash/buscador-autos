@@ -81,16 +81,16 @@
     font-variant-numeric: tabular-nums;
   }
   .nf-count[data-zero="1"] { display: none; } /* sin badge: solo el texto, centrado */
-  .nf-clear { /* Botón secundario */
+  .nf-clear { /* Botón texto, formato Ordenar: sin fondo ni borde */
     flex: 0 0 auto;
     display: inline-flex; align-items: center; justify-content: center; gap: 4px;
-    background: var(--accent-soft); color: var(--accent-strong);
-    border: none; border-radius: var(--radius-sm);
-    padding: 9px 14px; font-size: 13px; font-weight: 600; font-family: inherit; cursor: pointer;
-    transition: background .15s;
+    background: transparent; color: var(--accent-strong);
+    border: none; outline: none;
+    padding: 8px 14px; font-size: 13px; font-weight: 600; font-family: inherit; cursor: pointer;
+    transition: color .15s;
   }
-  .nf-clear:hover:not(:disabled) { background: var(--accent); color: #fff; }
-  .nf-clear:disabled { background: transparent; color: var(--text-muted); opacity: .55; cursor: default; }
+  .nf-clear:hover:not(:disabled) { color: var(--accent); }
+  .nf-clear:disabled { color: var(--text-muted); opacity: .55; cursor: default; }
   .nf-wrap { /* Ordenar: sin borde, letra azul, flexible para ocupar la fila */
     flex: 1 1 0; min-width: 0;
     display: flex; align-items: center; justify-content: center;
