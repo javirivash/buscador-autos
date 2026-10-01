@@ -64,23 +64,22 @@
     padding: 7px 10px 8px;
   }
   .nav-controls.hidden { display: none; } /* solo se muestra en la vista "Todos" */
-  .nf-open { /* Botón primario: borde azul, sin relleno sólido, texto centrado */
-    flex: 0 0 auto; position: relative;
-    display: inline-flex; align-items: center; justify-content: center;
+  .nf-open { /* Botón primario: borde azul, sin relleno sólido, contenido centrado */
+    flex: 0 0 auto;
+    display: inline-flex; align-items: center; justify-content: center; gap: 6px;
     background: transparent; color: var(--accent-strong);
     border: 1.5px solid var(--accent); border-radius: var(--radius-sm);
-    padding: 8px 18px; font-size: 13px; font-weight: 700; font-family: inherit; cursor: pointer;
+    padding: 8px 16px; font-size: 13px; font-weight: 700; font-family: inherit; cursor: pointer;
     transition: border-color .15s, background .15s;
   }
   .nf-open:hover { background: var(--accent-soft); border-color: var(--accent-strong); }
-  .nf-count { /* overlay esquina superior derecha: no desplaza el texto centrado */
-    position: absolute; top: -7px; right: -7px;
+  .nf-count { /* inline: con badge, el grupo "Filtros + n" queda centrado */
     font-size: 10px; font-weight: 700; color: #fff; background: var(--accent);
     border-radius: 999px; min-width: 17px; height: 17px; display: inline-flex;
     align-items: center; justify-content: center; padding: 0 4px;
     font-variant-numeric: tabular-nums;
   }
-  .nf-count[data-zero="1"] { display: none; }
+  .nf-count[data-zero="1"] { display: none; } /* sin badge: solo el texto, centrado */
   .nf-clear { /* Botón secundario */
     flex: 0 0 auto;
     display: inline-flex; align-items: center; justify-content: center; gap: 4px;
