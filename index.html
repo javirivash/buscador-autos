@@ -35,30 +35,43 @@
   /* ============ NAVBAR (sticky): hora + tabs + filtros en una sola barra ============ */
   .navbar {
     position: sticky; top: 0; z-index: 100;
-    background: var(--surface); border: 1px solid var(--border);
-    border-radius: 0 0 var(--radius) var(--radius); box-shadow: var(--shadow);
-    margin: 0; overflow: hidden;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border); box-shadow: var(--shadow);
   }
-  /* Sección 1: fecha de actualización (compacta) */
+  /* Segmented control de tabs sobre un track gris suave (look iOS/Android) */
+  .tabs {
+    display: flex; gap: 4px; margin: 0;
+    background: var(--bg); border-radius: var(--radius-sm); padding: 4px;
+  }
+  .tab-btn {
+    flex: 1; border: none; background: transparent; padding: 9px 0;
+    font-size: 13.5px; font-weight: 600; color: var(--text-secondary);
+    border-radius: 7px; cursor: pointer; font-family: inherit;
+    transition: background .15s, color .15s; text-align: center; white-space: nowrap;
+  }
+  .tab-btn.active { background: var(--accent); color: #fff; box-shadow: var(--shadow); }
+  /* Fila compacta: hora (izq) + controles de filtro (der), sin bordes envolventes */
+  .nav-controls {
+    display: flex; align-items: center; justify-content: space-between; gap: 5px;
+    padding: 2px 10px 9px;
+  }
   .nav-update {
-    display: flex; align-items: center; justify-content: center; gap: 6px;
-    font-size: 11px; color: var(--text-muted); text-align: center;
+    display: inline-flex; align-items: center; gap: 5px; min-width: 0; flex-shrink: 1;
+    font-size: 11px; color: var(--text-muted); white-space: nowrap;
+    overflow: hidden; text-overflow: ellipsis;
+  }
+  .nav-update::before {
+    content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--green);
   }
   .nav-update b { font-weight: 600; color: var(--text-secondary); }
-  .nav-divider { height: 1px; background: var(--border); }
-  /* Sección 3: controles de filtros (botón Filtros + Limpiar + Ordenar) */
-  .nav-filters {
-    display: flex; align-items: center; gap: 8px; padding: 0 10px;
-    min-height: 40px;
-  }
   .nf-open {
     display: inline-flex; align-items: center; gap: 6px;
-    background: var(--surface); color: var(--accent-strong);
-    border: 1px solid var(--border-strong); border-radius: var(--radius-sm);
-    padding: 8px 12px; font-size: 13px; font-weight: 700; font-family: inherit;
-    cursor: pointer; transition: all .15s;
+    background: var(--accent-soft); color: var(--accent-strong);
+    border: none; border-radius: 999px; padding: 7px 12px;
+    font-size: 12.5px; font-weight: 700; font-family: inherit; cursor: pointer;
+    transition: all .15s;
   }
-  .nf-open:hover { background: var(--accent-soft); border-color: var(--accent); }
+  .nf-open:hover { filter: brightness(.97); }
   .nf-count {
     font-size: 10.5px; font-weight: 700; color: #fff; background: var(--accent);
     border-radius: 999px; min-width: 18px; height: 18px; display: inline-flex;
@@ -67,17 +80,16 @@
   }
   .nf-count[data-zero="1"] { display: none; }
   .nf-clear {
-    background: none; border: 1px solid var(--border-strong); color: var(--text-secondary);
-    border-radius: var(--radius-sm); padding: 8px 12px; font-size: 13px; font-weight: 600;
-    font-family: inherit; cursor: pointer;
+    background: none; border: none; color: var(--text-secondary);
+    font-size: 12.5px; font-weight: 600; font-family: inherit; cursor: pointer; padding: 7px 8px;
   }
   .nf-clear:disabled { color: var(--text-muted); opacity: .55; cursor: default; }
-  .nf-sort-wrap { display: flex; align-items: center; gap: 6px; }
-  .nf-sort-wrap .ns-label { font-size: 12px; color: var(--text-secondary); white-space: nowrap; }
+  .nf-wrap { border: 1px solid var(--border); border-radius: 8px; background: var(--surface); }
+  .nf-wrap label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); } /* a11y */
   .nf-sort {
-    background: var(--surface); color: var(--text);
-    border: 1px solid var(--border-strong); border-radius: var(--radius-sm);
-    padding: 8px 10px; font-size: 13px; font-family: inherit; outline: none;
+    background: transparent; color: var(--text);
+    border: 1px solid var(--border); border-radius: 8px;
+    padding: 7px 10px; font-size: 12.5px; font-family: inherit; outline: none;
     appearance: none; cursor: pointer; min-width: 0; flex: 1;
   }
 
@@ -334,7 +346,9 @@
     .card-price { font-size: 17px; }
     .card-img-placeholder { display:flex; align-items:center; justify-content:center; background: var(--bg-alt,#eef0f3); color:#9aa1ab; font-size:9px; line-height:1.15; text-align:center; }
     .pill { padding: 6px 12px; font-size: 12.5px; }
-    .nf-sort-wrap .ns-label { display: none; }
+    /* En pantallas estrechas la hora se recorta para que los controles respiren */
+    .nav-update { font-size: 10.5px; max-width: 120px; }
+    .nf-sort { max-width: 118px; }
   }
 </style>
 </head>
@@ -343,24 +357,20 @@
 
   <!-- ============ NAVBAR STICKY ============ -->
   <nav class="navbar" id="navbar">
-    <!-- Sección hora -->
-    <div class="nav-update">Actualizado: <b id="lastUpdate">Cargando...</b></div>
-    <div class="nav-divider"></div>
-
-    <!-- Sección tabs -->
+    <!-- Tabs (segmented control) -->
     <div class="tabs">
       <button class="tab-btn active" id="tabBtnTodos" onclick="switchTab('todos')">Todos<span class="tab-badge" id="badgeTodos" data-zero="1">0</span></button>
       <button class="tab-btn" id="tabBtnHoy" onclick="switchTab('hoy')">Hoy<span class="tab-badge" id="badgeHoy" data-zero="1">0</span></button>
       <button class="tab-btn" id="tabBtnTop10" onclick="switchTab('top10')">Top 10</button>
     </div>
-    <div class="nav-divider"></div>
 
-    <!-- Sección filtros: Filtros(n) / Limpiar / Ordenar -->
-    <div class="nav-filters">
+    <!-- Fila compacta: hora + controles de filtro -->
+    <div class="nav-controls">
+      <span class="nav-update">Actualizado: <b id="lastUpdate">Cargando...</b></span>
       <button class="nf-open" id="openFiltersBtn" onclick="openFilterModal()">Filtros<span class="nf-count" id="navResultCount" data-zero="1">0</span></button>
       <button class="nf-clear" id="navClearBtn" onclick="resetFilters()" disabled>Limpiar</button>
-      <span class="nf-sort-wrap">
-        <label class="ns-label" for="sortOrder">Ordenar</label>
+      <span class="nf-wrap">
+        <label for="sortOrder">Ordenar</label>
         <select class="nf-sort" id="sortOrder" onchange="applyFilters()">
           <option value="score_desc" selected>Puntaje: más alto</option>
           <option value="score_asc">Puntaje: más bajo</option>
