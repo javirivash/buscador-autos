@@ -43,7 +43,8 @@
     border: 1px solid var(--border); border-radius: var(--radius);
     box-shadow: var(--shadow);
     display: flex; flex-direction: column;
-    margin-bottom: 16px;
+    overflow: hidden; /* recorta los hijos al radio: esquinas redondeadas en todas las tabs */
+    margin-bottom: 11px; /* igual al gap entre tarjetas */
   }
   /* Fila 1: actualizado, centrado */
   .nav-top {
