@@ -67,8 +67,8 @@
     padding: 4px 8px 6px;
   }
   .nav-controls.hidden { display: none; } /* solo se muestra en la vista "Todos" */
-  .nf-open { /* Botón primario: borde azul, sin relleno sólido, contenido centrado */
-    flex: 1 1 auto;
+  .nf-open { /* Botón primario: borde azul, sin relleno sólido, mismo ancho que Ordenar */
+    flex: 1 1 0;
     display: inline-flex; align-items: center; justify-content: center; gap: 6px;
     background: transparent; color: var(--accent-strong);
     border: 1.5px solid var(--accent); border-radius: var(--radius-sm);
@@ -83,8 +83,8 @@
     font-variant-numeric: tabular-nums;
   }
   .nf-count[data-zero="1"] { display: none; } /* sin badge: solo el texto, centrado */
-  .nf-clear { /* Botón texto, formato Ordenar: sin fondo ni borde */
-    flex: 1 1 auto;
+  .nf-clear { /* Botón texto, formato Ordenar: a contenido (encogido) */
+    flex: 0 0 auto;
     display: inline-flex; align-items: center; justify-content: center; gap: 4px;
     background: transparent; color: var(--accent-strong);
     border: none; outline: none;
@@ -93,8 +93,8 @@
   }
   .nf-clear:hover:not(:disabled) { color: var(--accent); }
   .nf-clear:disabled { color: var(--text-muted); opacity: .55; cursor: default; }
-  .nf-wrap { /* Ordenar: sin borde, letra azul, flexible para ocupar la fila */
-    flex: 1 1 auto; min-width: 0;
+  .nf-wrap { /* Ordenar: sin borde, letra azul, mismo ancho que Filtrar */
+    flex: 1 1 0; min-width: 0;
     display: flex; align-items: center; justify-content: center;
     background: transparent; border: none;
   }
@@ -369,10 +369,9 @@
       <button class="tab-btn" id="tabBtnTop10" onclick="switchTab('top10')">Top 10</button>
     </div>
 
-    <!-- 3. Filtros + Limpiar (izq) / Ordenar (der) -->
+    <!-- 3. Filtrar / Ordenar / Limpiar -->
     <div class="nav-controls" id="navControls">
       <button class="nf-open" id="openFiltersBtn" onclick="openFilterModal()">Filtrar<span class="nf-count" id="navResultCount" data-zero="1">0</span></button>
-      <button class="nf-clear" id="navClearBtn" onclick="resetFilters()" disabled>Limpiar</button>
       <span class="nf-wrap">
         <label for="sortOrder">Ordenar</label>
         <select class="nf-sort" id="sortOrder" onchange="applyFilters()">
@@ -388,6 +387,7 @@
           <option value="fuel_asc">Menos km/l ▲</option>
         </select>
       </span>
+      <button class="nf-clear" id="navClearBtn" onclick="resetFilters()" disabled>Limpiar</button>
     </div>
   </nav>
 
@@ -774,9 +774,12 @@ function applyFilters() {
     return true;
   });
 
-  // Contador de filtros activos -> controla visibilidad del badge y del botón Limpiar
+  // Contador de filtros activos -> controla visibilidad del badge y del botón Limpiar.
+  // Limpiar también resetea el sort, así que se habilita si hay filtros o si el
+  // ordenamiento no está en su valor por defecto.
   const count = activeFilterCount(f);
-  document.getElementById('navClearBtn').disabled = (count === 0);
+  const sortReset = document.getElementById('sortOrder').value !== 'score_desc';
+  document.getElementById('navClearBtn').disabled = (count === 0 && !sortReset);
 
   const groups = groupAds(filtered);
   // El badge del botón "Filtros(n)" muestra el Nº DE AUTOS RESULTANTES,
@@ -798,6 +801,8 @@ function resetFilters() {
   const ymin = document.getElementById('yearMin'), ymax = document.getElementById('yearMax');
   ymin.value = ymin.min; ymax.value = ymax.max; updateRangeUI('year', 'year');
   populateModelSelect();
+  // Limpiar también resetea el ordenamiento al valor por defecto
+  document.getElementById('sortOrder').value = 'score_desc';
   applyFilters();
 }
 
