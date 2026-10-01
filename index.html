@@ -132,7 +132,7 @@
   .tab-btn.active .tab-badge { background: rgba(255,255,255,.25); }
   .tab-badge[data-zero="1"] { display: none; }
 
-  .top10-note { font-size: 12px; color: var(--text-muted); margin-bottom: 12px; line-height: 1.4; }
+  /* (la antigua .top10-note quedó sin uso: las notas solo las da el badge de cada tab) */
 
   /* ============ MODAL DE FILTROS (a pantalla completa, cubre la navbar) ============ */
   .filter-modal {
@@ -393,7 +393,6 @@
   </nav>
 
   <div class="tab-pane" id="pane-hoy">
-    <div class="top10-note" id="hoyNote">Cargando...</div>
     <div class="grid" id="gridHoy"></div>
   </div>
 
@@ -578,16 +577,11 @@ function setBadge(id, n) {
 
 function renderHoy() {
   const grid = document.getElementById('gridHoy');
-  const note = document.getElementById('hoyNote');
   const groups = groupAds(newCars);
   if (!groups.length) {
-    note.textContent = 'Sin anuncios nuevos hoy.';
     grid.innerHTML = '';
     return;
   }
-  note.textContent = groups.length === 1
-    ? '1 auto nuevo hoy.'
-    : groups.length + ' autos nuevos hoy.';
   sortGroups(groups);
   grid.innerHTML = groups.map(renderGroupCard).join('');
 }
