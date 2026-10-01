@@ -27,71 +27,115 @@
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-    background: var(--bg); color: var(--text); min-height: 100vh; padding: 16px 0;
+    background: var(--bg); color: var(--text); min-height: 100vh; padding: 0 0 16px;
     -webkit-font-smoothing: antialiased;
   }
   .container { max-width: 700px; margin: 0 auto; padding: 0 16px; }
 
-  /* ============ TOP BAR ============ */
-  .topbar {
-    display: flex; align-items: center; justify-content: space-between; gap: 12px;
-    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
-    box-shadow: var(--shadow); padding: 6px 14px; min-height: 48px; margin-bottom: 8px;
+  /* ============ NAVBAR (sticky): hora + tabs + filtros en una sola barra ============ */
+  .navbar {
+    position: sticky; top: 0; z-index: 100;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 0 0 var(--radius) var(--radius); box-shadow: var(--shadow);
+    margin: 0; overflow: hidden;
   }
-  .topbar .tb-brand { min-width: 0; flex: 1; }
-  .topbar .tb-name { font-size: 15px; font-weight: 700; letter-spacing: -.02em; line-height: 1.2; }
-  .topbar .tb-sub { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
-  .tb-stats { display: flex; gap: 6px; flex-shrink: 0; }
-  .tb-stat {
-    display: flex; align-items: center; gap: 4px;
-    font-size: 12px; font-weight: 700; color: var(--accent-strong);
-    background: var(--accent-soft); border-radius: 999px; padding: 4px 9px; white-space: nowrap;
+  /* Sección 1: fecha de actualización (compacta) */
+  .nav-update {
+    display: flex; align-items: center; justify-content: center; gap: 6px;
+    font-size: 11px; color: var(--text-muted); text-align: center;
   }
-  .tb-stat .tb-stat-label { font-weight: 500; color: var(--text-secondary); }
-
-  /* ============ FILTER PANEL ============ */
-  .filters {
-    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
-    box-shadow: var(--shadow); overflow: hidden; margin-bottom: 14px;
+  .nav-update b { font-weight: 600; color: var(--text-secondary); }
+  .nav-divider { height: 1px; background: var(--border); }
+  /* Sección 3: controles de filtros (botón Filtros + Limpiar + Ordenar) */
+  .nav-filters {
+    display: flex; align-items: center; gap: 8px; padding: 0 10px;
+    min-height: 40px;
   }
-  .filters-head {
-    display: flex; justify-content: space-between; align-items: center;
-    padding: 11px 14px; background: var(--accent-soft);
+  .nf-open {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: var(--surface); color: var(--accent-strong);
+    border: 1px solid var(--border-strong); border-radius: var(--radius-sm);
+    padding: 8px 12px; font-size: 13px; font-weight: 700; font-family: inherit;
+    cursor: pointer; transition: all .15s;
   }
-  .filters-head .ft {
-    font-size: 12px; font-weight: 700; color: var(--accent-strong);
-    display: flex; align-items: center; gap: 6px; letter-spacing: .01em;
-  }
-  .filter-count {
+  .nf-open:hover { background: var(--accent-soft); border-color: var(--accent); }
+  .nf-count {
     font-size: 10.5px; font-weight: 700; color: #fff; background: var(--accent);
     border-radius: 999px; min-width: 18px; height: 18px; display: inline-flex;
     align-items: center; justify-content: center; padding: 0 5px;
+    font-variant-numeric: tabular-nums;
   }
-  .clear-all {
-    background: none; border: none; color: var(--accent-strong); cursor: pointer;
-    font-size: 12px; font-weight: 600; padding: 2px;
+  .nf-count[data-zero="1"] { display: none; }
+  .nf-clear {
+    background: none; border: 1px solid var(--border-strong); color: var(--text-secondary);
+    border-radius: var(--radius-sm); padding: 8px 12px; font-size: 13px; font-weight: 600;
+    font-family: inherit; cursor: pointer;
   }
-  .clear-all:disabled { color: var(--text-muted); cursor: default; }
-
-  .fgroup { padding: 12px 14px; display: flex; flex-direction: column; gap: 8px; }
-  .fgroup + .fgroup { border-top: 1px solid var(--border); }
-  .fg-label { font-size: 12px; font-weight: 600; color: var(--text-secondary); }
-
-  /* Search row */
-  .search-row { position: relative; }
-  .search-row input {
-    width: 100%; background: var(--surface); color: var(--text);
+  .nf-clear:disabled { color: var(--text-muted); opacity: .55; cursor: default; }
+  .nf-sort-wrap { display: flex; align-items: center; gap: 6px; }
+  .nf-sort-wrap .ns-label { font-size: 12px; color: var(--text-secondary); white-space: nowrap; }
+  .nf-sort {
+    background: var(--surface); color: var(--text);
     border: 1px solid var(--border-strong); border-radius: var(--radius-sm);
-    padding: 11px 34px; font-size: 14px; font-family: inherit; outline: none;
-    box-shadow: var(--shadow); transition: border-color .15s, box-shadow .15s;
-  }
-  .search-row input:focus { border-color: var(--accent); box-shadow: var(--focus-ring); }
-  .search-icon {
-    position: absolute; left: 11px; top: 0; bottom: 0; display: flex; align-items: center;
-    color: var(--text-muted); font-size: 14px; pointer-events: none; width: 22px;
+    padding: 8px 10px; font-size: 13px; font-family: inherit; outline: none;
+    appearance: none; cursor: pointer; min-width: 0; flex: 1;
   }
 
-  /* Segmented pills (brand, motor) */
+  /* ============ TABS ============ */
+  .tabs {
+    display: flex; gap: 6px; background: var(--surface);
+    padding: 5px;
+  }
+  .tab-btn {
+    flex: 1; border: none; background: transparent; padding: 9px 0;
+    font-size: 14px; font-weight: 600; color: var(--text-secondary);
+    border-radius: var(--radius-sm); cursor: pointer; font-family: inherit;
+    transition: background .15s, color .15s; text-align: center;
+  }
+  .tab-btn.active { background: var(--accent); color: #fff; box-shadow: var(--shadow); }
+  .tab-pane { display: none; }
+  .tab-pane.active { display: block; }
+
+  /* Badge de conteo en las tabs */
+  .tab-badge {
+    font-size: 10.5px; font-weight: 700; color: #fff; background: var(--accent);
+    border-radius: 999px; min-width: 18px; height: 18px; display: inline-flex;
+    align-items: center; justify-content: center; padding: 0 5px; margin-left: 5px;
+    vertical-align: middle;
+  }
+  .tab-btn.active .tab-badge { background: rgba(255,255,255,.25); }
+  .tab-badge[data-zero="1"] { display: none; }
+
+  .top10-note { font-size: 12px; color: var(--text-muted); margin-bottom: 12px; line-height: 1.4; }
+
+  /* ============ MODAL DE FILTROS (a pantalla completa, cubre la navbar) ============ */
+  .filter-modal {
+    position: fixed; inset: 0; z-index: 200; background: var(--surface);
+    display: none; flex-direction: column;
+  }
+  .filter-modal.open { display: flex; }
+  .fm-head {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 12px 14px; background: var(--accent-soft);
+  }
+  .fm-head .ft {
+    font-size: 14px; font-weight: 800; color: var(--accent-strong);
+    display: flex; align-items: center; gap: 6px; letter-spacing: .01em;
+  }
+  .fm-close {
+    background: none; border: none; color: var(--text-secondary); cursor: pointer;
+    font-size: 15px; font-weight: 700; padding: 4px 8px; line-height: 1;
+  }
+  .fm-scroll { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+  .fm-body { display: flex; flex-direction: column; gap: 10px; padding: 14px; }
+  .fgroup { display: flex; flex-direction: column; gap: 8px; }
+  .fgroup {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius-sm); padding: 11px 12px;
+  }
+  .fgroup .fg-label { display: block; font-size: 12px; font-weight: 700; color: var(--text-secondary); }
+
+  /* Segmented pills (brand, motor, fuente) */
   .seg { display: flex; flex-wrap: wrap; gap: 7px; }
   .pill {
     appearance: none; background: var(--surface); color: var(--text);
@@ -106,7 +150,7 @@
     font-weight: 600;
   }
 
-  /* Cascading model select */
+  /* Cascading model / km select */
   .select-native {
     width: 100%; background: var(--surface); color: var(--text);
     border: 1px solid var(--border-strong); border-radius: var(--radius-sm);
@@ -141,43 +185,23 @@
   }
   .range-labels .range-min, .range-labels .range-max { font-variant-numeric: tabular-nums; }
 
-  .filters-foot {
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 11px 14px; background: var(--accent-soft);
+  /* Footer fijo del modal */
+  .fm-footer {
+    display: flex; justify-content: flex-end; gap: 10px; align-items: center;
+    padding: 14px 16px; background: var(--accent-soft); border-top: 1px solid var(--border);
+    flex-shrink: 0;
   }
-  .footer-results { font-size: 12.5px; font-weight: 600; color: var(--accent-strong); }
-
-  /* Collapsible filters toggle */
-  .filters-toggle {
-    display: flex; align-items: center; justify-content: space-between; width: 100%;
-    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
-    box-shadow: var(--shadow); padding: 0; overflow: hidden; min-height: 48px; margin-bottom: 8px;
+  .fm-cancel {
+    background: var(--surface); color: var(--text);
+    border: 1px solid var(--border-strong); border-radius: var(--radius-sm);
+    padding: 11px 20px; font-size: 14px; font-weight: 600; font-family: inherit;
+    cursor: pointer; flex: 1;
   }
-  .filters-toggle .ft-row {
-    display: flex; align-items: center; gap: 6px; padding: 12px 14px; flex: 1;
-    font-size: 13px; font-weight: 700; color: var(--accent-strong); letter-spacing: .01em;
+  .fm-apply {
+    background: var(--accent); color: #fff; border: none; border-radius: var(--radius-sm);
+    padding: 11px 20px; font-size: 14px; font-weight: 700; font-family: inherit;
+    cursor: pointer; flex: 2;
   }
-  .filters-toggle .ft-row .fc {
-    font-size: 10.5px; font-weight: 700; color: #fff; background: var(--accent);
-    border-radius: 999px; min-width: 18px; height: 18px; display: inline-flex;
-    align-items: center; justify-content: center; padding: 0 5px;
-  }
-  .filters-toggle .ft-row .fc:empty, .filters-toggle .ft-row .fc[data-zero="1"] { display: none; }
-  .filters-toggle .ft-tail {
-    display: flex; align-items: center; gap: 6px; padding: 12px 14px;
-  }
-  .filters-toggle .ft-count {
-    font-size: 12.5px; font-weight: 600; color: var(--text-secondary); white-space: nowrap;
-  }
-  .filters-toggle .ft-arrow {
-    display: inline-flex; align-items: center; justify-content: center;
-    width: 22px; height: 22px; border-radius: 6px; color: var(--text-secondary);
-    transition: transform .2s;
-  }
-  .filters-toggle.open .ft-arrow { transform: rotate(180deg); color: var(--accent-strong); }
-  .filters-toggle .ft-arrow svg { width: 15px; height: 15px; }
-  .filters-panel { display: none; }
-  .filters-panel.open { display: block; }
 
   /* ============ GRID ============ */
   .grid { display: flex; flex-direction: column; gap: 11px; }
@@ -277,41 +301,6 @@
 
   .footer { margin-top: 24px; text-align: center; font-size: 11px; color: var(--text-muted); padding-bottom: 24px; }
 
-  /* ============ TABS ============ */
-  .tabs {
-    display: flex; gap: 6px; background: var(--surface);
-    border: 1px solid var(--border); border-radius: var(--radius);
-    padding: 6px; box-shadow: var(--shadow); min-height: 48px; margin-bottom: 8px;
-  }
-  .tab-btn {
-    flex: 1; border: none; background: transparent; padding: 9px 0;
-    font-size: 14px; font-weight: 600; color: var(--text-secondary);
-    border-radius: var(--radius-sm); cursor: pointer; font-family: inherit;
-    transition: background .15s, color .15s; text-align: center;
-  }
-  .tab-btn.active { background: var(--accent); color: #fff; box-shadow: var(--shadow); }
-  .tab-pane { display: none; }
-  .tab-pane.active { display: block; }
-
-  /* Update legend (sustituye a la top bar) */
-  .tab-legend {
-    display: flex; align-items: center; justify-content: center; gap: 6px;
-    font-size: 12px; color: var(--text-muted); padding: 2px 0 10px; text-align: center;
-  }
-  .tab-legend b { font-weight: 600; color: var(--text-secondary); }
-
-  /* Badge de conteo en las tabs */
-  .tab-badge {
-    font-size: 10.5px; font-weight: 700; color: #fff; background: var(--accent);
-    border-radius: 999px; min-width: 18px; height: 18px; display: inline-flex;
-    align-items: center; justify-content: center; padding: 0 5px; margin-left: 5px;
-    vertical-align: middle;
-  }
-  .tab-btn.active .tab-badge { background: rgba(255,255,255,.25); }
-  .tab-badge[data-zero="1"] { display: none; }
-
-  .top10-note { font-size: 12px; color: var(--text-muted); margin-bottom: 12px; line-height: 1.4; }
-
   /* ============ RANK CARD ============ */
   .rank-card {
     border: 1px solid var(--border); border-radius: var(--radius);
@@ -338,25 +327,55 @@
   .score-item .sv { font-size: 10px; color: var(--text-secondary); margin-top: 2px; font-variant-numeric: tabular-nums; }
 
   @media (max-width: 480px) {
-    body { padding: 10px 0; }
+    body { padding: 0 0 10px; }
     .container { padding: 0 12px; }
     .card { padding: 12px; gap: 10px; }
     .card-img { }
     .card-price { font-size: 17px; }
     .card-img-placeholder { display:flex; align-items:center; justify-content:center; background: var(--bg-alt,#eef0f3); color:#9aa1ab; font-size:9px; line-height:1.15; text-align:center; }
     .pill { padding: 6px 12px; font-size: 12.5px; }
+    .nf-sort-wrap .ns-label { display: none; }
   }
 </style>
 </head>
 <body>
 <div class="container">
-  <div class="tab-legend">Actualizado: <b id="lastUpdate">Cargando...</b></div>
 
-  <div class="tabs">
-    <button class="tab-btn active" id="tabBtnTodos" onclick="switchTab('todos')">Todos<span class="tab-badge" id="badgeTodos" data-zero="1">0</span></button>
-    <button class="tab-btn" id="tabBtnHoy" onclick="switchTab('hoy')">Hoy<span class="tab-badge" id="badgeHoy" data-zero="1">0</span></button>
-    <button class="tab-btn" id="tabBtnTop10" onclick="switchTab('top10')">Top 10</button>
-  </div>
+  <!-- ============ NAVBAR STICKY ============ -->
+  <nav class="navbar" id="navbar">
+    <!-- Sección hora -->
+    <div class="nav-update">Actualizado: <b id="lastUpdate">Cargando...</b></div>
+    <div class="nav-divider"></div>
+
+    <!-- Sección tabs -->
+    <div class="tabs">
+      <button class="tab-btn active" id="tabBtnTodos" onclick="switchTab('todos')">Todos<span class="tab-badge" id="badgeTodos" data-zero="1">0</span></button>
+      <button class="tab-btn" id="tabBtnHoy" onclick="switchTab('hoy')">Hoy<span class="tab-badge" id="badgeHoy" data-zero="1">0</span></button>
+      <button class="tab-btn" id="tabBtnTop10" onclick="switchTab('top10')">Top 10</button>
+    </div>
+    <div class="nav-divider"></div>
+
+    <!-- Sección filtros: Filtros(n) / Limpiar / Ordenar -->
+    <div class="nav-filters">
+      <button class="nf-open" id="openFiltersBtn" onclick="openFilterModal()">Filtros<span class="nf-count" id="navResultCount" data-zero="1">0</span></button>
+      <button class="nf-clear" id="navClearBtn" onclick="resetFilters()" disabled>Limpiar</button>
+      <span class="nf-sort-wrap">
+        <label class="ns-label" for="sortOrder">Ordenar</label>
+        <select class="nf-sort" id="sortOrder" onchange="applyFilters()">
+          <option value="score_desc" selected>Puntaje: más alto</option>
+          <option value="score_asc">Puntaje: más bajo</option>
+          <option value="price_asc">Precio: menor a mayor</option>
+          <option value="price_desc">Precio: mayor a menor</option>
+          <option value="year_desc">Año: más reciente</option>
+          <option value="year_asc">Año: más antiguo</option>
+          <option value="km_asc">Kilometraje: menor</option>
+          <option value="km_desc">Kilometraje: mayor</option>
+          <option value="fuel_asc">Consumo: menor km/l</option>
+          <option value="fuel_desc">Consumo: mayor km/l</option>
+        </select>
+      </span>
+    </div>
+  </nav>
 
   <div class="tab-pane" id="pane-hoy">
     <div class="top10-note" id="hoyNote">Cargando...</div>
@@ -369,102 +388,78 @@
   </div>
 
   <div class="tab-pane active" id="pane-todos">
-    <button class="filters-toggle" id="filtersToggle" onclick="toggleFilters()" aria-expanded="false">
-      <span class="ft-row"><span class="fc" id="filterCountToggle" data-zero="1">0</span> Filtros</span>
-      <span class="ft-tail">
-        <span class="ft-count" id="resultsCount">0 resultados</span>
-        <span class="ft-arrow"><svg viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 1 L6 7 M10 1 L6 7"/></svg></span>
-      </span>
-    </button>
-
-    <div class="filters filters-panel" id="filtersPanel">
-    <div class="filters-head">
-      <span class="ft">Filtros <span class="filter-count" id="filterCount">0</span></span>
-      <button class="clear-all" id="clearAll" onclick="resetFilters()" disabled>Limpiar todo</button>
-    </div>
-
-    <div class="fgroup">
-      <label class="fg-label">Buscar</label>
-      <div class="search-row">
-        <span class="search-icon">⌕</span>
-        <input type="text" id="filterSearch" placeholder="Modelo, palabra clave..." oninput="applyFilters()">
-      </div>
-    </div>
-
-    <div class="fgroup">
-      <label class="fg-label" for="sortOrder">Ordenar</label>
-      <select class="select-native" id="sortOrder" onchange="applyFilters()">
-        <option value="score_desc" selected>Puntaje: más alto</option>
-        <option value="score_asc">Puntaje: más bajo</option>
-        <option value="price_asc">Precio: menor a mayor</option>
-        <option value="price_desc">Precio: mayor a menor</option>
-        <option value="year_desc">Año: más reciente</option>
-        <option value="year_asc">Año: más antiguo</option>
-        <option value="km_asc">Kilometraje: menor</option>
-        <option value="km_desc">Kilometraje: mayor</option>
-        <option value="fuel_asc">Consumo: menor km/l</option>
-        <option value="fuel_desc">Consumo: mayor km/l</option>
-      </select>
-    </div>
-
-    <div class="fgroup">
-      <label class="fg-label">Marca</label>
-      <div class="seg" id="segBrand"><button class="pill" data-active="true" data-val="" onclick="selectPill('segBrand',this)">Todas</button></div>
-    </div>
-
-    <div class="fgroup">
-      <label class="fg-label" for="filterModel">Modelo</label>
-      <select class="select-native" id="filterModel" onchange="applyFilters()"></select>
-    </div>
-
-    <div class="fgroup">
-      <label class="fg-label">Motor</label>
-      <div class="seg" id="segFuel">
-        <button class="pill" data-active="true" data-val="" onclick="selectPill('segFuel',this)">Todos</button>
-        <button class="pill" data-active="false" data-val="gasolina" onclick="selectPill('segFuel',this)">Gasolina</button>
-        <button class="pill" data-active="false" data-val="hibrido" onclick="selectPill('segFuel',this)">Híbrido</button>
-      </div>
-    </div>
-
-    <div class="fgroup">
-      <label class="fg-label">Fuente</label>
-      <div class="seg" id="segSource">
-        <button class="pill" data-active="true" data-val="" onclick="selectPill('segSource',this)">Todas</button>
-        <button class="pill" data-active="false" data-val="mercadolibre" onclick="selectPill('segSource',this)">Mercado Libre</button>
-        <button class="pill" data-active="false" data-val="seminuevos" onclick="selectPill('segSource',this)">SemiNuevos</button>
-      </div>
-    </div>
-
-    <div class="fgroup">
-      <label class="fg-label" for="filterKm">Kilometraje máx.</label>
-      <select class="select-native" id="filterKm" onchange="applyFilters()"></select>
-    </div>
-
-    <div class="fgroup">
-      <label class="fg-label" id="priceLabel">Precio: $180,000 – $270,000</label>
-      <div class="dual-range" id="priceRange">
-        <div class="range-track"></div>
-        <input type="range" id="priceMin" value="180000" oninput="dualRangeChanged('price', this.value)">
-        <input type="range" id="priceMax" value="270000" oninput="dualRangeChanged('price', this.value)">
-      </div>
-      <div class="range-labels"><span class="range-min" id="priceMinLabel">$180,000</span><span class="range-max" id="priceMaxLabel">$270,000</span></div>
-    </div>
-
-    <div class="fgroup">
-      <label class="fg-label" id="yearLabel">Año: 2018 – 2026</label>
-      <div class="dual-range" id="yearRange">
-        <div class="range-track"></div>
-        <input type="range" id="yearMin" value="2018" oninput="dualRangeChanged('year', this.value)">
-        <input type="range" id="yearMax" value="2026" oninput="dualRangeChanged('year', this.value)">
-      </div>
-      <div class="range-labels"><span class="range-min" id="yearMinLabel">2018</span><span class="range-max" id="yearMaxLabel">2026</span></div>
-    </div>
-    </div>
-
-  <div class="grid" id="grid"></div>
+    <div class="grid" id="grid"></div>
   </div>
 
   <div class="footer">Actualización diaria 6:00 AM (Tepic)</div>
+</div>
+
+<!-- ============ MODAL DE FILTROS (a pantalla completa) ============ -->
+<div class="filter-modal" id="filterModal">
+  <div class="fm-head">
+    <span class="ft">Filtros</span>
+    <button class="fm-close" onclick="closeFilterModal()" aria-label="Cerrar">✕</button>
+  </div>
+  <div class="fm-scroll">
+    <div class="fm-body">
+      <div class="fgroup">
+        <label class="fg-label">Marca</label>
+        <div class="seg" id="segBrand"><button class="pill" data-active="true" data-val="" onclick="selectPill('segBrand',this)">Todas</button></div>
+      </div>
+
+      <div class="fgroup">
+        <label class="fg-label" for="filterModel">Modelo</label>
+        <select class="select-native" id="filterModel" onchange="applyFiltersModal()"></select>
+      </div>
+
+      <div class="fgroup">
+        <label class="fg-label">Motor</label>
+        <div class="seg" id="segFuel">
+          <button class="pill" data-active="true" data-val="" onclick="selectPill('segFuel',this)">Todos</button>
+          <button class="pill" data-active="false" data-val="gasolina" onclick="selectPill('segFuel',this)">Gasolina</button>
+          <button class="pill" data-active="false" data-val="hibrido" onclick="selectPill('segFuel',this)">Híbrido</button>
+        </div>
+      </div>
+
+      <div class="fgroup">
+        <label class="fg-label">Fuente</label>
+        <div class="seg" id="segSource">
+          <button class="pill" data-active="true" data-val="" onclick="selectPill('segSource',this)">Todas</button>
+          <button class="pill" data-active="false" data-val="mercadolibre" onclick="selectPill('segSource',this)">Mercado Libre</button>
+          <button class="pill" data-active="false" data-val="seminuevos" onclick="selectPill('segSource',this)">SemiNuevos</button>
+        </div>
+      </div>
+
+      <div class="fgroup">
+        <label class="fg-label" for="filterKm">Kilometraje máx.</label>
+        <select class="select-native" id="filterKm" onchange="applyFiltersModal()"></select>
+      </div>
+
+      <div class="fgroup">
+        <label class="fg-label" id="priceLabel">Precio</label>
+        <div class="dual-range" id="priceRange">
+          <div class="range-track"></div>
+          <input type="range" id="priceMin" value="180000" oninput="dualRangeChanged('price', this.value)">
+          <input type="range" id="priceMax" value="270000" oninput="dualRangeChanged('price', this.value)">
+        </div>
+        <div class="range-labels"><span class="range-min" id="priceMinLabel">$180,000</span><span class="range-max" id="priceMaxLabel">$270,000</span></div>
+      </div>
+
+      <div class="fgroup">
+        <label class="fg-label" id="yearLabel">Año</label>
+        <div class="dual-range" id="yearRange">
+          <div class="range-track"></div>
+          <input type="range" id="yearMin" value="2018" oninput="dualRangeChanged('year', this.value)">
+          <input type="range" id="yearMax" value="2026" oninput="dualRangeChanged('year', this.value)">
+        </div>
+        <div class="range-labels"><span class="range-min" id="yearMinLabel">2018</span><span class="range-max" id="yearMaxLabel">2026</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="fm-footer">
+    <button class="fm-cancel" onclick="closeFilterModal()">Cancelar</button>
+    <button class="fm-apply" onclick="applyFilterModal()">Aplicar</button>
+  </div>
 </div>
 
 <script>
@@ -698,7 +693,7 @@ function selectPill(segId, clicked) {
   const seg = document.getElementById(segId);
   for (const btn of seg.querySelectorAll('.pill')) btn.dataset.active = (btn === clicked) ? 'true' : 'false';
   if (segId === 'segBrand') populateModelSelect();
-  applyFilters();
+  // la hoja de edición no aplica nada en vivo: solo espera a Aplicar
 }
 
 function dualRangeChanged(group, val) {
@@ -732,7 +727,6 @@ function updateRangeUI(group, type) {
   document.getElementById(group + 'MaxLabel').textContent = fmt(hi);
   document.getElementById(group + 'Label').textContent =
     (group === 'price' ? 'Precio: ' : 'Año: ') + fmt(lo) + ' – ' + fmt(hi);
-  applyFilters();
 }
 
 function currentFilterState() {
@@ -745,9 +739,20 @@ function currentFilterState() {
     minPrice: parseInt(document.getElementById('priceMin').value),
     maxPrice: parseInt(document.getElementById('priceMax').value),
     minYear: parseInt(document.getElementById('yearMin').value),
-    maxYear: parseInt(document.getElementById('yearMax').value),
-    search: document.getElementById('filterSearch').value.toLowerCase().trim()
+    maxYear: parseInt(document.getElementById('yearMax').value)
   };
+}
+
+function activeFilterCount(f) {
+  let count = 0;
+  if (f.brand) count++;
+  if (f.model) count++;
+  if (f.fuel) count++;
+  if (f.source) count++;
+  if (f.maxKm) count++;
+  if (f.minYear !== parseInt(document.getElementById('yearMin').min) || f.maxYear !== parseInt(document.getElementById('yearMax').max)) count++;
+  if (f.minPrice !== parseInt(document.getElementById('priceMin').min) || f.maxPrice !== parseInt(document.getElementById('priceMax').max)) count++;
+  return count;
 }
 
 function applyFilters() {
@@ -762,34 +767,19 @@ function applyFilters() {
     if (f.maxPrice && (!c.price_int || c.price_int > f.maxPrice)) return false;
     if (f.minYear) { const y = parseInt(c.year); if (isNaN(y) || y < f.minYear) return false; }
     if (f.maxYear) { const y = parseInt(c.year); if (isNaN(y) || y > f.maxYear) return false; }
-    if (f.search) {
-      const t = (c.title || '').toLowerCase();
-      const m = getModel(c) ? getModel(c).toLowerCase() : '';
-      const b = (c.brand || '').toLowerCase();
-      if (!t.includes(f.search) && !m.includes(f.search) && !b.includes(f.search)) return false;
-    }
     return true;
   });
 
-  // Active filter count
-  let count = 0;
-  if (f.brand) count++;
-  if (f.model) count++;
-  if (f.fuel) count++;
-  if (f.source) count++;
-  if (f.maxKm) count++;
-  if (f.minYear !== parseInt(document.getElementById('yearMin').min) || f.maxYear !== parseInt(document.getElementById('yearMax').max)) count++;
-  if (f.minPrice !== parseInt(document.getElementById('priceMin').min) || f.maxPrice !== parseInt(document.getElementById('priceMax').max)) count++;
-  if (f.search) count++;
-  document.getElementById('filterCount').textContent = count;
-  const tgl = document.getElementById('filterCountToggle');
-  tgl.textContent = count;
-  tgl.dataset.zero = (count === 0) ? '1' : '0';
-  document.getElementById('clearAll').disabled = (count === 0);
+  // Contador de filtros activos -> controla visibilidad del badge y del botón Limpiar
+  const count = activeFilterCount(f);
+  document.getElementById('navClearBtn').disabled = (count === 0);
 
   const groups = groupAds(filtered);
-  document.getElementById('resultsCount').textContent =
-    groups.length + (groups.length === 1 ? ' auto' : ' autos');
+  // El badge del botón "Filtros(n)" muestra el Nº DE AUTOS RESULTANTES,
+  // no el nº de filtros. Solo visible si hay filtros activos (data-zero=1 si no).
+  const navC = document.getElementById('navResultCount');
+  navC.textContent = groups.length;
+  navC.dataset.zero = (count === 0) ? '1' : '0';
   renderGrid(groups);
 }
 
@@ -799,13 +789,60 @@ function resetFilters() {
   document.getElementById('segSource').querySelectorAll('.pill').forEach(b => b.dataset.active = (b.dataset.val === ''));
   document.getElementById('filterModel').value = '';
   document.getElementById('filterKm').value = '';
-  document.getElementById('filterSearch').value = '';
   const pmin = document.getElementById('priceMin'), pmax = document.getElementById('priceMax');
   pmin.value = pmin.min; pmax.value = pmax.max; updateRangeUI('price', 'price');
   const ymin = document.getElementById('yearMin'), ymax = document.getElementById('yearMax');
   ymin.value = ymin.min; ymax.value = ymax.max; updateRangeUI('year', 'year');
   populateModelSelect();
   applyFilters();
+}
+
+/* ===== Modal de filtros ===== */
+// Snapshot del estado de filtros al abrir el modal: Cancelar restaura a este
+// estado (que NO es necesariamente el limpio). Aplicar conserva lo editado.
+let filterSnapshot = null;
+
+function setPillActive(segId, val) {
+  const seg = document.getElementById(segId);
+  for (const btn of seg.querySelectorAll('.pill')) btn.dataset.active = (btn.dataset.val === val) ? 'true' : 'false';
+}
+
+// Aplica un estado (objeto de currentFilterState) a los inputs del modal.
+function applyStateToInputs(f) {
+  setPillActive('segBrand', f.brand);
+  setPillActive('segFuel', f.fuel);
+  setPillActive('segSource', f.source);
+  document.getElementById('filterModel').value = f.model;
+  document.getElementById('filterKm').value = f.maxKm ? String(f.maxKm) : '';
+  document.getElementById('priceMin').value = f.minPrice;
+  document.getElementById('priceMax').value = f.maxPrice;
+  document.getElementById('yearMin').value = f.minYear;
+  document.getElementById('yearMax').value = f.maxYear;
+  populateModelSelect(); // refleja la marca restaurada (modelos en cascada)
+  updateRangeUI('price', 'price');
+  updateRangeUI('year', 'year');
+}
+
+function openFilterModal() {
+  filterSnapshot = currentFilterState(); // estado previo a editar
+  document.getElementById('filterModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeFilterModal() {
+  // Cancelar (y la X): devuelve los filtros a su estado anterior, no los limpia.
+  if (filterSnapshot) applyStateToInputs(filterSnapshot);
+  filterSnapshot = null;
+  document.getElementById('filterModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+function applyFiltersModal() {
+  // la hoja de edición: sin acción en vivo
+}
+function applyFilterModal() {
+  document.getElementById('filterModal').classList.remove('open');
+  document.body.style.overflow = '';
+  filterSnapshot = null;
+  applyFilters(); // confirma solo lo editado, sin restaurar nada
 }
 
 function switchTab(tab) {
@@ -815,14 +852,6 @@ function switchTab(tab) {
   ['pane-hoy', 'pane-todos', 'pane-top10'].forEach(id => {
     document.getElementById(id).classList.toggle('active', id === 'pane-' + tab);
   });
-}
-
-function toggleFilters() {
-  const btn = document.getElementById('filtersToggle');
-  const panel = document.getElementById('filtersPanel');
-  const open = btn.classList.toggle('open');
-  panel.classList.toggle('open', open);
-  btn.setAttribute('aria-expanded', open ? 'true' : 'false');
 }
 
 const RANK_LABELS = { precio: 'Precio', combustible: 'Consumo', km: 'Km', anio: 'Año' };
@@ -981,5 +1010,3 @@ function renderGrid(groups) {
 
 loadData();
 </script>
-</body>
-</html>
