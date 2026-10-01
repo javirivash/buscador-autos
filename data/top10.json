@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T00:41:03.017138Z",
+  "generated_at": "2026-10-01T08:49:11.717798Z",
   "weights": {
     "precio": 0.4,
     "combustible": 0.3,
@@ -29,6 +29,9 @@
         "km": 9.5,
         "anio": 11.1
       },
+      "_trans_status": "AT",
+      "_fuel": 18.76,
+      "_fuel_status": "OK",
       "rank": 1,
       "ads": [
         {
@@ -44,7 +47,10 @@
           "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2492026/4835414/o_o/pt_4835414_1790294271956_810.jpg",
           "transmission": "unknown",
           "brand": "Kia",
-          "group_id": "g-f8fb7b19bf"
+          "group_id": "g-f8fb7b19bf",
+          "_trans_status": "AT",
+          "_fuel": 18.76,
+          "_fuel_status": "OK"
         }
       ]
     },
@@ -115,6 +121,9 @@
         "km": 41.0,
         "anio": 0.0
       },
+      "_trans_status": "AT",
+      "_fuel": 15.89,
+      "_fuel_status": "OK",
       "rank": 3,
       "ads": [
         {
@@ -130,7 +139,10 @@
           "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/3182026/4828567/o_o/pt_4828567_1788197488836_50.jpg",
           "transmission": "unknown",
           "brand": "Kia",
-          "group_id": "g-abcb94067d"
+          "group_id": "g-abcb94067d",
+          "_trans_status": "AT",
+          "_fuel": 15.89,
+          "_fuel_status": "OK"
         }
       ]
     },
@@ -201,6 +213,9 @@
         "km": 100.0,
         "anio": 100.0
       },
+      "_trans_status": "AT",
+      "_fuel": 19.16,
+      "_fuel_status": "OK",
       "rank": 5,
       "ads": [
         {
@@ -216,7 +231,10 @@
           "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2152026/4798682/o_o/pt_4798682_1779336178737_961.jpg",
           "transmission": "unknown",
           "brand": "Kia",
-          "group_id": "g-bd5bedc71a"
+          "group_id": "g-bd5bedc71a",
+          "_trans_status": "AT",
+          "_fuel": 19.16,
+          "_fuel_status": "OK"
         }
       ]
     },

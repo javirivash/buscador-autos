@@ -1264,16 +1264,16 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3463500773-hyundai-grand-i10-12-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=44&type=item&tracking_id=4b315b09-aee3-4e28-bfcd-6b843bbdb24d&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_757892-MLM115879010492_092026-E.webp",
       "group_id": "g-8c9ba9830f",
-      "_score": 40.2,
+      "_score": 35.6,
       "_components": {
         "precio": 0.5,
-        "combustible": 50.0,
+        "combustible": 34.6,
         "km": 80.7,
         "anio": 88.9
       },
-      "_trans_status": "ND",
-      "_fuel": null,
-      "_fuel_status": "ND"
+      "_trans_status": "AT",
+      "_fuel": 15.4,
+      "_fuel_status": "OK"
     },
     {
       "id": "ml-3483742649",
@@ -2016,16 +2016,16 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3463500773-hyundai-grand-i10-12-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=44&type=item&tracking_id=4b315b09-aee3-4e28-bfcd-6b843bbdb24d&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_757892-MLM115879010492_092026-E.webp",
       "group_id": "g-8c9ba9830f",
-      "_score": 40.2,
+      "_score": 35.6,
       "_components": {
         "precio": 0.5,
-        "combustible": 50.0,
+        "combustible": 34.6,
         "km": 80.7,
         "anio": 88.9
       },
-      "_trans_status": "ND",
-      "_fuel": null,
-      "_fuel_status": "ND"
+      "_trans_status": "AT",
+      "_fuel": 15.4,
+      "_fuel_status": "OK"
     },
     {
       "id": "ml-6155674704",
