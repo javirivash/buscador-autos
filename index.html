@@ -56,40 +56,51 @@
     content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--green);
   }
   .nav-update b { font-weight: 600; color: var(--text-secondary); }
-  /* Fila 3: filtros + limpiar (izq) / ordenar (der) */
+  /* Fila 3: Filtros + Limpiar (botones) / Ordenar (texto azul, ocupa el ancho restante) */
   .nav-controls {
-    display: flex; align-items: center; justify-content: space-between; gap: 10px;
+    display: flex; align-items: center; justify-content: space-between; gap: 8px;
     padding: 7px 10px 8px;
   }
-  .nf-left { display: flex; align-items: center; gap: 8px; }
-  .nf-open {
-    display: inline-flex; align-items: center; gap: 6px;
-    background: var(--accent-soft); color: var(--accent-strong);
-    border: none; border-radius: 999px; padding: 7px 12px;
-    font-size: 12.5px; font-weight: 700; font-family: inherit; cursor: pointer;
-    transition: all .15s;
+  .nf-open { /* Botón primario (diseño de botón, no badge) */
+    flex: 0 0 auto;
+    display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+    background: var(--accent); color: #fff;
+    border: none; border-radius: var(--radius-sm);
+    padding: 9px 16px; font-size: 13px; font-weight: 700; font-family: inherit; cursor: pointer;
+    transition: background .15s;
   }
-  .nf-open:hover { filter: brightness(.97); }
+  .nf-open:hover { background: var(--accent-strong); }
   .nf-count {
-    font-size: 10.5px; font-weight: 700; color: #fff; background: var(--accent);
-    border-radius: 999px; min-width: 18px; height: 18px; display: inline-flex;
+    font-size: 10.5px; font-weight: 700; color: var(--accent-strong); background: #fff;
+    border-radius: 999px; min-width: 24px; height: 18px; display: inline-flex;
     align-items: center; justify-content: center; padding: 0 5px;
     font-variant-numeric: tabular-nums;
   }
-  .nf-count[data-zero="1"] { display: none; }
-  .nf-clear {
-    background: none; border: none; color: var(--text-secondary);
-    font-size: 12.5px; font-weight: 600; font-family: inherit; cursor: pointer; padding: 7px 8px;
+  /* Oculto sin quitar del flujo: Filtros mantiene su ancho y no "brinca" */
+  .nf-count[data-zero="1"] { visibility: hidden; }
+  .nf-clear { /* Botón secundario */
+    flex: 0 0 auto;
+    display: inline-flex; align-items: center; justify-content: center; gap: 4px;
+    background: var(--accent-soft); color: var(--accent-strong);
+    border: none; border-radius: var(--radius-sm);
+    padding: 9px 14px; font-size: 13px; font-weight: 600; font-family: inherit; cursor: pointer;
+    transition: background .15s;
   }
-  .nf-clear:disabled { color: var(--text-muted); opacity: .55; cursor: default; }
-  .nf-wrap { border: 1px solid var(--border); border-radius: 8px; background: var(--surface); }
+  .nf-clear:hover:not(:disabled) { background: var(--accent); color: #fff; }
+  .nf-clear:disabled { background: transparent; color: var(--text-muted); opacity: .55; cursor: default; }
+  .nf-wrap { /* Ordenar: sin borde, letra azul, flexible para ocupar la fila */
+    flex: 1 1 0; min-width: 0;
+    display: flex; align-items: center; justify-content: center;
+    background: transparent; border: none;
+  }
   .nf-wrap label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); } /* a11y */
   .nf-sort {
-    background: transparent; color: var(--text);
-    border: 1px solid var(--border); border-radius: 8px;
-    padding: 7px 10px; font-size: 12.5px; font-family: inherit; outline: none;
-    appearance: none; cursor: pointer; min-width: 0; flex: 1;
+    appearance: none; background: transparent; color: var(--accent-strong);
+    border: none; outline: none; cursor: pointer;
+    font-size: 13px; font-weight: 600; font-family: inherit;
+    width: 100%; text-align: center; text-overflow: ellipsis; white-space: nowrap;
   }
+  .nf-sort:hover { color: var(--accent); }
 
   /* ============ TABS ============ */
   .tabs {
@@ -124,18 +135,6 @@
     display: none; flex-direction: column;
   }
   .filter-modal.open { display: flex; }
-  .fm-head {
-    display: flex; justify-content: space-between; align-items: center;
-    padding: 12px 14px; background: var(--accent-soft);
-  }
-  .fm-head .ft {
-    font-size: 14px; font-weight: 800; color: var(--accent-strong);
-    display: flex; align-items: center; gap: 6px; letter-spacing: .01em;
-  }
-  .fm-close {
-    background: none; border: none; color: var(--text-secondary); cursor: pointer;
-    font-size: 15px; font-weight: 700; padding: 4px 8px; line-height: 1;
-  }
   .fm-scroll { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; }
   .fm-body { display: flex; flex-direction: column; gap: 10px; padding: 14px; }
   .fgroup { display: flex; flex-direction: column; gap: 8px; }
@@ -195,22 +194,22 @@
   }
   .range-labels .range-min, .range-labels .range-max { font-variant-numeric: tabular-nums; }
 
-  /* Footer fijo del modal */
+  /* Footer fijo del modal: Cancelar / Aplicar al 50% */
   .fm-footer {
-    display: flex; justify-content: flex-end; gap: 10px; align-items: center;
+    display: flex; gap: 10px; align-items: center;
     padding: 14px 16px; background: var(--accent-soft); border-top: 1px solid var(--border);
     flex-shrink: 0;
   }
   .fm-cancel {
     background: var(--surface); color: var(--text);
     border: 1px solid var(--border-strong); border-radius: var(--radius-sm);
-    padding: 11px 20px; font-size: 14px; font-weight: 600; font-family: inherit;
+    padding: 11px 0; font-size: 14px; font-weight: 600; font-family: inherit;
     cursor: pointer; flex: 1;
   }
   .fm-apply {
     background: var(--accent); color: #fff; border: none; border-radius: var(--radius-sm);
-    padding: 11px 20px; font-size: 14px; font-weight: 700; font-family: inherit;
-    cursor: pointer; flex: 2;
+    padding: 11px 0; font-size: 14px; font-weight: 700; font-family: inherit;
+    cursor: pointer; flex: 1;
   }
 
   /* ============ GRID ============ */
@@ -346,7 +345,6 @@
     .pill { padding: 6px 12px; font-size: 12.5px; }
     .nav-update { font-size: 10.5px; }
     .nav-controls { gap: 8px; }
-    .nf-sort { max-width: 118px; }
   }
 </style>
 </head>
@@ -369,10 +367,8 @@
 
     <!-- 3. Filtros + Limpiar (izq) / Ordenar (der) -->
     <div class="nav-controls">
-      <div class="nf-left">
-        <button class="nf-open" id="openFiltersBtn" onclick="openFilterModal()">Filtros<span class="nf-count" id="navResultCount" data-zero="1">0</span></button>
-        <button class="nf-clear" id="navClearBtn" onclick="resetFilters()" disabled>Limpiar</button>
-      </div>
+      <button class="nf-open" id="openFiltersBtn" onclick="openFilterModal()">Filtros<span class="nf-count" id="navResultCount" data-zero="1">0</span></button>
+      <button class="nf-clear" id="navClearBtn" onclick="resetFilters()" disabled>Limpiar</button>
       <span class="nf-wrap">
         <label for="sortOrder">Ordenar</label>
         <select class="nf-sort" id="sortOrder" onchange="applyFilters()">
@@ -410,10 +406,6 @@
 
 <!-- ============ MODAL DE FILTROS (a pantalla completa) ============ -->
 <div class="filter-modal" id="filterModal">
-  <div class="fm-head">
-    <span class="ft">Filtros</span>
-    <button class="fm-close" onclick="closeFilterModal()" aria-label="Cerrar">✕</button>
-  </div>
   <div class="fm-scroll">
     <div class="fm-body">
       <div class="fgroup">
