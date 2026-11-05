@@ -1,13 +1,53 @@
 {
-  "generated_at": "2026-11-04T13:09:26.165248Z",
+  "generated_at": "2026-11-05T13:08:16.897250Z",
   "weights": {
     "precio": 0.4,
     "combustible": 0.3,
     "km": 0.2,
     "anio": 0.1
   },
-  "total_count": 43,
+  "total_count": 47,
   "cars": [
+    {
+      "id": "ml-3751525643",
+      "title": "Toyota Prius C 2020 1.5 Hybrid",
+      "price": "$229,900",
+      "price_int": 229900,
+      "year": "2020",
+      "mileage": "55,000 Km",
+      "location": "Guadalajara - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Toyota",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3751525643-toyota-prius-c-15-hybrid-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=48&type=item&tracking_id=f9bd326a-55aa-4bc4-9f1e-8ecdbbbc0314&overlay_label_capability=not_apply&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_807736-MLM120808003775_112026-E.webp",
+      "group_id": "g-cb358655c4",
+      "_score": 65.3,
+      "_components": {
+        "precio": 39.9,
+        "combustible": 100.0,
+        "km": 80.2,
+        "anio": 33.3
+      },
+      "rank": 1,
+      "ads": [
+        {
+          "id": "ml-3751525643",
+          "title": "Toyota Prius C 2020 1.5 Hybrid",
+          "price": "$229,900",
+          "price_int": 229900,
+          "year": "2020",
+          "mileage": "55,000 Km",
+          "location": "Guadalajara - Jalisco",
+          "source": "mercadolibre",
+          "link": "https://auto.mercadolibre.com.mx/MLM-3751525643-toyota-prius-c-15-hybrid-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=48&type=item&tracking_id=f9bd326a-55aa-4bc4-9f1e-8ecdbbbc0314&overlay_label_capability=not_apply&sid=search",
+          "image": "https://http2.mlstatic.com/D_Q_NP_2X_807736-MLM120808003775_112026-E.webp",
+          "transmission": "automatic",
+          "brand": "Toyota",
+          "group_id": "g-cb358655c4"
+        }
+      ]
+    },
     {
       "id": "sn-4835414",
       "title": "Kia Forte",
@@ -18,21 +58,21 @@
       "location": "Zapopan",
       "source": "seminuevos",
       "brand": "Kia",
-      "transmission": "automatic",
+      "transmission": "unknown",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-zapopan-2018/4835414",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2492026/4835414/o_o/pt_4835414_1790294271956_810.jpg",
       "group_id": "g-f8fb7b19bf",
-      "_score": 63.2,
+      "_score": 62.1,
       "_components": {
-        "precio": 100.0,
+        "precio": 99.5,
         "combustible": 41.1,
-        "km": 48.8,
+        "km": 44.4,
         "anio": 11.1
       },
       "_trans_status": "AT",
       "_fuel": 18.76,
       "_fuel_status": "OK",
-      "rank": 1,
+      "rank": 2,
       "ads": [
         {
           "id": "sn-4835414",
@@ -45,12 +85,52 @@
           "source": "seminuevos",
           "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-zapopan-2018/4835414",
           "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2492026/4835414/o_o/pt_4835414_1790294271956_810.jpg",
-          "transmission": "automatic",
+          "transmission": "unknown",
           "brand": "Kia",
           "group_id": "g-f8fb7b19bf",
           "_trans_status": "AT",
           "_fuel": 18.76,
           "_fuel_status": "OK"
+        }
+      ]
+    },
+    {
+      "id": "sn-4828567",
+      "title": "Kia Forte",
+      "price": "$169,500",
+      "price_int": 169500,
+      "year": "2017",
+      "mileage": "100,000 kms.",
+      "location": "Guadalajara",
+      "source": "seminuevos",
+      "brand": "Kia",
+      "transmission": "unknown",
+      "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-guadalajara-2017/4828567",
+      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/3182026/4828567/o_o/pt_4828567_1788197488836_50.jpg",
+      "group_id": "g-abcb94067d",
+      "_score": 59.1,
+      "_components": {
+        "precio": 100.0,
+        "combustible": 21.1,
+        "km": 63.8,
+        "anio": 0.0
+      },
+      "rank": 3,
+      "ads": [
+        {
+          "id": "sn-4828567",
+          "title": "Kia Forte",
+          "price": "$169,500",
+          "price_int": 169500,
+          "year": "2017",
+          "mileage": "100,000 kms.",
+          "location": "Guadalajara",
+          "source": "seminuevos",
+          "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-guadalajara-2017/4828567",
+          "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/3182026/4828567/o_o/pt_4828567_1788197488836_50.jpg",
+          "transmission": "unknown",
+          "brand": "Kia",
+          "group_id": "g-abcb94067d"
         }
       ]
     },
@@ -65,20 +145,20 @@
       "source": "mercadolibre",
       "brand": "Toyota",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3496683411-toyota-prius-c-15-hybrid-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=28&type=item&tracking_id=3bda6d44-31ed-4239-8ef8-38a1ee7d768c&overlay_label_capability=not_apply&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3496683411-toyota-prius-c-15-hybrid-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=27&type=item&tracking_id=f9bd326a-55aa-4bc4-9f1e-8ecdbbbc0314&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_866396-MLM117670510003_092026-E.webp",
       "group_id": "g-6ba9e51102",
-      "_score": 58.8,
+      "_score": 57.3,
       "_components": {
-        "precio": 25.0,
+        "precio": 24.9,
         "combustible": 100.0,
-        "km": 77.2,
+        "km": 70.3,
         "anio": 33.3
       },
       "_trans_status": "AT",
       "_fuel": 27.23,
       "_fuel_status": "OK",
-      "rank": 2,
+      "rank": 4,
       "ads": [
         {
           "id": "ml-3496683411",
@@ -89,7 +169,7 @@
           "mileage": "81,983 Km",
           "location": "Atotonilco El Alto - Jalisco",
           "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-3496683411-toyota-prius-c-15-hybrid-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=28&type=item&tracking_id=3bda6d44-31ed-4239-8ef8-38a1ee7d768c&overlay_label_capability=not_apply&sid=search",
+          "link": "https://auto.mercadolibre.com.mx/MLM-3496683411-toyota-prius-c-15-hybrid-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=27&type=item&tracking_id=f9bd326a-55aa-4bc4-9f1e-8ecdbbbc0314&overlay_label_capability=not_apply&sid=search",
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_866396-MLM117670510003_092026-E.webp",
           "transmission": "automatic",
           "brand": "Toyota",
@@ -114,17 +194,17 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-tlaquepaque-2018/4646701",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/20241220/4646701/o_o/pt_4646701_1791472290020_484.jpg",
       "group_id": "g-d8c4c75584",
-      "_score": 57.7,
+      "_score": 56.4,
       "_components": {
-        "precio": 80.0,
+        "precio": 79.6,
         "combustible": 41.1,
-        "km": 61.2,
+        "km": 55.7,
         "anio": 11.1
       },
       "_trans_status": "AT",
       "_fuel": 18.76,
       "_fuel_status": "OK",
-      "rank": 3,
+      "rank": 5,
       "ads": [
         {
           "id": "sn-744403",
@@ -157,20 +237,20 @@
       "source": "mercadolibre",
       "brand": "Toyota",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6509335234-toyota-prius-c-15-hybrid-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=47&type=item&tracking_id=3bda6d44-31ed-4239-8ef8-38a1ee7d768c&overlay_label_capability=not_apply&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6509335234-toyota-prius-c-15-hybrid-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=46&type=item&tracking_id=f9bd326a-55aa-4bc4-9f1e-8ecdbbbc0314&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_902240-MLM120626752431_112026-E.webp",
       "group_id": "g-e11a32c8a2",
-      "_score": 51.2,
+      "_score": 49.6,
       "_components": {
         "precio": 0.1,
         "combustible": 100.0,
-        "km": 89.2,
+        "km": 81.3,
         "anio": 33.3
       },
       "_trans_status": "AT",
       "_fuel": 27.23,
       "_fuel_status": "OK",
-      "rank": 4,
+      "rank": 6,
       "ads": [
         {
           "id": "ml-6509335234",
@@ -181,7 +261,7 @@
           "mileage": "52,000 Km",
           "location": "Guadalajara - Jalisco",
           "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-6509335234-toyota-prius-c-15-hybrid-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=47&type=item&tracking_id=3bda6d44-31ed-4239-8ef8-38a1ee7d768c&overlay_label_capability=not_apply&sid=search",
+          "link": "https://auto.mercadolibre.com.mx/MLM-6509335234-toyota-prius-c-15-hybrid-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=46&type=item&tracking_id=f9bd326a-55aa-4bc4-9f1e-8ecdbbbc0314&overlay_label_capability=not_apply&sid=search",
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_902240-MLM120626752431_112026-E.webp",
           "transmission": "automatic",
           "brand": "Toyota",
@@ -203,20 +283,20 @@
       "source": "mercadolibre",
       "brand": "Toyota",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6509414568-toyota-prius-c-15-hybrid-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=48&type=item&tracking_id=3bda6d44-31ed-4239-8ef8-38a1ee7d768c&overlay_label_capability=not_apply&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6509414568-toyota-prius-c-15-hybrid-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=47&type=item&tracking_id=f9bd326a-55aa-4bc4-9f1e-8ecdbbbc0314&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_766956-MLM120629970949_112026-E.webp",
       "group_id": "g-07465b1274",
-      "_score": 50.8,
+      "_score": 49.3,
       "_components": {
         "precio": 0.1,
         "combustible": 100.0,
-        "km": 87.2,
+        "km": 79.4,
         "anio": 33.3
       },
       "_trans_status": "AT",
       "_fuel": 27.23,
       "_fuel_status": "OK",
-      "rank": 5,
+      "rank": 7,
       "ads": [
         {
           "id": "ml-6509414568",
@@ -227,7 +307,7 @@
           "mileage": "57,000 Km",
           "location": "Guadalajara - Jalisco",
           "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-6509414568-toyota-prius-c-15-hybrid-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=48&type=item&tracking_id=3bda6d44-31ed-4239-8ef8-38a1ee7d768c&overlay_label_capability=not_apply&sid=search",
+          "link": "https://auto.mercadolibre.com.mx/MLM-6509414568-toyota-prius-c-15-hybrid-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=47&type=item&tracking_id=f9bd326a-55aa-4bc4-9f1e-8ecdbbbc0314&overlay_label_capability=not_apply&sid=search",
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_766956-MLM120629970949_112026-E.webp",
           "transmission": "automatic",
           "brand": "Toyota",
@@ -252,17 +332,17 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3715597133-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-2710-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=4&type=item&tracking_id=71cd88fa-e53a-41f0-816f-ca4bfc4da2cc&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_877438-MLM118632082864_102026-E.webp",
       "group_id": "g-05c7a196e5",
-      "_score": 50.2,
+      "_score": 48.9,
       "_components": {
-        "precio": 76.0,
+        "precio": 75.6,
         "combustible": 23.9,
-        "km": 62.9,
+        "km": 57.3,
         "anio": 0.0
       },
       "_trans_status": "AT",
       "_fuel": 16.3,
       "_fuel_status": "OK",
-      "rank": 6,
+      "rank": 8,
       "ads": [
         {
           "id": "ml-3715597133",
@@ -298,17 +378,17 @@
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris_r-guadalajara-2018/4805639",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026612/4805639/o_o/pt_4805639_1781297665284.jpeg",
       "group_id": "g-4860c0a333",
-      "_score": 49.4,
+      "_score": 48.0,
       "_components": {
-        "precio": 45.0,
+        "precio": 44.8,
         "combustible": 50.4,
-        "km": 76.0,
+        "km": 69.2,
         "anio": 11.1
       },
       "_trans_status": "AT",
       "_fuel": 20.1,
       "_fuel_status": "OK",
-      "rank": 7,
+      "rank": 9,
       "ads": [
         {
           "id": "sn-964017",
@@ -341,20 +421,20 @@
       "source": "mercadolibre",
       "brand": "Mazda",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3747183371-mazda-mazda-2-15-i-touring-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=39&type=item&tracking_id=51be0e41-b627-475f-9324-ea59676dfa1e&overlay_label_capability=not_apply&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3747183371-mazda-mazda-2-15-i-touring-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=9&type=item&tracking_id=dcfe28aa-173d-4b1d-b712-40cc217bafa5&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_862267-MLM120755070431_112026-E.webp",
       "group_id": "g-8d0463fb72",
-      "_score": 49.2,
+      "_score": 47.5,
       "_components": {
-        "precio": 41.0,
+        "precio": 40.8,
         "combustible": 42.7,
-        "km": 88.6,
+        "km": 80.7,
         "anio": 22.2
       },
       "_trans_status": "AT",
       "_fuel": 19.0,
       "_fuel_status": "OK",
-      "rank": 8,
+      "rank": 10,
       "ads": [
         {
           "id": "ml-3747183371",
@@ -365,105 +445,13 @@
           "mileage": "53,532 Km",
           "location": "Tlaquepaque - Jalisco",
           "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-3747183371-mazda-mazda-2-15-i-touring-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=39&type=item&tracking_id=51be0e41-b627-475f-9324-ea59676dfa1e&overlay_label_capability=not_apply&sid=search",
+          "link": "https://auto.mercadolibre.com.mx/MLM-3747183371-mazda-mazda-2-15-i-touring-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=9&type=item&tracking_id=dcfe28aa-173d-4b1d-b712-40cc217bafa5&overlay_label_capability=not_apply&sid=search",
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_862267-MLM120755070431_112026-E.webp",
           "transmission": "automatic",
           "brand": "Mazda",
           "group_id": "g-8d0463fb72",
           "_trans_status": "AT",
           "_fuel": 19.0,
-          "_fuel_status": "OK"
-        }
-      ]
-    },
-    {
-      "id": "ml-6490627530",
-      "title": "Mazda Mazda 2 2019 1.5 I Grand Touring At",
-      "price": "$227,000",
-      "price_int": 227000,
-      "year": "2019",
-      "mileage": "70,000 Km",
-      "location": "Guadalajara - Jalisco",
-      "source": "mercadolibre",
-      "brand": "Mazda",
-      "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6490627530-mazda-mazda-2-15-i-grand-touring-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=47&type=item&tracking_id=2a56308e-84a8-4fee-9142-8ab2e7ee1e0d&overlay_label_capability=not_apply&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_773542-MLM118699687594_102026-E.webp",
-      "group_id": "g-cc10c7609f",
-      "_score": 48.6,
-      "_components": {
-        "precio": 43.0,
-        "combustible": 42.7,
-        "km": 82.0,
-        "anio": 22.2
-      },
-      "_trans_status": "AT",
-      "_fuel": 19.0,
-      "_fuel_status": "OK",
-      "rank": 9,
-      "ads": [
-        {
-          "id": "ml-6490627530",
-          "title": "Mazda Mazda 2 2019 1.5 I Grand Touring At",
-          "price": "$227,000",
-          "price_int": 227000,
-          "year": "2019",
-          "mileage": "70,000 Km",
-          "location": "Guadalajara - Jalisco",
-          "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-6490627530-mazda-mazda-2-15-i-grand-touring-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=47&type=item&tracking_id=2a56308e-84a8-4fee-9142-8ab2e7ee1e0d&overlay_label_capability=not_apply&sid=search",
-          "image": "https://http2.mlstatic.com/D_Q_NP_2X_773542-MLM118699687594_102026-E.webp",
-          "transmission": "automatic",
-          "brand": "Mazda",
-          "group_id": "g-cc10c7609f",
-          "_trans_status": "AT",
-          "_fuel": 19.0,
-          "_fuel_status": "OK"
-        }
-      ]
-    },
-    {
-      "id": "ml-6501760126",
-      "title": "Mazda Mazda 2 2021 1.5 I Touring At",
-      "price": "$239,000",
-      "price_int": 239000,
-      "year": "2021",
-      "mileage": "71,000 Km",
-      "location": "Guadalajara - Jalisco",
-      "source": "mercadolibre",
-      "brand": "Mazda",
-      "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6501760126-mazda-mazda-2-15-i-touring-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=24&type=item&tracking_id=225c24cc-3195-4969-af72-19a2011c80bf&overlay_label_capability=not_apply&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_945642-MLM118816113560_102026-E.webp",
-      "group_id": "g-65a2fb7279",
-      "_score": 48.5,
-      "_components": {
-        "precio": 31.0,
-        "combustible": 51.1,
-        "km": 81.6,
-        "anio": 44.4
-      },
-      "_trans_status": "AT",
-      "_fuel": 20.2,
-      "_fuel_status": "OK",
-      "rank": 10,
-      "ads": [
-        {
-          "id": "ml-6501760126",
-          "title": "Mazda Mazda 2 2021 1.5 I Touring At",
-          "price": "$239,000",
-          "price_int": 239000,
-          "year": "2021",
-          "mileage": "71,000 Km",
-          "location": "Guadalajara - Jalisco",
-          "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-6501760126-mazda-mazda-2-15-i-touring-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=24&type=item&tracking_id=225c24cc-3195-4969-af72-19a2011c80bf&overlay_label_capability=not_apply&sid=search",
-          "image": "https://http2.mlstatic.com/D_Q_NP_2X_945642-MLM118816113560_102026-E.webp",
-          "transmission": "automatic",
-          "brand": "Mazda",
-          "group_id": "g-65a2fb7279",
-          "_trans_status": "AT",
-          "_fuel": 20.2,
           "_fuel_status": "OK"
         }
       ]
