@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T13:08:34.778688Z",
+  "generated_at": "2026-11-09T13:09:15.328929Z",
   "criterios": {
     "marcas": [
       "Toyota",
@@ -22,7 +22,7 @@
       "Jalisco"
     ]
   },
-  "total_count": 54,
+  "total_count": 52,
   "new_count": 1,
   "cars": [
     {
@@ -35,15 +35,15 @@
       "location": "Zapopan",
       "source": "seminuevos",
       "brand": "Kia",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-forte-zapopan-2018/4835414",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2492026/4835414/o_o/pt_4835414_1790294271956_810.jpg",
       "group_id": "g-f8fb7b19bf",
-      "_score": 61.1,
+      "_score": 61.9,
       "_components": {
         "precio": 100.0,
         "combustible": 36.9,
-        "km": 44.4,
+        "km": 48.8,
         "anio": 11.1
       },
       "_trans_status": "AT",
@@ -64,11 +64,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6540151616-mazda-mazda6-i-grand-touring-plus-25-lt-tratocar-12552-0611-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=11&type=item&tracking_id=aa0ae593-d214-4b7a-92ab-9a851971f93f&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_635014-MLM119244454228_112026-E.webp",
       "group_id": "g-05c7a196e5",
-      "_score": 47.4,
+      "_score": 48.5,
       "_components": {
         "precio": 76.0,
         "combustible": 18.6,
-        "km": 57.3,
+        "km": 62.9,
         "anio": 0.0
       },
       "_trans_status": "AT",
@@ -89,11 +89,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-soul_ex-guadalajara-2017/4845449",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/27102026/4845449/o_o/pt_4845449_1793140869032_584.jpg",
       "group_id": "g-8e38d7664b",
-      "_score": 45.3,
+      "_score": 46.4,
       "_components": {
         "precio": 70.5,
         "combustible": 19.5,
-        "km": 56.1,
+        "km": 61.6,
         "anio": 0.0
       },
       "_trans_status": "AT",
@@ -114,11 +114,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-soul-guadalajara-2019/4842409",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/18102026/4842409/o_o/pt_4842409_1792347345358_734.jpg",
       "group_id": "g-054e9dcd1b",
-      "_score": 45.2,
+      "_score": 46.4,
       "_components": {
         "precio": 60.5,
         "combustible": 19.5,
-        "km": 64.5,
+        "km": 70.8,
         "anio": 22.2
       },
       "_trans_status": "AT",
@@ -139,11 +139,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3712282385-kia-forte-20-sx-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=43&type=item&tracking_id=21714e56-79b5-44fc-8b40-505c00143cbd&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_747957-MLM118595064520_102026-E.webp",
       "group_id": "g-9ca26c0b87",
-      "_score": 42.0,
+      "_score": 43.2,
       "_components": {
         "precio": 60.2,
         "combustible": 14.2,
-        "km": 62.7,
+        "km": 68.8,
         "anio": 11.1
       },
       "_trans_status": "AT",
@@ -164,11 +164,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6347776280-mazda-mazda-6-25-i-sport-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=15&type=item&tracking_id=aa0ae593-d214-4b7a-92ab-9a851971f93f&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_843715-MLM117658398276_102026-E.webp",
       "group_id": "g-b7b170498f",
-      "_score": 41.1,
+      "_score": 42.4,
       "_components": {
         "precio": 55.5,
         "combustible": 18.6,
-        "km": 66.7,
+        "km": 73.2,
         "anio": 0.0
       },
       "_trans_status": "AT",
@@ -189,11 +189,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3651801309-kia-sorento-24-ex-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=42&type=item&tracking_id=075691e3-d9ab-4c24-bbab-494707824ef0&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_989707-MLM119371702431_102026-E.webp",
       "group_id": "g-5fdc430f16",
-      "_score": 35.7,
+      "_score": 36.8,
       "_components": {
         "precio": 55.0,
         "combustible": 2.5,
-        "km": 59.0,
+        "km": 64.8,
         "anio": 11.1
       },
       "_trans_status": "AT",
@@ -214,11 +214,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-soul-guadalajara-2020/4836857",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/3092026/4836857/o_o/pt_4836857_1790971181227_986.jpg",
       "group_id": "g-6826bb1d11",
-      "_score": 43.1,
+      "_score": 44.5,
       "_components": {
         "precio": 52.0,
         "combustible": 17.1,
-        "km": 69.2,
+        "km": 76.0,
         "anio": 33.3
       },
       "_trans_status": "AT",
@@ -239,11 +239,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-yaris_r-guadalajara-2018/4805639",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026612/4805639/o_o/pt_4805639_1781297665284.jpeg",
       "group_id": "g-4860c0a333",
-      "_score": 47.0,
+      "_score": 48.4,
       "_components": {
         "precio": 45.0,
         "combustible": 46.9,
-        "km": 69.2,
+        "km": 76.0,
         "anio": 11.1
       },
       "_trans_status": "AT",
@@ -264,11 +264,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6490627530-mazda-mazda-2-15-i-grand-touring-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=26&type=item&tracking_id=6a3e6704-05ba-4014-b184-bccf78470cd6&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_773542-MLM118699687594_102026-E.webp",
       "group_id": "g-cc10c7609f",
-      "_score": 46.0,
+      "_score": 47.4,
       "_components": {
         "precio": 43.0,
         "combustible": 38.7,
-        "km": 74.7,
+        "km": 82.0,
         "anio": 22.2
       },
       "_trans_status": "AT",
@@ -289,11 +289,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-sorento-guadalajara-2017/4820085",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/182026/4820085/o_o/pt_4820085_1785542629325_987.jpg",
       "group_id": "g-acee204ed8",
-      "_score": 29.9,
+      "_score": 31.2,
       "_components": {
         "precio": 42.0,
         "combustible": 2.5,
-        "km": 61.9,
+        "km": 68.0,
         "anio": 0.0
       },
       "_trans_status": "AT",
@@ -314,11 +314,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3747183371-mazda-mazda-2-15-i-touring-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=13&type=item&tracking_id=87b22d65-c387-47f8-8cef-7270ec3acccc&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_862267-MLM120755070431_112026-E.webp",
       "group_id": "g-8d0463fb72",
-      "_score": 46.4,
+      "_score": 47.9,
       "_components": {
         "precio": 41.0,
         "combustible": 38.7,
-        "km": 80.7,
+        "km": 88.6,
         "anio": 22.2
       },
       "_trans_status": "AT",
@@ -339,11 +339,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-soul-guadalajara-2019/4782334",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2032026/4782334/o_o/4782334_1774047904972_217.jpg",
       "group_id": "g-045e12ffa7",
-      "_score": 35.5,
+      "_score": 37.0,
       "_components": {
         "precio": 31.0,
         "combustible": 19.5,
-        "km": 75.1,
+        "km": 82.4,
         "anio": 22.2
       },
       "_trans_status": "AT",
@@ -364,11 +364,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-soul-zapopan-2019/4833395",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1792026/4833395/o_o/pt_4833395_1789680621940_99.jpg",
       "group_id": "g-045e12ffa7",
-      "_score": 35.5,
+      "_score": 37.0,
       "_components": {
         "precio": 31.0,
         "combustible": 19.5,
-        "km": 75.1,
+        "km": 82.4,
         "anio": 22.2
       },
       "_trans_status": "AT",
@@ -389,11 +389,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-soul_ex_pack-tlaquepaque-2019/4782812",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026323/4782812/o_o/pt_4782812_1774287274166.jpeg",
       "group_id": "g-045e12ffa7",
-      "_score": 35.5,
+      "_score": 37.0,
       "_components": {
         "precio": 31.0,
         "combustible": 19.5,
-        "km": 75.1,
+        "km": 82.4,
         "anio": 22.2
       },
       "_trans_status": "AT",
@@ -414,11 +414,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-soul_ex-guadalajara-2019/4829707",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/392026/4829707/o_o/pt_4829707_1788461150828_275.jpg",
       "group_id": "g-045e12ffa7",
-      "_score": 35.5,
+      "_score": 37.0,
       "_components": {
         "precio": 31.0,
         "combustible": 19.5,
-        "km": 75.1,
+        "km": 82.4,
         "anio": 22.2
       },
       "_trans_status": "AT",
@@ -439,11 +439,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6501760126-mazda-mazda-2-15-i-touring-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=21&type=item&tracking_id=657b0b8a-ce15-4f72-87fa-371690a5cabb&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_677322-MLM120974646677_112026-E.webp",
       "group_id": "g-65a2fb7279",
-      "_score": 46.0,
+      "_score": 47.4,
       "_components": {
         "precio": 31.0,
         "combustible": 47.6,
-        "km": 74.3,
+        "km": 81.6,
         "anio": 44.4
       },
       "_trans_status": "AT",
@@ -464,11 +464,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-soul-guadalajara-2018/4821304",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/582026/4821304/o_o/4821304_1785979587694_71.jpeg",
       "group_id": "g-97e28f7a7f",
-      "_score": 32.7,
+      "_score": 34.0,
       "_components": {
         "precio": 31.0,
         "combustible": 19.5,
-        "km": 66.6,
+        "km": 73.1,
         "anio": 11.1
       },
       "_trans_status": "AT",
@@ -489,11 +489,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3727399165-hyundai-tucson-20-gls-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=3&type=item&tracking_id=6c2f37f3-572a-4174-9db8-86a0a22242bf&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_967537-MLM118403802353_092026-E.webp",
       "group_id": "g-7733954c32",
-      "_score": 29.5,
+      "_score": 30.9,
       "_components": {
         "precio": 31.0,
         "combustible": 6.1,
-        "km": 70.7,
+        "km": 77.6,
         "anio": 11.1
       },
       "_trans_status": "AT",
@@ -514,11 +514,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-mazda-cx_3-guadalajara-2019/4806943",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026617/4806943/o_o/pt_4806943_1781729864817.jpeg",
       "group_id": "g-ac7f04f2db",
-      "_score": 35.3,
+      "_score": 36.6,
       "_components": {
         "precio": 30.5,
         "combustible": 26.0,
-        "km": 65.6,
+        "km": 72.0,
         "anio": 22.2
       },
       "_trans_status": "AT",
@@ -539,11 +539,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-soul-zapopan-2020/4737574",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/18102025/4737574/o_o/4737574_1765325348969_249.jpeg",
       "group_id": "g-d89b5fdacb",
-      "_score": 32.7,
+      "_score": 34.1,
       "_components": {
         "precio": 25.0,
         "combustible": 17.1,
-        "km": 71.0,
+        "km": 78.0,
         "anio": 33.3
       },
       "_trans_status": "AT",
@@ -564,11 +564,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-sportage-tlaquepaque-2018/4793433",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026430/4793433/o_o/pt_4793433_1777566269051.jpg",
       "group_id": "g-6dea5e6ca0",
-      "_score": 28.6,
+      "_score": 30.1,
       "_components": {
         "precio": 25.0,
         "combustible": 7.2,
-        "km": 76.5,
+        "km": 84.0,
         "anio": 11.1
       },
       "_trans_status": "AT",
@@ -589,11 +589,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3496683411-toyota-prius-c-15-hybrid-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=30&type=item&tracking_id=1555958b-a1a8-4484-867f-5471dd117dbb&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_866396-MLM117670510003_092026-E.webp",
       "group_id": "g-6ba9e51102",
-      "_score": 57.4,
+      "_score": 58.8,
       "_components": {
         "precio": 25.0,
         "combustible": 100.0,
-        "km": 70.3,
+        "km": 77.2,
         "anio": 33.3
       },
       "_trans_status": "AT",
@@ -614,11 +614,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6500774542-mazda-cx-3-20-i-grand-touring-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=22&type=item&tracking_id=7bf90edb-4161-4716-9aea-a67d80ae9a64&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_603475-MLM120953965359_112026-E.webp",
       "group_id": "g-1395a3e731",
-      "_score": 31.9,
+      "_score": 33.3,
       "_components": {
         "precio": 23.0,
         "combustible": 27.5,
-        "km": 72.1,
+        "km": 79.2,
         "anio": 0.0
       },
       "_trans_status": "AT",
@@ -639,11 +639,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-soul_ex_pack-guadalajara-2018/4780227",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026312/4780227/o_o/pt_4780227_1773356678357.jpeg",
       "group_id": "g-801866befa",
-      "_score": 30.0,
+      "_score": 31.5,
       "_components": {
         "precio": 20.5,
         "combustible": 19.5,
-        "km": 74.3,
+        "km": 81.6,
         "anio": 11.1
       },
       "_trans_status": "AT",
@@ -664,11 +664,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6541003220-mazda-cx-3-20-i-2wd-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=28&type=item&tracking_id=46e3e65e-0ec2-41b7-b126-bc1180a0a358&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_601131-MLM120959741259_112026-E.webp",
       "group_id": "g-00a2047d9e",
-      "_score": 29.9,
+      "_score": 31.2,
       "_components": {
         "precio": 20.2,
         "combustible": 27.5,
-        "km": 67.9,
+        "km": 74.6,
         "anio": 0.0
       },
       "_trans_status": "AT",
@@ -689,11 +689,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3722029513-hyundai-hb20-sd-16-gl-mid-at-sd-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=46&type=item&tracking_id=50857edc-5e7f-450a-8cf1-8b2dc6e50e37&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_691008-MLM120378098641_102026-E.webp",
       "group_id": "g-17e72c556b",
-      "_score": 43.4,
+      "_score": 45.2,
       "_components": {
         "precio": 20.2,
         "combustible": 34.9,
-        "km": 91.1,
+        "km": 100.0,
         "anio": 66.7
       },
       "_trans_status": "AT",
@@ -710,15 +710,15 @@
       "location": "Guadalajara",
       "source": "seminuevos",
       "brand": "Toyota",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-highlander-guadalajara-2017/4849307",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/8112026/4849307/o_o/pt_4849307_1794173575244_225.jpg",
       "group_id": "g-33e89c8135",
-      "_score": 38.1,
+      "_score": 39.5,
       "_components": {
         "precio": 20.1,
         "combustible": 50.0,
-        "km": 75.1,
+        "km": 82.4,
         "anio": 0.0
       },
       "_trans_status": "ND",
@@ -739,11 +739,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3757194497-mazda-cx-3-20-i-grand-touring-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=32&type=item&tracking_id=657b0b8a-ce15-4f72-87fa-371690a5cabb&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_874962-MLM120885159643_112026-E.webp",
       "group_id": "g-29180f4ba5",
-      "_score": 29.3,
+      "_score": 30.5,
       "_components": {
         "precio": 20.1,
         "combustible": 27.5,
-        "km": 59.7,
+        "km": 65.6,
         "anio": 11.1
       },
       "_trans_status": "AT",
@@ -764,11 +764,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-sportage-guadalajara-2017/4849009",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/7112026/4849009/o_o/pt_4849009_1794012321592_240.jpg",
       "group_id": "g-e5397a1a98",
-      "_score": 21.6,
+      "_score": 22.7,
       "_components": {
         "precio": 20.0,
         "combustible": 7.2,
-        "km": 57.2,
+        "km": 62.8,
         "anio": 0.0
       },
       "_trans_status": "AT",
@@ -785,40 +785,15 @@
       "location": "Zapopan",
       "source": "seminuevos",
       "brand": "Kia",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-zapopan-2024/4819544",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/3072026/4819544/o_o/4819544_1789408637995_223.",
       "group_id": "g-2d5d97f806",
-      "_score": 43.5,
+      "_score": 45.0,
       "_components": {
         "precio": 20.0,
         "combustible": 39.9,
-        "km": 78.7,
-        "anio": 77.8
-      },
-      "_trans_status": "AT",
-      "_fuel": 19.16,
-      "_fuel_status": "OK"
-    },
-    {
-      "id": "sn-4830167",
-      "title": "Kia K3",
-      "price": "$259,000",
-      "price_int": 259000,
-      "year": "2024",
-      "mileage": "42,188 kms.",
-      "location": "Zapopan",
-      "source": "seminuevos",
-      "brand": "Kia",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-zapopan-2024/4830167",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/492026/4830167/o_o/4830167_1793566528157_428.jpeg",
-      "group_id": "g-cdaa1af9ab",
-      "_score": 41.1,
-      "_components": {
-        "precio": 11.0,
-        "combustible": 39.9,
-        "km": 84.8,
+        "km": 86.4,
         "anio": 77.8
       },
       "_trans_status": "AT",
@@ -839,11 +814,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6183557380-hyundai-hb20-hb-16-gl-mid-at-hb-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=38&type=item&tracking_id=ed9951f0-3d62-4ca5-a540-77185bd714f1&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_783639-MLM115866297324_092026-E.webp",
       "group_id": "g-a108de077e",
-      "_score": 37.1,
+      "_score": 38.6,
       "_components": {
         "precio": 10.5,
         "combustible": 34.9,
-        "km": 78.7,
+        "km": 86.4,
         "anio": 66.7
       },
       "_trans_status": "AT",
@@ -864,11 +839,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3716831655-kia-sorento-24-lx-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=36&type=item&tracking_id=075691e3-d9ab-4c24-bbab-494707824ef0&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_761502-MLM118641241718_102026-E.webp",
       "group_id": "g-c12911d35c",
-      "_score": 22.4,
+      "_score": 23.8,
       "_components": {
         "precio": 10.1,
         "combustible": 6.4,
-        "km": 71.0,
+        "km": 78.0,
         "anio": 22.2
       },
       "_trans_status": "AT",
@@ -889,11 +864,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6329723714-toyota-rav4-25-le-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=28&type=item&tracking_id=2daf166e-dce5-4013-8a76-a4b07cea26af&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_648063-MLM119020688885_102026-E.webp",
       "group_id": "g-9d3e5a4e9c",
-      "_score": 31.4,
+      "_score": 32.6,
       "_components": {
         "precio": 10.0,
         "combustible": 50.0,
-        "km": 61.9,
+        "km": 68.0,
         "anio": 0.0
       },
       "_trans_status": "ND",
@@ -914,11 +889,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-sorento-tlaquepaque-2017/4500111",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/10102023/4500111/o_o/pt_4500111_76212424.jpg",
       "group_id": "g-7a883e073c",
-      "_score": 18.0,
+      "_score": 19.4,
       "_components": {
         "precio": 8.0,
         "combustible": 2.5,
-        "km": 70.3,
+        "km": 77.2,
         "anio": 0.0
       },
       "_trans_status": "AT",
@@ -935,15 +910,15 @@
       "location": "Guadalajara",
       "source": "seminuevos",
       "brand": "Toyota",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-camry-guadalajara-2017/4820305",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/182026/4820305/o_o/pt_4820305_1785620855099_404.jpg",
       "group_id": "g-b59e724c5a",
-      "_score": 29.9,
+      "_score": 31.3,
       "_components": {
         "precio": 2.0,
         "combustible": 50.0,
-        "km": 70.7,
+        "km": 77.6,
         "anio": 0.0
       },
       "_trans_status": "AT",
@@ -964,11 +939,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-sportage-tlaquepaque-2019/4819117",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2972026/4819117/o_o/pt_4819117_1785284602268_229.jpg",
       "group_id": "g-2e70a1dff6",
-      "_score": 17.0,
+      "_score": 18.2,
       "_components": {
         "precio": 1.0,
         "combustible": 7.2,
-        "km": 61.2,
+        "km": 67.2,
         "anio": 22.2
       },
       "_trans_status": "AT",
@@ -989,11 +964,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-sportage-guadalajara-2019/4819573",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/3072026/4819573/o_o/4819573_1785434659425_159.jpg",
       "group_id": "g-2e70a1dff6",
-      "_score": 17.0,
+      "_score": 18.2,
       "_components": {
         "precio": 1.0,
         "combustible": 7.2,
-        "km": 61.2,
+        "km": 67.2,
         "anio": 22.2
       },
       "_trans_status": "AT",
@@ -1014,11 +989,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-sportage-zapopan-2019/4833391",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/1792026/4833391/o_o/pt_4833391_1789680153545_54.jpg",
       "group_id": "g-2e70a1dff6",
-      "_score": 17.0,
+      "_score": 18.2,
       "_components": {
         "precio": 1.0,
         "combustible": 7.2,
-        "km": 61.2,
+        "km": 67.2,
         "anio": 22.2
       },
       "_trans_status": "AT",
@@ -1039,11 +1014,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-sportage_ex-guadalajara-2019/4844835",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/26102026/4844835/o_o/pt_4844835_1793037559804_466.jpg",
       "group_id": "g-2e70a1dff6",
-      "_score": 17.0,
+      "_score": 18.2,
       "_components": {
         "precio": 1.0,
         "combustible": 7.2,
-        "km": 61.2,
+        "km": 67.2,
         "anio": 22.2
       },
       "_trans_status": "AT",
@@ -1064,11 +1039,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6430565266-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=40&type=item&tracking_id=985a0c60-55e1-4a37-8ceb-b38118946b24&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_996093-MLM118105861516_102026-E.webp",
       "group_id": "g-9e0ac000e3",
-      "_score": 38.1,
+      "_score": 39.8,
       "_components": {
         "precio": 1.0,
         "combustible": 39.9,
-        "km": 89.6,
+        "km": 98.4,
         "anio": 77.8
       },
       "_trans_status": "AT",
@@ -1089,11 +1064,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6112502310-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=24&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_972323-MLM116839347909_082026-E.webp",
       "group_id": "g-9e0ac000e3",
-      "_score": 38.1,
+      "_score": 39.8,
       "_components": {
         "precio": 1.0,
         "combustible": 39.9,
-        "km": 89.6,
+        "km": 98.4,
         "anio": 77.8
       },
       "_trans_status": "AT",
@@ -1114,11 +1089,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3387771987-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=19&type=item&tracking_id=1b7d810c-9fd5-4cac-ab6a-fe81422dfd43&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_702333-MLM116674889251_082026-E.webp",
       "group_id": "g-a2da9dd941",
-      "_score": 38.1,
+      "_score": 39.9,
       "_components": {
         "precio": 1.0,
         "combustible": 39.9,
-        "km": 90.0,
+        "km": 98.8,
         "anio": 77.8
       },
       "_trans_status": "AT",
@@ -1139,11 +1114,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3721759143-kia-sportage-24-sxl-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=48&type=item&tracking_id=1ce3dba1-71a7-44ba-96a1-416cb62ef286&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_748808-MLM119119267446_112026-E.webp",
       "group_id": "g-38cfcc777d",
-      "_score": 12.8,
+      "_score": 14.0,
       "_components": {
         "precio": 0.5,
         "combustible": 0.0,
-        "km": 63.0,
+        "km": 69.2,
         "anio": 0.0
       },
       "_trans_status": "AT",
@@ -1164,11 +1139,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-sportage-guadalajara-2017/4842393",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/18102026/4842393/o_o/pt_4842393_1792338242054_630.jpg",
       "group_id": "g-38cfcc777d",
-      "_score": 15.0,
+      "_score": 16.2,
       "_components": {
         "precio": 0.5,
         "combustible": 7.2,
-        "km": 63.0,
+        "km": 69.2,
         "anio": 0.0
       },
       "_trans_status": "AT",
@@ -1189,11 +1164,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-soul_ex-guadalajara-2018/4726641",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2025913/4726641/o_o/pt_4726641_1757778247953.jpeg",
       "group_id": "g-c3c5905084",
-      "_score": 18.5,
+      "_score": 19.6,
       "_components": {
         "precio": 0.5,
         "combustible": 19.5,
-        "km": 56.5,
+        "km": 62.0,
         "anio": 11.1
       },
       "_trans_status": "AT",
@@ -1214,11 +1189,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-3762665435-hyundai-tucson-20-limited-tech-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=12&type=item&tracking_id=339f04fa-ebe6-43e2-91b0-550e54d90deb&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_727932-MLM119256475202_112026-E.webp",
       "group_id": "g-fd0525f4d8",
-      "_score": 17.7,
+      "_score": 19.3,
       "_components": {
         "precio": 0.2,
         "combustible": 6.0,
-        "km": 79.3,
+        "km": 87.0,
         "anio": 0.0
       },
       "_trans_status": "AT",
@@ -1264,11 +1239,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6484046728-kia-k3-lx-sedan-at-_JM#polycard_client=search-desktop&price_drop=false&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=44&type=item&tracking_id=71a91720-98a4-4f55-bd94-058c4ece6a7a&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_651257-MLM120309292815_102026-E.webp",
       "group_id": "g-60857a7fc5",
-      "_score": 37.7,
+      "_score": 39.5,
       "_components": {
         "precio": 0.1,
         "combustible": 39.9,
-        "km": 89.6,
+        "km": 98.4,
         "anio": 77.8
       },
       "_trans_status": "AT",
@@ -1289,11 +1264,11 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6501557728-kia-sorento-24-lx-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=32&type=item&tracking_id=ead039c2-e562-43bb-a2fa-ebda611fd440&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_861319-MLM118812649968_102026-E.webp",
       "group_id": "g-7d1d7da9ee",
-      "_score": 18.9,
+      "_score": 20.4,
       "_components": {
         "precio": 0.1,
         "combustible": 6.4,
-        "km": 73.8,
+        "km": 81.0,
         "anio": 22.2
       },
       "_trans_status": "AT",
@@ -1314,40 +1289,15 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-5934853034-mazda-6-25-signature-auto-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=36&type=item&tracking_id=aa0ae593-d214-4b7a-92ab-9a851971f93f&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_998881-MLM119065042345_102026-E.webp",
       "group_id": "g-32b4500aa8",
-      "_score": 19.8,
+      "_score": 21.3,
       "_components": {
         "precio": 0.0,
         "combustible": 6.6,
-        "km": 78.1,
+        "km": 85.7,
         "anio": 22.2
       },
       "_trans_status": "AT",
       "_fuel": 14.7,
-      "_fuel_status": "OK"
-    },
-    {
-      "id": "sn-4798682",
-      "title": "Kia K3",
-      "price": "$270,000",
-      "price_int": 270000,
-      "year": "2026",
-      "mileage": "566 kms.",
-      "location": "Tlaquepaque",
-      "source": "seminuevos",
-      "brand": "Kia",
-      "transmission": "unknown",
-      "link": "https://www.seminuevos.com/vehicle/autos-kia-k3-tlaquepaque-2026/4798682",
-      "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2152026/4798682/o_o/pt_4798682_1779336178737_961.jpg",
-      "group_id": "g-bd5bedc71a",
-      "_score": 42.0,
-      "_components": {
-        "precio": 0.0,
-        "combustible": 39.9,
-        "km": 100.0,
-        "anio": 100.0
-      },
-      "_trans_status": "AT",
-      "_fuel": 19.16,
       "_fuel_status": "OK"
     },
     {
@@ -1364,11 +1314,11 @@
       "link": "https://www.seminuevos.com/vehicle/autos-kia-sportage_ex-guadalajara-2018/4807606",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/2026619/4807606/o_o/pt_4807606_1781906785935.jpeg",
       "group_id": "g-89e454584b",
-      "_score": 17.0,
+      "_score": 18.3,
       "_components": {
         "precio": 0.0,
         "combustible": 7.2,
-        "km": 68.5,
+        "km": 75.2,
         "anio": 11.1
       },
       "_trans_status": "AT",
@@ -1387,15 +1337,15 @@
       "location": "Guadalajara",
       "source": "seminuevos",
       "brand": "Toyota",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-highlander-guadalajara-2017/4849307",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/8112026/4849307/o_o/pt_4849307_1794173575244_225.jpg",
       "group_id": "g-33e89c8135",
-      "_score": 38.1,
+      "_score": 39.5,
       "_components": {
         "precio": 20.1,
         "combustible": 50.0,
-        "km": 75.1,
+        "km": 82.4,
         "anio": 0.0
       },
       "_trans_status": "ND",
