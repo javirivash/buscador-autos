@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T13:08:16.215756Z",
+  "generated_at": "2026-11-10T13:08:48.586168Z",
   "criterios": {
     "marcas": [
       "Toyota",
@@ -710,7 +710,7 @@
       "location": "Guadalajara",
       "source": "seminuevos",
       "brand": "Toyota",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-highlander-guadalajara-2017/4849307",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/8112026/4849307/o_o/pt_4849307_1794173575244_225.jpg",
       "group_id": "g-33e89c8135",
@@ -935,7 +935,7 @@
       "location": "Guadalajara",
       "source": "seminuevos",
       "brand": "Toyota",
-      "transmission": "unknown",
+      "transmission": "automatic",
       "link": "https://www.seminuevos.com/vehicle/autos-toyota-camry-guadalajara-2017/4820305",
       "image": "https://images.latamautos.com/thumbs/w/sm/ptx_migration_mexico/182026/4820305/o_o/pt_4820305_1785620855099_404.jpg",
       "group_id": "g-b59e724c5a",
