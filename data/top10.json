@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T13:07:23.819679Z",
+  "generated_at": "2026-11-20T13:07:29.958144Z",
   "weights": {
     "precio": 0.4,
     "combustible": 0.3,
@@ -167,6 +167,9 @@
         "km": 41.4,
         "anio": 88.9
       },
+      "_trans_status": "AT",
+      "_fuel": 19.16,
+      "_fuel_status": "OK",
       "rank": 4,
       "ads": [
         {
@@ -182,7 +185,10 @@
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_767028-MLM121914215499_112026-E.webp",
           "transmission": "automatic",
           "brand": "Kia",
-          "group_id": "g-01072ec236"
+          "group_id": "g-01072ec236",
+          "_trans_status": "AT",
+          "_fuel": 19.16,
+          "_fuel_status": "OK"
         }
       ]
     },
@@ -437,6 +443,9 @@
         "km": 54.0,
         "anio": 0.0
       },
+      "_trans_status": "AT",
+      "_fuel": 14.15,
+      "_fuel_status": "OK",
       "rank": 10,
       "ads": [
         {
@@ -452,7 +461,10 @@
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_682963-MLM121959398371_112026-E.webp",
           "transmission": "automatic",
           "brand": "Kia",
-          "group_id": "g-b8fb197270"
+          "group_id": "g-b8fb197270",
+          "_trans_status": "AT",
+          "_fuel": 14.15,
+          "_fuel_status": "OK"
         },
         {
           "id": "ml-3700874003",
