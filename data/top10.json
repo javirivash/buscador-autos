@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T13:07:45.354110Z",
+  "generated_at": "2026-11-21T13:07:52.317573Z",
   "weights": {
     "precio": 0.4,
     "combustible": 0.3,
@@ -121,6 +121,9 @@
         "km": 26.3,
         "anio": 11.1
       },
+      "_trans_status": "AT",
+      "_fuel": 18.42,
+      "_fuel_status": "OK",
       "rank": 3,
       "ads": [
         {
@@ -136,7 +139,10 @@
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_877712-MLM121533450355_112026-E.webp",
           "transmission": "automatic",
           "brand": "Hyundai",
-          "group_id": "g-22f9341b8e"
+          "group_id": "g-22f9341b8e",
+          "_trans_status": "AT",
+          "_fuel": 18.42,
+          "_fuel_status": "OK"
         }
       ]
     },
@@ -253,6 +259,9 @@
         "km": 47.8,
         "anio": 22.2
       },
+      "_trans_status": "AT",
+      "_fuel": 18.42,
+      "_fuel_status": "OK",
       "rank": 6,
       "ads": [
         {
@@ -268,7 +277,10 @@
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_858071-MLM120162177874_112026-E.webp",
           "transmission": "automatic",
           "brand": "Hyundai",
-          "group_id": "g-0ad9c1fe77"
+          "group_id": "g-0ad9c1fe77",
+          "_trans_status": "AT",
+          "_fuel": 18.42,
+          "_fuel_status": "OK"
         }
       ]
     },
