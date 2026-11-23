@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T13:07:57.843334Z",
+  "generated_at": "2026-11-23T13:08:04.247389Z",
   "weights": {
     "precio": 0.4,
     "combustible": 0.3,
@@ -259,6 +259,9 @@
         "km": 41.9,
         "anio": 44.4
       },
+      "_trans_status": "AT",
+      "_fuel": 26.47,
+      "_fuel_status": "OK",
       "rank": 6,
       "ads": [
         {
@@ -274,7 +277,10 @@
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_954584-MLM118452804392_102026-E.webp",
           "transmission": "automatic",
           "brand": "Toyota",
-          "group_id": "g-290f012f8f"
+          "group_id": "g-290f012f8f",
+          "_trans_status": "AT",
+          "_fuel": 26.47,
+          "_fuel_status": "OK"
         }
       ]
     },
@@ -299,6 +305,9 @@
         "km": 45.8,
         "anio": 44.4
       },
+      "_trans_status": "AT",
+      "_fuel": 26.47,
+      "_fuel_status": "OK",
       "rank": 7,
       "ads": [
         {
@@ -314,7 +323,10 @@
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_612614-MLM119056269818_112026-E.webp",
           "transmission": "automatic",
           "brand": "Toyota",
-          "group_id": "g-606a08fc72"
+          "group_id": "g-606a08fc72",
+          "_trans_status": "AT",
+          "_fuel": 26.47,
+          "_fuel_status": "OK"
         }
       ]
     },
