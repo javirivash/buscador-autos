@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-25T13:08:29.535164Z",
+  "generated_at": "2026-11-26T13:08:07.419180Z",
   "weights": {
     "precio": 0.4,
     "combustible": 0.3,
     "km": 0.2,
     "anio": 0.1
   },
-  "total_count": 28,
+  "total_count": 32,
   "cars": [
     {
       "id": "ml-6583127424",
@@ -22,9 +22,9 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6583127424-kia-k3-16-l-sedan-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=46&type=item&tracking_id=d2d00993-09d5-4827-a178-8826c97d9eee&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_638833-MLM122050500351_112026-E.webp",
       "group_id": "g-2caa619a1b",
-      "_score": 59.8,
+      "_score": 59.6,
       "_components": {
-        "precio": 44.4,
+        "precio": 43.9,
         "combustible": 43.8,
         "km": 100.0,
         "anio": 88.9
@@ -55,47 +55,47 @@
       ]
     },
     {
-      "id": "ml-3799962683",
-      "title": "Hyundai Elantra 2018 Limited Tech Navi 2.0 Lt",
-      "price": "$190,000",
-      "price_int": 190000,
-      "year": "2018",
-      "mileage": "108,276 Km",
-      "location": "Guadalajara - Jalisco",
+      "id": "ml-3790793779",
+      "title": "Hyundai Elantra 2017 2.0 Limited Tech Navi At",
+      "price": "$179,900",
+      "price_int": 179900,
+      "year": "2017",
+      "mileage": "138,000 Km",
+      "location": "Tlajomulco De Zúñiga - Jalisco",
       "source": "mercadolibre",
       "brand": "Hyundai",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3799962683-hyundai-elantra-limited-tech-navi-20-lt-tratocar-13578-1411-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=44&type=item&tracking_id=32b911d5-f55f-4136-9ef9-b4c5fa155611&overlay_label_capability=not_apply&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_877712-MLM121533450355_112026-E.webp",
-      "group_id": "g-22f9341b8e",
-      "_score": 57.3,
+      "link": "https://auto.mercadolibre.com.mx/MLM-3790793779-hyundai-elantra-2017-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=45&type=item&tracking_id=d0c03dd7-4ab4-4fa4-b245-0ca38d38bbe8&overlay_label_capability=not_apply&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_856334-MLM121993246073_112026-E.webp",
+      "group_id": "g-247461e9a7",
+      "_score": 56.8,
       "_components": {
-        "precio": 88.8,
-        "combustible": 38.7,
-        "km": 45.6,
-        "anio": 11.1
+        "precio": 100.0,
+        "combustible": 38.6,
+        "km": 26.1,
+        "anio": 0.0
       },
       "_trans_status": "AT",
-      "_fuel": 18.42,
+      "_fuel": 18.41,
       "_fuel_status": "OK",
       "rank": 2,
       "ads": [
         {
-          "id": "ml-3799962683",
-          "title": "Hyundai Elantra 2018 Limited Tech Navi 2.0 Lt",
-          "price": "$190,000",
-          "price_int": 190000,
-          "year": "2018",
-          "mileage": "108,276 Km",
-          "location": "Guadalajara - Jalisco",
+          "id": "ml-3790793779",
+          "title": "Hyundai Elantra 2017 2.0 Limited Tech Navi At",
+          "price": "$179,900",
+          "price_int": 179900,
+          "year": "2017",
+          "mileage": "138,000 Km",
+          "location": "Tlajomulco De Zúñiga - Jalisco",
           "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-3799962683-hyundai-elantra-limited-tech-navi-20-lt-tratocar-13578-1411-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=44&type=item&tracking_id=32b911d5-f55f-4136-9ef9-b4c5fa155611&overlay_label_capability=not_apply&sid=search",
-          "image": "https://http2.mlstatic.com/D_Q_NP_2X_877712-MLM121533450355_112026-E.webp",
+          "link": "https://auto.mercadolibre.com.mx/MLM-3790793779-hyundai-elantra-2017-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=45&type=item&tracking_id=d0c03dd7-4ab4-4fa4-b245-0ca38d38bbe8&overlay_label_capability=not_apply&sid=search",
+          "image": "https://http2.mlstatic.com/D_Q_NP_2X_856334-MLM121993246073_112026-E.webp",
           "transmission": "automatic",
           "brand": "Hyundai",
-          "group_id": "g-22f9341b8e",
+          "group_id": "g-247461e9a7",
           "_trans_status": "AT",
-          "_fuel": 18.42,
+          "_fuel": 18.41,
           "_fuel_status": "OK"
         }
       ]
@@ -111,12 +111,12 @@
       "source": "mercadolibre",
       "brand": "Toyota",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3496683411-toyota-prius-c-15-hybrid-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=10&type=item&tracking_id=029651b5-67b5-4073-b9ad-8278c4caaf2d&overlay_label_capability=not_apply&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3496683411-toyota-prius-c-15-hybrid-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=40&type=item&tracking_id=ea6eae37-a9f2-48b3-8583-b4547140e8ce&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_866396-MLM117670510003_092026-E.webp",
       "group_id": "g-6ba9e51102",
-      "_score": 56.9,
+      "_score": 56.7,
       "_components": {
-        "precio": 27.6,
+        "precio": 26.9,
         "combustible": 100.0,
         "km": 62.7,
         "anio": 33.3
@@ -135,59 +135,13 @@
           "mileage": "81,983 Km",
           "location": "Atotonilco El Alto - Jalisco",
           "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-3496683411-toyota-prius-c-15-hybrid-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=10&type=item&tracking_id=029651b5-67b5-4073-b9ad-8278c4caaf2d&overlay_label_capability=not_apply&sid=search",
+          "link": "https://auto.mercadolibre.com.mx/MLM-3496683411-toyota-prius-c-15-hybrid-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=40&type=item&tracking_id=ea6eae37-a9f2-48b3-8583-b4547140e8ce&overlay_label_capability=not_apply&sid=search",
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_866396-MLM117670510003_092026-E.webp",
           "transmission": "automatic",
           "brand": "Toyota",
           "group_id": "g-6ba9e51102",
           "_trans_status": "AT",
           "_fuel": 27.23,
-          "_fuel_status": "OK"
-        }
-      ]
-    },
-    {
-      "id": "ml-3790793779",
-      "title": "Hyundai Elantra 2017 2.0 Limited Tech Navi At",
-      "price": "$179,900",
-      "price_int": 179900,
-      "year": "2017",
-      "mileage": "138,000 Km",
-      "location": "Tlajomulco De Zúñiga - Jalisco",
-      "source": "mercadolibre",
-      "brand": "Hyundai",
-      "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3790793779-hyundai-elantra-2017-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=43&type=item&tracking_id=39017a66-9ee7-4e51-8034-26eb288a9da1&overlay_label_capability=not_apply&sid=search",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_856334-MLM121993246073_112026-E.webp",
-      "group_id": "g-247461e9a7",
-      "_score": 56.8,
-      "_components": {
-        "precio": 100.0,
-        "combustible": 38.6,
-        "km": 26.1,
-        "anio": 0.0
-      },
-      "_trans_status": "AT",
-      "_fuel": 18.41,
-      "_fuel_status": "OK",
-      "rank": 4,
-      "ads": [
-        {
-          "id": "ml-3790793779",
-          "title": "Hyundai Elantra 2017 2.0 Limited Tech Navi At",
-          "price": "$179,900",
-          "price_int": 179900,
-          "year": "2017",
-          "mileage": "138,000 Km",
-          "location": "Tlajomulco De Zúñiga - Jalisco",
-          "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-3790793779-hyundai-elantra-2017-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=43&type=item&tracking_id=39017a66-9ee7-4e51-8034-26eb288a9da1&overlay_label_capability=not_apply&sid=search",
-          "image": "https://http2.mlstatic.com/D_Q_NP_2X_856334-MLM121993246073_112026-E.webp",
-          "transmission": "automatic",
-          "brand": "Hyundai",
-          "group_id": "g-247461e9a7",
-          "_trans_status": "AT",
-          "_fuel": 18.41,
           "_fuel_status": "OK"
         }
       ]
@@ -203,7 +157,7 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3790734161-kia-forte-20-hb-ex-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=15&type=item&tracking_id=3b85019a-1fb6-41bd-8d51-f8e123adb712&overlay_label_capability=not_apply&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3790734161-kia-forte-20-hb-ex-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=29&type=item&tracking_id=63fe798b-2cd0-492c-aca3-d4a370739953&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_970698-MLM121389418969_112026-E.webp",
       "group_id": "g-a6a2780a4c",
       "_score": 53.4,
@@ -216,7 +170,7 @@
       "_trans_status": "AT",
       "_fuel": 15.72,
       "_fuel_status": "OK",
-      "rank": 5,
+      "rank": 4,
       "ads": [
         {
           "id": "ml-3790734161",
@@ -227,7 +181,7 @@
           "mileage": "112,000 Km",
           "location": "Zapopan - Jalisco",
           "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-3790734161-kia-forte-20-hb-ex-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=15&type=item&tracking_id=3b85019a-1fb6-41bd-8d51-f8e123adb712&overlay_label_capability=not_apply&sid=search",
+          "link": "https://auto.mercadolibre.com.mx/MLM-3790734161-kia-forte-20-hb-ex-at-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=29&type=item&tracking_id=63fe798b-2cd0-492c-aca3-d4a370739953&overlay_label_capability=not_apply&sid=search",
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_970698-MLM121389418969_112026-E.webp",
           "transmission": "automatic",
           "brand": "Kia",
@@ -249,12 +203,12 @@
       "source": "mercadolibre",
       "brand": "Kia",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3824652517-kia-k3-2025-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=35&type=item&tracking_id=4bce1ab5-173b-4bf9-9091-589ffd0b2028&overlay_label_capability=not_apply&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3824652517-kia-k3-2025-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=43&type=item&tracking_id=d125547d-e912-498a-90aa-0ca843b9db45&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_767028-MLM121914215499_112026-E.webp",
       "group_id": "g-01072ec236",
-      "_score": 51.1,
+      "_score": 50.9,
       "_components": {
-        "precio": 44.3,
+        "precio": 43.8,
         "combustible": 43.8,
         "km": 56.7,
         "anio": 88.9
@@ -262,7 +216,7 @@
       "_trans_status": "AT",
       "_fuel": 19.16,
       "_fuel_status": "OK",
-      "rank": 6,
+      "rank": 5,
       "ads": [
         {
           "id": "ml-3824652517",
@@ -273,7 +227,7 @@
           "mileage": "91,200 Km",
           "location": "Guadalajara - Jalisco",
           "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-3824652517-kia-k3-2025-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=35&type=item&tracking_id=4bce1ab5-173b-4bf9-9091-589ffd0b2028&overlay_label_capability=not_apply&sid=search",
+          "link": "https://auto.mercadolibre.com.mx/MLM-3824652517-kia-k3-2025-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=43&type=item&tracking_id=d125547d-e912-498a-90aa-0ca843b9db45&overlay_label_capability=not_apply&sid=search",
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_767028-MLM121914215499_112026-E.webp",
           "transmission": "automatic",
           "brand": "Kia",
@@ -298,9 +252,9 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6501760126-mazda-mazda-2-15-i-touring-at-_JM#polycard_client=search-desktop&price_drop=false&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=47&type=item&tracking_id=32a6da23-d0b7-4598-a742-22321a16fa0e&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_608985-MLM122316292785_112026-E.webp",
       "group_id": "g-2effa09b3a",
-      "_score": 49.7,
+      "_score": 49.5,
       "_components": {
-        "precio": 39.8,
+        "precio": 39.3,
         "combustible": 51.1,
         "km": 69.9,
         "anio": 44.4
@@ -308,7 +262,7 @@
       "_trans_status": "AT",
       "_fuel": 20.2,
       "_fuel_status": "OK",
-      "rank": 7,
+      "rank": 6,
       "ads": [
         {
           "id": "ml-6501760126",
@@ -341,12 +295,12 @@
       "source": "mercadolibre",
       "brand": "Toyota",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-3682584915-toyota-prius-2021-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=48&type=item&tracking_id=71368518-6fee-4980-aba9-385883833b79&overlay_label_capability=not_apply&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-3682584915-toyota-prius-2021-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=26&type=item&tracking_id=ea6eae37-a9f2-48b3-8583-b4547140e8ce&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_954584-MLM118452804392_102026-E.webp",
       "group_id": "g-290f012f8f",
-      "_score": 49.2,
+      "_score": 49.0,
       "_components": {
-        "precio": 20.0,
+        "precio": 19.3,
         "combustible": 94.7,
         "km": 41.9,
         "anio": 44.4
@@ -354,7 +308,7 @@
       "_trans_status": "AT",
       "_fuel": 26.47,
       "_fuel_status": "OK",
-      "rank": 8,
+      "rank": 7,
       "ads": [
         {
           "id": "ml-3682584915",
@@ -365,7 +319,7 @@
           "mileage": "113,913 Km",
           "location": "Zapopan - Jalisco",
           "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-3682584915-toyota-prius-2021-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=48&type=item&tracking_id=71368518-6fee-4980-aba9-385883833b79&overlay_label_capability=not_apply&sid=search",
+          "link": "https://auto.mercadolibre.com.mx/MLM-3682584915-toyota-prius-2021-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=26&type=item&tracking_id=ea6eae37-a9f2-48b3-8583-b4547140e8ce&overlay_label_capability=not_apply&sid=search",
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_954584-MLM118452804392_102026-E.webp",
           "transmission": "automatic",
           "brand": "Toyota",
@@ -387,12 +341,12 @@
       "source": "mercadolibre",
       "brand": "Toyota",
       "transmission": "automatic",
-      "link": "https://auto.mercadolibre.com.mx/MLM-6520731682-toyota-prius-5-ptshb-2021-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=26&type=item&tracking_id=71368518-6fee-4980-aba9-385883833b79&overlay_label_capability=not_apply&sid=search",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6520731682-toyota-prius-5-ptshb-2021-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=3&type=item&tracking_id=ea6eae37-a9f2-48b3-8583-b4547140e8ce&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_612614-MLM119056269818_112026-E.webp",
       "group_id": "g-606a08fc72",
-      "_score": 49.2,
+      "_score": 48.9,
       "_components": {
-        "precio": 18.0,
+        "precio": 17.3,
         "combustible": 94.7,
         "km": 45.8,
         "anio": 44.4
@@ -400,7 +354,7 @@
       "_trans_status": "AT",
       "_fuel": 26.47,
       "_fuel_status": "OK",
-      "rank": 9,
+      "rank": 8,
       "ads": [
         {
           "id": "ml-6520731682",
@@ -411,7 +365,7 @@
           "mileage": "107,978 Km",
           "location": "Guadalajara - Jalisco",
           "source": "mercadolibre",
-          "link": "https://auto.mercadolibre.com.mx/MLM-6520731682-toyota-prius-5-ptshb-2021-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=26&type=item&tracking_id=71368518-6fee-4980-aba9-385883833b79&overlay_label_capability=not_apply&sid=search",
+          "link": "https://auto.mercadolibre.com.mx/MLM-6520731682-toyota-prius-5-ptshb-2021-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=3&type=item&tracking_id=ea6eae37-a9f2-48b3-8583-b4547140e8ce&overlay_label_capability=not_apply&sid=search",
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_612614-MLM119056269818_112026-E.webp",
           "transmission": "automatic",
           "brand": "Toyota",
@@ -436,9 +390,9 @@
       "link": "https://auto.mercadolibre.com.mx/MLM-6616815102-hyundai-elantra-2019-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=29&type=item&tracking_id=39017a66-9ee7-4e51-8034-26eb288a9da1&overlay_label_capability=not_apply&sid=search",
       "image": "https://http2.mlstatic.com/D_Q_NP_2X_722753-MLM120162177912_112026-E.webp",
       "group_id": "g-0ad9c1fe77",
-      "_score": 48.7,
+      "_score": 48.6,
       "_components": {
-        "precio": 56.5,
+        "precio": 56.1,
         "combustible": 38.7,
         "km": 61.4,
         "anio": 22.2
@@ -446,7 +400,7 @@
       "_trans_status": "AT",
       "_fuel": 18.42,
       "_fuel_status": "OK",
-      "rank": 10,
+      "rank": 9,
       "ads": [
         {
           "id": "ml-6616815102",
@@ -465,6 +419,46 @@
           "_trans_status": "AT",
           "_fuel": 18.42,
           "_fuel_status": "OK"
+        }
+      ]
+    },
+    {
+      "id": "ml-6654840732",
+      "title": "Mazda Mazda 2 2023 5p I Sport L4/1.5 Aut",
+      "price": "$251,000",
+      "price_int": 251000,
+      "year": "2023",
+      "mileage": "51,234 Km",
+      "location": "Zapopan - Jalisco",
+      "source": "mercadolibre",
+      "brand": "Mazda",
+      "transmission": "automatic",
+      "link": "https://auto.mercadolibre.com.mx/MLM-6654840732-mazda-mazda-2-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=13&type=item&tracking_id=9aab105d-d764-4e15-a6a4-f5a9ca74f5a9&overlay_label_capability=not_apply&sid=search",
+      "image": "https://http2.mlstatic.com/D_Q_NP_2X_627692-MLM122416373475_112026-E.webp",
+      "group_id": "g-bb3534c4c1",
+      "_score": 46.6,
+      "_components": {
+        "precio": 20.2,
+        "combustible": 51.1,
+        "km": 82.8,
+        "anio": 66.7
+      },
+      "rank": 10,
+      "ads": [
+        {
+          "id": "ml-6654840732",
+          "title": "Mazda Mazda 2 2023 5p I Sport L4/1.5 Aut",
+          "price": "$251,000",
+          "price_int": 251000,
+          "year": "2023",
+          "mileage": "51,234 Km",
+          "location": "Zapopan - Jalisco",
+          "source": "mercadolibre",
+          "link": "https://auto.mercadolibre.com.mx/MLM-6654840732-mazda-mazda-2-2023-_JM#polycard_client=search-desktop&price_drop=not_apply&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=13&type=item&tracking_id=9aab105d-d764-4e15-a6a4-f5a9ca74f5a9&overlay_label_capability=not_apply&sid=search",
+          "image": "https://http2.mlstatic.com/D_Q_NP_2X_627692-MLM122416373475_112026-E.webp",
+          "transmission": "automatic",
+          "brand": "Mazda",
+          "group_id": "g-bb3534c4c1"
         }
       ]
     }
