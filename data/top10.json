@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T13:08:07.419180Z",
+  "generated_at": "2026-11-26T13:08:13.823903Z",
   "weights": {
     "precio": 0.4,
     "combustible": 0.3,
@@ -443,6 +443,9 @@
         "km": 82.8,
         "anio": 66.7
       },
+      "_trans_status": "AT",
+      "_fuel": 20.2,
+      "_fuel_status": "OK",
       "rank": 10,
       "ads": [
         {
@@ -458,7 +461,10 @@
           "image": "https://http2.mlstatic.com/D_Q_NP_2X_627692-MLM122416373475_112026-E.webp",
           "transmission": "automatic",
           "brand": "Mazda",
-          "group_id": "g-bb3534c4c1"
+          "group_id": "g-bb3534c4c1",
+          "_trans_status": "AT",
+          "_fuel": 20.2,
+          "_fuel_status": "OK"
         }
       ]
     }
